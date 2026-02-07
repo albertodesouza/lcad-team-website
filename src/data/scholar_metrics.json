@@ -1,0 +1,55 @@
+{
+  "last_updated": "2026-02-07T00:00:00Z",
+  "author": {
+    "name": "Alberto Ferreira De Souza",
+    "affiliation": "Universidade Federal do Espírito Santo",
+    "scholar_id": "gvb7W0IAAAAJ"
+  },
+  "metrics": {
+    "citations": 6728,
+    "h_index": 27,
+    "i10_index": 77
+  },
+  "top_publications": [
+    {
+      "title": "Self-driving cars: A survey",
+      "authors": "C Badue, R Guidolini, RV Carneiro, P Azevedo, VB Cardoso, A Forechi, ...",
+      "venue": "Expert Systems with Applications",
+      "year": 2021,
+      "citations": 1695,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gvb7W0IAAAAJ&citation_for_view=gvb7W0IAAAAJ:_FxGoFyzp5QC"
+    },
+    {
+      "title": "Facial expression recognition with Convolutional Neural Networks: Coping with few data and the training sample order",
+      "authors": "AT Lopes, E de Aguiar, AF De Souza, T Oliveira-Santos",
+      "venue": "Pattern Recognition",
+      "year": 2017,
+      "citations": 999,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gvb7W0IAAAAJ&citation_for_view=gvb7W0IAAAAJ:u5HHmVD_uO8C"
+    },
+    {
+      "title": "Keep Your Eyes on the Lane: Real-Time Attention-Guided Lane Detection",
+      "authors": "L Tabelini, R Berriel, TM Paixão, C Badue, AF De Souza, T Oliveira-Santos",
+      "venue": "IEEE CVPR",
+      "year": 2021,
+      "citations": 596,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gvb7W0IAAAAJ&citation_for_view=gvb7W0IAAAAJ:UeHWp8X0CEIC"
+    },
+    {
+      "title": "PolyLaneNet: Lane Estimation via Deep Polynomial Regression",
+      "authors": "L Tabelini, R Berriel, TM Paixão, C Badue, AF De Souza, T Oliveira-Santos",
+      "venue": "ICPR",
+      "year": 2021,
+      "citations": 467,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gvb7W0IAAAAJ&citation_for_view=gvb7W0IAAAAJ:2osOgNQ5qMEC"
+    },
+    {
+      "title": "Copycat CNN: Stealing Knowledge by Persuading Confession with Random Non-Labeled Data",
+      "authors": "JR Correia-Silva, R Berriel, C Badue, AF De Souza, T Oliveira-Santos",
+      "venue": "IJCNN",
+      "year": 2018,
+      "citations": 250,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gvb7W0IAAAAJ&citation_for_view=gvb7W0IAAAAJ:9yKSN-GCB0IC"
+    }
+  ]
+}
