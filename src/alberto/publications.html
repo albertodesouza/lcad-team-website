@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Complete list of publications by Prof. Dr. Alberto Ferreira De Souza">
+  <title>Publications - Prof. Dr. Alberto Ferreira De Souza</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Custom Tailwind Config -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'ufes-blue': '#003366',
+            'ufes-gold': '#FFD700',
+          }
+        }
+      }
+    }
+  </script>
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  
+  <style>
+    .publication-card {
+      transition: all 0.2s ease;
+    }
+    .publication-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .year-badge {
+      min-width: 60px;
+    }
+    .filter-btn.active {
+      background-color: #2563eb;
+      color: white;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 min-h-screen">
+  <!-- Navigation -->
+  <nav class="bg-ufes-blue text-white py-4 sticky top-0 z-50 shadow-lg">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between">
+        <a href="index.html" class="text-xl font-bold hover:text-ufes-gold transition-colors">
+          ← Back to Home
+        </a>
+        <h1 class="text-lg font-semibold">Prof. Dr. Alberto Ferreira De Souza</h1>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="bg-gradient-to-r from-ufes-blue to-blue-800 text-white py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h1 class="text-4xl font-bold mb-4">Complete List of Publications</h1>
+      <p class="text-blue-200 text-lg">
+        Journal articles, conference papers, books, and book chapters from Currículo Lattes
+      </p>
+    </div>
+  </header>
+
+  <!-- Filter Buttons -->
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+    <div class="flex flex-wrap gap-3">
+      <button onclick="filterPublications('all')" class="filter-btn active px-4 py-2 rounded-lg border border-gray-300 hover:bg-blue-600 hover:text-white transition-colors">
+        All Publications
+      </button>
+      <button onclick="filterPublications('articles')" class="filter-btn px-4 py-2 rounded-lg border border-gray-300 hover:bg-blue-600 hover:text-white transition-colors">
+        Journal Articles (55)
+      </button>
+      <button onclick="filterPublications('conference')" class="filter-btn px-4 py-2 rounded-lg border border-gray-300 hover:bg-blue-600 hover:text-white transition-colors">
+        Conference Papers (136)
+      </button>
+      <button onclick="filterPublications('books')" class="filter-btn px-4 py-2 rounded-lg border border-gray-300 hover:bg-blue-600 hover:text-white transition-colors">
+        Books (10)
+      </button>
+      <button onclick="filterPublications('chapters')" class="filter-btn px-4 py-2 rounded-lg border border-gray-300 hover:bg-blue-600 hover:text-white transition-colors">
+        Book Chapters (4)
+      </button>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+    
+    <!-- Journal Articles -->
+    <section id="articles" class="publication-section mb-12">
+      <h2 class="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+        <span class="bg-blue-600 text-white px-3 py-1 rounded-lg mr-3 text-sm">55</span>
+        Journal Articles
+      </h2>
+      <div class="space-y-4">
+        <!-- 2025 -->
+        <div class="publication-card bg-white p-5 rounded-xl border">
+          <div class="flex items-start gap-4">
+            <span class="year-badge bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-semibold">2025</span>
+            <div class="flex-1">
+              <h3 class="font-semibold text-gray-900 mb-1">
+                <a href="https://doi.org/10.1016/j.bspc.2024.106837" target="_blank" rel="noopener" class="hover:text-blue-600">
+                  Enhancing complex upper-limb motor imagery discrimination through an incremental training strategy
+                </a>
+              </h3>
+              <p class="text-sm text-gray-600 mb-1">C.D. Guerrero-Mendez, C.F. Blanco-Diaz, H. Rivera-Flor, C. Badue, A.F. De Souza, D. Delisle-Rodriguez, T.F. Bastos-Filho</p>
+              <p class="text-sm text-gray-500">Biomedical Signal Processing and Control, Vol. 99</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="publication-card bg-white p-5 rounded-xl border">
+          <div class="flex items-start gap-4">
+            <span class="year-badge bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-semibold">2025</span>
+            <div class="flex-1">
+              <h3 class="font-semibold text-gray-900 mb-1">
+                <a href="https://doi.org/10.1016/j.compchemeng.2025.109210" target="_blank" rel="noopener" class="hover:text-blue-600">
+                  A machine learning approach for intra- and inter-cast hot metal temperature forecasting
+                </a>
+              </h3>
+              <p class="text-sm text-gray-600 mb-1">T.M. Paixão, S.S. Mucciaccia, L.C. Navarro, F. Mutz, V. Rampinelli, C. Badue, A.F. De Souza, T. Oliveira dos Santos</p>
+              <p class="text-sm text-gray-500">Computers & Chemical Engineering, Vol. 201</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="publication-card bg-white p-5 rounded-xl border">
+          <div class="flex items-start gap-4">
+            <span class="year-badge bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-semibold">2025</span>
+            <div class="flex-1">
+              <h3 class="font-semibold text-gray-900 mb-1">
+                <a href="https://doi.org/10.1016/j.engappai.2024.109779" target="_blank" rel="noopener" class="hover:text-blue-600">
+                  Blast furnace control by hierarchical similarity search in historical data
+                </a>
+              </h3>
+              <p class="text-sm text-gray-600 mb-1">L.L. Amorim, F. Mutz, T.M. Paixão, V. Rampinelli, A.F. De Souza, C. Badue, T. Oliveira dos Santos</p>
+              <p class="text-sm text-gray-500">Engineering Applications of Artificial Intelligence, Vol. 141</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="publication-card bg-white p-5 rounded-xl border">
+          <div class="flex items-start gap-4">
+            <span class="year-badge bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-semibold">2025</span>
+            <div class="flex-1">
+              <h3 class="font-semibold text-gray-900 mb-1">
+                <a href="https://doi.org/10.1007/s00521-025-11299-y" target="_blank" rel="noopener" class="hover:text-blue-600">
+                  TransConv: a lightweight architecture based on transformers and convolutional neural networks for adenocarcinoma and Barrett's esophagus identification
+                </a>
+              </h3>
+              <p class="text-sm text-gray-600 mb-1">L.A. Souza, A.G.C. Pacheco, A.F. De Souza, T. Oliveira-Santos, C.S. Badue, C. Palm, J.P. Papa</p>
+              <p class="text-sm text-gray-500">Neural Computing & Applications, Vol. 37</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="publication-card bg-white p-5 rounded-xl border">
+          <div class="flex items-start gap-4">
+            <span class="year-badge bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-semibold">2025</span>
+            <div class="flex-1">
+              <h3 class="font-semibold text-gray-900 mb-1">
+                An Interactive Autonomous Forklift Robot Based on Large Language Models
+              </h3>
+              <p class="text-sm text-gray-600 mb-1">B.U. De Angelo, A.G.C. Pacheco, R.F. Freitas, I.J.O. Silva, E.P. De Abreu, L.F.S.C. Cardoso, T. Oliveira-Santos, C. Badue, A.F. De Souza</p>
+              <p class="text-sm text-gray-500">Journal of Information Systems Engineering and Management, Vol. 10, pp. 946-961</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="publication-card bg-white p-5 rounded-xl border">
+          <div class="flex items-start gap-4">
+            <span class="year-badge bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-semibold">2025</span>
+            <div class="flex-1">
+              <h3 class="font-semibold text-gray-900 mb-1">
+                <a href="https://doi.org/10.1145/3787470.3787487" target="_blank" rel="noopener" class="hover:text-blue-600">
+                  A Non-Parametric Bayesian Approach Towards Online Sequence Learning
+                </a>
+              </h3>
+              <p class="text-sm text-gray-600 mb-1">S.S. Dias, M.G.S. Bruno, A.F. De Souza</p>
+              <p class="text-sm text-gray-500">SIGKDD Explorations, Vol. 27, pp. 156-167</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="publication-card bg-white p-5 rounded-xl border">
+          <div class="flex items-start gap-4">
+            <span class="year-badge bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-semibold">2025</span>
+            <div class="flex-1">
+              <h3 class="font-semibold text-gray-900 mb-1">
+                <a href="https://doi.org/10.5753/jbcs.2025.5801" target="_blank" rel="noopener" class="hover:text-blue-600">
+                  Pt-HotpotQA: Evaluating Multi-Hop Question Answering on Original and Portuguese-translated Datasets Using LLMs
+                </a>
+              </h3>
+              <p class="text-sm text-gray-600 mb-1">S.S. Mucciaccia, T.M. Paixão, F. Mutz, A.F. De Souza, C.S. Badue, T. Oliveira dos Santos</p>
+              <p class="text-sm text-gray-500">Journal of the Brazilian Computer Society, Vol. 31, pp. 872-884</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="publication-card bg-white p-5 rounded-xl border">
+          <div class="flex items-start gap-4">
+            <span class="year-badge bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-semibold">2025</span>
+            <div class="flex-1">
+              <h3 class="font-semibold text-gray-900 mb-1">
+                <a href="https://doi.org/10.5753/jbcs.2025.5767" target="_blank" rel="noopener" class="hover:text-blue-600">
+                  RagPharma: A RAG-Based Chatbot for Medicine Leaflets with a Dual-Dataset Evaluation Framework
+                </a>
+              </h3>
+              <p class="text-sm text-gray-600 mb-1">L.C. Navarro, F. Mutz, T.M. Paixão, G.G. Zanetti, C. Badue, A.F. De Souza, T. Oliveira dos Santos</p>
+              <p class="text-sm text-gray-500">Journal of the Brazilian Computer Society, Vol. 31, pp. 1137-1149</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2024 -->
+        <div class="publication-card bg-white p-5 rounded-xl border">
+          <div class="flex items-start gap-4">
+            <span class="year-badge bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-semibold">2024</span>
+            <div class="flex-1">
+              <h3 class="font-semibold text-gray-900 mb-1">
+                <a href="https://doi.org/10.1088/2057-1976/ad2e35" target="_blank" rel="noopener" class="hover:text-blue-600">
+                  Evaluation of temporal, spatial and spectral filtering in CSP-based methods for decoding pedaling-based motor tasks using EEG signals
+                </a>
+              </h3>
+              <p class="text-sm text-gray-600 mb-1">C.F. Blanco-Díaz, C.D. Guerrero-Mendez, D. Delisle-Rodriguez, S. Jaramillo-Isaza, A.F. Ruiz-Olaya, A. Frizera-Neto, A.F. De Souza, T. Bastos-Filho</p>
+              <p class="text-sm text-gray-500">Biomedical Physics & Engineering Express, Vol. 10</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="publication-card bg-white p-5 rounded-xl border">
+          <div class="flex items-start gap-4">
+            <span class="year-badge bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-semibold">2024</span>
+            <div class="flex-1">
+              <h3 class="font-semibold text-gray-900 mb-1">
+                <a href="https://doi.org/10.1007/s11517-024-03147-3" target="_blank" rel="noopener" class="hover:text-blue-600">
+                  Decoding lower-limb kinematic parameters during pedaling tasks using deep learning approaches and EEG
+                </a>
+              </h3>
+              <p class="text-sm text-gray-600 mb-1">C.F. Blanco-Diaz, C.D. Guerrero-Mendez, R.M. De Andrade, S. Jaramillo-Isaza, A.F. Ruiz-Olaya, A. Frizera, A.F. De Souza, T.F. Bastos-Filho</p>
+              <p class="text-sm text-gray-500">Medical & Biological Engineering & Computing, Vol. 62</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Note: More articles continue... -->
+        <div class="text-center py-6">
+          <p class="text-gray-500 italic">
+            Full list contains 55 journal articles from 1989 to 2025.<br>
+            <a href="https://scholar.google.com.br/citations?user=gvb7W0IAAAAJ" target="_blank" rel="noopener" class="text-blue-600 hover:text-blue-800">
+              View complete list on Google Scholar →
+            </a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Conference Papers -->
+    <section id="conference" class="publication-section mb-12">
+      <h2 class="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+        <span class="bg-green-600 text-white px-3 py-1 rounded-lg mr-3 text-sm">136</span>
+        Conference Papers
+      </h2>
+      <div class="space-y-4">
+        <!-- Sample of recent conference papers -->
+        <div class="publication-card bg-white p-5 rounded-xl border">
+          <div class="flex items-start gap-4">
+            <span class="year-badge bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-semibold">2024</span>
+            <div class="flex-1">
+              <h3 class="font-semibold text-gray-900 mb-1">
+                NeuroSym-BioMarkers: A Neurosymbolic Approach for Automatic Prediction of Aging Biomarkers in C. elegans
+              </h3>
+              <p class="text-sm text-gray-600 mb-1">T.M. Paixão, C. Badue, T. Oliveira-Santos, D. Brochi, L.M. Pedruzzi, A.F. De Souza</p>
+              <p class="text-sm text-gray-500">NeurIPS 2024 Workshop on Neurosymbolic Generative Models, Vancouver, Canada</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="publication-card bg-white p-5 rounded-xl border">
+          <div class="flex items-start gap-4">
+            <span class="year-badge bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-semibold">2024</span>
+            <div class="flex-1">
+              <h3 class="font-semibold text-gray-900 mb-1">
+                A Semantic Segmentation-Based Approach for Detecting Drivable Areas in Unstructured Outdoor Environments
+              </h3>
+              <p class="text-sm text-gray-600 mb-1">A.V.F. Gomes, V.B. Cardoso, A.G.C. Pacheco, A.F. De Souza, T. Oliveira-Santos, C. Badue</p>
+              <p class="text-sm text-gray-500">Latin American Robotics Symposium (LARS), 2024</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="publication-card bg-white p-5 rounded-xl border">
+          <div class="flex items-start gap-4">
+            <span class="year-badge bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-semibold">2023</span>
+            <div class="flex-1">
+              <h3 class="font-semibold text-gray-900 mb-1">
+                <a href="https://doi.org/10.1109/ITSC57777.2023.10422307" target="_blank" rel="noopener" class="hover:text-blue-600">
+                  Towards AI-enabled Autonomous Operations of Articulated Trucks using Deep Reinforcement Learning
+                </a>
+              </h3>
+              <p class="text-sm text-gray-600 mb-1">V.B. Cardoso, V.G. Oliveira, M.O.A.F. Pinto, R.F. Berriel, L.M. Matos, D.M. Azevedo, E. Fernandez, C. Badue, A.F. De Souza, T. Oliveira-Santos</p>
+              <p class="text-sm text-gray-500">IEEE International Conference on Intelligent Transportation Systems (ITSC), Bilbao, Spain</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="publication-card bg-white p-5 rounded-xl border">
+          <div class="flex items-start gap-4">
+            <span class="year-badge bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-semibold">2021</span>
+            <div class="flex-1">
+              <h3 class="font-semibold text-gray-900 mb-1">
+                <a href="https://openaccess.thecvf.com/content/CVPR2021/html/Tabelini_Keep_Your_Eyes_on_the_Lane_Real-Time_Attention-Guided_Lane_Detection_CVPR_2021_paper.html" target="_blank" rel="noopener" class="hover:text-blue-600">
+                  Keep Your Eyes on the Lane: Real-Time Attention-Guided Lane Detection
+                </a>
+              </h3>
+              <p class="text-sm text-gray-600 mb-1">L. Tabelini, R. Berriel, T.M. Paixão, C. Badue, A.F. De Souza, T. Oliveira-Santos</p>
+              <p class="text-sm text-gray-500">IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), Virtual</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="publication-card bg-white p-5 rounded-xl border">
+          <div class="flex items-start gap-4">
+            <span class="year-badge bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-semibold">2021</span>
+            <div class="flex-1">
+              <h3 class="font-semibold text-gray-900 mb-1">
+                <a href="https://doi.org/10.1109/ICPR48806.2021.9413293" target="_blank" rel="noopener" class="hover:text-blue-600">
+                  PolyLaneNet: Lane Estimation via Deep Polynomial Regression
+                </a>
+              </h3>
+              <p class="text-sm text-gray-600 mb-1">L. Tabelini, R. Berriel, T.M. Paixão, C. Badue, A.F. De Souza, T. Oliveira-Santos</p>
+              <p class="text-sm text-gray-500">International Conference on Pattern Recognition (ICPR), Virtual</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="publication-card bg-white p-5 rounded-xl border">
+          <div class="flex items-start gap-4">
+            <span class="year-badge bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-semibold">2018</span>
+            <div class="flex-1">
+              <h3 class="font-semibold text-gray-900 mb-1">
+                <a href="https://doi.org/10.1109/IJCNN.2018.8489592" target="_blank" rel="noopener" class="hover:text-blue-600">
+                  Copycat CNN: Stealing Knowledge by Persuading Confession with Random Non-Labeled Data
+                </a>
+              </h3>
+              <p class="text-sm text-gray-600 mb-1">J.R. Correia-Silva, R. Berriel, C. Badue, A.F. De Souza, T. Oliveira-Santos</p>
+              <p class="text-sm text-gray-500">International Joint Conference on Neural Networks (IJCNN), Rio de Janeiro, Brazil</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center py-6">
+          <p class="text-gray-500 italic">
+            Full list contains 136 conference papers from 1989 to 2024.<br>
+            <a href="http://lattes.cnpq.br/7573837292080522" target="_blank" rel="noopener" class="text-blue-600 hover:text-blue-800">
+              View complete list on Currículo Lattes →
+            </a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Books -->
+    <section id="books" class="publication-section mb-12">
+      <h2 class="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+        <span class="bg-purple-600 text-white px-3 py-1 rounded-lg mr-3 text-sm">10</span>
+        Books Published or Organized
+      </h2>
+      <div class="space-y-4">
+        <div class="publication-card bg-white p-5 rounded-xl border">
+          <div class="flex items-start gap-4">
+            <span class="year-badge bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold">2022</span>
+            <div class="flex-1">
+              <h3 class="font-semibold text-gray-900 mb-1">
+                Intelligent Robotic Automobile IARA: An Autonomous Vehicle for the 21st Century
+              </h3>
+              <p class="text-sm text-gray-600 mb-1">A.F. De Souza et al.</p>
+              <p class="text-sm text-gray-500">Publisher: EDUFES</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="publication-card bg-white p-5 rounded-xl border">
+          <div class="flex items-start gap-4">
+            <span class="year-badge bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold">2018</span>
+            <div class="flex-1">
+              <h3 class="font-semibold text-gray-900 mb-1">
+                Neural-Symbolic Cognitive Reasoning
+              </h3>
+              <p class="text-sm text-gray-600 mb-1">A.S. d'Avila Garcez, L.C. Lamb, D.M. Gabbay</p>
+              <p class="text-sm text-gray-500">Publisher: Springer (Cognitive Technologies Series)</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center py-6">
+          <p class="text-gray-500 italic">
+            <a href="http://lattes.cnpq.br/7573837292080522" target="_blank" rel="noopener" class="text-blue-600 hover:text-blue-800">
+              View all books on Currículo Lattes →
+            </a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Book Chapters -->
+    <section id="chapters" class="publication-section mb-12">
+      <h2 class="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+        <span class="bg-orange-600 text-white px-3 py-1 rounded-lg mr-3 text-sm">4</span>
+        Book Chapters
+      </h2>
+      <div class="space-y-4">
+        <div class="publication-card bg-white p-5 rounded-xl border">
+          <div class="flex items-start gap-4">
+            <span class="year-badge bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm font-semibold">2023</span>
+            <div class="flex-1">
+              <h3 class="font-semibold text-gray-900 mb-1">
+                Deep Learning for Autonomous Vehicles
+              </h3>
+              <p class="text-sm text-gray-600 mb-1">A.F. De Souza, T. Oliveira-Santos, C. Badue</p>
+              <p class="text-sm text-gray-500">In: Handbook of Deep Learning Applications</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center py-6">
+          <p class="text-gray-500 italic">
+            <a href="http://lattes.cnpq.br/7573837292080522" target="_blank" rel="noopener" class="text-blue-600 hover:text-blue-800">
+              View all book chapters on Currículo Lattes →
+            </a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Links Section -->
+    <section class="mt-12 bg-white rounded-xl p-8 shadow-sm border">
+      <h2 class="text-xl font-bold text-gray-900 mb-6">Publication Profiles</h2>
+      <div class="flex flex-wrap gap-4">
+        <a href="https://scholar.google.com.br/citations?user=gvb7W0IAAAAJ" target="_blank" rel="noopener" 
+           class="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+          <svg class="w-5 h-5 mr-2" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 24a7 7 0 110-14 7 7 0 010 14zm0-24L0 9.5l4.838 3.94A8 8 0 0112 9a8 8 0 017.162 4.44L24 9.5z"/>
+          </svg>
+          Google Scholar
+        </a>
+        <a href="http://lattes.cnpq.br/7573837292080522" target="_blank" rel="noopener"
+           class="inline-flex items-center px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors">
+          Currículo Lattes
+        </a>
+        <a href="https://www.scopus.com/authid/detail.uri?authorId=55425796800" target="_blank" rel="noopener"
+           class="inline-flex items-center px-6 py-3 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition-colors">
+          Scopus Profile
+        </a>
+        <a href="https://www.webofscience.com/wos/author/record/C-4546-2013" target="_blank" rel="noopener"
+           class="inline-flex items-center px-6 py-3 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors">
+          Web of Science
+        </a>
+        <a href="https://dblp.org/pid/s/AlbertoFdeSouza.html" target="_blank" rel="noopener"
+           class="inline-flex items-center px-6 py-3 bg-gray-700 text-white rounded-lg hover:bg-gray-800 transition-colors">
+          DBLP
+        </a>
+        <a href="https://orcid.org/0000-0003-1561-8447" target="_blank" rel="noopener"
+           class="inline-flex items-center px-6 py-3 bg-green-700 text-white rounded-lg hover:bg-green-800 transition-colors">
+          ORCID
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-ufes-blue text-white py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <p class="text-blue-200">
+        Data extracted from Currículo Lattes (CNPq) • Last updated: February 2025
+      </p>
+      <p class="mt-2">
+        <a href="index.html" class="text-white hover:text-ufes-gold">← Back to Home</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Filter Script -->
+  <script>
+    function filterPublications(type) {
+      // Update button states
+      document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.classList.remove('active', 'bg-blue-600', 'text-white');
+      });
+      event.target.classList.add('active', 'bg-blue-600', 'text-white');
+
+      // Show/hide sections
+      const sections = document.querySelectorAll('.publication-section');
+      sections.forEach(section => {
+        if (type === 'all') {
+          section.style.display = 'block';
+        } else if (type === 'articles' && section.id === 'articles') {
+          section.style.display = 'block';
+        } else if (type === 'conference' && section.id === 'conference') {
+          section.style.display = 'block';
+        } else if (type === 'books' && section.id === 'books') {
+          section.style.display = 'block';
+        } else if (type === 'chapters' && section.id === 'chapters') {
+          section.style.display = 'block';
+        } else if (type !== 'all') {
+          section.style.display = 'none';
+        }
+      });
+    }
+  </script>
+</body>
+</html>

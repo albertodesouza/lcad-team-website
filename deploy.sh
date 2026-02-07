@@ -7,10 +7,11 @@
 # IMPORTANT: You must be connected to the departmental VPN before running this script.
 #
 # Usage:
-#   ./deploy.sh [--dry-run]
+#   ./deploy.sh [--dry-run] [--update-metrics]
 #
 # Options:
-#   --dry-run   Show what would be transferred without actually transferring
+#   --dry-run         Show what would be transferred without actually transferring
+#   --update-metrics  Fetch latest Google Scholar metrics and update HTML before deploy
 #
 # Prerequisites:
 #   - lftp installed (sudo apt install lftp)
@@ -36,10 +37,14 @@ NC='\033[0m' # No Color
 
 # Parse arguments
 DRY_RUN=false
+UPDATE_METRICS=false
 for arg in "$@"; do
     case $arg in
         --dry-run)
             DRY_RUN=true
+            ;;
+        --update-metrics)
+            UPDATE_METRICS=true
             ;;
     esac
 done
@@ -47,6 +52,12 @@ done
 if [ "$DRY_RUN" = true ]; then
     echo -e "${YELLOW}=== DRY RUN MODE ===${NC}"
     echo "No files will be transferred."
+    echo
+fi
+
+if [ "$UPDATE_METRICS" = true ]; then
+    echo -e "${YELLOW}=== UPDATE METRICS MODE ===${NC}"
+    echo "Will fetch Google Scholar metrics and update HTML."
     echo
 fi
 
@@ -74,6 +85,44 @@ else
     echo "Please make sure you are connected to the departmental VPN."
     echo "The server is only accessible through the UFES VPN."
     exit 1
+fi
+
+# Update metrics if requested
+if [ "$UPDATE_METRICS" = true ]; then
+    SCRIPT_DIR="$(dirname "$0")/scripts"
+    
+    echo
+    echo -e "${YELLOW}Fetching Google Scholar metrics...${NC}"
+    
+    # Check if Python is available
+    if ! command -v python3 &> /dev/null; then
+        echo -e "${RED}Error: python3 is not installed.${NC}"
+        exit 1
+    fi
+    
+    # Check if scholarly is installed
+    if ! python3 -c "import scholarly" 2>/dev/null; then
+        echo -e "${YELLOW}Installing required Python packages...${NC}"
+        pip3 install -r "$SCRIPT_DIR/requirements.txt"
+    fi
+    
+    # Run fetch_scholar.py
+    if python3 "$SCRIPT_DIR/fetch_scholar.py"; then
+        echo -e "${GREEN}✓ Scholar metrics fetched${NC}"
+    else
+        echo -e "${YELLOW}Warning: Could not fetch new metrics, using existing data${NC}"
+    fi
+    
+    echo
+    echo -e "${YELLOW}Updating HTML with latest metrics...${NC}"
+    
+    # Run generate_html.py
+    if python3 "$SCRIPT_DIR/generate_html.py"; then
+        echo -e "${GREEN}✓ HTML updated with latest metrics${NC}"
+    else
+        echo -e "${RED}Error: Failed to update HTML${NC}"
+        exit 1
+    fi
 fi
 
 # Prepare dist directory

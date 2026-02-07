@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Prof. Dr. Alberto Ferreira De Souza - Professor Emeritus at UFES, researcher in AI, Deep Learning, Autonomous Vehicles, and Computational Genomics">
+  <meta name="keywords" content="Alberto Ferreira De Souza, UFES, LCAD, AI, Deep Learning, Autonomous Vehicles, Neural Networks, Computer Science">
+  <meta name="author" content="Alberto Ferreira De Souza">
+  
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Prof. Dr. Alberto Ferreira De Souza">
+  <meta property="og:description" content="Professor Emeritus at UFES, researcher in AI, Deep Learning, and Autonomous Vehicles">
+  <meta property="og:image" content="assets/images/Alberto2.jpg">
+  
+  <title>Prof. Dr. Alberto Ferreira De Souza - UFES</title>
+  
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+  
+  <!-- Configure Tailwind -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'ufes-blue': '#003366',
+            'ufes-gold': '#c4a000',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-gray-50 text-gray-900">
+  
+  <!-- Navigation -->
+  <nav class="fixed top-0 left-0 right-0 z-50 nav-sticky shadow-sm no-print">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <a href="#" class="text-xl font-bold text-ufes-blue">Alberto F. De Souza</a>
+        
+        <!-- Desktop Navigation -->
+        <div class="hidden md:flex space-x-8">
+          <a href="#about" class="nav-link text-gray-600 hover:text-blue-600 transition-colors py-1">About</a>
+          <a href="#research" class="nav-link text-gray-600 hover:text-blue-600 transition-colors py-1">Research</a>
+          <a href="#publications" class="nav-link text-gray-600 hover:text-blue-600 transition-colors py-1">Publications</a>
+          <a href="#projects" class="nav-link text-gray-600 hover:text-blue-600 transition-colors py-1">Projects</a>
+          <a href="#awards" class="nav-link text-gray-600 hover:text-blue-600 transition-colors py-1">Awards</a>
+          <a href="#media" class="nav-link text-gray-600 hover:text-blue-600 transition-colors py-1">Media</a>
+        </div>
+        
+        <!-- Mobile menu button -->
+        <button onclick="toggleMobileMenu()" class="md:hidden p-2 rounded-lg hover:bg-gray-100">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+      
+      <!-- Mobile Navigation -->
+      <div id="mobile-menu" class="hidden md:hidden pb-4">
+        <a href="#about" class="block py-2 text-gray-600 hover:text-blue-600">About</a>
+        <a href="#research" class="block py-2 text-gray-600 hover:text-blue-600">Research</a>
+        <a href="#publications" class="block py-2 text-gray-600 hover:text-blue-600">Publications</a>
+        <a href="#projects" class="block py-2 text-gray-600 hover:text-blue-600">Projects</a>
+        <a href="#awards" class="block py-2 text-gray-600 hover:text-blue-600">Awards</a>
+        <a href="#media" class="block py-2 text-gray-600 hover:text-blue-600">Media</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="pt-24 pb-16 bg-gradient-to-br from-ufes-blue to-blue-800 text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row items-center gap-8">
+        <!-- Profile Image -->
+        <div class="flex-shrink-0">
+          <img 
+            src="assets/images/Alberto2.jpg" 
+            alt="Prof. Dr. Alberto Ferreira De Souza"
+            class="w-48 h-48 rounded-full border-4 border-white shadow-xl profile-image"
+          >
+        </div>
+        
+        <!-- Profile Info -->
+        <div class="text-center md:text-left">
+          <h1 class="text-4xl md:text-5xl font-bold mb-2">Prof. Dr. Alberto Ferreira De Souza</h1>
+          <p class="text-xl md:text-2xl text-blue-200 mb-4">Professor Emeritus of Computer Science</p>
+          <p class="text-lg text-blue-100 mb-6">
+            <a href="https://www.ufes.br" target="_blank" rel="noopener" class="hover:text-white transition-colors">
+              Universidade Federal do Espírito Santo (UFES)
+            </a>
+          </p>
+          
+          <!-- Social Links -->
+          <div class="flex flex-wrap justify-center md:justify-start gap-4">
+            <a href="https://scholar.google.com.br/citations?user=gvb7W0IAAAAJ" target="_blank" rel="noopener" 
+               class="inline-flex items-center px-4 py-2 bg-white/10 rounded-lg hover:bg-white/20 transition-colors">
+              <svg class="w-5 h-5 mr-2" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 24a7 7 0 110-14 7 7 0 010 14zm0-24L0 9.5l4.838 3.94A8 8 0 0112 9a8 8 0 017.162 4.44L24 9.5z"/>
+              </svg>
+              Google Scholar
+            </a>
+            <a href="https://orcid.org/0000-0003-1561-8447" target="_blank" rel="noopener"
+               class="inline-flex items-center px-4 py-2 bg-white/10 rounded-lg hover:bg-white/20 transition-colors">
+              <svg class="w-5 h-5 mr-2" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.431.947.947s-.422.947-.947.947a.95.95 0 01-.947-.947c0-.525.422-.947.947-.947zm-.722 3.038h1.444v10.041H6.647V7.416zm3.562 0h3.9c3.712 0 5.344 2.653 5.344 5.025 0 2.578-2.016 5.025-5.325 5.025h-3.919V7.416zm1.444 1.303v7.444h2.297c3.272 0 4.022-2.484 4.022-3.722 0-1.209-.769-3.722-3.806-3.722h-2.513z"/>
+              </svg>
+              ORCID
+            </a>
+            <a href="http://lattes.cnpq.br/7573837292080522" target="_blank" rel="noopener"
+               class="inline-flex items-center px-4 py-2 bg-white/10 rounded-lg hover:bg-white/20 transition-colors">
+              <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+              </svg>
+              Lattes CV
+            </a>
+            <a href="https://github.com/LCAD-UFES" target="_blank" rel="noopener"
+               class="inline-flex items-center px-4 py-2 bg-white/10 rounded-lg hover:bg-white/20 transition-colors">
+              <svg class="w-5 h-5 mr-2" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+              </svg>
+              GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Metrics Section -->
+  <section class="py-12 bg-white border-b">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="metric-card text-center p-6 rounded-xl bg-gradient-to-br from-blue-50 to-indigo-50 border border-blue-100">
+          <p class="text-4xl font-bold text-blue-600 mb-2">
+            <span id="citations-count" class="metric-value" data-value="6837">6,837</span>
+          </p>
+          <p class="text-gray-600 font-medium">Total Citations</p>
+        </div>
+        <div class="metric-card text-center p-6 rounded-xl bg-gradient-to-br from-green-50 to-emerald-50 border border-green-100">
+          <p class="text-4xl font-bold text-green-600 mb-2">
+            <span id="h-index" class="metric-value" data-value="27">27</span>
+          </p>
+          <p class="text-gray-600 font-medium">h-index</p>
+        </div>
+        <div class="metric-card text-center p-6 rounded-xl bg-gradient-to-br from-purple-50 to-violet-50 border border-purple-100">
+          <p class="text-4xl font-bold text-purple-600 mb-2">
+            <span id="i10-index" class="metric-value" data-value="77">77</span>
+          </p>
+          <p class="text-gray-600 font-medium">i10-index</p>
+        </div>
+      </div>
+      <p id="last-updated" class="text-center text-sm text-gray-500 mt-4">Last updated: February 2026</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold text-gray-900 mb-8">About</h2>
+      
+      <div class="prose prose-lg max-w-none">
+        <p class="text-gray-700 leading-relaxed mb-6">
+          My research career began in <strong>computer architecture</strong> and <strong>high-performance processing</strong> during my undergraduate studies in Electronic Engineering at <a href="https://www.poli.ufrj.br/graduacao/eletronica-e-de-computacao/" target="_blank" rel="noopener" class="text-blue-600 hover:text-blue-800">UFRJ</a>, through undergraduate research at the Systems Laboratory of the Graduate Program in Systems and Computer Engineering (<a href="https://www.cos.ufrj.br/index.php/en" target="_blank" rel="noopener" class="text-blue-600 hover:text-blue-800">PESC</a>) at <a href="https://coppe.ufrj.br/en/home-en/" target="_blank" rel="noopener" class="text-blue-600 hover:text-blue-800">COPPE/UFRJ</a> <a href="https://doi.org/10.1016/0165-6074(91)90317-M" target="_blank" rel="noopener" class="text-blue-600 hover:text-blue-800">[1]</a>. My undergraduate project, developed within PESC, was the <strong>first parallel machine developed in Brazil</strong> <a href="https://doi.org/10.1016/0165-6074(89)90200-7" target="_blank" rel="noopener" class="text-blue-600 hover:text-blue-800">[2]</a>.
+        </p>
+        
+        <p class="text-gray-700 leading-relaxed mb-6">
+          During my master's degree at COPPE, I conducted research in computer architecture and high-performance processing, being one of the designers of the <strong>NCP-1 supercomputer - Brazil's first supercomputer</strong> <a href="https://sol.sbc.org.br/index.php/sbac-pad/article/view/23025/22852" target="_blank" rel="noopener" class="text-blue-600 hover:text-blue-800">[3]</a>. In the same period, I had my first contact with artificial intelligence in general and neural networks in particular, topics to which I would later dedicate myself.
+        </p>
+        
+        <p class="text-gray-700 leading-relaxed mb-6">
+          In 1993, I joined UFES as a professor. From 1996 to 1999, I completed my PhD at <strong>University College London, UK</strong>, where I proposed the processor architecture called <strong>Dynamically Trace Scheduled VLIW (DTSVLIW)</strong> <a href="https://doi.org/10.1006/jpdc.2000.1661" target="_blank" rel="noopener" class="text-blue-600 hover:text-blue-800">[4]</a>. Upon returning, in 2002, I created the <strong>High-Performance Computing Laboratory (<a href="https://www.lcad.inf.ufes.br" target="_blank" rel="noopener" class="text-blue-600 hover:text-blue-800">LCAD</a>)</strong>, which I coordinated until 2019, when I retired and began serving officially as a volunteer professor at UFES.
+        </p>
+        
+        <p class="text-gray-700 leading-relaxed mb-6">
+          From the end of my doctorate to the present, I have contributed to the university in various capacities, including Coordinator of the Graduate Program in Informatics (PPGI), Coordinator of the Doctoral Program Creation Commission (created in 2010), Director of the Institute of Technology, Vice-Director of the Technology Center, Dean of Planning and Institutional Development, and Research Director of the university. In 2023, I was awarded the title of <strong><a href="https://tinyurl.com/42hbyw5e" target="_blank" rel="noopener" class="text-blue-600 hover:text-blue-800">Professor Emeritus of UFES</a></strong>.
+        </p>
+        
+        <p class="text-gray-700 leading-relaxed mb-6">
+          From the late 2000s, I began to dedicate myself more intensely to <strong>AI, neural networks, and their applications in autonomous robotics</strong> and other areas. I served as Paper Submission Chair of the IEEE World Congress on Computational Intelligence 2018 (WCCI'2018) and Director of <a href="http://i2ca.ai/" target="_blank" rel="noopener" class="text-blue-600 hover:text-blue-800">I2CA</a>. My highest-impact scientific articles are from these areas.
+        </p>
+        
+        <p class="text-gray-700 leading-relaxed mb-6">
+          Currently, I serve as a faculty member of the Graduate Program in Informatics (<a href="https://informatica.ufes.br/en/pos-graduacao/PPGI" target="_blank" rel="noopener" class="text-blue-600 hover:text-blue-800">PPGI</a>) at the Federal University of Espírito Santo (UFES). In addition to my academic activities, I am the Chief Technology Officer (CTO) and co-founder of <a href="https://www.lumerobotics.ai" target="_blank" rel="noopener" class="text-blue-600 hover:text-blue-800">Lume Robotics S.A.</a>, the Chief Scientific Officer (CSO) and co-founder of <a href="https://www.aumo.ai" target="_blank" rel="noopener" class="text-blue-600 hover:text-blue-800">AUMO S.A.</a>, and an advisor to <a href="https://motora.ai" target="_blank" rel="noopener" class="text-blue-600 hover:text-blue-800">Motora Technologies S.A.</a>, in which I also hold equity participation. My work across academia and industry focuses on advancing artificial intelligence, autonomous robotics, and applied computational intelligence, fostering technology transfer and innovation between research laboratories and high-tech startups.
+        </p>
+      </div>
+      
+      <!-- Affiliations -->
+      <div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="bg-white p-6 rounded-xl shadow-sm border">
+          <h3 class="font-semibold text-gray-900 mb-2">Current Affiliations</h3>
+          <ul class="space-y-2 text-gray-700">
+            <li class="flex items-start">
+              <svg class="w-5 h-5 text-blue-500 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+              Professor Emeritus, Department of Informatics, UFES
+            </li>
+            <li class="flex items-start">
+              <svg class="w-5 h-5 text-blue-500 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+              Director, I2CA - Institute of Applied Computational Intelligence
+            </li>
+            <li class="flex items-start">
+              <svg class="w-5 h-5 text-blue-500 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+              Founder, LCAD - High-Performance Computing Laboratory
+            </li>
+          </ul>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-sm border">
+          <h3 class="font-semibold text-gray-900 mb-2">International Collaborations</h3>
+          <ul class="space-y-2 text-gray-700">
+            <li class="flex items-start">
+              <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+              City St George's, University of London (Prof. Artur Garcez)
+            </li>
+            <li class="flex items-start">
+              <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+              University of Twente (Prof. Giancarlo Guizzardi)
+            </li>
+            <li class="flex items-start">
+              <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+              Rutgers University (Prof. Kostas Bekris)
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Research Interests Section -->
+  <section id="research" class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold text-gray-900 mb-8">Research Interests</h2>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- 1. Deep Learning -->
+        <div class="p-6 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl text-white">
+          <div class="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-2">Deep Learning</h3>
+          <p class="text-blue-100 text-sm">Convolutional Neural Networks, Transformers, Generative AI</p>
+        </div>
+        
+        <!-- 2. Neurosymbolic AI -->
+        <div class="p-6 bg-gradient-to-br from-green-500 to-green-600 rounded-xl text-white">
+          <div class="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-2">Neurosymbolic AI</h3>
+          <p class="text-green-100 text-sm">Neural-Symbolic Integration, Knowledge Graphs, Ontologies</p>
+        </div>
+        
+        <!-- 3. Computational Genomics -->
+        <div class="p-6 bg-gradient-to-br from-orange-500 to-orange-600 rounded-xl text-white">
+          <div class="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-2">Computational Genomics</h3>
+          <p class="text-orange-100 text-sm">Genomic Transformers, Aging Biomarkers, Epigenetics</p>
+        </div>
+        
+        <!-- 4. Autonomous Vehicles -->
+        <div class="p-6 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl text-white">
+          <div class="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-2">Autonomous Vehicles</h3>
+          <p class="text-purple-100 text-sm">Self-Driving Cars, Computer Vision, Sensor Fusion</p>
+        </div>
+      </div>
+      
+      <!-- Current Research Focus -->
+      <div class="mt-12 bg-gray-50 rounded-xl p-8 border">
+        <h3 class="text-xl font-semibold text-gray-900 mb-4">Current Research Focus</h3>
+        <p class="text-gray-700 leading-relaxed">
+          My current research focuses on developing <strong>neurosymbolic AI platforms</strong> for analyzing genomic data from humans and model species, aiming to identify biomarkers genetically and epigenetically associated with both healthy longevity and age-related diseases. This work combines the predictive capacity of deep neural networks with the interpretability provided by symbolic reasoning, ontologies, and biological knowledge graphs.
+        </p>
+        <p class="text-gray-700 leading-relaxed mt-4">
+          The methodological strategy integrates state-of-the-art deep learning architectures, such as long-context genomic transformers (Enformer, AlphaGenome), trained with multi-species data and validated through a symbolic module based on ontologies and biological knowledge graphs. This approach aims to produce biologically interpretable discoveries that could contribute to understanding molecular mechanisms and developing future therapeutic interventions.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Publications Section -->
+  <section id="publications" class="py-16 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between mb-8">
+        <h2 class="text-3xl font-bold text-gray-900">Selected Publications</h2>
+        <a href="publications.html" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium">
+          View all publications
+          <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+      
+      <div id="publications-list" class="space-y-4">
+        <div class="publication-item p-6 bg-white rounded-xl shadow-sm border hover:shadow-md transition-shadow">
+          <div class="flex items-start justify-between">
+            <div class="flex-1">
+              <h3 class="font-semibold text-gray-900 mb-2">
+                <a href="https://www.sciencedirect.com/science/article/pii/S095741742030628X" target="_blank" rel="noopener" class="hover:text-blue-600 transition-colors">
+                  Self-driving cars: A survey
+                </a>
+              </h3>
+              <p class="text-sm text-gray-600 mb-1">Claudine Badue and Rânik Guidolini and Raphael Vivacqua Carneiro and Pedro Azevedo and Vinicius B Cardoso and Avelino Forechi and Luan Jesus and Rodrigo Berriel and Thiago M Paixao and Filipe Mutz and Lucas de Paula Veronese and Thiago Oliveira-Santos and Alberto F De Souza</p>
+              <p class="text-sm text-gray-500">Unknown Venue, 2021</p>
+            </div>
+            <div class="ml-4 text-right flex-shrink-0">
+              <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+                1,725 citations
+              </span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="publication-item p-6 bg-white rounded-xl shadow-sm border hover:shadow-md transition-shadow">
+          <div class="flex items-start justify-between">
+            <div class="flex-1">
+              <h3 class="font-semibold text-gray-900 mb-2">
+                <a href="https://www.sciencedirect.com/science/article/pii/S0031320316301753" target="_blank" rel="noopener" class="hover:text-blue-600 transition-colors">
+                  Facial expression recognition with convolutional neural networks: coping with few data and the training sample order
+                </a>
+              </h3>
+              <p class="text-sm text-gray-600 mb-1">André Teixeira Lopes and Edilson De Aguiar and Alberto F De Souza and Thiago Oliveira-Santos</p>
+              <p class="text-sm text-gray-500">Pattern recognition, 2017</p>
+            </div>
+            <div class="ml-4 text-right flex-shrink-0">
+              <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+                1,006 citations
+              </span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="publication-item p-6 bg-white rounded-xl shadow-sm border hover:shadow-md transition-shadow">
+          <div class="flex items-start justify-between">
+            <div class="flex-1">
+              <h3 class="font-semibold text-gray-900 mb-2">
+                <a href="https://openaccess.thecvf.com/content/CVPR2021/html/Tabelini_Keep_Your_Eyes_on_the_Lane_Real-Time_Attention-Guided_Lane_Detection_CVPR_2021_paper.html?ref=https://giter.vip" target="_blank" rel="noopener" class="hover:text-blue-600 transition-colors">
+                  Keep your eyes on the lane: Real-time attention-guided lane detection
+                </a>
+              </h3>
+              <p class="text-sm text-gray-600 mb-1">Lucas Tabelini and Rodrigo Berriel and Thiago M Paixao and Claudine Badue and Alberto F De Souza and Thiago Oliveira-Santos</p>
+              <p class="text-sm text-gray-500">Unknown Venue, 2021</p>
+            </div>
+            <div class="ml-4 text-right flex-shrink-0">
+              <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+                613 citations
+              </span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="publication-item p-6 bg-white rounded-xl shadow-sm border hover:shadow-md transition-shadow">
+          <div class="flex items-start justify-between">
+            <div class="flex-1">
+              <h3 class="font-semibold text-gray-900 mb-2">
+                <a href="https://ieeexplore.ieee.org/abstract/document/9412265/" target="_blank" rel="noopener" class="hover:text-blue-600 transition-colors">
+                  Polylanenet: Lane estimation via deep polynomial regression
+                </a>
+              </h3>
+              <p class="text-sm text-gray-600 mb-1">Lucas Tabelini and Rodrigo Berriel and Thiago M Paixao and Claudine Badue and Alberto F De Souza and Thiago Oliveira-Santos</p>
+              <p class="text-sm text-gray-500">Unknown Venue, 2021</p>
+            </div>
+            <div class="ml-4 text-right flex-shrink-0">
+              <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+                479 citations
+              </span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="publication-item p-6 bg-white rounded-xl shadow-sm border hover:shadow-md transition-shadow">
+          <div class="flex items-start justify-between">
+            <div class="flex-1">
+              <h3 class="font-semibold text-gray-900 mb-2">
+                <a href="https://www.sciencedirect.com/science/article/pii/S092523120900040X" target="_blank" rel="noopener" class="hover:text-blue-600 transition-colors">
+                  Prediction-based portfolio optimization model using neural networks
+                </a>
+              </h3>
+              <p class="text-sm text-gray-600 mb-1">Fabio D Freitas and Alberto F De Souza and Ailson R De Almeida</p>
+              <p class="text-sm text-gray-500">Neurocomputing, 2009</p>
+            </div>
+            <div class="ml-4 text-right flex-shrink-0">
+              <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+                268 citations
+              </span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="publication-item p-6 bg-white rounded-xl shadow-sm border hover:shadow-md transition-shadow">
+          <div class="flex items-start justify-between">
+            <div class="flex-1">
+              <h3 class="font-semibold text-gray-900 mb-2">
+                <a href="https://ieeexplore.ieee.org/abstract/document/8489592/" target="_blank" rel="noopener" class="hover:text-blue-600 transition-colors">
+                  Copycat cnn: Stealing knowledge by persuading confession with random non-labeled data
+                </a>
+              </h3>
+              <p class="text-sm text-gray-600 mb-1">Jacson Rodrigues Correia-Silva and Rodrigo F Berriel and Claudine Badue and Alberto F De Souza and Thiago Oliveira-Santos</p>
+              <p class="text-sm text-gray-500">Unknown Venue, 2018</p>
+            </div>
+            <div class="ml-4 text-right flex-shrink-0">
+              <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+                257 citations
+              </span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="publication-item p-6 bg-white rounded-xl shadow-sm border hover:shadow-md transition-shadow">
+          <div class="flex items-start justify-between">
+            <div class="flex-1">
+              <h3 class="font-semibold text-gray-900 mb-2">
+                <a href="https://ieeexplore.ieee.org/abstract/document/7416002/" target="_blank" rel="noopener" class="hover:text-blue-600 transition-colors">
+                  A dataset for improved rgbd-based object detection and pose estimation for warehouse pick-and-place
+                </a>
+              </h3>
+              <p class="text-sm text-gray-600 mb-1">Colin Rennie and Rahul Shome and Kostas E Bekris and Alberto F De Souza</p>
+              <p class="text-sm text-gray-500">IEEE Robotics and Automation Letters, 2016</p>
+            </div>
+            <div class="ml-4 text-right flex-shrink-0">
+              <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+                240 citations
+              </span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="publication-item p-6 bg-white rounded-xl shadow-sm border hover:shadow-md transition-shadow">
+          <div class="flex items-start justify-between">
+            <div class="flex-1">
+              <h3 class="font-semibold text-gray-900 mb-2">
+                <a href="https://ieeexplore.ieee.org/abstract/document/8852008/" target="_blank" rel="noopener" class="hover:text-blue-600 transition-colors">
+                  Cross-domain car detection using unsupervised image-to-image translation: From day to night
+                </a>
+              </h3>
+              <p class="text-sm text-gray-600 mb-1">Vinicius F Arruda and Thiago M Paixao and Rodrigo F Berriel and Alberto F De Souza and Claudine Badue and Nicu Sebe and Thiago Oliveira-Santos</p>
+              <p class="text-sm text-gray-500">Unknown Venue, 2019</p>
+            </div>
+            <div class="ml-4 text-right flex-shrink-0">
+              <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+                154 citations
+              </span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="publication-item p-6 bg-white rounded-xl shadow-sm border hover:shadow-md transition-shadow">
+          <div class="flex items-start justify-between">
+            <div class="flex-1">
+              <h3 class="font-semibold text-gray-900 mb-2">
+                <a href="https://www.sciencedirect.com/science/article/pii/S0957417415007496" target="_blank" rel="noopener" class="hover:text-blue-600 transition-colors">
+                  Large-scale mapping in complex field scenarios using an autonomous car
+                </a>
+              </h3>
+              <p class="text-sm text-gray-600 mb-1">Filipe Mutz and Lucas P Veronese and Thiago Oliveira-Santos and Edilson De Aguiar and Fernando A Auat Cheein and Alberto Ferreira De Souza</p>
+              <p class="text-sm text-gray-500">Expert Systems with Applications, 2016</p>
+            </div>
+            <div class="ml-4 text-right flex-shrink-0">
+              <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+                124 citations
+              </span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="publication-item p-6 bg-white rounded-xl shadow-sm border hover:shadow-md transition-shadow">
+          <div class="flex items-start justify-between">
+            <div class="flex-1">
+              <h3 class="font-semibold text-gray-900 mb-2">
+                <a href="https://ieeexplore.ieee.org/abstract/document/8851927/" target="_blank" rel="noopener" class="hover:text-blue-600 transition-colors">
+                  Traffic light recognition using deep learning and prior maps for autonomous cars
+                </a>
+              </h3>
+              <p class="text-sm text-gray-600 mb-1">Lucas C Possatti and Rânik Guidolini and Vinicius B Cardoso and Rodrigo F Berriel and Thiago M Paixão and Claudine Badue and Alberto F De Souza and Thiago Oliveira-Santos</p>
+              <p class="text-sm text-gray-500">Unknown Venue, 2019</p>
+            </div>
+            <div class="ml-4 text-right flex-shrink-0">
+              <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+                107 citations
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Publication Profiles -->
+      <div class="mt-8 flex flex-wrap gap-4 justify-center">
+        <a href="https://scholar.google.com.br/citations?user=gvb7W0IAAAAJ" target="_blank" rel="noopener" 
+           class="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+          <svg class="w-5 h-5 mr-2" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 24a7 7 0 110-14 7 7 0 010 14zm0-24L0 9.5l4.838 3.94A8 8 0 0112 9a8 8 0 017.162 4.44L24 9.5z"/>
+          </svg>
+          Google Scholar
+        </a>
+        <a href="https://www.scopus.com/authid/detail.uri?authorId=55425796800" target="_blank" rel="noopener"
+           class="inline-flex items-center px-6 py-3 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition-colors">
+          Scopus Profile
+        </a>
+        <a href="https://www.webofscience.com/wos/author/record/C-4546-2013" target="_blank" rel="noopener"
+           class="inline-flex items-center px-6 py-3 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors">
+          Web of Science
+        </a>
+        <a href="https://dblp.org/pid/s/AlbertoFdeSouza.html" target="_blank" rel="noopener"
+           class="inline-flex items-center px-6 py-3 bg-gray-700 text-white rounded-lg hover:bg-gray-800 transition-colors">
+          DBLP
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between mb-8">
+        <h2 class="text-3xl font-bold text-gray-900">Featured Projects</h2>
+        <a href="projects.html" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium">
+          View all 38 research projects
+          <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- IARA Project -->
+        <div class="bg-gray-50 rounded-xl overflow-hidden border hover:shadow-lg transition-shadow">
+          <div class="video-container">
+            <iframe 
+              src="https://www.youtube.com/embed/eTtBR_wX7ys" 
+              title="IARA - Autonomous Car Journey"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen>
+            </iframe>
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-gray-900 mb-2">IARA - Intelligent Autonomous Robotic Automobile</h3>
+            <p class="text-gray-600 mb-4">
+              The most advanced autonomous vehicle in the Southern Hemisphere. IARA made an unprecedented autonomous journey from Vitória to Guarapari (74 km). The project includes over 13 million lines of open-source code.
+            </p>
+            <a href="https://github.com/LCAD-UFES/carmen_lcad" target="_blank" rel="noopener" 
+               class="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium">
+              View on GitHub
+              <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        
+        <!-- Embraer Project -->
+        <div class="bg-gray-50 rounded-xl overflow-hidden border hover:shadow-lg transition-shadow">
+          <div class="video-container">
+            <iframe 
+              src="https://www.youtube.com/embed/M6wXdqemAUg" 
+              title="Embraer Autonomous Taxiing"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen>
+            </iframe>
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-gray-900 mb-2">Embraer Autonomous Taxiing System</h3>
+            <p class="text-gray-600 mb-4">
+              Development of the world's first autonomous taxiing system for passenger jet aircraft, in partnership with Embraer. This groundbreaking project is now part of aviation history.
+            </p>
+            <span class="inline-flex items-center text-green-600 font-medium">
+              <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+              World First Achievement
+            </span>
+          </div>
+        </div>
+        
+        <!-- Genomics Project -->
+        <div class="bg-gray-50 rounded-xl overflow-hidden border hover:shadow-lg transition-shadow">
+          <div class="aspect-video bg-gradient-to-br from-orange-400 to-red-500 flex items-center justify-center">
+            <div class="text-center text-white p-8">
+              <svg class="w-16 h-16 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/>
+              </svg>
+              <p class="text-xl font-semibold">Neurosymbolic Genomics</p>
+            </div>
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-gray-900 mb-2">Neurosymbolic AI for Genomics</h3>
+            <p class="text-gray-600 mb-4">
+              Developing a neurosymbolic AI platform for identifying genetic and epigenetic biomarkers associated with healthy longevity and age-related diseases. Combines genomic transformers with biological knowledge graphs.
+            </p>
+            <a href="https://github.com/albertodesouza/genomics" target="_blank" rel="noopener" 
+               class="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium">
+              View on GitHub
+              <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        
+        <!-- Startups -->
+        <div class="bg-gray-50 rounded-xl overflow-hidden border hover:shadow-lg transition-shadow">
+          <div class="aspect-video bg-gradient-to-br from-blue-600 to-indigo-700 flex items-center justify-center">
+            <div class="text-center text-white p-8">
+              <svg class="w-16 h-16 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+              </svg>
+              <p class="text-xl font-semibold">Deep Tech Startups</p>
+            </div>
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-gray-900 mb-2">Spin-off Companies</h3>
+            <p class="text-gray-600 mb-4">
+              Co-founder of three deep tech startups born at LCAD, collectively employing over 150 people:
+            </p>
+            <ul class="space-y-2 text-sm">
+              <li>
+                <a href="https://www.aumo.ai" target="_blank" rel="noopener" class="text-blue-600 hover:text-blue-800 font-medium">AUMO S.A.</a>
+                <span class="text-gray-500"> - Generative AI for enterprises</span>
+              </li>
+              <li>
+                <a href="https://www.lumerobotics.ai" target="_blank" rel="noopener" class="text-blue-600 hover:text-blue-800 font-medium">Lume Robotics S.A.</a>
+                <span class="text-gray-500"> - Autonomous trucks for industry</span>
+              </li>
+              <li>
+                <a href="https://motora.ai" target="_blank" rel="noopener" class="text-blue-600 hover:text-blue-800 font-medium">Motora Technologies S.A.</a>
+                <span class="text-gray-500"> - AI for driver behavior analysis</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Awards Section -->
+  <section id="awards" class="py-16 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold text-gray-900 mb-8">Honors & Awards</h2>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-yellow-500">
+          <div class="flex items-center mb-3">
+            <span class="text-2xl mr-3">🏅</span>
+            <span class="text-sm text-gray-500">2023</span>
+          </div>
+          <h3 class="font-semibold text-gray-900">Professor Emeritus</h3>
+          <p class="text-gray-600 text-sm mt-1">Universidade Federal do Espírito Santo (UFES)</p>
+        </div>
+        
+        <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-blue-500">
+          <div class="flex items-center mb-3">
+            <span class="text-2xl mr-3">🏆</span>
+            <span class="text-sm text-gray-500">2021</span>
+          </div>
+          <h3 class="font-semibold text-gray-900">CONFAP Science, Technology & Innovation Award</h3>
+          <p class="text-gray-600 text-sm mt-1">3rd place - Innovative Researcher Category</p>
+        </div>
+        
+        <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-green-500">
+          <div class="flex items-center mb-3">
+            <span class="text-2xl mr-3">🌟</span>
+            <span class="text-sm text-gray-500">2017</span>
+          </div>
+          <h3 class="font-semibold text-gray-900">Researcher of the Year</h3>
+          <p class="text-gray-600 text-sm mt-1">State Council of Science and Technology - ES</p>
+        </div>
+        
+        <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-orange-500">
+          <div class="flex items-center mb-3">
+            <span class="text-2xl mr-3">🤖</span>
+            <span class="text-sm text-gray-500">2015</span>
+          </div>
+          <h3 class="font-semibold text-gray-900">7th Place - Amazon Picking Challenge</h3>
+          <p class="text-gray-600 text-sm mt-1">Amazon Inc.</p>
+        </div>
+        
+        <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-purple-500">
+          <div class="flex items-center mb-3">
+            <span class="text-2xl mr-3">🎯</span>
+            <span class="text-sm text-gray-500">2013</span>
+          </div>
+          <h3 class="font-semibold text-gray-900">12th Place - DARPA Virtual Robotics Challenge</h3>
+          <p class="text-gray-600 text-sm mt-1">DARPA - Defense Advanced Research Projects Agency</p>
+        </div>
+        
+        <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-indigo-500">
+          <div class="flex items-center mb-3">
+            <span class="text-2xl mr-3">🎖️</span>
+            <span class="text-sm text-gray-500">2009</span>
+          </div>
+          <h3 class="font-semibold text-gray-900">IEEE Senior Member</h3>
+          <p class="text-gray-600 text-sm mt-1">Institute of Electrical and Electronics Engineers</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Media Section -->
+  <section id="media" class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold text-gray-900 mb-8">Media Gallery</h2>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Video 1 - Local video file -->
+        <div class="rounded-xl overflow-hidden shadow-sm border">
+          <div class="video-container">
+            <video 
+              controls 
+              preload="metadata"
+              class="w-full rounded-t-xl"
+              title="IARA on National TV">
+              <source src="assets/videos/iara-globo-tv.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="p-4">
+            <p class="font-medium text-gray-900">IARA on Globo TV (Jornal Nacional)</p>
+            <p class="text-sm text-gray-500">National television coverage - 74km autonomous journey</p>
+          </div>
+        </div>
+        
+        <!-- Video 2 -->
+        <div class="rounded-xl overflow-hidden shadow-sm border">
+          <div class="video-container">
+            <iframe 
+              src="https://www.youtube.com/embed/XC7tnZp4-14" 
+              title="First Brazilian Electric Autonomous Car"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen>
+            </iframe>
+          </div>
+          <div class="p-4">
+            <p class="font-medium text-gray-900">First Brazilian Electric Autonomous Car</p>
+            <p class="text-sm text-gray-500">Partnership LCAD/UFES - Lume Robotics</p>
+          </div>
+        </div>
+        
+        <!-- Video 3 -->
+        <div class="rounded-xl overflow-hidden shadow-sm border">
+          <div class="video-container">
+            <iframe 
+              src="https://www.youtube.com/embed/C32dq-iBLwc" 
+              title="DARPA Virtual Robotics Challenge"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen>
+            </iframe>
+          </div>
+          <div class="p-4">
+            <p class="font-medium text-gray-900">DARPA Virtual Robotics Challenge</p>
+            <p class="text-sm text-gray-500">12th place worldwide</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- YouTube Channel Link -->
+      <div class="mt-8 text-center">
+        <a href="https://www.youtube.com/user/lcadufes" target="_blank" rel="noopener"
+           class="inline-flex items-center px-6 py-3 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors">
+          <svg class="w-6 h-6 mr-2" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+          </svg>
+          Visit LCAD's YouTube Channel
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="py-16 bg-ufes-blue text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl font-bold mb-4">Get in Touch</h2>
+      <p class="text-blue-200 mb-8 max-w-2xl mx-auto">
+        Interested in collaboration, research opportunities, or have questions about our work? Feel free to reach out.
+      </p>
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href="mailto:alberto@lcad.inf.ufes.br" 
+           class="inline-flex items-center px-6 py-3 bg-white text-ufes-blue rounded-lg hover:bg-blue-50 transition-colors font-medium">
+          <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+          </svg>
+          Email
+        </a>
+        <a href="https://www.lcad.inf.ufes.br" target="_blank" rel="noopener"
+           class="inline-flex items-center px-6 py-3 bg-white/10 text-white rounded-lg hover:bg-white/20 transition-colors font-medium">
+          <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"/>
+          </svg>
+          LCAD Website
+        </a>
+        <a href="https://www.i2ca.ai" target="_blank" rel="noopener"
+           class="inline-flex items-center px-6 py-3 bg-white/10 text-white rounded-lg hover:bg-white/20 transition-colors font-medium">
+          <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+          </svg>
+          I2CA Institute
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-8 bg-gray-900 text-gray-400">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row justify-between items-center">
+        <p class="text-sm">
+          &copy; 2026 Alberto Ferreira De Souza. All rights reserved.
+        </p>
+        <p class="text-sm mt-2 md:mt-0">
+          Department of Informatics, UFES - Vitória, ES, Brazil
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

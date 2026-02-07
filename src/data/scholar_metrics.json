@@ -1,55 +1,95 @@
 {
-  "last_updated": "2026-02-07T00:00:00Z",
+  "last_updated": "2026-02-07T19:02:30.971707+00:00",
   "author": {
     "name": "Alberto Ferreira De Souza",
-    "affiliation": "Universidade Federal do Espírito Santo",
+    "affiliation": "Professor Emeritus of Computer Science, Universidade Federal do Espírito Santo, Brazil",
     "scholar_id": "gvb7W0IAAAAJ"
   },
   "metrics": {
-    "citations": 6728,
+    "citations": 6837,
     "h_index": 27,
     "i10_index": 77
   },
   "top_publications": [
     {
       "title": "Self-driving cars: A survey",
-      "authors": "C Badue, R Guidolini, RV Carneiro, P Azevedo, VB Cardoso, A Forechi, ...",
-      "venue": "Expert Systems with Applications",
+      "authors": "Claudine Badue and Rânik Guidolini and Raphael Vivacqua Carneiro and Pedro Azevedo and Vinicius B Cardoso and Avelino Forechi and Luan Jesus and Rodrigo Berriel and Thiago M Paixao and Filipe Mutz and Lucas de Paula Veronese and Thiago Oliveira-Santos and Alberto F De Souza",
+      "venue": "Unknown Venue",
       "year": 2021,
-      "citations": 1695,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gvb7W0IAAAAJ&citation_for_view=gvb7W0IAAAAJ:_FxGoFyzp5QC"
+      "citations": 1725,
+      "url": "https://www.sciencedirect.com/science/article/pii/S095741742030628X"
     },
     {
-      "title": "Facial expression recognition with Convolutional Neural Networks: Coping with few data and the training sample order",
-      "authors": "AT Lopes, E de Aguiar, AF De Souza, T Oliveira-Santos",
-      "venue": "Pattern Recognition",
+      "title": "Facial expression recognition with convolutional neural networks: coping with few data and the training sample order",
+      "authors": "André Teixeira Lopes and Edilson De Aguiar and Alberto F De Souza and Thiago Oliveira-Santos",
+      "venue": "Pattern recognition",
       "year": 2017,
-      "citations": 999,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gvb7W0IAAAAJ&citation_for_view=gvb7W0IAAAAJ:u5HHmVD_uO8C"
+      "citations": 1006,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0031320316301753"
     },
     {
-      "title": "Keep Your Eyes on the Lane: Real-Time Attention-Guided Lane Detection",
-      "authors": "L Tabelini, R Berriel, TM Paixão, C Badue, AF De Souza, T Oliveira-Santos",
-      "venue": "IEEE CVPR",
+      "title": "Keep your eyes on the lane: Real-time attention-guided lane detection",
+      "authors": "Lucas Tabelini and Rodrigo Berriel and Thiago M Paixao and Claudine Badue and Alberto F De Souza and Thiago Oliveira-Santos",
+      "venue": "Unknown Venue",
       "year": 2021,
-      "citations": 596,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gvb7W0IAAAAJ&citation_for_view=gvb7W0IAAAAJ:UeHWp8X0CEIC"
+      "citations": 613,
+      "url": "https://openaccess.thecvf.com/content/CVPR2021/html/Tabelini_Keep_Your_Eyes_on_the_Lane_Real-Time_Attention-Guided_Lane_Detection_CVPR_2021_paper.html?ref=https://giter.vip"
     },
     {
-      "title": "PolyLaneNet: Lane Estimation via Deep Polynomial Regression",
-      "authors": "L Tabelini, R Berriel, TM Paixão, C Badue, AF De Souza, T Oliveira-Santos",
-      "venue": "ICPR",
+      "title": "Polylanenet: Lane estimation via deep polynomial regression",
+      "authors": "Lucas Tabelini and Rodrigo Berriel and Thiago M Paixao and Claudine Badue and Alberto F De Souza and Thiago Oliveira-Santos",
+      "venue": "Unknown Venue",
       "year": 2021,
-      "citations": 467,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gvb7W0IAAAAJ&citation_for_view=gvb7W0IAAAAJ:2osOgNQ5qMEC"
+      "citations": 479,
+      "url": "https://ieeexplore.ieee.org/abstract/document/9412265/"
     },
     {
-      "title": "Copycat CNN: Stealing Knowledge by Persuading Confession with Random Non-Labeled Data",
-      "authors": "JR Correia-Silva, R Berriel, C Badue, AF De Souza, T Oliveira-Santos",
-      "venue": "IJCNN",
+      "title": "Prediction-based portfolio optimization model using neural networks",
+      "authors": "Fabio D Freitas and Alberto F De Souza and Ailson R De Almeida",
+      "venue": "Neurocomputing",
+      "year": 2009,
+      "citations": 268,
+      "url": "https://www.sciencedirect.com/science/article/pii/S092523120900040X"
+    },
+    {
+      "title": "Copycat cnn: Stealing knowledge by persuading confession with random non-labeled data",
+      "authors": "Jacson Rodrigues Correia-Silva and Rodrigo F Berriel and Claudine Badue and Alberto F De Souza and Thiago Oliveira-Santos",
+      "venue": "Unknown Venue",
       "year": 2018,
-      "citations": 250,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gvb7W0IAAAAJ&citation_for_view=gvb7W0IAAAAJ:9yKSN-GCB0IC"
+      "citations": 257,
+      "url": "https://ieeexplore.ieee.org/abstract/document/8489592/"
+    },
+    {
+      "title": "A dataset for improved rgbd-based object detection and pose estimation for warehouse pick-and-place",
+      "authors": "Colin Rennie and Rahul Shome and Kostas E Bekris and Alberto F De Souza",
+      "venue": "IEEE Robotics and Automation Letters",
+      "year": 2016,
+      "citations": 240,
+      "url": "https://ieeexplore.ieee.org/abstract/document/7416002/"
+    },
+    {
+      "title": "Cross-domain car detection using unsupervised image-to-image translation: From day to night",
+      "authors": "Vinicius F Arruda and Thiago M Paixao and Rodrigo F Berriel and Alberto F De Souza and Claudine Badue and Nicu Sebe and Thiago Oliveira-Santos",
+      "venue": "Unknown Venue",
+      "year": 2019,
+      "citations": 154,
+      "url": "https://ieeexplore.ieee.org/abstract/document/8852008/"
+    },
+    {
+      "title": "Large-scale mapping in complex field scenarios using an autonomous car",
+      "authors": "Filipe Mutz and Lucas P Veronese and Thiago Oliveira-Santos and Edilson De Aguiar and Fernando A Auat Cheein and Alberto Ferreira De Souza",
+      "venue": "Expert Systems with Applications",
+      "year": 2016,
+      "citations": 124,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0957417415007496"
+    },
+    {
+      "title": "Traffic light recognition using deep learning and prior maps for autonomous cars",
+      "authors": "Lucas C Possatti and Rânik Guidolini and Vinicius B Cardoso and Rodrigo F Berriel and Thiago M Paixão and Claudine Badue and Alberto F De Souza and Thiago Oliveira-Santos",
+      "venue": "Unknown Venue",
+      "year": 2019,
+      "citations": 107,
+      "url": "https://ieeexplore.ieee.org/abstract/document/8851927/"
     }
   ]
 }

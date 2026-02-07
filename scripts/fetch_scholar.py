@@ -29,7 +29,7 @@ except ImportError:
 # Configuration
 SCHOLAR_ID = "gvb7W0IAAAAJ"  # Prof. Alberto's Google Scholar ID
 OUTPUT_FILE = Path(__file__).parent.parent / "src" / "data" / "scholar_metrics.json"
-TOP_N_PUBLICATIONS = 5
+TOP_N_PUBLICATIONS = 10
 USE_PROXY = False  # Set to True if you're getting blocked by Google
 
 

@@ -4,7 +4,7 @@ Generate HTML page with updated Scholar metrics.
 
 This script reads the scholar_metrics.json file and updates the HTML page
 with the latest metrics. It's designed to be run after fetch_scholar.py
-as part of the GitHub Actions workflow.
+as part of the GitHub Actions workflow or before deploy.
 
 Usage:
     python generate_html.py
@@ -14,7 +14,7 @@ The script modifies the index.html file in place, updating:
 - h-index
 - i10-index  
 - Last updated date
-- Top publications (if dynamic content is enabled)
+- Top 10 publications with links
 """
 
 import json
@@ -22,11 +22,12 @@ import re
 import sys
 from datetime import datetime
 from pathlib import Path
+from html import escape
 
 
 # Configuration
 METRICS_FILE = Path(__file__).parent.parent / "src" / "data" / "scholar_metrics.json"
-HTML_FILE = Path(__file__).parent.parent / "src" / "index.php" / "Prof._Dr._Alberto_Ferreira_De_Souza" / "index.html"
+HTML_FILE = Path(__file__).parent.parent / "src" / "alberto" / "index.html"
 
 
 def load_metrics() -> dict:
@@ -42,6 +43,46 @@ def load_metrics() -> dict:
 def format_number(num: int) -> str:
     """Format number with comma separators."""
     return f"{num:,}"
+
+
+def generate_publication_html(pub: dict) -> str:
+    """
+    Generate HTML for a single publication.
+    
+    Args:
+        pub: Publication dictionary with title, authors, venue, year, citations, url
+        
+    Returns:
+        HTML string for the publication card
+    """
+    title = escape(pub.get('title', 'Unknown Title'))
+    authors = escape(pub.get('authors', 'Unknown Authors'))
+    venue = escape(pub.get('venue', 'Unknown Venue'))
+    year = pub.get('year', '')
+    citations = pub.get('citations', 0)
+    url = pub.get('url', '#')
+    
+    # Format venue with year
+    venue_text = f"{venue}, {year}" if year else venue
+    
+    return f'''        <div class="publication-item p-6 bg-white rounded-xl shadow-sm border hover:shadow-md transition-shadow">
+          <div class="flex items-start justify-between">
+            <div class="flex-1">
+              <h3 class="font-semibold text-gray-900 mb-2">
+                <a href="{url}" target="_blank" rel="noopener" class="hover:text-blue-600 transition-colors">
+                  {title}
+                </a>
+              </h3>
+              <p class="text-sm text-gray-600 mb-1">{authors}</p>
+              <p class="text-sm text-gray-500">{venue_text}</p>
+            </div>
+            <div class="ml-4 text-right flex-shrink-0">
+              <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+                {format_number(citations)} citations
+              </span>
+            </div>
+          </div>
+        </div>'''
 
 
 def update_html(html_content: str, metrics: dict) -> str:
@@ -90,14 +131,15 @@ def update_html(html_content: str, metrics: dict) -> str:
         html_content
     )
     
-    # Update publication citation counts
-    for pub in metrics.get('top_publications', []):
-        title_escaped = re.escape(pub['title'][:30])
-        citations = pub['citations']
+    # Generate publications HTML
+    publications = metrics.get('top_publications', [])
+    if publications:
+        pubs_html = '\n        \n'.join(generate_publication_html(pub) for pub in publications)
         
-        # Find and update citation badge for this publication
-        pattern = rf'({title_escaped}.*?)\d[\d,]* citations'
-        replacement = rf'\g<1>{format_number(citations)} citations'
+        # Replace the publications list content
+        # Match from <div id="publications-list" ...> to the closing </div> before <!-- Publication Profiles -->
+        pattern = r'(<div id="publications-list"[^>]*>)\s*(?:.*?)(</div>\s*\n\s*<!-- Publication Profiles -->)'
+        replacement = rf'\1\n{pubs_html}\n      \2'
         html_content = re.sub(pattern, replacement, html_content, flags=re.DOTALL)
     
     return html_content
@@ -119,6 +161,7 @@ def main():
     print(f"  - h-index: {metrics['metrics']['h_index']}")
     print(f"  - i10-index: {metrics['metrics']['i10_index']}")
     print(f"  - Last updated: {metrics['last_updated']}")
+    print(f"  - Publications: {len(metrics.get('top_publications', []))}")
     print()
     
     # Check if HTML file exists

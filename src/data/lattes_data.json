@@ -1,0 +1,5182 @@
+{
+  "articles": [
+    {
+      "title": "Enhancing complex upper-limb motor imagery discrimination through an incremental training strategy",
+      "title_en": "",
+      "year": "2025",
+      "doi": "10.1016/j.bspc.2024.106837",
+      "language": "Inglês",
+      "authors": [
+        "GUERRERO-MENDEZ, C.D.",
+        "BLANCO-DIAZ, CRISTIAN F.",
+        "RIVERA-FLOR, H.",
+        "BADUE, C.",
+        "Alberto Ferreira De Souza",
+        "DELISLE-RODRIGUEZ, D.",
+        "BASTOS-FILHO, T.F."
+      ],
+      "journal": "Biomedical Signal Processing and Control",
+      "volume": "99",
+      "issue": "",
+      "pages": "106837-",
+      "issn": "17468094"
+    },
+    {
+      "title": "A machine learning approach for intra- and inter-cast hot metal temperature forecasting",
+      "title_en": "",
+      "year": "2025",
+      "doi": "10.1016/j.compchemeng.2025.109210",
+      "language": "Inglês",
+      "authors": [
+        "PAIXÃO, THIAGO M.",
+        "MUCCIACCIA, SÉRGIO S.",
+        "NAVARRO, LETÍCIA C.",
+        "MUTZ, FILIPE",
+        "RAMPINELLI, VINICIUS",
+        "BADUE, CLAUDINE",
+        "Alberto Ferreira De Souza",
+        "Thiago Oliveira dos Santos"
+      ],
+      "journal": "COMPUTERS & CHEMICAL ENGINEERING",
+      "volume": "201",
+      "issue": "",
+      "pages": "109210-",
+      "issn": "00981354"
+    },
+    {
+      "title": "Blast furnace control by hierarchical similarity search in historical data",
+      "title_en": "",
+      "year": "2025",
+      "doi": "10.1016/j.engappai.2024.109779",
+      "language": "Inglês",
+      "authors": [
+        "AMORIM, LUCAS L.",
+        "MUTZ, FILIPE",
+        "PAIXÃO, THIAGO M.",
+        "RAMPINELLI, VINICIUS",
+        "Alberto Ferreira De Souza",
+        "BADUE, CLAUDINE",
+        "Thiago Oliveira dos Santos"
+      ],
+      "journal": "ENGINEERING APPLICATIONS OF ARTIFICIAL INTELLIGENCE",
+      "volume": "141",
+      "issue": "",
+      "pages": "109779-",
+      "issn": "09521976"
+    },
+    {
+      "title": "TransConv: a lightweight architecture based on transformers and convolutional neural networks for adenocarcinoma and Barrett?s esophagus identification",
+      "title_en": "",
+      "year": "2025",
+      "doi": "10.1007/s00521-025-11299-y",
+      "language": "Inglês",
+      "authors": [
+        "SOUZA, LUIS A.",
+        "PACHECO, ANDRÉ G. C.",
+        "Alberto Ferreira De Souza",
+        "OLIVEIRA-SANTOS, THIAGO",
+        "Claudine Santos Baduê",
+        "PALM, CHRISTOPH",
+        "PAPA, JOÃO PAULO"
+      ],
+      "journal": "NEURAL COMPUTING & APPLICATIONS (INTERNET)",
+      "volume": "37",
+      "issue": "",
+      "pages": "15535-",
+      "issn": "14333058"
+    },
+    {
+      "title": "An Interactive Autonomous Forklift Robot Based on Large Language Models",
+      "title_en": "",
+      "year": "2025",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Breno U. De Angelo",
+        "André Georghton Cardoso Pacheco",
+        "Rafael F. Freitas",
+        "Italo J. O. Silva",
+        "Eduardo P. De Abreu",
+        "Luiz F.S. C. Cardoso",
+        "OLIVEIRA-SANTOS, THIAGO",
+        "BADUE, C.",
+        "Alberto Ferreira De Souza"
+      ],
+      "journal": "Journal of Information Systems Engineering and Management",
+      "volume": "10",
+      "issue": "",
+      "pages": "946-961",
+      "issn": "24684376"
+    },
+    {
+      "title": "A Non-Parametric Bayesian Approach Towards OnlineSequence Learning",
+      "title_en": "",
+      "year": "2025",
+      "doi": "10.1145/3787470.3787487",
+      "language": "Inglês",
+      "authors": [
+        "DIAS, STIVEN S.",
+        "BRUNO, MARCELO G. S.",
+        "Alberto Ferreira De Souza"
+      ],
+      "journal": "SIGKDD EXPLORATIONS",
+      "volume": "27",
+      "issue": "",
+      "pages": "156-167",
+      "issn": "19310145"
+    },
+    {
+      "title": "Pt-HotpotQA: Evaluating Multi-Hop Question Answering on Original and Portuguese-translated Datasets Using LLMs",
+      "title_en": "",
+      "year": "2025",
+      "doi": "10.5753/jbcs.2025.5801",
+      "language": "Português",
+      "authors": [
+        "MUCCIACCIA, SÉRGIO S.",
+        "PAIXÃO, THIAGO M.",
+        "MUTZ, FILIPE",
+        "Alberto Ferreira De Souza",
+        "BADUE, CLAUDINE S.",
+        "Thiago Oliveira dos Santos"
+      ],
+      "journal": "JOURNAL OF THE BRAZILIAN COMPUTER SOCIETY (ONLINE)",
+      "volume": "31",
+      "issue": "",
+      "pages": "872-884",
+      "issn": "16784804"
+    },
+    {
+      "title": "RagPharma: A RAG-Based Chatbot for Medicine Leaflets with a Dual-Dataset Evaluation Framework",
+      "title_en": "",
+      "year": "2025",
+      "doi": "10.5753/jbcs.2025.5767",
+      "language": "Português",
+      "authors": [
+        "NAVARRO, LETÍCIA C.",
+        "MUTZ, FILIPE",
+        "PAIXÃO, THIAGO M.",
+        "ZANETTI, GUILHERME G.",
+        "BADUE, CLAUDINE",
+        "Alberto Ferreira De Souza",
+        "Thiago Oliveira dos Santos"
+      ],
+      "journal": "JOURNAL OF THE BRAZILIAN COMPUTER SOCIETY (ONLINE)",
+      "volume": "31",
+      "issue": "",
+      "pages": "1137-1149",
+      "issn": "16784804"
+    },
+    {
+      "title": "Evaluation of temporal, spatial and spectral filtering in CSP-based methods for decoding pedaling-based motor tasks using EEG signals",
+      "title_en": "",
+      "year": "2024",
+      "doi": "10.1088/2057-1976/ad2e35",
+      "language": "Português",
+      "authors": [
+        "BLANCO-DÍAZ, CRISTIAN FELIPE",
+        "GUERRERO-MENDEZ, CRISTIAN DAVID",
+        "DELISLE-RODRIGUEZ, DENIS",
+        "JARAMILLO-ISAZA, SEBASTIÁN",
+        "RUIZ-OLAYA, ANDRÉS FELIPE",
+        "FRIZERA-NETO, ANSELMO",
+        "Alberto Ferreira De Souza",
+        "BASTOS-FILHO, TEODIANO"
+      ],
+      "journal": "BIOMEDICAL PHYSICS & ENGINEERING EXPRESS",
+      "volume": "10",
+      "issue": "",
+      "pages": "035003-",
+      "issn": "20571976"
+    },
+    {
+      "title": "Decoding lower-limb kinematic parameters during pedaling tasks using deep learning approaches and EEG",
+      "title_en": "",
+      "year": "2024",
+      "doi": "10.1007/s11517-024-03147-3",
+      "language": "Inglês",
+      "authors": [
+        "BLANCO-DIAZ, CRISTIAN FELIPE",
+        "GUERRERO-MENDEZ, CRISTIAN DAVID",
+        "DE ANDRADE, RAFHAEL MILANEZI",
+        "BADUE, CLAUDINE",
+        "Alberto Ferreira De Souza",
+        "DELISLE-RODRIGUEZ, DENIS",
+        "BASTOS-FILHO, TEODIANO"
+      ],
+      "journal": "MEDICAL & BIOLOGICAL ENGINEERING & COMPUTING",
+      "volume": "1",
+      "issue": "",
+      "pages": "1-",
+      "issn": "01400118"
+    },
+    {
+      "title": "Lower-limb kinematic reconstruction during pedaling tasks from EEG signals using Unscented Kalman filter",
+      "title_en": "",
+      "year": "2023",
+      "doi": "10.1080/10255842.2023.2207705",
+      "language": "Inglês",
+      "authors": [
+        "BLANCO-DÍAZ, CRISTIAN FELIPE",
+        "GUERRERO-MENDEZ, CRISTIAN DAVID",
+        "DELISLE-RODRIGUEZ, DENIS",
+        "Alberto Ferreira De Souza",
+        "Claudine Santos Baduê",
+        "BASTOS-FILHO, TEODIANO FREIRE"
+      ],
+      "journal": "COMPUTER METHODS IN BIOMECHANICS AND BIOMEDICAL ENGINEERING",
+      "volume": "1",
+      "issue": "",
+      "pages": "1-11",
+      "issn": "10255842"
+    },
+    {
+      "title": "Yolo-Papaya: A Papaya Fruit Disease Detector and Classifier Using CNNs and Convolutional Block Attention Modules",
+      "title_en": "",
+      "year": "2023",
+      "doi": "10.3390/electronics12102202",
+      "language": "Inglês",
+      "authors": [
+        "DE MORAES, JAIRO LUCAS",
+        "de Oliveira Neto, Jorcy",
+        "Claudine Santos Baduê",
+        "OLIVEIRA-SANTOS, THIAGO",
+        "Alberto Ferreira De Souza"
+      ],
+      "journal": "ELECTRONICS",
+      "volume": "12",
+      "issue": "",
+      "pages": "2202-",
+      "issn": "20799292"
+    },
+    {
+      "title": "Coupling Effects of Cross-Corticomuscular Association During Object Manipulation Tasks on Different Haptic Sensation",
+      "title_en": "",
+      "year": "2023",
+      "doi": "10.3390/neurosci4030018",
+      "language": "Inglês",
+      "authors": [
+        "GUERRERO-MENDEZ, CRISTIAN DAVID",
+        "BLANCO-DÍAZ, CRISTIAN FELIPE",
+        "Hamilton Rivera",
+        "Alberto Ferreira De Souza",
+        "Sebastian Jaramillo",
+        "Andrés Felipe Ruiz-Olaya",
+        "Teodiano Freire Bastos Filho"
+      ],
+      "journal": "NeuroSci",
+      "volume": "1",
+      "issue": "",
+      "pages": "1-",
+      "issn": "26734087"
+    },
+    {
+      "title": "EEG motor imagery classification using deep learning approaches in naïve BCI users",
+      "title_en": "",
+      "year": "2023",
+      "doi": "10.1088/2057-1976/acde82",
+      "language": "Português",
+      "authors": [
+        "GUERRERO-MENDEZ, CRISTIAN D",
+        "BLANCO-DIAZ, CRISTIAN F",
+        "RUIZ-OLAYA, ANDRES F",
+        "LÓPEZ-DELIS, ALBERTO",
+        "JARAMILLO-ISAZA, SEBASTIAN",
+        "MILANEZI ANDRADE, RAFHAEL",
+        "Alberto Ferreira De Souza",
+        "DELISLE-RODRIGUEZ, DENIS",
+        "FRIZERA-NETO, ANSELMO",
+        "BASTOS-FILHO, TEODIANO F"
+      ],
+      "journal": "BIOMEDICAL PHYSICS & ENGINEERING EXPRESS",
+      "volume": "9",
+      "issue": "",
+      "pages": "045029-",
+      "issn": "20571976"
+    },
+    {
+      "title": "Deep traffic sign detection and recognition without target domain real images",
+      "title_en": "",
+      "year": "2022",
+      "doi": "10.1007/s00138-022-01302-0",
+      "language": "Inglês",
+      "authors": [
+        "TABELINI, LUCAS",
+        "BERRIEL, RODRIGO",
+        "PAIXÃO, THIAGO M.",
+        "Alberto Ferreira De Souza",
+        "BADUE, CLAUDINE",
+        "SEBE, NICU",
+        "Thiago Oliveira dos Santos"
+      ],
+      "journal": "MACHINE VISION AND APPLICATIONS",
+      "volume": "33",
+      "issue": "",
+      "pages": "1-10",
+      "issn": "09328092"
+    },
+    {
+      "title": "A human-in-the-loop recommendation-based framework for reconstruction of mechanically shredded documents",
+      "title_en": "",
+      "year": "2022",
+      "doi": "10.1016/j.patrec.2022.10.011",
+      "language": "Inglês",
+      "authors": [
+        "PAIXÃO, THIAGO M.",
+        "BERRIEL, RODRIGO F.",
+        "BOERES, MARIA C.S.",
+        "KOERICH, ALESSANDRO L.",
+        "Claudine Santos Baduê",
+        "Alberto Ferreira De Souza",
+        "OLIVEIRA-SANTOS, THIAGO"
+      ],
+      "journal": "PATTERN RECOGNITION LETTERS",
+      "volume": "164",
+      "issue": "",
+      "pages": "1-8",
+      "issn": "01678655"
+    },
+    {
+      "title": "Cross-domain object detection using unsupervised image translation",
+      "title_en": "",
+      "year": "2022",
+      "doi": "10.1016/j.eswa.2021.116334",
+      "language": "Inglês",
+      "authors": [
+        "ARRUDA, VINICIUS F.",
+        "BERRIEL, RODRIGO F.",
+        "PAIXÃO, THIAGO M.",
+        "Claudine Santos Badue Gonçalves",
+        "Alberto Ferreira De Souza",
+        "SEBE, NICU",
+        "OLIVEIRA-SANTOS, THIAGO"
+      ],
+      "journal": "EXPERT SYSTEMS WITH APPLICATIONS",
+      "volume": "192",
+      "issue": "",
+      "pages": "116334-",
+      "issn": "09574174"
+    },
+    {
+      "title": "What is the best grid-map for self-driving cars localization? An evaluation under diverse types of illumination, traffic, and environment",
+      "title_en": "",
+      "year": "2021",
+      "doi": "10.1016/j.eswa.2021.115077",
+      "language": "Inglês",
+      "authors": [
+        "Filipe Wall Mutz",
+        "OLIVEIRA-SANTOS, THIAGO",
+        "FORECHI, AVELINO",
+        "KOMATI, KARIN S.",
+        "BADUE, CLAUDINE",
+        "FRANÇA, FELIPE M.G.",
+        "Alberto Ferreira De Souza"
+      ],
+      "journal": "EXPERT SYSTEMS WITH APPLICATIONS",
+      "volume": "179",
+      "issue": "",
+      "pages": "115077-",
+      "issn": "09574174"
+    },
+    {
+      "title": "Copycat CNN: Are random non-Labeled data enough to steal knowledge from black-box models?",
+      "title_en": "",
+      "year": "2021",
+      "doi": "10.1016/j.patcog.2021.107830",
+      "language": "Inglês",
+      "authors": [
+        "CORREIA-SILVA, JACSON RODRIGUES",
+        "BERRIEL, RODRIGO F.",
+        "BADUE, CLAUDINE",
+        "Alberto Ferreira De Souza",
+        "Thiago Oliveira dos Santos"
+      ],
+      "journal": "PATTERN RECOGNITION",
+      "volume": "113",
+      "issue": "",
+      "pages": "107830-",
+      "issn": "00313203"
+    },
+    {
+      "title": "Deep traffic light detection by overlaying synthetic context on arbitrary natural images",
+      "title_en": "",
+      "year": "2021",
+      "doi": "10.1016/j.cag.2020.09.012",
+      "language": "Inglês",
+      "authors": [
+        "VIEIRA DE MELLO, JEAN PABLO",
+        "TABELINI, LUCAS",
+        "F. BERRIEL, RODRIGO",
+        "M. PAIXÃO, THIAGO",
+        "Alberto Ferreira De Souza",
+        "Claudine Santos Badue Gonçalves",
+        "SEBE, NICU",
+        "OLIVEIRA-SANTOS, THIAGO"
+      ],
+      "journal": "COMPUTERS & GRAPHICS-UK",
+      "volume": "94",
+      "issue": "",
+      "pages": "76-86",
+      "issn": "00978493"
+    },
+    {
+      "title": "Self-driving cars: A survey",
+      "title_en": "",
+      "year": "2021",
+      "doi": "10.1016/j.eswa.2020.113816",
+      "language": "Inglês",
+      "authors": [
+        "BADUE, CLAUDINE",
+        "GUIDOLINI, RÂNIK",
+        "CARNEIRO, RAPHAEL VIVACQUA",
+        "AZEVEDO, PEDRO",
+        "CARDOSO, VINICIUS B.",
+        "FORECHI, AVELINO",
+        "JESUS, LUAN",
+        "BERRIEL, RODRIGO",
+        "PAIXÃO, THIAGO M.",
+        "MUTZ, FILIPE",
+        "DE PAULA VERONESE, LUCAS",
+        "Thiago Oliveira dos Santos",
+        "Alberto Ferreira De Souza"
+      ],
+      "journal": "EXPERT SYSTEMS WITH APPLICATIONS",
+      "volume": "165",
+      "issue": "",
+      "pages": "113816-",
+      "issn": "09574174"
+    },
+    {
+      "title": "Self-supervised Deep Reconstruction of Mixed Strip-shredded Text Documents",
+      "title_en": "",
+      "year": "2020",
+      "doi": "10.1016/j.patcog.2020.107535",
+      "language": "Inglês",
+      "authors": [
+        "PAIXÃO, THIAGO M.",
+        "BERRIEL, RODRIGO F.",
+        "BOERES, MARIA C.S.",
+        "KOERICH, ALESSANDRO L.",
+        "BADUE, CLAUDINE",
+        "Alberto Ferreira De Souza",
+        "Thiago Oliveira dos Santos"
+      ],
+      "journal": "PATTERN RECOGNITION",
+      "volume": "107",
+      "issue": "",
+      "pages": "107535-",
+      "issn": "00313203"
+    },
+    {
+      "title": "Evaluating the Limits of a LiDAR for an Autonomous Driving Localization",
+      "title_en": "",
+      "year": "2020",
+      "doi": "10.1109/tits.2020.2971054",
+      "language": "Português",
+      "authors": [
+        "VERONESE, LUCAS DE PAULA",
+        "CHEEIN, FERNANDO A. AUAT",
+        "Filipe Wall Mutz",
+        "OLIVEIRA-SANTOS, THIAGO",
+        "GUIVANT, JOSE",
+        "DE AGUIAR, EDILSON",
+        "BADUE, CLAUDINE",
+        "Alberto Ferreira De Souza"
+      ],
+      "journal": "IEEE Transactions on Intelligent Transportation Systems",
+      "volume": "",
+      "issue": "",
+      "pages": "1-10",
+      "issn": "15580016"
+    },
+    {
+      "title": "Memory-like Map Decay for Autonomous Vehicles based on Grid Maps",
+      "title_en": "",
+      "year": "2020",
+      "doi": "",
+      "language": "Português",
+      "authors": [
+        "Thomas Teixeira",
+        "Filipe Wall Mutz",
+        "Karin Satie Komati",
+        "Lucas De Paula Veronese",
+        "Vinicius Brito Cardoso",
+        "Claudine Santos Badue Gonçalves",
+        "Thiago Oliveira dos Santos",
+        "Alberto Ferreira De Souza"
+      ],
+      "journal": "AMERICAN JOURNAL OF ENGINEERING RESEARCH",
+      "volume": "9",
+      "issue": "",
+      "pages": "63-71",
+      "issn": "23200847"
+    },
+    {
+      "title": "A single sensor system for mapping in GNSS-denied environments",
+      "title_en": "A single sensor system for mapping in GNSS-denied environments",
+      "year": "2019",
+      "doi": "10.1016/j.cogsys.2019.03.018",
+      "language": "Português",
+      "authors": [
+        "DE PAULA VERONESE, LUCAS",
+        "Claudine Badue",
+        "AUAT CHEEIN, FERNANDO",
+        "GUIVANT, JOSE",
+        "Alberto Ferreira De Souza"
+      ],
+      "journal": "Cognitive Systems Research",
+      "volume": "56",
+      "issue": "",
+      "pages": "246-261",
+      "issn": "13890417"
+    },
+    {
+      "title": "Handling pedestrians in self-driving cars using image tracking and alternative path generation with Frenét frames",
+      "title_en": "",
+      "year": "2019",
+      "doi": "10.1016/j.cag.2019.08.004",
+      "language": "Português",
+      "authors": [
+        "SARCINELLI, RENAN",
+        "GUIDOLINI, RÂNIK",
+        "CARDOSO, VINICIUS B.",
+        "PAIXÃO, THIAGO M.",
+        "Rodrigo Ferreira Berriel",
+        "AZEVEDO, PEDRO",
+        "Alberto Ferreira De Souza",
+        "BADUE, CLAUDINE",
+        "OLIVEIRA-SANTOS, THIAGO"
+      ],
+      "journal": "COMPUTERS & GRAPHICS-UK",
+      "volume": "84",
+      "issue": "",
+      "pages": "173-184",
+      "issn": "00978493"
+    },
+    {
+      "title": "Non-fatigating Brain Computer Interface Based on SSVEP and ERD to Command an Autonomous Car",
+      "title_en": "",
+      "year": "2018",
+      "doi": "10.1142/s2424922x18400053",
+      "language": "Português",
+      "authors": [
+        "CASTILLO-GARCIA, JAVIER F.",
+        "MULLER, SANDRA",
+        "CAICEDO-BRAVO, EDUARDO F.",
+        "BASTOS, TEODIANO F.",
+        "Alberto Ferreira De Souza"
+      ],
+      "journal": "Advances in Data Science and Adaptive Analysis",
+      "volume": "10",
+      "issue": "",
+      "pages": "1840005-",
+      "issn": "2424922X"
+    },
+    {
+      "title": "Automatic large-scale data acquisition via crowdsourcing for crosswalk classification: A deep learning approach",
+      "title_en": "Automatic large-scale data acquisition via crowdsourcing for crosswalk classification: A deep learning approach",
+      "year": "2017",
+      "doi": "10.1016/j.cag.2017.08.004",
+      "language": "Inglês",
+      "authors": [
+        "BERRIEL, RODRIGO F.",
+        "ROSSI, FRANCO SCHMIDT",
+        "Alberto Ferreira De Souza",
+        "Thiago Oliveira dos Santos"
+      ],
+      "journal": "COMPUTERS & GRAPHICS-UK",
+      "volume": "",
+      "issue": "",
+      "pages": "32-42",
+      "issn": "00978493"
+    },
+    {
+      "title": "Deep Learning-Based Large-Scale Automatic Satellite Crosswalk Classification",
+      "title_en": "Deep Learning-Based Large-Scale Automatic Satellite Crosswalk Classification",
+      "year": "2017",
+      "doi": "10.1109/lgrs.2017.2719863",
+      "language": "Inglês",
+      "authors": [
+        "BERRIEL, RODRIGO F.",
+        "LOPES, ANDRE TEIXEIRA",
+        "Alberto Ferreira De Souza",
+        "Thiago Oliveira dos Santos"
+      ],
+      "journal": "IEEE Geoscience and Remote Sensing Letters",
+      "volume": "14",
+      "issue": "",
+      "pages": "1513-1517",
+      "issn": "1545598X"
+    },
+    {
+      "title": "Ego-Lane Analysis System (ELAS): Dataset and algorithms",
+      "title_en": "Ego-Lane Analysis System (ELAS): Dataset and algorithms",
+      "year": "2017",
+      "doi": "10.1016/j.imavis.2017.07.005",
+      "language": "Inglês",
+      "authors": [
+        "BERRIEL, RODRIGO F.",
+        "AGUIAR, EDILSON DE",
+        "Alberto Ferreira De Souza",
+        "Thiago Oliveira dos Santos"
+      ],
+      "journal": "IMAGE AND VISION COMPUTING",
+      "volume": "68",
+      "issue": "",
+      "pages": "64-75",
+      "issn": "02628856"
+    },
+    {
+      "title": "Facial expression recognition with Convolutional Neural Networks: Coping with few data and the training sample order",
+      "title_en": "",
+      "year": "2017",
+      "doi": "10.1016/j.patcog.2016.07.026",
+      "language": "Inglês",
+      "authors": [
+        "LOPES, ANDRÉ TEIXEIRA",
+        "DE AGUIAR, EDILSON",
+        "Alberto Ferreira De Souza",
+        "Thiago Oliveira dos Santos"
+      ],
+      "journal": "PATTERN RECOGNITION",
+      "volume": "61",
+      "issue": "",
+      "pages": "610-628",
+      "issn": "00313203"
+    },
+    {
+      "title": "Large-scale mapping in complex field scenarios using an autonomous car",
+      "title_en": "",
+      "year": "2016",
+      "doi": "10.1016/j.eswa.2015.10.045",
+      "language": "Inglês",
+      "authors": [
+        "MUTZ, FILIPE",
+        "VERONESE, LUCAS P.",
+        "Thiago Oliveira Santos",
+        "DE AGUIAR, EDILSON",
+        "AUAT CHEEIN, FERNANDO A.",
+        "Alberto Ferreira De Souza"
+      ],
+      "journal": "EXPERT SYSTEMS WITH APPLICATIONS",
+      "volume": "46",
+      "issue": "",
+      "pages": "439-462",
+      "issn": "09574174"
+    },
+    {
+      "title": "Fat-Fast VG-RAM WNN: A high performance approach",
+      "title_en": "",
+      "year": "2016",
+      "doi": "10.1016/j.neucom.2015.06.104",
+      "language": "Inglês",
+      "authors": [
+        "Avelino Forechi",
+        "Alberto Ferreira De Souza",
+        "Jorcy de Oliveira Neto",
+        "AGUIAR, EDILSON DE",
+        "Claudine Badue",
+        "D?AVILA GARCEZ, ARTUR",
+        "Thiago Oliveira Santos"
+      ],
+      "journal": "Neurocomputing (Amsterdam)",
+      "volume": "183",
+      "issue": "",
+      "pages": "56-69",
+      "issn": "09252312"
+    },
+    {
+      "title": "Visual tracking with VG-RAM Weightless Neural Networks",
+      "title_en": "",
+      "year": "2016",
+      "doi": "10.1016/j.neucom.2015.04.127",
+      "language": "Inglês",
+      "authors": [
+        "BERGER, MARIELLA",
+        "Alberto Ferreira De Souza",
+        "NETO, JORCY DE OLIVEIRA",
+        "DE AGUIAR, EDILSON",
+        "Thiago Oliveira Santos"
+      ],
+      "journal": "Neurocomputing (Amsterdam)",
+      "volume": "183",
+      "issue": "",
+      "pages": "90-105",
+      "issn": "09252312"
+    },
+    {
+      "title": "A Dataset for Improved RGBD-Based Object Detection and Pose Estimation for Warehouse Pick-and-Place",
+      "title_en": "",
+      "year": "2016",
+      "doi": "10.1109/LRA.2016.2532924",
+      "language": "Português",
+      "authors": [
+        "Colin Rennie",
+        "Rahul Shome",
+        "Kostas Bekris",
+        "Alberto Ferreira De Souza"
+      ],
+      "journal": "IEEE ROBOTICS AND AUTOMATION LETTERS",
+      "volume": "1",
+      "issue": "",
+      "pages": "1179-1185",
+      "issn": "23773766"
+    },
+    {
+      "title": "A Computational Geometry Approach for Localization and Tracking in GPS-denied Environments*",
+      "title_en": "",
+      "year": "2016",
+      "doi": "10.1002/rob.21594",
+      "language": "Inglês",
+      "authors": [
+        "VERONESE, LUCAS DE PAULA",
+        "AUAT CHEEIN, FERNANDO",
+        "BASTOS-FILHO, TEODIANO",
+        "Alberto Ferreira De Souza",
+        "DE AGUIAR, EDILSON"
+      ],
+      "journal": "Journal of Field Robotics",
+      "volume": "33",
+      "issue": "",
+      "pages": "946-966",
+      "issn": "15564959"
+    },
+    {
+      "title": "Intelligent trading architecture",
+      "title_en": "",
+      "year": "2016",
+      "doi": "10.1002/cpe.3690",
+      "language": "Inglês",
+      "authors": [
+        "Freitas, Fabio Daros",
+        "FREITAS, CHRISTIAN DAROS",
+        "Alberto Ferreira De Souza"
+      ],
+      "journal": "CONCURRENCY AND COMPUTATION-PRACTICE & EXPERIENCE",
+      "volume": "28",
+      "issue": "",
+      "pages": "929-943",
+      "issn": "15320626"
+    },
+    {
+      "title": "Traffic Sign Recognition with WiSARD and VG-RAM Weightless Neural Networks",
+      "title_en": "",
+      "year": "2013",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Mariella Berger",
+        "Avelino Forechi",
+        "Alberto Ferreira De Souza",
+        "Jorcy de Oliveira Neto",
+        "Lucas de Paula Veronese",
+        "Victor Neves",
+        "Edilson de Aguiar",
+        "Claudine Badue"
+      ],
+      "journal": "Journal of Network and Innovative Computing",
+      "volume": "1",
+      "issue": "",
+      "pages": "87-98",
+      "issn": "21602174"
+    },
+    {
+      "title": "Avaliação do risco da arrecadação federal por meio de macrocarteiras de tributos",
+      "title_en": "",
+      "year": "2012",
+      "doi": "10.1590/S0034-76122012000100006",
+      "language": "Inglês",
+      "authors": [
+        "FREITAS, FÁBIO DAROS DE",
+        "BRITO NETO, CHRISTÓVÃO THIAGO DE",
+        "Alberto Ferreira De Souza"
+      ],
+      "journal": "Revista de Administração Pública (Impresso)",
+      "volume": "46",
+      "issue": "",
+      "pages": "93-123",
+      "issn": "00347612"
+    },
+    {
+      "title": "Fast learning and predicting of stock returns with virtual generalized random access memory weightless neural networks",
+      "title_en": "",
+      "year": "2012",
+      "doi": "10.1002/cpe.1772",
+      "language": "Inglês",
+      "authors": [
+        "Alberto Ferreira De Souza",
+        "Freitas, Fabio Daros",
+        "COELHO DE ALMEIDA, ANDRÉ GUSTAVO"
+      ],
+      "journal": "Concurrency and Computation",
+      "volume": "24",
+      "issue": "",
+      "pages": "921-933",
+      "issn": "15320626"
+    },
+    {
+      "title": "Análise e Controle do Risco da Arrecadação Federal Através de Macrocarteiras de Tributos",
+      "title_en": "",
+      "year": "2011",
+      "doi": "",
+      "language": "Português",
+      "authors": [
+        "Fábio Daros de Freitas",
+        "Christóvão Thiago de Brito Neto",
+        "Alberto Ferreira De Souza",
+        "Patrick Marques Ciarelli"
+      ],
+      "journal": "Pesquisa Operacional para o Desenvolvimento",
+      "volume": "3",
+      "issue": "",
+      "pages": "141-159",
+      "issn": "19843534"
+    },
+    {
+      "title": "FACIAL ACCESS CONTROL BASED ON VG-RAM WEIGHTLESS NEURAL NETWORKS",
+      "title_en": "",
+      "year": "2011",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Jairo Lucas de Moraes",
+        "Alberto Ferreira De Souza",
+        "Claudine Santos Baduê"
+      ],
+      "journal": "ICAI 2011 : proceedings of the 2011 international conference on artificial intelligence (Las Vegas NV, July 18-21, 2011)",
+      "volume": "7p",
+      "issue": "",
+      "pages": "444-450",
+      "issn": "26007948"
+    },
+    {
+      "title": "Automated multi-label text categorization with VG-RAM weightless neural networks",
+      "title_en": "Automated multi-label text categorization with VG-RAM weightless neural networks",
+      "year": "2009",
+      "doi": "10.1016/j.neucom.2008.06.028",
+      "language": "Inglês",
+      "authors": [
+        "Alberto Ferreira De Souza",
+        "Pedroni, Felipe",
+        "Oliveira, Elias",
+        "Ciarelli, Patrick M.",
+        "Henrique, Wallace Favoreto",
+        "Veronese, Lucas",
+        "Claudine Badue"
+      ],
+      "journal": "NEUROCOMPUTING",
+      "volume": "72",
+      "issue": "",
+      "pages": "2209-2217",
+      "issn": "09252312"
+    },
+    {
+      "title": "Prediction-based portfolio optimization model using neural networks",
+      "title_en": "Prediction-based portfolio optimization model using neural networks",
+      "year": "2009",
+      "doi": "10.1016/j.neucom.2008.08.019",
+      "language": "Inglês",
+      "authors": [
+        "Freitas, Fabio D.",
+        "Alberto Ferreira De Souza",
+        "Ailson Rosetti de Almeida"
+      ],
+      "journal": "Neurocomputing (Amsterdam)",
+      "volume": "72",
+      "issue": "",
+      "pages": "2155-2170",
+      "issn": "09252312"
+    },
+    {
+      "title": "Multi-Label Text Categorization with a Data Correlated VG-RAM Weightless Neural Network",
+      "title_en": "",
+      "year": "2009",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Alberto Ferreira De Souza",
+        "Bruno Zanetti Melotti",
+        "Claudine Badue"
+      ],
+      "journal": "International Journal of Computer Information Systems and Industrial Management Applications",
+      "volume": "1",
+      "issue": "",
+      "pages": "155-169",
+      "issn": "21507988"
+    },
+    {
+      "title": "Multi-Label Text Categorization Using a Probabilistic Neural Network",
+      "title_en": "",
+      "year": "2009",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Patrick Marques Ciarelli",
+        "Elias Silva de Oliveira",
+        "Claudine Badue",
+        "Alberto Ferreira De Souza"
+      ],
+      "journal": "International Journal of Computer Information Systems and Industrial Management Applications",
+      "volume": "1",
+      "issue": "",
+      "pages": "133/9-144",
+      "issn": "21507988"
+    },
+    {
+      "title": "Introduction to the Special Issue on the 18th International Symposium on Computer Architecture and High Performance Computing",
+      "title_en": "",
+      "year": "2008",
+      "doi": "10.1007/s10766-007-0065-y",
+      "language": "Inglês",
+      "authors": [
+        "Alberto Ferreira De Souza",
+        "Rajkumar Buyya"
+      ],
+      "journal": "International Journal of Parallel Programming",
+      "volume": "36",
+      "issue": "",
+      "pages": "163-165",
+      "issn": "08857458"
+    },
+    {
+      "title": "Dynamic Instruction Scheduling in a Trace-based Multi-threaded Architecture",
+      "title_en": "",
+      "year": "2008",
+      "doi": "10.1007/s10766-007-0062-1",
+      "language": "Inglês",
+      "authors": [
+        "Peter Rounce",
+        "Alberto Ferreira De Souza"
+      ],
+      "journal": "International Journal of Parallel Programming",
+      "volume": "36",
+      "issue": "",
+      "pages": "184-205",
+      "issn": "08857458"
+    },
+    {
+      "title": "O Efeito da Latência no Desempenho da Arquitetura DTSVLIW",
+      "title_en": "",
+      "year": "2004",
+      "doi": "",
+      "language": "Português",
+      "authors": [
+        "Fernando Líbio Leite Almeida",
+        "Christian Daros de Freitas",
+        "Alberto Ferreira De Souza",
+        "Neyval Costa Reis Júnior"
+      ],
+      "journal": "Revista Engenharia, Ciência & Tecnologia",
+      "volume": "7",
+      "issue": "2",
+      "pages": "39-52",
+      "issn": "14148692"
+    },
+    {
+      "title": "Parallel Performance of a 3D Navier-Stokes Solution Algorithm for Clusters of Workstations",
+      "title_en": "",
+      "year": "2004",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Edilson Luiz do Nascimento",
+        "Neyval Costa Reis Júnior",
+        "Alberto Ferreira De Souza",
+        "Jane Meri Santos"
+      ],
+      "journal": "Revista Engenharia, Ciência & Tecnologia",
+      "volume": "7",
+      "issue": "1",
+      "pages": "47-56",
+      "issn": "14148692"
+    },
+    {
+      "title": "Using Weightless Neural Networks for Vergence Control in an Artificial Vision System",
+      "title_en": "",
+      "year": "2003",
+      "doi": "10.1533/abib.2003.1.1.21",
+      "language": "Inglês",
+      "authors": [
+        "Karin Satie Komati",
+        "Alberto Ferreira De Souza"
+      ],
+      "journal": "Applied Bionics and Biomechanics",
+      "volume": "1",
+      "issue": "1",
+      "pages": "21-32",
+      "issn": "11762322"
+    },
+    {
+      "title": "Dynamically Scheduling VLIW Instructions",
+      "title_en": "Dynamically Scheduling VLIW Instructions",
+      "year": "2000",
+      "doi": "10.1006/jpdc.2000.1661",
+      "language": "Inglês",
+      "authors": [
+        "Alberto Ferreira De Souza",
+        "Peter Rounce"
+      ],
+      "journal": "JOURNAL OF PARALLEL AND DISTRIBUTED COMPUTING",
+      "volume": "60",
+      "issue": "",
+      "pages": "1480-1511",
+      "issn": "07437315"
+    },
+    {
+      "title": "On the balance of VLIW architectures",
+      "title_en": "On the balance of VLIW architectures",
+      "year": "1997",
+      "doi": "10.1016/S1383-7621(96)00115-4",
+      "language": "Inglês",
+      "authors": [
+        "Alberto Ferreira De Souza"
+      ],
+      "journal": "Journal of Systems Architecture",
+      "volume": "43",
+      "issue": "",
+      "pages": "15-22",
+      "issn": "13837621"
+    },
+    {
+      "title": "Micro-instruction placement by simulated annealing",
+      "title_en": "Micro-instruction placement by simulated annealing",
+      "year": "1991",
+      "doi": "10.1016/0165-6074(91)90317-m",
+      "language": "Inglês",
+      "authors": [
+        "Edil Severiano Tavares Fernandes",
+        "Alberto Ferreira De Souza",
+        "Valmir Carneiro Barbosa",
+        "Nelson Quilula Vasconcelos"
+      ],
+      "journal": "Microprocessing and Microprogramming",
+      "volume": "32",
+      "issue": "1--5",
+      "pages": "23-28",
+      "issn": "01656074"
+    },
+    {
+      "title": "MPH - A Hybrid Parallel Machine",
+      "title_en": "",
+      "year": "1989",
+      "doi": "10.1016/0165-6074(89)90200-7",
+      "language": "Inglês",
+      "authors": [
+        "FERNANDES, E.S.T.",
+        "DE AMORIM, C.L.",
+        "BARBOSA, V.C.",
+        "FRANCA, F.M.G.",
+        "Alberto Ferreira De Souza"
+      ],
+      "journal": "Microprocessing and Microprogramming",
+      "volume": "25",
+      "issue": "",
+      "pages": "229-232",
+      "issn": "01656074"
+    }
+  ],
+  "conference_papers": [
+    {
+      "title": "Automatic Multiple-Choice Question Generation and Evaluation Systems Based on LLM: A Study Case With University Resolutions",
+      "title_en": "",
+      "year": "2025",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Sérgio S. Mucciaccia",
+        "PAIXÃO, THIAGO",
+        "MUTZ, FILIPE",
+        "Alberto Ferreira De Souza",
+        "BADUE, C.",
+        "OLIVEIRA-SANTOS, THIAGO"
+      ],
+      "event": "International Conference on Computational Linguistics",
+      "event_en": "",
+      "proceedings": "Proceedings of the 31st International Conference on Computational Linguistics",
+      "pages": "2246-2260",
+      "city": "Abu Dhabi",
+      "country": ""
+    },
+    {
+      "title": "Evaluating Transformer-Based Architectures for Simultaneous Audio Speech Transcription and Background Audio Captioning",
+      "title_en": "",
+      "year": "2025",
+      "doi": "10.5753/semish.2025.9474",
+      "language": "Português",
+      "authors": [
+        "SILVA, JOÃO VITOR R. DA",
+        "BOLDT, FRANCISCO DE ASSIS",
+        "SOUZA JR, LUIS A.",
+        "BERGER, MARIELLA",
+        "FRIZERA, ANSELMO",
+        "Alberto Ferreira De Souza",
+        "Thiago Oliveira dos Santos",
+        "BADUE, CLAUDINE"
+      ],
+      "event": "Seminário Integrado de Software e Hardware",
+      "event_en": "",
+      "proceedings": "Anais do LII Seminário Integrado de Software e Hardware (SEMISH 2025)",
+      "pages": "633-646",
+      "city": "Brasil",
+      "country": ""
+    },
+    {
+      "title": "Integrating Neural Language Models in Clinical Practice: A Case Study on Chronic Kidney Disease Consultations",
+      "title_en": "",
+      "year": "2025",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "NEVES, VICTOR NASCIMENTO",
+        "BADUE, C.",
+        "CALENZANI, JOAO FELIPE GOBETI",
+        "RAMOS, LUCAS THOM",
+        "OLIVEIRA-SANTOS, THIAGO",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "International Joint Conference on Neural Networks (IJCNN)",
+      "event_en": "",
+      "proceedings": "2025 International Joint Conference on Neural Networks (IJCNN)",
+      "pages": "-",
+      "city": "Roma",
+      "country": ""
+    },
+    {
+      "title": "PeterAI: An AI Multi-Agent Framework for Personalized Investment Consultancy",
+      "title_en": "",
+      "year": "2025",
+      "doi": "",
+      "language": "Português",
+      "authors": [
+        "Alefe Vitor A. Gadioli",
+        "Pedro Azevedo",
+        "Anselmo Frizera-Neto",
+        "Alberto Ferreira De Souza",
+        "OLIVEIRA-SANTOS, THIAGO",
+        "BADUE, C."
+      ],
+      "event": "International Conference on Neural Information Processing",
+      "event_en": "",
+      "proceedings": "32nd International Conference on Neural Information Processing",
+      "pages": "-",
+      "city": "Okinawa",
+      "country": ""
+    },
+    {
+      "title": "A Mobile Application for Speed Bump Sign Detection Using Neural Networks",
+      "title_en": "",
+      "year": "2024",
+      "doi": "10.1109/ijcnn60899.2024.10650767",
+      "language": "Português",
+      "authors": [
+        "SCHREIBER, MATHEUS MEIER",
+        "Alberto Ferreira De Souza",
+        "BADUE, CLAUDINE",
+        "Thiago Oliveira dos Santos"
+      ],
+      "event": "2024 International Joint Conference on Neural Networks (IJCNN)",
+      "event_en": "",
+      "proceedings": "2024 International Joint Conference on Neural Networks (IJCNN)",
+      "pages": "1-",
+      "city": "Yokohama",
+      "country": ""
+    },
+    {
+      "title": "A Study on the Effectiveness of GPT-4V in Classifying Driver Behavior Captured on Video Using Just a Few Frames per Video",
+      "title_en": "",
+      "year": "2024",
+      "doi": "10.1109/ijcnn60899.2024.10650751",
+      "language": "Português",
+      "authors": [
+        "CALENZANI, JOAO FELIPE GOBETI",
+        "NEVES, VICTOR NASCIMENTO",
+        "RAMOS, LUCAS THOM",
+        "JUNIOR, LAURO J LYRIO",
+        "MAGNAGO, LUIZ C S",
+        "BADUE, CLAUDINE",
+        "Thiago Oliveira dos Santos",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "2024 International Joint Conference on Neural Networks (IJCNN)",
+      "event_en": "",
+      "proceedings": "2024 International Joint Conference on Neural Networks (IJCNN)",
+      "pages": "1-",
+      "city": "Yokohama",
+      "country": ""
+    },
+    {
+      "title": "Analysis of Bias in GPT Language Models through Fine-tuning Containing Divergent Data",
+      "title_en": "",
+      "year": "2024",
+      "doi": "10.1109/ijcnn60899.2024.10650574",
+      "language": "Português",
+      "authors": [
+        "TURI, LEANDRO FURLAM",
+        "CAVALINI, ATHUS",
+        "COMARELA, GIOVANNI",
+        "Thiago Oliveira dos Santos",
+        "BADUE, CLAUDINE",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "2024 International Joint Conference on Neural Networks (IJCNN)",
+      "event_en": "",
+      "proceedings": "2024 International Joint Conference on Neural Networks (IJCNN)",
+      "pages": "1-",
+      "city": "Yokohama",
+      "country": ""
+    },
+    {
+      "title": "Lane Marking Detection and Classification using Spatial-Temporal Feature Pooling",
+      "title_en": "",
+      "year": "2022",
+      "doi": "10.1109/ijcnn55064.2022.9892478",
+      "language": "Inglês",
+      "authors": [
+        "TABELINI, LUCAS",
+        "BERRIEL, RODRIGO",
+        "Alberto Ferreira De Souza",
+        "BADUE, CLAUDINE",
+        "Thiago Oliveira dos Santos"
+      ],
+      "event": "2022 International Joint Conference on Neural Networks (IJCNN)",
+      "event_en": "",
+      "proceedings": "2022 International Joint Conference on Neural Networks (IJCNN)",
+      "pages": "1-8",
+      "city": "Padua",
+      "country": ""
+    },
+    {
+      "title": "Temperature Prediction in Blast Furnaces: A Machine Learning Comparative Study",
+      "title_en": "",
+      "year": "2022",
+      "doi": "10.1109/sibgrapi55357.2022.9991787",
+      "language": "Português",
+      "authors": [
+        "NAVARRO, LETICIA C.",
+        "AMORIM, LUCAS L.",
+        "BERRIEL, RODRIGO",
+        "PAIXAO, THIAGO M.",
+        "RAMPINELLI, VINICIUS",
+        "WASEM, LUIZ A.",
+        "QUARESMA, LUCAS",
+        "BADUE, CLAUDINE",
+        "Alberto Ferreira De Souza",
+        "Thiago Oliveira dos Santos"
+      ],
+      "event": "2022 35th SIBGRAPI Conference on Graphics, Patterns and Images (SIBGRAPI)",
+      "event_en": "",
+      "proceedings": "2022 35th SIBGRAPI Conference on Graphics, Patterns and Images (SIBGRAPI)",
+      "pages": "192-",
+      "city": "Natal",
+      "country": ""
+    },
+    {
+      "title": "A Method to Estimate COVID-19 Contamination Risk Based on Social Distancing and Face Mask Detection Using Convolutional Neural Networks",
+      "title_en": "",
+      "year": "2022",
+      "doi": "10.1109/sibgrapi55357.2022.9991790",
+      "language": "Português",
+      "authors": [
+        "PASSAMANI, CEZAR AUGUSTO GOBBO",
+        "NEVES, VICTOR NASCIMENTO",
+        "JUNIOR, LAURO JOSE LYRIO",
+        "Thiago Oliveira dos Santos",
+        "BADUE, CLAUDINE",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "2022 35th SIBGRAPI Conference on Graphics, Patterns and Images (SIBGRAPI)",
+      "event_en": "",
+      "proceedings": "2022 35th SIBGRAPI Conference on Graphics, Patterns and Images (SIBGRAPI)",
+      "pages": "282-",
+      "city": "Natal",
+      "country": ""
+    },
+    {
+      "title": "Path Planning in Unstructured Urban Environments for Self-driving Cars",
+      "title_en": "",
+      "year": "2021",
+      "doi": "10.5220/0010559602900300",
+      "language": "Inglês",
+      "authors": [
+        "MORAES, GABRIEL",
+        "BADUE, CLAUDINE",
+        "GUIDOLINI, RÂNIK",
+        "Thiago Oliveira dos Santos",
+        "MOZART, ANDERSON",
+        "Alberto Ferreira De Souza",
+        "CARDOSO, VINICIUS"
+      ],
+      "event": "18th International Conference on Informatics in Control, Automation and Robotics",
+      "event_en": "",
+      "proceedings": "Proceedings of the 18th International Conference on Informatics in Control, Automation and Robotics",
+      "pages": "290-10",
+      "city": "Online Streaming",
+      "country": ""
+    },
+    {
+      "title": "Visual Global Localization Based on Deep Neural Netwoks for Self-Driving Cars",
+      "title_en": "",
+      "year": "2021",
+      "doi": "10.1109/ijcnn52387.2021.9533843",
+      "language": "Inglês",
+      "authors": [
+        "CAVALCANTE, THIAGO GONCALVES",
+        "Thiago Oliveira dos Santos",
+        "Alberto Ferreira De Souza",
+        "BADUE, CLAUDINE",
+        "FORECHI, AVELINO"
+      ],
+      "event": "2021 International Joint Conference on Neural Networks (IJCNN)",
+      "event_en": "",
+      "proceedings": "2021 International Joint Conference on Neural Networks (IJCNN)",
+      "pages": "1-10",
+      "city": "Shenzhen",
+      "country": ""
+    },
+    {
+      "title": "Detecting Cancerous Tissue in Mammograms Using Deep Neural Networks",
+      "title_en": "",
+      "year": "2021",
+      "doi": "10.1109/ijcnn52387.2021.9533376",
+      "language": "Inglês",
+      "authors": [
+        "PANCERI, SABRINA S.",
+        "MUTZ, FILIPE",
+        "CARDOSO, VINICIUS B.",
+        "CARNEIRO, RAPHAEL V.",
+        "Thiago Oliveira dos Santos",
+        "BADUE, CLAUDINE",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "2021 International Joint Conference on Neural Networks (IJCNN)",
+      "event_en": "",
+      "proceedings": "2021 International Joint Conference on Neural Networks (IJCNN)",
+      "pages": "1-10",
+      "city": "Shenzhen",
+      "country": ""
+    },
+    {
+      "title": "PolyLaneNet: Lane Estimation via Deep Polynomial Regression",
+      "title_en": "",
+      "year": "2021",
+      "doi": "10.1109/icpr48806.2021.9412265",
+      "language": "Inglês",
+      "authors": [
+        "TABELINI, LUCAS",
+        "BERRIEL, RODRIGO",
+        "PAIXAO, THIAGO M.",
+        "BADUE, CLAUDINE",
+        "Alberto Ferreira De Souza",
+        "Thiago Oliveira dos Santos"
+      ],
+      "event": "2020 25th International Conference on Pattern Recognition (ICPR)",
+      "event_en": "",
+      "proceedings": "2020 25th International Conference on Pattern Recognition (ICPR)",
+      "pages": "6150-6160",
+      "city": "Milan",
+      "country": ""
+    },
+    {
+      "title": "Deep Learning-based Type Identification of Volumetric MRI Sequences",
+      "title_en": "",
+      "year": "2021",
+      "doi": "10.1109/icpr48806.2021.9413120",
+      "language": "Inglês",
+      "authors": [
+        "VIEIRA DE MELLO, JEAN PABLO",
+        "PAIXAO, THIAGO M.",
+        "BERRIEL, RODRIGO",
+        "REYES, MAURICIO",
+        "BADUE, CLAUDINE",
+        "Alberto Ferreira De Souza",
+        "Thiago Oliveira dos Santos"
+      ],
+      "event": "2020 25th International Conference on Pattern Recognition (ICPR)",
+      "event_en": "",
+      "proceedings": "2020 25th International Conference on Pattern Recognition (ICPR)",
+      "pages": "1-10",
+      "city": "Milan",
+      "country": ""
+    },
+    {
+      "title": "Long-Term Map Maintenance in Complex Environments",
+      "title_en": "",
+      "year": "2021",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Josias Oliveira",
+        "MUTZ, FILIPE",
+        "FORECHI, AVELINO",
+        "AZEVEDO, PEDRO",
+        "Thiago Oliveira dos Santos",
+        "Alberto Ferreira De Souza",
+        "BADUE, CLAUDINE"
+      ],
+      "event": "Brazilian Conference on Intelligent Systems",
+      "event_en": "",
+      "proceedings": "Proceedings of the 2021 Brazilian Conference on Intelligent Systems",
+      "pages": "1-10",
+      "city": "Virtual Event",
+      "country": ""
+    },
+    {
+      "title": "Sisfrutos Papaya: A Dataset for Detection and Classification of Diseases in Papaya",
+      "title_en": "",
+      "year": "2021",
+      "doi": "",
+      "language": "Português",
+      "authors": [
+        "Jairo Lucas de Moraes",
+        "Jorcy de Oliveira Neto",
+        "Jacson Rodrigues Correia da Silva",
+        "PAIXÃO, THIAGO",
+        "Claudine Badue",
+        "OLIVEIRA-SANTOS, THIAGO",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "30th International Conference on Artificial Neural Networks",
+      "event_en": "",
+      "proceedings": "Artificial Neural Networks and Machine Learning ? ICANN 2021",
+      "pages": "28-39",
+      "city": "Bratislava, Slovakia",
+      "country": ""
+    },
+    {
+      "title": "A Machine Learning-based System for Financial Fraud Detection",
+      "title_en": "",
+      "year": "2021",
+      "doi": "10.5753/eniac.2021.18250",
+      "language": "Português",
+      "authors": [
+        "ANDRADE, JOÃO PAULO A.",
+        "PAULUCIO, LEONARDO S.",
+        "PAIXÃO, THIAGO M.",
+        "BERRIEL, RODRIGO F.",
+        "CARNEIRO, TERESA CRISTINA JANES",
+        "CARNEIRO, RAPHAEL V.",
+        "Alberto Ferreira De Souza",
+        "BADUE, CLAUDINE",
+        "Thiago Oliveira dos Santos"
+      ],
+      "event": "Encontro Nacional de Inteligência Artificial e Computacional",
+      "event_en": "",
+      "proceedings": "Anais do XVIII Encontro Nacional de Inteligência Artificial e Computacional (ENIAC 2021)",
+      "pages": "165-177",
+      "city": "Brasil",
+      "country": ""
+    },
+    {
+      "title": "Keep your Eyes on the Lane: Real-time Attention-guided Lane Detection",
+      "title_en": "",
+      "year": "2021",
+      "doi": "10.1109/cvpr46437.2021.00036",
+      "language": "Inglês",
+      "authors": [
+        "TABELINI, LUCAS",
+        "BERRIEL, RODRIGO",
+        "PAIXAO, THIAGO M.",
+        "BADUE, CLAUDINE",
+        "Alberto Ferreira De Souza",
+        "Thiago Oliveira dos Santos"
+      ],
+      "event": "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "event_en": "",
+      "proceedings": "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "pages": "294-302",
+      "city": "Nashville",
+      "country": ""
+    },
+    {
+      "title": "Fast(er) Reconstruction of Shredded Text Documents via Self-Supervised Deep Asymmetric Metric Learning",
+      "title_en": "",
+      "year": "2020",
+      "doi": "10.1109/cvpr42600.2020.01435",
+      "language": "Inglês",
+      "authors": [
+        "PAIXAO, THIAGO M.",
+        "BERRIEL, RODRIGO F.",
+        "BOERES, MARIA C. S.",
+        "KOERICH, ALESSANDRO L.",
+        "BADUE, CLAUDINE",
+        "Alberto Ferreira De Souza",
+        "Thiago Oliveira dos Santos"
+      ],
+      "event": "2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "event_en": "",
+      "proceedings": "2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "pages": "14331-",
+      "city": "Seattle",
+      "country": ""
+    },
+    {
+      "title": "Product Categorization by Title Using Deep Neural Networks as Feature Extractor",
+      "title_en": "",
+      "year": "2020",
+      "doi": "10.1109/ijcnn48605.2020.9207093",
+      "language": "Inglês",
+      "authors": [
+        "PAULUCIO, LEONARDO S.",
+        "PAIXAO, THIAGO M.",
+        "BERRIEL, RODRIGO F.",
+        "Alberto Ferreira De Souza",
+        "BADUE, CLAUDINE",
+        "Thiago Oliveira dos Santos"
+      ],
+      "event": "2020 International Joint Conference on Neural Networks (IJCNN)",
+      "event_en": "",
+      "proceedings": "2020 International Joint Conference on Neural Networks (IJCNN)",
+      "pages": "1-",
+      "city": "Glasgow",
+      "country": ""
+    },
+    {
+      "title": "A Large-Scale Mapping Method Based on Deep Neural Networks Applied to Self-Driving Car Localization",
+      "title_en": "",
+      "year": "2020",
+      "doi": "10.1109/ijcnn48605.2020.9207449",
+      "language": "Inglês",
+      "authors": [
+        "CARDOSO, VINICIUS B.",
+        "OLIVEIRA, ANDRE SEIDEL",
+        "FORECHI, AVELINO",
+        "AZEVEDO, PEDRO",
+        "MUTZ, FILIPE",
+        "Thiago Oliveira dos Santos",
+        "BADUE, CLAUDINE",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "2020 International Joint Conference on Neural Networks (IJCNN)",
+      "event_en": "",
+      "proceedings": "2020 International Joint Conference on Neural Networks (IJCNN)",
+      "pages": "1-",
+      "city": "Glasgow",
+      "country": ""
+    },
+    {
+      "title": "Image-Based Real-Time Path Generation Using Deep Neural Networks",
+      "title_en": "",
+      "year": "2020",
+      "doi": "10.1109/ijcnn48605.2020.9207499",
+      "language": "Inglês",
+      "authors": [
+        "MORAES, GABRIEL",
+        "MOZART, ANDERSON",
+        "AZEVEDO, PEDRO",
+        "PIUMBINI, MARCOS",
+        "CARDOSO, VINICIUS B.",
+        "Thiago Oliveira dos Santos",
+        "Alberto Ferreira De Souza",
+        "BADUE, CLAUDINE"
+      ],
+      "event": "2020 International Joint Conference on Neural Networks (IJCNN)",
+      "event_en": "",
+      "proceedings": "2020 International Joint Conference on Neural Networks (IJCNN)",
+      "pages": "1-",
+      "city": "Glasgow",
+      "country": ""
+    },
+    {
+      "title": "Bio-Inspired Foveated Technique for Augmented-Range Vehicle Detection Using Deep Neural Networks",
+      "title_en": "",
+      "year": "2019",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Pedro Azevedo",
+        "Sabrina Panceri",
+        "Rânik Guidolini",
+        "Vinicius Cardoso",
+        "Claudine Badue",
+        "Thiago Oliveira dos Santos",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "2019 International Joint Conference on Neural Networks (IJCNN 2019)",
+      "event_en": "",
+      "proceedings": "Proceedings of the 2019 International Joint Conference on Neural Networks (IJCNN 2019)",
+      "pages": "-",
+      "city": "Budapest, Hungary",
+      "country": ""
+    },
+    {
+      "title": "Cross-Domain Car Detection Using Unsupervised Image-to-Image Translation: From Day to Night",
+      "title_en": "",
+      "year": "2019",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Vinicius Arruda",
+        "Thiago Paixão",
+        "Rodrigo Berriel",
+        "Alberto Ferreira De Souza",
+        "Claudine Badue",
+        "Nicu Sebe",
+        "Thiago Oliveira dos Santos"
+      ],
+      "event": "2019 International Joint Conference on Neural Networks (IJCNN 2019)",
+      "event_en": "",
+      "proceedings": "Proceedings of the 2019 International Joint Conference on Neural Networks (IJCNN 2019)",
+      "pages": "-",
+      "city": "Budapest, Hungary",
+      "country": ""
+    },
+    {
+      "title": "Effortless Deep Training for Traffic Sign Detection Using Templates and Arbitrary Natural Images",
+      "title_en": "",
+      "year": "2019",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Lucas Tabelini Torres",
+        "Thiago Paixão",
+        "Rodrigo Berriel",
+        "Alberto Ferreira De Souza",
+        "Claudine Badue",
+        "Nicu Sebe",
+        "Thiago Oliveira dos Santos"
+      ],
+      "event": "2019 International Joint Conference on Neural Networks (IJCNN 2019)",
+      "event_en": "",
+      "proceedings": "Proceedings of the 2019 International Joint Conference on Neural Networks (IJCNN 2019)",
+      "pages": "-",
+      "city": "Budapest, Hungary",
+      "country": ""
+    },
+    {
+      "title": "Removing Movable Objects from Grid Maps of Self-Driving Cars Using Deep Neural Networks",
+      "title_en": "",
+      "year": "2019",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Rânik Guidolini",
+        "Raphael Vivacqua Carneiro",
+        "Thiago Oliveira dos Santos",
+        "Claudine Badue",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "2019 International Joint Conference on Neural Networks (IJCNN 2019)",
+      "event_en": "",
+      "proceedings": "Proceedings of the 2019 International Joint Conference on Neural Networks (IJCNN 2019)",
+      "pages": "-",
+      "city": "Budapest, Hungary",
+      "country": ""
+    },
+    {
+      "title": "Traffic Light Recognition Using Deep Learning and Prior Maps for Autonomous Cars",
+      "title_en": "",
+      "year": "2019",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Lucas Possatti",
+        "Rânik Guidolini",
+        "Vinicius Cardoso",
+        "Rodrigo Berriel",
+        "Thiago Paixão",
+        "Claudine Badue",
+        "Alberto Ferreira De Souza",
+        "Thiago Oliveira dos Santos"
+      ],
+      "event": "2019 International Joint Conference on Neural Networks (IJCNN 2019)",
+      "event_en": "",
+      "proceedings": "Proceedings of the 2019 International Joint Conference on Neural Networks (IJCNN 2019)",
+      "pages": "-",
+      "city": "Budapest, Hungary",
+      "country": ""
+    },
+    {
+      "title": "Relevant Traffic Light Localization via Deep Regression",
+      "title_en": "",
+      "year": "2019",
+      "doi": "10.5753/eniac.2019.9306",
+      "language": "Português",
+      "authors": [
+        "FREITAS, RAFAEL",
+        "PAIXÃO, THIAGO",
+        "BERRIEL, RODRIGO",
+        "Alberto Ferreira De Souza",
+        "BADUE, CLAUDINE",
+        "SANTOS, THIAGO"
+      ],
+      "event": "Encontro Nacional de Inteligência Artificial e Computacional",
+      "event_en": "",
+      "proceedings": "Anais do  Encontro Nacional de Inteligência Artificial e Computacional (ENIAC 2019)",
+      "pages": "460-",
+      "city": "Brasil",
+      "country": ""
+    },
+    {
+      "title": "Simple and Effective Load Volume Estimation in Moving Trucks using LiDARs",
+      "title_en": "",
+      "year": "2019",
+      "doi": "10.1109/sibgrapi.2019.00036",
+      "language": "Português",
+      "authors": [
+        "AMORIM, LUCAS L.",
+        "MUTZ, FILIPE",
+        "Alberto Ferreira De Souza",
+        "BADUE, CLAUDINE",
+        "Thiago Oliveira dos Santos"
+      ],
+      "event": "2019 32nd SIBGRAPI Conference on Graphics, Patterns and Images (SIBGRAPI)",
+      "event_en": "",
+      "proceedings": "2019 32nd SIBGRAPI Conference on Graphics, Patterns and Images (SIBGRAPI)",
+      "pages": "210-217",
+      "city": "Rio de Janeiro",
+      "country": ""
+    },
+    {
+      "title": "Visual Global Localization with a Hybrid WNN-CNN Approach",
+      "title_en": "",
+      "year": "2018",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Avelino Forechi",
+        "Thiago Oliveira Santos",
+        "Claudine Badue",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "2018 International Joint Conference on Neural Networks (IJCNN 2018)",
+      "event_en": "",
+      "proceedings": "Proceedings of the 2018 International Joint Conference on Neural Networks (IJCNN 2018)",
+      "pages": "-",
+      "city": "Rio de Janeiro",
+      "country": ""
+    },
+    {
+      "title": "Copycat CNN: Stealing Knowledge by Persuading Confession with Random Non-Labeled Data",
+      "title_en": "",
+      "year": "2018",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Jacson Rodrigues Correia da Silva",
+        "BERRIEL, RODRIGO F.",
+        "Claudine Badue",
+        "Alberto Ferreira De Souza",
+        "Thiago Oliveira Santos"
+      ],
+      "event": "2018 International Joint Conference on Neural Networks (IJCNN 2018)",
+      "event_en": "",
+      "proceedings": "Proceedings of the 2018 International Joint Conference on Neural Networks (IJCNN 2018)",
+      "pages": "-",
+      "city": "Rio de Janeiro",
+      "country": ""
+    },
+    {
+      "title": "Mapping Road Lanes Using Laser Remission and Deep Neural Networks",
+      "title_en": "",
+      "year": "2018",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Raphael Vivacqua Carneiro",
+        "Rafael Correia Nascimento",
+        "Rânik Guidolini",
+        "Vinicius Cardoso",
+        "Thiago Oliveira Santos",
+        "Claudine Badue",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "2018 International Joint Conference on Neural Networks (IJCNN 2018)",
+      "event_en": "",
+      "proceedings": "Proceedings of the 2018 International Joint Conference on Neural Networks (IJCNN 2018)",
+      "pages": "-",
+      "city": "Rio de Janeiro",
+      "country": ""
+    },
+    {
+      "title": "Heading Direction Estimation Using Deep Learning with Automatic Large-scale Data Acquisition",
+      "title_en": "",
+      "year": "2018",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "BERRIEL, RODRIGO F.",
+        "L. T. Torres",
+        "Vinicius Cardoso",
+        "Rânik Guidolini",
+        "Claudine Badue",
+        "Alberto Ferreira De Souza",
+        "Thiago Oliveira Santos"
+      ],
+      "event": "2018 International Joint Conference on Neural Networks (IJCNN 2018)",
+      "event_en": "",
+      "proceedings": "Proceedings of the 2018 International Joint Conference on Neural Networks (IJCNN 2018)",
+      "pages": "-",
+      "city": "Rio de Janeiro",
+      "country": ""
+    },
+    {
+      "title": "Handling Pedestrians in Crosswalks Using Deep Neural Networks in the IARA Autonomous Car",
+      "title_en": "",
+      "year": "2018",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Rânik Guidolini",
+        "Lucas Grigoleto Scart",
+        "Luan F. R. Jesus",
+        "Vinicius Cardoso",
+        "Claudine Badue",
+        "Thiago Oliveira Santos",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "2018 International Joint Conference on Neural Networks (IJCNN 2018)",
+      "event_en": "",
+      "proceedings": "Proceedings of the 2018 International Joint Conference on Neural Networks (IJCNN 2018)",
+      "pages": "-",
+      "city": "Rio de Janeiro",
+      "country": ""
+    },
+    {
+      "title": "Analysing rotation-invariance of a log-polar transformation in convolutional neural networks",
+      "title_en": "",
+      "year": "2018",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "M. Amorim",
+        "F. D. Bortoloti",
+        "Ciarelli, Patrick M.",
+        "Oliveira, Elias",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "2018 International Joint Conference on Neural Networks (IJCNN 2018)",
+      "event_en": "",
+      "proceedings": "Proceedings of the 2018 International Joint Conference on Neural Networks (IJCNN 2018)",
+      "pages": "-",
+      "city": "Rio de Janeiro",
+      "country": ""
+    },
+    {
+      "title": "Obtaining evidence of learning in digital games through a deep learning neural network to classify facial expressions of the players",
+      "title_en": "",
+      "year": "2018",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Heraclito Amancio Pereira Junior",
+        "Crediné Silva de Menezes",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "IEEE Frontiers in Education Conference (FIE)",
+      "event_en": "",
+      "proceedings": "IEEE Frontiers in Education Conference (FIE)",
+      "pages": "-",
+      "city": "San Jose, CA/USA",
+      "country": ""
+    },
+    {
+      "title": "A Deep Learning-Based Compatibility Score for Reconstruction of Strip-Shredded Text Documents",
+      "title_en": "",
+      "year": "2018",
+      "doi": "10.1109/sibgrapi.2018.00018",
+      "language": "Português",
+      "authors": [
+        "PAIXAO, THIAGO M.",
+        "BERRIEL, RODRIGO F.",
+        "BOERES, MARIA C.S.",
+        "Claudine Badue",
+        "Alberto Ferreira De Souza",
+        "Thiago Oliveira dos Santos"
+      ],
+      "event": "2018 31st SIBGRAPI Conference on Graphics, Patterns and Images (SIBGRAPI)",
+      "event_en": "",
+      "proceedings": "2018 31st SIBGRAPI Conference on Graphics, Patterns and Images (SIBGRAPI)",
+      "pages": "87-",
+      "city": "Paraná",
+      "country": ""
+    },
+    {
+      "title": "A Model-Predictive Motion Planner for the IARA Autonomous Car",
+      "title_en": "",
+      "year": "2017",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Vinicius Cardoso",
+        "Josias Oliveira",
+        "Thomas Teixeira",
+        "Claudine Badue",
+        "Filipe Wall Mutz",
+        "Thiago Oliveira Santos",
+        "Lucas de Paula Veronese",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "2017 IEEE International Conference on Robotics and Automation",
+      "event_en": "",
+      "proceedings": "Proceedings of the 2017 IEEE International Conference on Robotics and Automation",
+      "pages": "1-6",
+      "city": "Singapura",
+      "country": ""
+    },
+    {
+      "title": "Neural-Based Model Predictive Control for Tackling Steering Delays of Autonomous Cars",
+      "title_en": "",
+      "year": "2017",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Rânik Guidolini",
+        "Alberto Ferreira De Souza",
+        "Filipe Wall Mutz",
+        "Claudine Badue"
+      ],
+      "event": "2017 International Joint Conference on Neural Networks",
+      "event_en": "",
+      "proceedings": "Proceedings of the 2017 International Joint Conference on Neural Networks",
+      "pages": "1-8",
+      "city": "Alaska",
+      "country": ""
+    },
+    {
+      "title": "Following the Leader using a Tracking System based on Pre-trained Deep Neural Networks",
+      "title_en": "",
+      "year": "2017",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Filipe Wall Mutz",
+        "Vinicius Cardoso",
+        "Thomas Teixeira",
+        "Luan F. R. Jesus",
+        "Michael Gonçalves",
+        "Rânik Guidolini",
+        "Josias Oliveira",
+        "Claudine Badue",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "2017 International Joint Conference on Neural Networks",
+      "event_en": "",
+      "proceedings": "Proceedings of the 2017 International Joint Conference on Neural Networks",
+      "pages": "9-16",
+      "city": "Alaska",
+      "country": ""
+    },
+    {
+      "title": "Monitoramento dos Movimentos dos Olhos para Apoiar a Avaliação da Aprendizagem em Jogos Digitais",
+      "title_en": "",
+      "year": "2017",
+      "doi": "",
+      "language": "Português",
+      "authors": [
+        "Heraclito Amancio Pereira Junior",
+        "Crediné Silva de Menezes",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "Simpósio Brasileiro de Informática na Educação (SBIE)",
+      "event_en": "",
+      "proceedings": "Anais do Simpósio Brasileiro de Informática na Educação (SBIE 2018)",
+      "pages": "-",
+      "city": "Recife, Brasil",
+      "country": ""
+    },
+    {
+      "title": "Sequential Appearance-Based Global Localization Using an Ensemble of kNN-DTW Classifiers",
+      "title_en": "",
+      "year": "2016",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Avelino Forechi",
+        "Alberto Ferreira De Souza",
+        "Claudine Badue",
+        "Thiago Oliveira Santos"
+      ],
+      "event": "International Joint Conference on  Neural Networks - IJCNN'2016",
+      "event_en": "",
+      "proceedings": "Proceedings of the International Joint Conference on  Neural Networks - IJCNN'2016",
+      "pages": "2782-2789",
+      "city": "Vancouver",
+      "country": ""
+    },
+    {
+      "title": "Simulating Robotic Cars Using Time-Delay Neural Networks",
+      "title_en": "",
+      "year": "2016",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Alberto Ferreira De Souza",
+        "Jacson Rodrigues Correia da Silva",
+        "Filipe Wall Mutz",
+        "Claudine Badue",
+        "Thiago Oliveira Santos"
+      ],
+      "event": "International Joint Conference on  Neural Networks - IJCNN'2016",
+      "event_en": "",
+      "proceedings": "Proceedings of the International Joint Conference on  Neural Networks - IJCNN'2016",
+      "pages": "1261-1286",
+      "city": "Vancouver",
+      "country": ""
+    },
+    {
+      "title": "A Dataset for Improved RGBD-Based Object Detection and Pose Estimation for Warehouse Pick-And-Place",
+      "title_en": "",
+      "year": "2016",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Colin Rennie",
+        "Rahul Shome",
+        "Kostas Bekris",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "IEEE International Conference on Robotics and Automation - ICRA'2016",
+      "event_en": "",
+      "proceedings": "Proccedings of the IEEE International Conference on Robotics and Automation - ICRA'2016",
+      "pages": "1-8",
+      "city": "Stockholm, Sweden",
+      "country": ""
+    },
+    {
+      "title": "Evaluating End-Effector Modalities for Warehouse Picking: A Vacuum Gripper vs a 3-Finger Underactuated Hand",
+      "title_en": "",
+      "year": "2016",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Zakary Littlefield",
+        "Shaojun Zhu",
+        "Chris Kourtev",
+        "Zacharias Psarakis",
+        "Rahul Shome",
+        "Andrew Kimmel",
+        "Andrew Dobson",
+        "Alberto Ferreira De Souza",
+        "Kostas Bekris"
+      ],
+      "event": "12th Conference on Automation Science and Engineering - CASE'2016",
+      "event_en": "",
+      "proceedings": "Proceesings of the 12th Conference on Automation Science and Engineering - CASE'2016",
+      "pages": "1-8",
+      "city": "Fort Worth, TX - USA",
+      "country": ""
+    },
+    {
+      "title": "A Simple Yet Effective Obstacle Avoider for the IARA Autonomous Car",
+      "title_en": "",
+      "year": "2016",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Rânik Guidolini",
+        "Claudine Badue",
+        "Mariella Berger",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "IEEE Intelligent Transportation Systems Conference",
+      "event_en": "",
+      "proceedings": "Proceedings of the IEEE Intelligent Transportation Systems Conference",
+      "pages": "1-8",
+      "city": "Rio de Janeiro",
+      "country": ""
+    },
+    {
+      "title": "A Light-Weight Yet Accurate Localization System for Autonomous Cars in Large-Scale and Complex Environments",
+      "title_en": "",
+      "year": "2016",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Lucas de Paula Veronese",
+        "Jose Guivant",
+        "Fernando A. Auat Cheein",
+        "Thiago Oliveira Santos",
+        "Filipe Wall Mutz",
+        "Edilson de Aguiar",
+        "Claudine Badue",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "IEEE Intelligent Transportation Systems Conference",
+      "event_en": "",
+      "proceedings": "Proceedings of the IEEE Intelligent Transportation Systems Conference",
+      "pages": "1-8",
+      "city": "",
+      "country": ""
+    },
+    {
+      "title": "Methodology and a technological framework to maximize learning in a development of serious games distance course and the evaluation of learning",
+      "title_en": "",
+      "year": "2016",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Heraclito Amancio Pereira Junior",
+        "Crediné Silva de Menezes",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "IEEE Frontiers in Education Conference (FIE)",
+      "event_en": "",
+      "proceedings": "Proceedings of the 2016 IEEE Frontiers in Education",
+      "pages": "-",
+      "city": "Erie PA/USA",
+      "country": ""
+    },
+    {
+      "title": "A Computational Architecture for Learning Analytics in Game-Based Learning",
+      "title_en": "",
+      "year": "2016",
+      "doi": "10.1109/ICALT.2016.3",
+      "language": "Português",
+      "authors": [
+        "PEREIRA, HERACLITO A.",
+        "Alberto Ferreira De Souza",
+        "MENEZES, CREDINE S. DE"
+      ],
+      "event": "2016 IEEE 16th International Conference on Advanced Learning Technologies (ICALT)",
+      "event_en": "",
+      "proceedings": "2016 IEEE 16th International Conference on Advanced Learning Technologies (ICALT)",
+      "pages": "191-",
+      "city": "Austin",
+      "country": ""
+    },
+    {
+      "title": "Image-based mapping, global localization and position tracking using VG-RAM weightless neural networks",
+      "title_en": "",
+      "year": "2015",
+      "doi": "10.1109/icra.2015.7139699",
+      "language": "Inglês",
+      "authors": [
+        "LYRIO, LAURO J.",
+        "Thiago Oliveira Santos",
+        "Claudine Badue",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "2015 IEEE International Conference on Robotics and Automation (ICRA)",
+      "event_en": "",
+      "proceedings": "2015 IEEE International Conference on Robotics and Automation (ICRA)",
+      "pages": "3603-3610",
+      "city": "Seattle",
+      "country": ""
+    },
+    {
+      "title": "Re-Emission and Satellite Aerial Maps Applied to Vehicle Localization on Urban Environments",
+      "title_en": "",
+      "year": "2015",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Lucas de Paula Veronese",
+        "Edilson de Aguiar",
+        "Rafael Correia Nascimento",
+        "Jose Guivant",
+        "Fernando A. Auat Cheein",
+        "Alberto Ferreira De Souza",
+        "Thiago Oliveira Santos"
+      ],
+      "event": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "event_en": "",
+      "proceedings": "Proceedings of 2015 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "pages": "4285-4290",
+      "city": "Hamburg",
+      "country": ""
+    },
+    {
+      "title": "Detecção e Rastreamento de Veículos em Movimento para Automóveis Robóticos Autônomos",
+      "title_en": "",
+      "year": "2015",
+      "doi": "",
+      "language": "Português",
+      "authors": [
+        "Eduardo Max Amaro Amaral",
+        "Claudine Badue",
+        "Thiago Oliveira Santos",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "XII Simpósio Brasileiro de Automação Inteligente - SBAI",
+      "event_en": "",
+      "proceedings": "Anais do XII Simpósio Brasileiro de Automação Inteligente",
+      "pages": "801-806",
+      "city": "Natal",
+      "country": ""
+    },
+    {
+      "title": "Improved Global Urban Localization Based on Road Maps and 3D Detection of Road Intersections",
+      "title_en": "",
+      "year": "2015",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Lucas de Paula Veronese",
+        "Jose Guivant",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "Australasian Conference on Robotics and Automation - ACRA'2015",
+      "event_en": "",
+      "proceedings": "Proceedings of the Australasian Conference on Robotics and Automation - ACRA'2015",
+      "pages": "1-7",
+      "city": "Canberra",
+      "country": ""
+    },
+    {
+      "title": "Compressing VG-RAM WNN Memory for Lightweight Applications",
+      "title_en": "",
+      "year": "2014",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Edilson de Aguiar",
+        "Avelino Forechi",
+        "Lucas de Paula Veronese",
+        "Mariella Berger",
+        "Alberto Ferreira De Souza",
+        "Claudine Badue",
+        "Thiago Oliveira Santos"
+      ],
+      "event": "International Joint Conference on Neural Networks (IJCNN 2014)",
+      "event_en": "",
+      "proceedings": "Proceedings of The 2014 International Joint Conference on Neural Networks (IJCNN 2014)",
+      "pages": "1-8",
+      "city": "Beijin",
+      "country": ""
+    },
+    {
+      "title": "Image-Based Global Localization Using VG-RAM Weightless Neural Networks",
+      "title_en": "",
+      "year": "2014",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Lauro J. Lyrio Jr.",
+        "Thiago Oliveira Santos",
+        "Avelino Forechi",
+        "Lucas de Paula Veronese",
+        "Claudine Badue",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "International Joint Conference on Neural Networks (IJCNN 2014)",
+      "event_en": "",
+      "proceedings": "Proceedings of The 2014 International Joint Conference on Neural Networks (IJCNN 2014)",
+      "pages": "1-8",
+      "city": "Beijin",
+      "country": ""
+    },
+    {
+      "title": "Programming a VG-RAM Based Neural Network Computer",
+      "title_en": "",
+      "year": "2014",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Alberto Ferreira De Souza",
+        "Avelino Forechi",
+        "Filipe Wall Mutz",
+        "Mariella Berger",
+        "Thiago Oliveira Santos",
+        "Claudine Badue"
+      ],
+      "event": "International Joint Conference on Neural Networks (IJCNN 2014)",
+      "event_en": "",
+      "proceedings": "Proceedings of The 2014 International Joint Conference on Neural Networks (IJCNN 2014)",
+      "pages": "3871-3878",
+      "city": "Beijin",
+      "country": ""
+    },
+    {
+      "title": "Proposal of a Brain Computer Interface to command an autonomous car",
+      "title_en": "",
+      "year": "2014",
+      "doi": "10.1109/BRC.2014.6880969",
+      "language": "Inglês",
+      "authors": [
+        "CASTILLO, JAVIER",
+        "MULLER, SANDRA",
+        "CAICEDO, EDUARDO",
+        "Alberto Ferreira De Souza",
+        "BASTOS, TEODIANO"
+      ],
+      "event": "5th IEEE Biosignals and Biorobotics conference (BRC 2014)",
+      "event_en": "",
+      "proceedings": "5th ISSNIP-IEEE Biosignals and Biorobotics Conference (2014): Biosignals and Robotics for Better and Safer Living (BRC)",
+      "pages": "1-8",
+      "city": "Salvador",
+      "country": ""
+    },
+    {
+      "title": "A Motion Planner for Car-Like Robots Based on Rapidly-Exploring Random Trees",
+      "title_en": "",
+      "year": "2014",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Rômulo Radaelli",
+        "Claudine Badue",
+        "Michael Gonçalves",
+        "Thiago Oliveira Santos",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "Ibero-American Conference on Artificial Intelligence (IBERAMIA)",
+      "event_en": "",
+      "proceedings": "Proceedins of the 14th Ibero-American Conference on Artificial Intelligence",
+      "pages": "469-480",
+      "city": "Santiago",
+      "country": ""
+    },
+    {
+      "title": "Traffic sign detection with VG-RAM weightless neural networks",
+      "title_en": "",
+      "year": "2013",
+      "doi": "10.1109/IJCNN.2013.6706809",
+      "language": "Inglês",
+      "authors": [
+        "Alberto Ferreira De Souza",
+        "Cayo Fontana",
+        "MUTZ, FILIPE",
+        "DE OLIVEIRA, TIAGO ALVES",
+        "BERGER, MARIELLA",
+        "Avelino Forechi",
+        "DE OLIVEIRA NETO, JORCY",
+        "DE AGUIAR, EDILSON",
+        "Claudine Badue"
+      ],
+      "event": "2013 International Joint Conference on Neural Networks (IJCNN 2013  Dallas)",
+      "event_en": "",
+      "proceedings": "The 2013 International Joint Conference on Neural Networks (IJCNN)",
+      "pages": "1-9",
+      "city": "Dallas",
+      "country": ""
+    },
+    {
+      "title": "Real-time road surface mapping using stereo matching, v-disparity and machine learning",
+      "title_en": "",
+      "year": "2013",
+      "doi": "10.1109/IJCNN.2013.6707066",
+      "language": "Inglês",
+      "authors": [
+        "AZEVEDO, VITOR B.",
+        "Alberto Ferreira De Souza",
+        "VERONESE, LUCAS P.",
+        "Claudine Badue",
+        "BERGER, MARIELLA"
+      ],
+      "event": "2013 International Joint Conference on Neural Networks (IJCNN 2013  Dallas)",
+      "event_en": "",
+      "proceedings": "The 2013 International Joint Conference on Neural Networks (IJCNN)",
+      "pages": "1-8",
+      "city": "Dallas",
+      "country": ""
+    },
+    {
+      "title": "V?Ger: Virtual Generalizing Random Access Memory Weightless Neural Network Computer",
+      "title_en": "",
+      "year": "2013",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "The 2013 International Joint Conference on Neural Networks",
+      "event_en": "",
+      "proceedings": "Proceedings of The 2013 International Joint Conference on Neural Networks",
+      "pages": "1-1",
+      "city": "Dallas, Texas",
+      "country": ""
+    },
+    {
+      "title": "Sound-based Environment Recognition for Constraining Assistive Robotic Navigation using Articial Neural Networks",
+      "title_en": "",
+      "year": "2013",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Eduardo Gonzalez Vidal",
+        "Ernesto Fredes Zarricueta",
+        "Pablo Prieto",
+        "Alberto Ferreira De Souza",
+        "Teodiano Bastos Filho",
+        "Edilson de Aguiar",
+        "Fernando A. Auat Cheein"
+      ],
+      "event": "Australasian Conference on Robotics and Automation (ACRA)",
+      "event_en": "",
+      "proceedings": "Proceedings of the 2013 Australasian Conference on Robotics and Automation",
+      "pages": "1-10",
+      "city": "Sydney, Australia",
+      "country": ""
+    },
+    {
+      "title": "An Algorithm for Near-Field to Far-Field Transformations using Spherical-Wave Expansions",
+      "title_en": "",
+      "year": "2013",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Andrea Maria Pedrosa Valli",
+        "Lucia Catabriga",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "Congresso de Matemática Aplicada e Computacional - CMAC Centro-Oeste",
+      "event_en": "",
+      "proceedings": "Anais do Congresso de Matemática Aplicada e Computacional - CMAC Centro-Oeste",
+      "pages": "36-39",
+      "city": "Cuibá, MT",
+      "country": ""
+    },
+    {
+      "title": "System architecture for on-line optimization of automated trading strategies",
+      "title_en": "",
+      "year": "2013",
+      "doi": "10.1145/2535557.2535563",
+      "language": "Inglês",
+      "authors": [
+        "Freitas, Fabio Daros",
+        "FREITAS, CHRISTIAN DAROS",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "the 6th Workshop",
+      "event_en": "",
+      "proceedings": "Proceedings of the 6th Workshop on High Performance Computational Finance - WHPCF &apos;13",
+      "pages": "1-8",
+      "city": "Denver",
+      "country": ""
+    },
+    {
+      "title": "Evaluation of Two Parallel Finite Element Implementations of the Time-Dependent Advection Diffusion Problem: GPU versus Cluster Considering Time and Energy Consumption",
+      "title_en": "",
+      "year": "2012",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Alberto Ferreira De Souza",
+        "Veronese, Lucas",
+        "Claudine Badue",
+        "Lucia Catabriga"
+      ],
+      "event": "10th International Meeting on High-Performance Computing for Computational Science (VECPAR)",
+      "event_en": "",
+      "proceedings": "Proceedings of the 10th International Meeting on High-Performance Computing for Computational Science (VECPAR)",
+      "pages": "1-8",
+      "city": "Kobe, Japão",
+      "country": ""
+    },
+    {
+      "title": "Parallel Numerical Simulation of Navier-Stokes and transport equations on GPUs",
+      "title_en": "",
+      "year": "2012",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Wesley dos Santos Menenguci",
+        "Lucia Catabriga",
+        "Alberto Ferreira De Souza",
+        "Andrea Maria Pedrosa Valli"
+      ],
+      "event": "10th International Meeting on High-Performance Computing for Computational Science (VECPAR)",
+      "event_en": "",
+      "proceedings": "Proceedings of the 10th International Meeting on High-Performance Computing for Computational Science (VECPAR)",
+      "pages": "1-2",
+      "city": "Kobe, Japão",
+      "country": ""
+    },
+    {
+      "title": "Stereo Matching with VG-RAM Weightless Neural Networks",
+      "title_en": "",
+      "year": "2012",
+      "doi": "10.1109/ISDA.2012.6416556",
+      "language": "Inglês",
+      "authors": [
+        "Lucas de Paula Veronese",
+        "Lauro José Lyrio Jr",
+        "Filipe Wall Mutz",
+        "Jorcy de Oliveira Neto",
+        "Vitor Barbirato Azevedo",
+        "Mariella Berger",
+        "Alberto Ferreira De Souza",
+        "Claudine Badue"
+      ],
+      "event": "12th International Conference on Intelligent Systems Design and Applications (ISDA)",
+      "event_en": "",
+      "proceedings": "Proceedings of the  2012 12th International Conference on  Intelligent Systems Design and Applications (ISDA)",
+      "pages": "309-314",
+      "city": "Kochi",
+      "country": ""
+    },
+    {
+      "title": "Traffic sign recognition with VG-RAM Weightless Neural Networks",
+      "title_en": "",
+      "year": "2012",
+      "doi": "10.1109/ISDA.2012.6416557",
+      "language": "Inglês",
+      "authors": [
+        "BERGER, MARIELLA",
+        "Avelino Forechi",
+        "Alberto Ferreira De Souza",
+        "NETO, JORCY DE OLIVEIRA",
+        "Veronese, Lucas",
+        "Claudine Badue"
+      ],
+      "event": "2012 12th International Conference on Intelligent Systems Design and Applications (ISDA)",
+      "event_en": "",
+      "proceedings": "2012 12th International Conference on Intelligent Systems Design and Applications (ISDA)",
+      "pages": "315-319",
+      "city": "Kochi",
+      "country": ""
+    },
+    {
+      "title": "A biology-based template-matching framework",
+      "title_en": "",
+      "year": "2012",
+      "doi": "10.1109/ISDA.2012.6416559",
+      "language": "Inglês",
+      "authors": [
+        "FILHO, HELIO PERRONI",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "2012 12th International Conference on Intelligent Systems Design and Applications (ISDA)",
+      "event_en": "",
+      "proceedings": "2012 12th International Conference on Intelligent Systems Design and Applications (ISDA)",
+      "pages": "326-331",
+      "city": "Kochi",
+      "country": ""
+    },
+    {
+      "title": "Facial Access Control Based On VG-RAM Weightless Neural Networks",
+      "title_en": "",
+      "year": "2011",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Jairo Lucas de Moraes",
+        "Alberto Ferreira De Souza",
+        "Claudine Badue"
+      ],
+      "event": "13th International Conference on Artificial Intelligence",
+      "event_en": "",
+      "proceedings": "Proceedings of The 2011 International Conference on Artificial Intelligence",
+      "pages": "444-450",
+      "city": "Las Vegas, Nevada, USA",
+      "country": ""
+    },
+    {
+      "title": "Parallel Implementations of the CSBP Stereo Vision Algorithm",
+      "title_en": "",
+      "year": "2011",
+      "doi": "",
+      "language": "Português",
+      "authors": [
+        "Lucas Veronese",
+        "Lauro J. Lyrio Jr.",
+        "Jorcy de Oliveira Neto",
+        "Avelino Forechi",
+        "Claudine Badue",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "XII Simpósio em Sistemas Computacionais",
+      "event_en": "",
+      "proceedings": "2011 Simpósio em Sistemas Computacionais",
+      "pages": "12-21",
+      "city": "Vitória-ES",
+      "country": ""
+    },
+    {
+      "title": "High performance prediction of stock returns with VG-RAM weightless neural networks",
+      "title_en": "",
+      "year": "2010",
+      "doi": "10.1109/WHPCF.2010.5671832",
+      "language": "Inglês",
+      "authors": [
+        "Alberto Ferreira De Souza",
+        "Fabio Daros de Freitas",
+        "Andre Gustavo Coelho de Almeida"
+      ],
+      "event": "High Performance Computational Finance (WHPCF), 2010 IEEE Workshop on",
+      "event_en": "",
+      "proceedings": "Proceedings of the 3rd IEEE Workshop on High Performance Computational Finance (WHPCF)",
+      "pages": "1-8",
+      "city": "New Orleans",
+      "country": ""
+    },
+    {
+      "title": "The Dynamic Block Remapping Cache",
+      "title_en": "",
+      "year": "2010",
+      "doi": "10.1109/SBAC-PAD.2010.39",
+      "language": "Inglês",
+      "authors": [
+        "Felipe Thomaz Pedroni",
+        "Alberto Ferreira De Souza",
+        "Claudine Badue"
+      ],
+      "event": "22nd International Symposium on Computer Architecture and High Performance Computing - SBAC-PAD'2010",
+      "event_en": "",
+      "proceedings": "Proceedings of the 22nd International Symposium on Computer Architecture and High Performance Computing - SBAC-PAD'2010",
+      "pages": "111-118",
+      "city": "Petrópolis",
+      "country": ""
+    },
+    {
+      "title": "VG-RAM WNN Approach to Monocular Depth Perception",
+      "title_en": "",
+      "year": "2010",
+      "doi": "10.1007/978-3-642-17534-3_63",
+      "language": "Inglês",
+      "authors": [
+        "Hélio Perroni Filho",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "17th International Conference on Neural Information Processing - ICONIP'2010",
+      "event_en": "",
+      "proceedings": "Lecture Notes in Computer Science",
+      "pages": "509-516",
+      "city": "Sydney, Australia",
+      "country": ""
+    },
+    {
+      "title": "Evaluation of Two Parallel Finite Element Implementations of the Time-Dependent Advection Diffusion Problem: CUDA versus MPI",
+      "title_en": "",
+      "year": "2010",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Lucas Veronese",
+        "Leonardo Muniz",
+        "Alberto Ferreira De Souza",
+        "Lucia Catabriga"
+      ],
+      "event": "ACM/IEEE International Conference for High Performance Computing, Networking, Storage and Analysis - SC'2010",
+      "event_en": "",
+      "proceedings": "SC 2010 Posters",
+      "pages": "-",
+      "city": "New Orleans, LA, USA",
+      "country": ""
+    },
+    {
+      "title": "Análise do processamento paralelo em Clusters multicore na simulação de escoamento míscivel implementado pelo método dos elementos finitos",
+      "title_en": "",
+      "year": "2009",
+      "doi": "",
+      "language": "Português",
+      "authors": [
+        "Adriana C. Barbosa",
+        "Lucia Catabriga",
+        "Alberto Ferreira De Souza",
+        "Andrea Maria Pedrosa Valli"
+      ],
+      "event": "X Workshop em Sistemas Computacionais de Alto Desempenho",
+      "event_en": "",
+      "proceedings": "Anais do X Workshop em Sistemas Computacionais de Alto Desempenho",
+      "pages": "87-94",
+      "city": "São Paulo",
+      "country": ""
+    },
+    {
+      "title": "Implementação Paralela em C+CUDA de um Categorizador Multi-Rótulo de Texto Baseado no Algoritmo k-NN",
+      "title_en": "",
+      "year": "2009",
+      "doi": "",
+      "language": "Português",
+      "authors": [
+        "Lucas Veronese",
+        "Alberto Ferreira De Souza",
+        "Claudine Badue",
+        "Elias Silva de Oliveira"
+      ],
+      "event": "X Workshop em Sistemas Computacionais de Alto Desempenho",
+      "event_en": "",
+      "proceedings": "Anais do X Workshop em Sistemas Computacionais de Alto Desempenho",
+      "pages": "145-152",
+      "city": "São Paulo",
+      "country": ""
+    },
+    {
+      "title": "Implementação Paralela em C+CUDA de uma Rede Neural Probabilística",
+      "title_en": "",
+      "year": "2009",
+      "doi": "",
+      "language": "Português",
+      "authors": [
+        "Lucas Veronese",
+        "Alberto Ferreira De Souza",
+        "Claudine Badue",
+        "Elias Silva de Oliveira"
+      ],
+      "event": "X Workshop em Sistemas Computacionais de Alto Desempenho - WSCAD-WIC",
+      "event_en": "",
+      "proceedings": "Anais do X Workshop em Sistemas Computacionais de Alto Desempenho - WSCAD-WIC",
+      "pages": "-",
+      "city": "",
+      "country": ""
+    },
+    {
+      "title": "Implementation in C+CUDA of Multi-Label Text Categorizers",
+      "title_en": "",
+      "year": "2009",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Lucas Veronese",
+        "Alberto Ferreira De Souza",
+        "Claudine Badue",
+        "Elias Silva de Oliveira",
+        "Ciarelli, Patrick M."
+      ],
+      "event": "NVIDIA Research Summit",
+      "event_en": "",
+      "proceedings": "Proceedings of the NVIDIA Research Summit",
+      "pages": "-",
+      "city": "San Jose",
+      "country": ""
+    },
+    {
+      "title": "Implementation of a Biologically Inspired Stereoscopic Vision Model in C+CUDA",
+      "title_en": "",
+      "year": "2009",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Camilo A. Carvalho",
+        "Alberto Ferreira De Souza",
+        "Lucas Veronese",
+        "Hallysson Oliveira"
+      ],
+      "event": "NVIDIA Research Summit",
+      "event_en": "",
+      "proceedings": "Proceedings of the NVIDIA Research Summit",
+      "pages": "-",
+      "city": "San Jose",
+      "country": ""
+    },
+    {
+      "title": "Evaluation of Parallel Simulations on Multi-core clusters of miscible displacement applications",
+      "title_en": "",
+      "year": "2009",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Adriana C. Barbosa",
+        "Lucia Catabriga",
+        "Andrea Maria Pedrosa Valli",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "XXX Iberian Latin American Congress on Computational Methods in Engineering",
+      "event_en": "",
+      "proceedings": "Proccedings of the XXX Iberian Latin American Congress on Computational Methods in Engineering",
+      "pages": "1-15",
+      "city": "Armação de Búzios",
+      "country": ""
+    },
+    {
+      "title": "Previsão da Arrecadação Federal com Redes Neurais",
+      "title_en": "",
+      "year": "2009",
+      "doi": "",
+      "language": "Português",
+      "authors": [
+        "Freitas, Fabio D.",
+        "Ciarelli, Patrick M.",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "IX Congresso Brasileiro de Redes Neurais",
+      "event_en": "",
+      "proceedings": "Anais do IX Congresso Brasileiro de Redes Neurais",
+      "pages": "-",
+      "city": "Ouro Preto",
+      "country": ""
+    },
+    {
+      "title": "Face Recognition with VG-RAM Weightless Neural Networks",
+      "title_en": "",
+      "year": "2008",
+      "doi": "10.1007/978-3-540-87536-9_97",
+      "language": "Inglês",
+      "authors": [
+        "Alberto Ferreira De Souza",
+        "Claudine Badue",
+        "Felipe Thomaz Pedroni",
+        "Elias Silva de Oliveira",
+        "Stiven Schwanz Dias",
+        "Hallysson Oliveira",
+        "Sotério Ferreira de Souza"
+      ],
+      "event": "18th international conference on Artificial Neural Networks",
+      "event_en": "",
+      "proceedings": "Lecture Notes in Computer Science (ICANN 2008)",
+      "pages": "951-960",
+      "city": "Prague, Czech Republic",
+      "country": ""
+    },
+    {
+      "title": "DTSD: Uma Arquitetura com Mecanismo Híbrido de Execução",
+      "title_en": "",
+      "year": "2008",
+      "doi": "",
+      "language": "Português",
+      "authors": [
+        "Fernado Líbio Leite Almeida",
+        "Alberto Ferreira De Souza",
+        "Edil Severiano Tavares Fernandes"
+      ],
+      "event": "IX Workshop em Sistemas Computacionais de Alto Desempenho (WSCAD-SSC)",
+      "event_en": "",
+      "proceedings": "Anais do IX Workshop em Sistemas Computacionais de Alto Desempenho (WSCAD-SSC)",
+      "pages": "45-52",
+      "city": "Campo Grande - MS",
+      "country": ""
+    },
+    {
+      "title": "Hardware Supported Synchronization Primitives for Clusters",
+      "title_en": "",
+      "year": "2008",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Alberto Ferreira De Souza",
+        "Sotério Ferreira de Souza",
+        "Claudio Luiz de Amorim",
+        "Priscila Machado Vieira Lima",
+        "Peter Rounce"
+      ],
+      "event": "International Conference on Parallel and Distributed Processing Techniques and Applications",
+      "event_en": "",
+      "proceedings": "Proceedings of the 2008 International Conference on Parallel and Distributed Processing Techniques and Applications",
+      "pages": "520-526",
+      "city": "Las Vegas",
+      "country": ""
+    },
+    {
+      "title": "Improving VG-RAM WNN Multi-label Text Categorization via Label Correlation",
+      "title_en": "",
+      "year": "2008",
+      "doi": "10.1109/ISDA.2008.298",
+      "language": "Inglês",
+      "authors": [
+        "Alberto Ferreira De Souza",
+        "Claudine Badue",
+        "Bruno Zanetti Melotti",
+        "Felipe Thomaz Pedroni",
+        "Fernando Líbio Leite Almeida"
+      ],
+      "event": "Eighth International Conference on Intelligent Systems Design and Applications - ISDA 2008",
+      "event_en": "",
+      "proceedings": "Proceedings of the Eighth International Conference on Intelligent Systems Design and Applications",
+      "pages": "437-442",
+      "city": "Kaohsiung - Taiwan (Formosa)",
+      "country": ""
+    },
+    {
+      "title": "A Comparison between a KNN Based Approach and a PNN Algorithm for a Multi-label Classification Problem",
+      "title_en": "",
+      "year": "2008",
+      "doi": "10.1109/ISDA.2008.364",
+      "language": "Inglês",
+      "authors": [
+        "Elias Silva de Oliveira",
+        "Ciarelli, Patrick M.",
+        "Claudine Badue",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "Eighth International Conference on Intelligent Systems Design and Applications - ISDA 2008",
+      "event_en": "",
+      "proceedings": "Proceedings of the Eighth International Conference on Intelligent Systems Design and Applications - ISDA 2008",
+      "pages": "628-633",
+      "city": "Kaoshiung - Taiwan (Formosa)",
+      "country": ""
+    },
+    {
+      "title": "Multi-label Text Categorization Using VG-RAM Weightless Neural Networks",
+      "title_en": "",
+      "year": "2008",
+      "doi": "10.1109/SBRN.2008.29",
+      "language": "Inglês",
+      "authors": [
+        "Claudine Badue",
+        "Felipe Thomaz Pedroni",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "10th Brazilian Symposium on Neural Networks",
+      "event_en": "",
+      "proceedings": "Proceedings of the 10th Brazilian Symposium on Neural Networks",
+      "pages": "105-110",
+      "city": "Salvador",
+      "country": ""
+    },
+    {
+      "title": "Using a Probabilistic Neural Network for a Large Multi-label Problem",
+      "title_en": "",
+      "year": "2008",
+      "doi": "10.1109/SBRN.2008.38",
+      "language": "Inglês",
+      "authors": [
+        "Elias Silva de Oliveira",
+        "Ciarelli, Patrick M.",
+        "Alberto Ferreira De Souza",
+        "Claudine Badue"
+      ],
+      "event": "10th Brazilian Symposium on  Neural Networks",
+      "event_en": "",
+      "proceedings": "Proceedings of the  10th Brazilian Symposium on Neural Networks",
+      "pages": "195-200",
+      "city": "Salvador",
+      "country": ""
+    },
+    {
+      "title": "Visão artificial na medição e controle da produção e fluxo de materiais - do manuseio de granel até as linhas de produção",
+      "title_en": "",
+      "year": "2007",
+      "doi": "",
+      "language": "Português",
+      "authors": [
+        "Alberto Ferreira De Souza",
+        "Franco Machado"
+      ],
+      "event": "XXVI Seminário de Logística",
+      "event_en": "",
+      "proceedings": "Anais do XXVI Seminário de Logística",
+      "pages": "-",
+      "city": "Vitória",
+      "country": ""
+    },
+    {
+      "title": "Intelligent Classification of Economic Activities from Free Text Descriptions",
+      "title_en": "",
+      "year": "2007",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Elias Silva de Oliveira",
+        "Patrick Marques Ciarelli",
+        "Wallace F. Henrique",
+        "Lucas Veronese",
+        "Felipe Thomaz Pedroni",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "V Workshop em Tecnologia da Informação e da Linguagem Humana",
+      "event_en": "",
+      "proceedings": "Anais do V Workshop em Tecnologia da Informação e da Linguagem Humana",
+      "pages": "1635-1639",
+      "city": "Rio de Janeiro",
+      "country": ""
+    },
+    {
+      "title": "Automated Free Text Classification of Economic Activities using VG-RAM Weightless Neural Networks",
+      "title_en": "",
+      "year": "2007",
+      "doi": "10.1109/isda.2007.146",
+      "language": "Inglês",
+      "authors": [
+        "Alberto Ferreira De Souza",
+        "Felipe Thomaz Pedroni",
+        "Elias Silva de Oliveira",
+        "Patrick Marques Ciarelli",
+        "Wallace F. Henrique",
+        "Lucas Veronese"
+      ],
+      "event": "7th International Conference on Intelligent Systems Design and Applications",
+      "event_en": "",
+      "proceedings": "Proceedings of the 7th International Conference on Intelligent Systems Design and Applications",
+      "pages": "782-787",
+      "city": "Rio de Janeiro",
+      "country": ""
+    },
+    {
+      "title": "Integração do Cluster Enterprise ao Grid Sinergia",
+      "title_en": "",
+      "year": "2006",
+      "doi": "",
+      "language": "Português",
+      "authors": [
+        "Renato Luiz de Freitas Cunha",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "VII Workshop em Sistemas Computacionais de Alto Desempenho",
+      "event_en": "",
+      "proceedings": "Anais do VII Workshop em Sistemas Computacionais de Alto Desempenho",
+      "pages": "-",
+      "city": "Ouro Preto",
+      "country": ""
+    },
+    {
+      "title": "A Prediction-Based Portfolio Optimization Model",
+      "title_en": "",
+      "year": "2006",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Fabio Daros de Freitas",
+        "Alberto Ferreira De Souza",
+        "Ailson Rosetti de Almeida"
+      ],
+      "event": "5th International Symposium on Robotics and Automation",
+      "event_en": "",
+      "proceedings": "Proceedings of the 5th International Symposium on Robotics and Automation",
+      "pages": "-",
+      "city": "Cidade do México",
+      "country": ""
+    },
+    {
+      "title": "Um Modelo de Otimização de Carteiras Baseado em Predição",
+      "title_en": "",
+      "year": "2006",
+      "doi": "",
+      "language": "Português",
+      "authors": [
+        "Fabio Daros de Freitas",
+        "Alberto Ferreira De Souza",
+        "Ailson Rosetti de Almeida"
+      ],
+      "event": "XXXVIII Simpósio Brasileiro de Pesquisa Operacional",
+      "event_en": "",
+      "proceedings": "Proceedings XXXVIII Simpósio Brasileiro de Pesquisa Operacional",
+      "pages": "-",
+      "city": "Goiania",
+      "country": ""
+    },
+    {
+      "title": "The mDTSVLIW: A Multi-Threaded Trace-Based VLIW Architecture",
+      "title_en": "",
+      "year": "2006",
+      "doi": "10.1109/SBAC-PAD.2006.28",
+      "language": "Inglês",
+      "authors": [
+        "Peter Rounce",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "18th International Symposium on Computer Architecture and High Performance Computing - SBAC-PAD '2006",
+      "event_en": "",
+      "proceedings": "Proceedings of the 18th International Symposium on Computer Architecture and High Performance Computing",
+      "pages": "63-70",
+      "city": "Ouro Preto",
+      "country": ""
+    },
+    {
+      "title": "Improving VG-RAM Neural Networks Performance Using Knowledge Correlation",
+      "title_en": "",
+      "year": "2006",
+      "doi": "10.1007/11893028_48",
+      "language": "Inglês",
+      "authors": [
+        "Raphael Vivacqua Carneiro",
+        "Stiven Schwanz Dias",
+        "Dijalma Fardim Júnior",
+        "Hallysson Oliveira",
+        "Artur d'Avila Garcez",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "13th International Conference on Neural Information Processing - ICONIP 2006",
+      "event_en": "",
+      "proceedings": "Lecture Notes in Computer Science (ICONIP 2006)",
+      "pages": "427-436",
+      "city": "Hong Kong, China",
+      "country": ""
+    },
+    {
+      "title": "Autoregressive Neural Network Predictors in the Brazilian Stock Market",
+      "title_en": "",
+      "year": "2005",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Fabio Daros de Freitas",
+        "Alberto Ferreira De Souza",
+        "Ailson Rosetti de Almeida"
+      ],
+      "event": "VII Simpósio Brasileiro de Automação Inteligente",
+      "event_en": "",
+      "proceedings": "Anais VII Simpósio Brasileiro de Automação Inteligente",
+      "pages": "-",
+      "city": "São Luís - Maranhão",
+      "country": ""
+    },
+    {
+      "title": "Avaliação de Preditores Neurais Auto-regressivos no Mercado de Ações",
+      "title_en": "",
+      "year": "2005",
+      "doi": "",
+      "language": "Português",
+      "authors": [
+        "Fabio Daros de Freitas",
+        "Alberto Ferreira De Souza",
+        "Ailson Rosetti de Almeida"
+      ],
+      "event": "VII Congresso Brasileiro de Redes Neurais (VII CBRN)",
+      "event_en": "",
+      "proceedings": "Anais do VII Congresso Brasileiro de Redes Neurais",
+      "pages": "-",
+      "city": "Natal - Rio Grande do Norte",
+      "country": ""
+    },
+    {
+      "title": "Uma comparação entre um algoritmo síncrono e um parcialmente assíncrono para solução das equações de Navier-Stokes",
+      "title_en": "",
+      "year": "2005",
+      "doi": "",
+      "language": "Português",
+      "authors": [
+        "Sergio Nery Simões",
+        "Alberto Ferreira De Souza",
+        "Neyval Costa Reis Júnior",
+        "Edilson Luiz do Nascimento"
+      ],
+      "event": "XXVI Iberian Latin-American Congress on Computational Methods in Engineering (CILAMCE 2005)",
+      "event_en": "",
+      "proceedings": "Anais do XXVI Iberian Latin-American Congress on Computational Methods in Engineering",
+      "pages": "-",
+      "city": "Guarapari - ES",
+      "country": ""
+    },
+    {
+      "title": "Simulação das grandes escalas turbulentas de um escoamento e dispersão de poluentes ao redor de um obstáculo utilizando processamento paralelo",
+      "title_en": "",
+      "year": "2005",
+      "doi": "",
+      "language": "Português",
+      "authors": [
+        "Edilson Luiz do Nascimento",
+        "Neyval Costa Reis Júnior",
+        "Alberto Ferreira De Souza",
+        "Jane Meri Santos",
+        "Flávio Curbani"
+      ],
+      "event": "XXVI Iberian Latin-American Congress on Computational Methods in Engineering (CILAMCE 2005)",
+      "event_en": "",
+      "proceedings": "Anais XXVI Iberian Latin-American Congress on Computational Methods in Engineering",
+      "pages": "-",
+      "city": "Guarapari - ES",
+      "country": ""
+    },
+    {
+      "title": "Modelagem numérica da dispersão atmosférica de poluentes em regiões urbanas de relevo complexo utilizando processamento paralelo e distribuído",
+      "title_en": "",
+      "year": "2005",
+      "doi": "",
+      "language": "Português",
+      "authors": [
+        "Henri Aboud",
+        "Neyval Costa Reis Júnior",
+        "Alberto Ferreira De Souza",
+        "Alexander Barros Silveira",
+        "Jane Meri Santos"
+      ],
+      "event": "XXVI Iberian Latin-American Congress on Computational Methods in Engineering (CILAMCE 2005)",
+      "event_en": "",
+      "proceedings": "",
+      "pages": "-",
+      "city": "Guarapari - ES",
+      "country": ""
+    },
+    {
+      "title": "Algoritmos de mecânica dos fluidos computacional utilizando estratégias de solução para utilização eficiente da memória cache de microprocessadores",
+      "title_en": "",
+      "year": "2005",
+      "doi": "",
+      "language": "Português",
+      "authors": [
+        "João Paulo Angeli",
+        "Neyval Costa Reis Júnior",
+        "Alberto Ferreira De Souza",
+        "Andrea Maria Pedrosa Valli"
+      ],
+      "event": "XXVI Iberian Latin-American Congress on Computational Methods in Engineering (CILAMCE 2005)",
+      "event_en": "",
+      "proceedings": "Anais XXVI Iberian Latin-American Congress on Computational Methods in Engineering",
+      "pages": "-",
+      "city": "Guarapari - ES",
+      "country": ""
+    },
+    {
+      "title": "O Consumo de Energia da Arquitetura DTSVLIW",
+      "title_en": "",
+      "year": "2004",
+      "doi": "",
+      "language": "Português",
+      "authors": [
+        "Felipe Thomaz Pedroni",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "V Workshop em Sistemas Computacionais de Alto Desempenho - WSCAD'2004",
+      "event_en": "",
+      "proceedings": "Anais do V Workshop em Sistemas Computacionais de Alto Desempenho - WSCAD'2004",
+      "pages": "132-139",
+      "city": "Foz do Iguaçu",
+      "country": ""
+    },
+    {
+      "title": "Uma Arquitetura DTSVLIW com Múltiplos Contextos de Execução",
+      "title_en": "",
+      "year": "2004",
+      "doi": "",
+      "language": "Português",
+      "authors": [
+        "Fernando Líbio Leite Almeida",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "V Workshop em Sistemas Computacionais de Alto Desempenho - WSCAD'2004",
+      "event_en": "",
+      "proceedings": "Anais do V Workshop em Sistemas Computacionais de Alto Desempenho - WSCAD'2004",
+      "pages": "124-131",
+      "city": "Foz do Iguaçu",
+      "country": ""
+    },
+    {
+      "title": "Single Instruction Fetch Does Not Inhibit Instruction-Level Parallelism",
+      "title_en": "",
+      "year": "2003",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Christian Daros de Freitas",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "Workshop on Exploring the Trace Space for Dynamic Optimization Techniques - in conjunction with the International Conference on Supercomputing, SC2003",
+      "event_en": "",
+      "proceedings": "Proceedings of the Workshop on Exploring the Trace Space for Dynamic Optimization Techniques",
+      "pages": "13-21",
+      "city": "San Francisco - California",
+      "country": ""
+    },
+    {
+      "title": "A Comparative Analysis Between EPIC Static Instruction Scheduling and DTSVLIW Dynamic Instruction Scheduling",
+      "title_en": "",
+      "year": "2003",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Sandro Camata Santana",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "Workshop on Exploring the Trace Space for Dynamic Optimization Techniques - in conjunction with the International Conference on Supercomputing, SC2003",
+      "event_en": "",
+      "proceedings": "Proceedings of the Workshop on Exploring the Trace Space for Dynamic Optimization Techniques",
+      "pages": "59-67",
+      "city": "San Francisco - CA - USA",
+      "country": ""
+    },
+    {
+      "title": "O Efeito da Latência no Desempenho da Arquitetura DTSVLIW",
+      "title_en": "",
+      "year": "2003",
+      "doi": "",
+      "language": "Português",
+      "authors": [
+        "Fernando Líbio Leite Almeida",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "IV Workshop em Sistemas Computacionais de Alto Desempenho - WSCAD'2003",
+      "event_en": "",
+      "proceedings": "Anais do IV Workshop em Sistemas Computacionais de Alto Desempenho",
+      "pages": "64-71",
+      "city": "São Paulo",
+      "country": ""
+    },
+    {
+      "title": "Instalação e Configuração de Clusters de Estações de Trabalho: Experiência do Laboratório de Computação de Alto Desempenho do Departamento de Informática da UFES",
+      "title_en": "",
+      "year": "2003",
+      "doi": "",
+      "language": "Português",
+      "authors": [
+        "Sergio Nery Simões",
+        "Sotério Ferreira de Souza",
+        "Leonardo Muniz",
+        "Dijalma Fardim Júnior",
+        "Alberto Ferreira De Souza",
+        "Neyval Costa Reis Júnior",
+        "Andrea Maria Pedrosa Valli",
+        "Lucia Catabriga"
+      ],
+      "event": "IV Workshop em Sistemas Computacionais de Alto Desempenho - WSCAD'2003",
+      "event_en": "",
+      "proceedings": "Anais do IV Workshop em Sistemas Computacionais de Alto Desempenho",
+      "pages": "156-159",
+      "city": "São Paulo",
+      "country": ""
+    },
+    {
+      "title": "Finite Difference Simulations of the Navier-Stokes Equations using Parallel Distributed Computing",
+      "title_en": "",
+      "year": "2003",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "João Paulo Angeli",
+        "Andrea Maria Pedrosa Valli",
+        "Neyval Costa Reis Júnior",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "15th Symposium on Computer Architecture and High Performance Computing",
+      "event_en": "",
+      "proceedings": "Proceedings of the 15th Symposium on Computer Architecture and High Performance Computing",
+      "pages": "149-156",
+      "city": "São Paulo",
+      "country": ""
+    },
+    {
+      "title": "3D Navier-Stokes solution algorithm for Clusters of Workstations",
+      "title_en": "",
+      "year": "2003",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Neyval Costa Reis Júnior",
+        "Edilson Luiz do Nascimento",
+        "Alberto Ferreira De Souza",
+        "Jane Meri Santos"
+      ],
+      "event": "XXIV Iberian Latin-American Congress on Computational Methods in Engineering",
+      "event_en": "",
+      "proceedings": "Proceedings of the XXIV Iberian Latin-American Congress on Computational Methods in Engineering",
+      "pages": "-",
+      "city": "Ouro Preto",
+      "country": ""
+    },
+    {
+      "title": "Numerical Simulations of the Navier­Stokes Equations using Clusters of workstations",
+      "title_en": "",
+      "year": "2003",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Neyval Costa Reis Júnior",
+        "Alberto Ferreira De Souza",
+        "Andrea Maria Pedrosa Valli",
+        "João Paulo Angeli"
+      ],
+      "event": "XXIV Iberian Latin-American Congress on Computational Methods in Engineering",
+      "event_en": "",
+      "proceedings": "Proceedings of the XXIV Iberian Latin-American Congress on Computational Methods in Engineering",
+      "pages": "-",
+      "city": "Ouro Preto",
+      "country": ""
+    },
+    {
+      "title": "Comparação de Técnicas de Paralelização Aplicadas a Métodos Computacionais para Problemas de Fenômenos de Transporte",
+      "title_en": "",
+      "year": "2002",
+      "doi": "",
+      "language": "Português",
+      "authors": [
+        "Edilson Luiz do Nascimento",
+        "Neyval Costa Reis Júnior",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "Encontro Nacional Ciência Térmicas - ENCIT'2002",
+      "event_en": "",
+      "proceedings": "Anais do Encontro Nacional Ciência Térmicas - ENCIT'2002",
+      "pages": "-",
+      "city": "Caxambu",
+      "country": ""
+    },
+    {
+      "title": "Vergence Control in a Binocular Vision System using Weightless Neural Networks",
+      "title_en": "",
+      "year": "2002",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Karin Satie Komati",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "International Symposium on Robotics and Automation",
+      "event_en": "",
+      "proceedings": "Proceedings of the 4th International Symposium on Robotics and Automation",
+      "pages": "-",
+      "city": "Toluca",
+      "country": ""
+    },
+    {
+      "title": "O Fetch de Uma Instrução Escalar por Ciclo Não Inibe o Paralelismo no Nível de Instrução",
+      "title_en": "",
+      "year": "2001",
+      "doi": "",
+      "language": "Português",
+      "authors": [
+        "Alberto Ferreira De Souza",
+        "Christian Daros de Freitas"
+      ],
+      "event": "II Workshop em Sistemas Computacionais de Alto Desempenho - WSCAD'2001",
+      "event_en": "",
+      "proceedings": "Anais do II Workshop em Sistemas Computacionais de Alto Desempenho",
+      "pages": "79-86",
+      "city": "Pirenópolis",
+      "country": ""
+    },
+    {
+      "title": "Uma Análise Comparativa entre o Escalonamento de Instruções EPIC e o DTSVLIW",
+      "title_en": "",
+      "year": "2001",
+      "doi": "",
+      "language": "Português",
+      "authors": [
+        "Alberto Ferreira De Souza",
+        "Sandro Camata Santana"
+      ],
+      "event": "II Workshop em Sistemas Computacionais de Alto Desempenho - WSCAD'2001",
+      "event_en": "",
+      "proceedings": "Anais do II Workshop em Sistemas Computacionais de Alto Desempenho",
+      "pages": "87-94",
+      "city": "Pirenópolis",
+      "country": ""
+    },
+    {
+      "title": "Improving the DTSVLIW Performance via Block Compaction",
+      "title_en": "",
+      "year": "2001",
+      "doi": "",
+      "language": "Português",
+      "authors": [
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "13th Symposium on Computer Architecture and High Performance Computing - SBAC-PAD'2001",
+      "event_en": "",
+      "proceedings": "Proceedings of the 13th Symposium on Computer Architecture and High Performance Computing",
+      "pages": "98-105",
+      "city": "Pirenópolis",
+      "country": ""
+    },
+    {
+      "title": "Portfolio Selection with Predicted Returns Using Neural Networks",
+      "title_en": "",
+      "year": "2001",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Fabio Daros de Freitas",
+        "Alberto Ferreira De Souza",
+        "Ailson Rosetti de Almeida",
+        "Francisco José Negreiros Gomes"
+      ],
+      "event": "IASTED International Conference on Artificial Intelligence and Applications - AIA'2001",
+      "event_en": "",
+      "proceedings": "Proceedings of the IASTED International Conference on Artificial Intelligence and Applications - AIA'2001",
+      "pages": "99-103",
+      "city": "Marbella",
+      "country": ""
+    },
+    {
+      "title": "Petroleum Reservoir Simulation using Finite Volume Method with Non-Structured Grids and Parallel Distributed Computing",
+      "title_en": "",
+      "year": "2001",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Neyval Costa Reis Júnior",
+        "João Paulo Angeli",
+        "Alberto Ferreira De Souza",
+        "Raul Henriques Cardoso Lopes"
+      ],
+      "event": "22nd. IBERIAN LATIN-AMERICAN CONGRESS ON COMPUTATIONAL METHODS IN ENGINEERING",
+      "event_en": "",
+      "proceedings": "Proceedings of the 22nd. IBERIAN LATIN-AMERICAN CONGRESS ON COMPUTATIONAL METHODS IN ENGINEERING",
+      "pages": "-",
+      "city": "Campinas",
+      "country": ""
+    },
+    {
+      "title": "On the Scheduling Algorithm of the Dynamically Trace Scheduled VLIW Architecture",
+      "title_en": "",
+      "year": "2000",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Alberto Ferreira De Souza",
+        "Peter Rounce"
+      ],
+      "event": "International Parallel and Distributed Symposium - IPDPS'2000",
+      "event_en": "",
+      "proceedings": "Proceedings of the International Parallel and Distributed Symposium - IPDPS'2000",
+      "pages": "565-572",
+      "city": "Cancun",
+      "country": ""
+    },
+    {
+      "title": "DTSVLIW: VLIW Performance with Sequential Code",
+      "title_en": "",
+      "year": "2000",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Alberto Ferreira De Souza",
+        "Peter Rounce"
+      ],
+      "event": "12th Symposium on Computer Architecture and High Performance Computing",
+      "event_en": "",
+      "proceedings": "Proceedings of the 12th Symposium on Computer Architecture and High Performance Computing",
+      "pages": "271-278",
+      "city": "São Pedro",
+      "country": ""
+    },
+    {
+      "title": "Knowledge Extraction from Trained Neural Networks: A Position Paper",
+      "title_en": "",
+      "year": "1999",
+      "doi": "10.1109/ICONIP.1999.845678",
+      "language": "Inglês",
+      "authors": [
+        "Artur d'Avila Garcez",
+        "Krysia Broda",
+        "Dovi Gabay",
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "6th International Conference on Neural Information Processing",
+      "event_en": "",
+      "proceedings": "Proceedings of the 6th International Conference on Neural Information Processing",
+      "pages": "685-691",
+      "city": "Perth - Australia",
+      "country": ""
+    },
+    {
+      "title": "Dynamically Scheduling the Trace Produced during Program Execution into VLIW Instructions",
+      "title_en": "",
+      "year": "1999",
+      "doi": "10.1109/IPPS.1999.760471",
+      "language": "Inglês",
+      "authors": [
+        "Alberto Ferreira De Souza",
+        "Peter Rounce"
+      ],
+      "event": "13th International Parallel Processing Symposium & 10th Symposium on Parallel and Distributed Processing - IPPS/SPDP'99",
+      "event_en": "",
+      "proceedings": "Proceedings of the 13th International Parallel Processing Symposium & 10th Symposium on Parallel and Distributed Processing - IPPS/SPDP'99",
+      "pages": "248-257",
+      "city": "San Juan - Puerto Rico",
+      "country": ""
+    },
+    {
+      "title": "On the Effectiveness of the Scheduling Algorithm of the Dynamically Trace Scheduled VLIW Architecture",
+      "title_en": "",
+      "year": "1999",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Alberto Ferreira De Souza",
+        "Peter Rounce"
+      ],
+      "event": "11th Symposium on Computer Architecture and High Performance Computing - SBAC-PAD'99",
+      "event_en": "",
+      "proceedings": "Proceedings of the 11th Symposium on Computer Architecture and High Performance Computing - SBAC-PAD'99",
+      "pages": "167-174",
+      "city": "Natal, RN",
+      "country": ""
+    },
+    {
+      "title": "Effect of multicycle instructions on the integer performance of the dynamically trace scheduled VLIW architecture",
+      "title_en": "",
+      "year": "1999",
+      "doi": "10.1007/BFb0100690",
+      "language": "Inglês",
+      "authors": [
+        "Alberto Ferreira De Souza",
+        "Peter Rounce"
+      ],
+      "event": "7th International Conference on High-Performance Computing and Networking",
+      "event_en": "",
+      "proceedings": "Lecture Notes in Computer Science (HPCN Europe 1999)",
+      "pages": "1203-1206",
+      "city": "Amsterdam, The Netherlands",
+      "country": ""
+    },
+    {
+      "title": "SPECint95 Performance of an Implementation of the Dynamically Trace Scheduled VLIW Architecture",
+      "title_en": "",
+      "year": "1998",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Alberto Ferreira De Souza",
+        "Peter Rounce"
+      ],
+      "event": "X Simpósio Brasileiro de Arquitetura de Computadores e Processamento de Alto Desempenho - SBAC-PAD'98",
+      "event_en": "",
+      "proceedings": "Anais do X Simpósio Brasileiro de Arquitetura de Computadores e Processamento de Alto Desempenho - SBAC-PAD'98",
+      "pages": "185-188",
+      "city": "Búzios - RJ",
+      "country": ""
+    },
+    {
+      "title": "Dynamically trace scheduled VLIW architectures",
+      "title_en": "",
+      "year": "1998",
+      "doi": "10.1007/BFb0037255",
+      "language": "Inglês",
+      "authors": [
+        "Alberto Ferreira De Souza",
+        "Peter Rounce"
+      ],
+      "event": "High-Performance Computing and Networking, International Conference and Exhibition",
+      "event_en": "",
+      "proceedings": "Lecture Notes in Computer Science (HPCN Europe 1998)",
+      "pages": "993-995",
+      "city": "Amsterdam, The Netherlands",
+      "country": ""
+    },
+    {
+      "title": "Uma Arquitetura Super Escalar com Multiplos Fluxos de Instrucao",
+      "title_en": "",
+      "year": "1996",
+      "doi": "",
+      "language": "Português",
+      "authors": [
+        "Eliseu Monteiro Chaves Filho",
+        "Alberto Ferreira De Souza",
+        "Anna Dolejsi Santos",
+        "Rafael Santos"
+      ],
+      "event": "VIII Simpósio Brasileiro de Arquitetura de Computadores e Processamento de Alto Desempenho",
+      "event_en": "",
+      "proceedings": "Anais do VIII Simpósio Brasileiro de Arquitetura de Computadores e Processamento de Alto Desempenho",
+      "pages": "67-76",
+      "city": "Recife - PE",
+      "country": ""
+    },
+    {
+      "title": "Supercomputer Performance with a Workstation Cluster on Dense Matrix Multiplication",
+      "title_en": "",
+      "year": "1995",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Alberto Ferreira De Souza",
+        "Fabio Daros de Freitas"
+      ],
+      "event": "Seventh IASTED/ISMM International Conference on Parallel and Distributed Computing and Systems",
+      "event_en": "",
+      "proceedings": "Proceedings of the Seventh IASTED/ISMM International Conference on Parallel and Distributed Computing and Systems",
+      "pages": "257-261",
+      "city": "Washington, D. C. - USA",
+      "country": ""
+    },
+    {
+      "title": "Determinação dos Parâmetros Ideais de uma Arquitetura VLIW",
+      "title_en": "",
+      "year": "1994",
+      "doi": "",
+      "language": "Português",
+      "authors": [
+        "Alberto Ferreira De Souza",
+        "Edil Severiano Tavares Fernandes"
+      ],
+      "event": "VI Simpósio Brasileiro de Arquitetura de Computadores e Processamento de Alto Desempenho - VI SBAC-PAD",
+      "event_en": "",
+      "proceedings": "Anais do VI Simpósio Brasileiro de Arquitetura de Computadores e Processamento de Alto Desempenho - VI SBAC-PAD",
+      "pages": "297-316",
+      "city": "Caxambú - MG",
+      "country": ""
+    },
+    {
+      "title": "Perfil do Curso de Engenharia de Computação da Universidade Federal do Espírito Santo",
+      "title_en": "",
+      "year": "1994",
+      "doi": "",
+      "language": "Português",
+      "authors": [
+        "Alberto Ferreira De Souza",
+        "Sebastião Luiz Batista"
+      ],
+      "event": "II Workshop sobre Educação em Informática",
+      "event_en": "",
+      "proceedings": "Anais do II Workshop sobre Educação em Informática",
+      "pages": "51-54",
+      "city": "Caxambú - MG",
+      "country": ""
+    },
+    {
+      "title": "O Sistema de Computação Paralela NCP I",
+      "title_en": "",
+      "year": "1993",
+      "doi": "",
+      "language": "Português",
+      "authors": [
+        "Claudio Luiz de Amorim",
+        "Ricardo Citro",
+        "Alberto Ferreira De Souza",
+        "Eliseu Monteiro Chaves Filho"
+      ],
+      "event": "V Simpósio Brasileiro de Arquitetura de Computadores e Processamento de Alto Desempenho",
+      "event_en": "",
+      "proceedings": "Anais do V Simpósio Brasileiro de Arquitetura de Computadores e Processamento de Alto Desempenho",
+      "pages": "-",
+      "city": "Florianópolis",
+      "country": ""
+    },
+    {
+      "title": "Micro-instruction Placement by Simulated Annealing",
+      "title_en": "",
+      "year": "1991",
+      "doi": "",
+      "language": "Inglês",
+      "authors": [
+        "Edil Severiano Tavares Fernandes",
+        "Valmir Carneiro Barbosa",
+        "Alberto Ferreira De Souza",
+        "Nelson Quilula Vasconcelos"
+      ],
+      "event": "7th Symposium on Microprocessing and Microprogramming - EUROMICRO'91",
+      "event_en": "",
+      "proceedings": "Proceedings of the 7th Symposium on Microprocessing and Microprogramming - EUROMICRO'91",
+      "pages": "23-28",
+      "city": "Vienna",
+      "country": ""
+    },
+    {
+      "title": "Uma Máquina Paralela Híbrida",
+      "title_en": "",
+      "year": "1988",
+      "doi": "",
+      "language": "Português",
+      "authors": [
+        "Alberto Ferreira De Souza"
+      ],
+      "event": "VIII Congresso da Sociedade Brasileira de Computação",
+      "event_en": "",
+      "proceedings": "Anais do VIII Congresso da Sociedade Brasilera de Computação",
+      "pages": "315-332",
+      "city": "Rio de Janeiro",
+      "country": ""
+    },
+    {
+      "title": "Laboratório para Ensino e Pesquisa em Microprogramação",
+      "title_en": "",
+      "year": "1987",
+      "doi": "",
+      "language": "Português",
+      "authors": [
+        "Alberto Ferreira De Souza",
+        "Felipe Maia Galvão França",
+        "Edil Severiano Tavares Fernandes"
+      ],
+      "event": "I Seminário Nacional sobre Manutenção de Equipamentos para Ensino e Pesquisa",
+      "event_en": "",
+      "proceedings": "Anais do I Seminário Nacional sobre Manutenção de Equipamentos para Ensino e Pesquisa",
+      "pages": "454-458",
+      "city": "Rio de Janeiro",
+      "country": ""
+    }
+  ],
+  "books": [
+    {
+      "title": "XXXI Jornadas de Atualização em Informática",
+      "title_en": "",
+      "year": "2012",
+      "doi": "",
+      "authors": [
+        "Alberto Ferreira De Souza",
+        "Renata Galante",
+        "Roberto Marcondes Cesar Junior",
+        "Aurora Trinidad Ramirez Pozo"
+      ],
+      "publisher": "SBC",
+      "isbn": "857669260-0",
+      "pages": "354"
+    },
+    {
+      "title": "Atualizações em Informática 2011",
+      "title_en": "",
+      "year": "2011",
+      "doi": "",
+      "authors": [
+        "Alberto Ferreira De Souza",
+        "Wagner Meira Junior"
+      ],
+      "publisher": "Editora PUC-Rio",
+      "isbn": "9788580060430",
+      "pages": "408"
+    },
+    {
+      "title": "XII Simpósio em Sistemas Computacionais",
+      "title_en": "",
+      "year": "2011",
+      "doi": "",
+      "authors": [
+        "Renato Ferreira",
+        "Nicolas Maillard",
+        "Alberto Ferreira De Souza",
+        "Lucia Catabriga"
+      ],
+      "publisher": "IEEE Computer Society",
+      "isbn": "9780769546148",
+      "pages": "121"
+    },
+    {
+      "title": "23rd International Symposium on Computer Architecture and High Performance Computing",
+      "title_en": "",
+      "year": "2011",
+      "doi": "",
+      "authors": [
+        "Jean-Luc Gaudiot",
+        "Alba Cristina M A Melo",
+        "Alberto Ferreira De Souza",
+        "Lucia Catabriga"
+      ],
+      "publisher": "IEEE Computer Society",
+      "isbn": "9780769545738",
+      "pages": "208"
+    },
+    {
+      "title": "Intelligent Text Categorization and Clustering",
+      "title_en": "",
+      "year": "2009",
+      "doi": "",
+      "authors": [
+        "Nadia Nedjah",
+        "Luiza M.  Mourelle",
+        "Janusz Kacprzyk",
+        "Felipe Maia Galvão França",
+        "Alberto Ferreira De Souza"
+      ],
+      "publisher": "Springer",
+      "isbn": "9783540856436",
+      "pages": "120"
+    },
+    {
+      "title": "Proceedings of the 18th International Symposium on Computer Architecture and High Performance Computing - SBAC-PAD'2006",
+      "title_en": "",
+      "year": "2006",
+      "doi": "",
+      "authors": [
+        "Alberto Ferreira De Souza",
+        "Rajkumar Buyya",
+        "Wagner Meira Junior"
+      ],
+      "publisher": "IEEE Computer Society",
+      "isbn": "0769527043",
+      "pages": "208"
+    },
+    {
+      "title": "UFES: Planejamento Estratégico 2005-2010",
+      "title_en": "",
+      "year": "2005",
+      "doi": "",
+      "authors": [
+        "Alberto Ferreira De Souza",
+        "Aminthas Loureiro Júnior",
+        "Geraldo Carrareto",
+        "Marcelo Saba Fonseca",
+        "Oswaldo Paiva Modenesi Martins da Cunha",
+        "Rogério Monteiro"
+      ],
+      "publisher": "Editora Universidade Federal do Espírito Santo",
+      "isbn": "8587106880",
+      "pages": "54"
+    },
+    {
+      "title": "Proceedings of the 14th Symposium on Computer Architecture and High Performance Computing",
+      "title_en": "",
+      "year": "2002",
+      "doi": "",
+      "authors": [
+        "Alberto Ferreira De Souza",
+        "Claudio Luiz de Amorim",
+        "Neyval Costa Reis Júnior"
+      ],
+      "publisher": "IEEE Computer Society",
+      "isbn": "",
+      "pages": "210"
+    },
+    {
+      "title": "Anais do III Workshop em Sistemas Computacionais de Alto Desempenho",
+      "title_en": "",
+      "year": "2002",
+      "doi": "",
+      "authors": [
+        "Alberto Ferreira De Souza",
+        "Cesar Augusto Fonticielha De Rose",
+        "Neyval Costa Reis Júnior"
+      ],
+      "publisher": "Sociedade Brasileira de Computação",
+      "isbn": "8588442418",
+      "pages": "165"
+    },
+    {
+      "title": "Anais do II Workshop em Sistemas Computacionais de Alto Desempenho",
+      "title_en": "",
+      "year": "2001",
+      "doi": "",
+      "authors": [
+        "Alba Cristina M A Melo",
+        "Alberto Ferreira De Souza",
+        "Mário Antônio R Dantas"
+      ],
+      "publisher": "Universidade de Brasília",
+      "isbn": "8588442078",
+      "pages": "162"
+    }
+  ],
+  "book_chapters": [
+    {
+      "title": "Um algoritmo baseado em técnicas de agrupamento para detecção de anomalias em séries temporais",
+      "title_en": "",
+      "year": "2015",
+      "doi": "",
+      "authors": [
+        "E. G. S. Nascimento",
+        "Orivaldo de Lira Tavares",
+        "RICARDO SHITSUKA",
+        "Alberto Ferreira De Souza",
+        "DORLIVETE MOREIRA SHITSUKA"
+      ],
+      "book_title": "Estudos e Práticas de Aprendizagem de Matemática e Finanças com Apoio de Modelagem",
+      "publisher": "Ciência Moderna",
+      "isbn": "9788539906062",
+      "pages": "155-186"
+    },
+    {
+      "title": "Evaluation of Two Parallel Finite Element Implementations of the Time-Dependent Advection Diffusion Problem: GPU versus Cluster Considering Time and Energy Consumption",
+      "title_en": "",
+      "year": "2013",
+      "doi": "10.1007/978-3-642-38718-0_17",
+      "authors": [
+        "Alberto Ferreira De Souza",
+        "Veronese, Lucas",
+        "Lima, Leonardo M.",
+        "Claudine Badue",
+        "Lucia Catabriga"
+      ],
+      "book_title": "Lecture Notes in Computer Science",
+      "publisher": "Springer Berlin Heidelberg",
+      "isbn": "9783642387173",
+      "pages": "149-162"
+    },
+    {
+      "title": "VG-RAM Weightless Neural Networks for Face Recognition",
+      "title_en": "",
+      "year": "2010",
+      "doi": "",
+      "authors": [
+        "Alberto Ferreira De Souza",
+        "Claudine Badue",
+        "Felipe Thomaz Pedroni",
+        "Stiven Schwanz Dias",
+        "Hallysson Oliveira",
+        "Sotério Ferreira de Souza"
+      ],
+      "book_title": "Face Recognition",
+      "publisher": "Intechweb",
+      "isbn": "9789533070605",
+      "pages": "171-186"
+    },
+    {
+      "title": "Arquitetura do Sistema Visual Humano: Uma Abordagem Computacional",
+      "title_en": "",
+      "year": "2003",
+      "doi": "",
+      "authors": [
+        "Dijalma Fardim Júnior",
+        "Karin Satie Komati",
+        "Alberto Ferreira De Souza"
+      ],
+      "book_title": "III Escola Regional de Informática RJ/ES",
+      "publisher": "Sociedade Brasileira de Computação",
+      "isbn": "8588442647",
+      "pages": "95-126"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Investigação e Experimentação de Técnicas de Ajuste Fino de Grandes Modelos de Linguagem para Processo de Gestão da Inovação",
+      "year_start": "2025",
+      "year_end": "",
+      "status": "EM_ANDAMENTO",
+      "nature": "PESQUISA",
+      "description": "",
+      "description_en": "",
+      "funding": [
+        {
+          "agency": "FUNDAÃ?Ã?O ESPÃ?RITO-SANTENSE DE TECNOLOGIA",
+          "nature": "AUXILIO_FINANCEIRO"
+        }
+      ],
+      "members": [
+        {
+          "name": "Alberto Ferreira De Souza",
+          "role": "NAO"
+        },
+        {
+          "name": "Claudine Badue",
+          "role": "SIM"
+        }
+      ]
+    },
+    {
+      "name": "Desenvolvimento de Algoritmos de Percepção para Veículos Autônomos em Ambientes Industriais e de Mineração",
+      "year_start": "2025",
+      "year_end": "",
+      "status": "EM_ANDAMENTO",
+      "nature": "PESQUISA",
+      "description": "",
+      "description_en": "",
+      "funding": [
+        {
+          "agency": "(FAPES) Fundação de Amparo à Pesquisa do Espírito Santo",
+          "nature": "AUXILIO_FINANCEIRO"
+        }
+      ],
+      "members": [
+        {
+          "name": "Alberto Ferreira De Souza",
+          "role": "NAO"
+        },
+        {
+          "name": "Claudine Badue",
+          "role": "SIM"
+        }
+      ]
+    },
+    {
+      "name": "Inteligências Computacionais Autônomas Baseadas em Generative Pre-trained Transformers (ICAGPT)",
+      "year_start": "2024",
+      "year_end": "",
+      "status": "EM_ANDAMENTO",
+      "nature": "PESQUISA",
+      "description": "",
+      "description_en": "",
+      "funding": [
+        {
+          "agency": "CONSELHO NACIONAL DE DESENVOLVIMENTO CIENTIFICO E TECNOLOGICO-CNPQ",
+          "nature": "AUXILIO_FINANCEIRO"
+        }
+      ],
+      "members": [
+        {
+          "name": "Alberto Ferreira De Souza",
+          "role": "SIM"
+        },
+        {
+          "name": "OLIVEIRA-SANTOS, THIAGO",
+          "role": "NAO"
+        },
+        {
+          "name": "FRIZERA-NETO, ANSELMO",
+          "role": "NAO"
+        },
+        {
+          "name": "BADUE, C.",
+          "role": "NAO"
+        },
+        {
+          "name": "Giancarlo Guizzardi",
+          "role": "NAO"
+        },
+        {
+          "name": "João Paulo Andrade Almeida",
+          "role": "NAO"
+        }
+      ]
+    },
+    {
+      "name": "Movimentação de Pilhas de Blocos não Identificados por meio de Robôs Autônomos",
+      "year_start": "2023",
+      "year_end": "",
+      "status": "EM_ANDAMENTO",
+      "nature": "PESQUISA",
+      "description": "",
+      "description_en": "",
+      "funding": [
+        {
+          "agency": "(FAPES) Fundação de Amparo à Pesquisa do Espírito Santo",
+          "nature": "AUXILIO_FINANCEIRO"
+        }
+      ],
+      "members": [
+        {
+          "name": "Alberto Ferreira De Souza",
+          "role": "SIM"
+        },
+        {
+          "name": "Claudine Badue",
+          "role": "NAO"
+        },
+        {
+          "name": "Thiago Oliveira dos Santos",
+          "role": "NAO"
+        }
+      ]
+    },
+    {
+      "name": "Infraestrutura para Projetos interdisciplinares de Informática Aplicada à Saúde",
+      "year_start": "2022",
+      "year_end": "2023",
+      "status": "CONCLUIDO",
+      "nature": "PESQUISA",
+      "description": "",
+      "description_en": "",
+      "funding": [
+        {
+          "agency": "(FAPES) Fundação de Amparo à Pesquisa do Espírito Santo",
+          "nature": "AUXILIO_FINANCEIRO"
+        }
+      ],
+      "members": [
+        {
+          "name": "Alberto Ferreira De Souza",
+          "role": "NAO"
+        },
+        {
+          "name": "Karin Satie Komati",
+          "role": "NAO"
+        },
+        {
+          "name": "Claudine Badue",
+          "role": "NAO"
+        },
+        {
+          "name": "Thiago Oliveira Santos",
+          "role": "SIM"
+        },
+        {
+          "name": "Filipe Wall Mutz",
+          "role": "NAO"
+        },
+        {
+          "name": "André Georghton Cardoso Pacheco",
+          "role": "NAO"
+        },
+        {
+          "name": "Marcos Rosa Júnior",
+          "role": "NAO"
+        },
+        {
+          "name": "Aline Neves Pessoa",
+          "role": "NAO"
+        },
+        {
+          "name": "Patricia Henriques Lyra Frasson",
+          "role": "NAO"
+        }
+      ]
+    },
+    {
+      "name": "Diagnóstico de Falhas em Motores Elétricos Baseado em Inteligência Artificial - DIME",
+      "year_start": "2022",
+      "year_end": "2025",
+      "status": "CONCLUIDO",
+      "nature": "PESQUISA",
+      "description": "",
+      "description_en": "",
+      "funding": [
+        {
+          "agency": "Petrobrás Transporte - Matriz",
+          "nature": "AUXILIO_FINANCEIRO"
+        }
+      ],
+      "members": [
+        {
+          "name": "Alberto Ferreira De Souza",
+          "role": "NAO"
+        },
+        {
+          "name": "Claudine Badue",
+          "role": "NAO"
+        },
+        {
+          "name": "Thiago Oliveira dos Santos",
+          "role": "NAO"
+        },
+        {
+          "name": "Lucas Frizera Encarnação",
+          "role": "SIM"
+        },
+        {
+          "name": "Daniel Carletti",
+          "role": "NAO"
+        },
+        {
+          "name": "Ronimar Espindula Volkers",
+          "role": "NAO"
+        },
+        {
+          "name": "Waldemar Júnior Tozi",
+          "role": "NAO"
+        },
+        {
+          "name": "Marlon Moratti do Amaral",
+          "role": "NAO"
+        }
+      ]
+    },
+    {
+      "name": "Desenvolvimento de novas tecnologias de Inteligência Artificial para veículos autônomos",
+      "year_start": "2022",
+      "year_end": "2025",
+      "status": "CONCLUIDO",
+      "nature": "PESQUISA",
+      "description": "",
+      "description_en": "",
+      "funding": [
+        {
+          "agency": "Conselho Nacional de Desenvolvimento Científico e Tecnológico",
+          "nature": "AUXILIO_FINANCEIRO"
+        }
+      ],
+      "members": [
+        {
+          "name": "Alberto Ferreira De Souza",
+          "role": "SIM"
+        }
+      ]
+    },
+    {
+      "name": "Inteligências Computacionais Autônomas",
+      "year_start": "2022",
+      "year_end": "",
+      "status": "EM_ANDAMENTO",
+      "nature": "PESQUISA",
+      "description": "",
+      "description_en": "",
+      "funding": [
+        {
+          "agency": "Conselho Nacional de Desenvolvimento Científico e Tecnológico",
+          "nature": "BOLSA"
+        }
+      ],
+      "members": [
+        {
+          "name": "Alberto Ferreira De Souza",
+          "role": "SIM"
+        }
+      ]
+    },
+    {
+      "name": "Instituto de Inteligência Computacional Aplicada - I2CA",
+      "year_start": "2021",
+      "year_end": "",
+      "status": "EM_ANDAMENTO",
+      "nature": "PESQUISA",
+      "description": "",
+      "description_en": "",
+      "funding": [
+        {
+          "agency": "(FAPES) Fundação de Amparo à Pesquisa do Espírito Santo",
+          "nature": "AUXILIO_FINANCEIRO"
+        },
+        {
+          "agency": "ArcelorMittal Brasil - Matriz",
+          "nature": "AUXILIO_FINANCEIRO"
+        }
+      ],
+      "members": [
+        {
+          "name": "Alberto Ferreira De Souza",
+          "role": "SIM"
+        },
+        {
+          "name": "Claudine Badue",
+          "role": "NAO"
+        },
+        {
+          "name": "Thiago Oliveira dos Santos",
+          "role": "NAO"
+        },
+        {
+          "name": "FRIZERA-NETO, ANSELMO",
+          "role": "NAO"
+        }
+      ]
+    },
+    {
+      "name": "Carros Autônomos SAE Nível 5",
+      "year_start": "2019",
+      "year_end": "2021",
+      "status": "CONCLUIDO",
+      "nature": "PESQUISA",
+      "description": "",
+      "description_en": "",
+      "funding": [
+        {
+          "agency": "(FAPES) Fundação de Amparo à Pesquisa do Espírito Santo",
+          "nature": "AUXILIO_FINANCEIRO"
+        }
+      ],
+      "members": [
+        {
+          "name": "Alberto Ferreira De Souza",
+          "role": "SIM"
+        },
+        {
+          "name": "Claudine Badue",
+          "role": "NAO"
+        },
+        {
+          "name": "Thiago Oliveira dos Santos",
+          "role": "NAO"
+        }
+      ]
+    },
+    {
+      "name": "Redes Neurais Profundas no Apoio à Fiscalização",
+      "year_start": "2018",
+      "year_end": "2021",
+      "status": "CONCLUIDO",
+      "nature": "PESQUISA",
+      "description": "",
+      "description_en": "",
+      "funding": [
+        {
+          "agency": "(FAPES) Fundação de Amparo à Pesquisa do Espírito Santo",
+          "nature": "AUXILIO_FINANCEIRO"
+        }
+      ],
+      "members": [
+        {
+          "name": "Alberto Ferreira De Souza",
+          "role": "SIM"
+        },
+        {
+          "name": "Claudine Badue",
+          "role": "NAO"
+        },
+        {
+          "name": "Thiago Oliveira dos Santos",
+          "role": "NAO"
+        },
+        {
+          "name": "Teresa Cristina Janes Carneiro",
+          "role": "NAO"
+        }
+      ]
+    },
+    {
+      "name": "Desenvolvimento e Testes de um Demonstrador Tecnológico para Aeronaves baseado em Robótica Autônoma",
+      "year_start": "2018",
+      "year_end": "2020",
+      "status": "CONCLUIDO",
+      "nature": "PESQUISA",
+      "description": "",
+      "description_en": "",
+      "funding": [
+        {
+          "agency": "EMBRAER",
+          "nature": "AUXILIO_FINANCEIRO"
+        }
+      ],
+      "members": [
+        {
+          "name": "Alberto Ferreira De Souza",
+          "role": "SIM"
+        },
+        {
+          "name": "Claudine Badue",
+          "role": "NAO"
+        },
+        {
+          "name": "Thiago Oliveira dos Santos",
+          "role": "NAO"
+        }
+      ]
+    },
+    {
+      "name": "Visão Artificial e Robótica Autônoma Aplicadas à Mineração",
+      "year_start": "2016",
+      "year_end": "2021",
+      "status": "CONCLUIDO",
+      "nature": "PESQUISA",
+      "description": "",
+      "description_en": "",
+      "funding": [
+        {
+          "agency": "(FAPES) Fundação de Amparo à Pesquisa do Espírito Santo",
+          "nature": "AUXILIO_FINANCEIRO"
+        }
+      ],
+      "members": [
+        {
+          "name": "Alberto Ferreira De Souza",
+          "role": "SIM"
+        },
+        {
+          "name": "Claudine Badue",
+          "role": "NAO"
+        },
+        {
+          "name": "Edilson de Aguiar",
+          "role": "NAO"
+        },
+        {
+          "name": "Thiago Oliveira Santos",
+          "role": "NAO"
+        }
+      ]
+    },
+    {
+      "name": "Cognição Espacial Artificial e sua Implementação Eficiente por meio de Computação de Alto Desempenho",
+      "year_start": "2014",
+      "year_end": "",
+      "status": "EM_ANDAMENTO",
+      "nature": "PESQUISA",
+      "description": "",
+      "description_en": "",
+      "funding": [
+        {
+          "agency": "Conselho Nacional de Desenvolvimento Científico e Tecnológico",
+          "nature": "BOLSA"
+        }
+      ],
+      "members": [
+        {
+          "name": "Alberto Ferreira De Souza",
+          "role": "SIM"
+        }
+      ]
+    },
+    {
+      "name": "Sistema Inteligente para Negociação Automática de Ativos",
+      "year_start": "2014",
+      "year_end": "2017",
+      "status": "CONCLUIDO",
+      "nature": "DESENVOLVIMENTO",
+      "description": "",
+      "description_en": "",
+      "funding": [
+        {
+          "agency": "Fundação de Amparo à Pesquisa do Espírito Santo",
+          "nature": "AUXILIO_FINANCEIRO"
+        }
+      ],
+      "members": [
+        {
+          "name": "Alberto Ferreira De Souza",
+          "role": "SIM"
+        },
+        {
+          "name": "Fábio Daros de Freitas",
+          "role": "NAO"
+        },
+        {
+          "name": "Frederico Elias Muniz",
+          "role": "NAO"
+        },
+        {
+          "name": "Alex Rocha Moreira",
+          "role": "NAO"
+        }
+      ]
+    },
+    {
+      "name": "PhotoPography - Sistema de Topografia de Pilhas de Minério via Internet",
+      "year_start": "2013",
+      "year_end": "2016",
+      "status": "CONCLUIDO",
+      "nature": "DESENVOLVIMENTO",
+      "description": "",
+      "description_en": "",
+      "funding": [
+        {
+          "agency": "Conselho Nacional de Desenvolvimento Científico e Tecnológico",
+          "nature": "AUXILIO_FINANCEIRO"
+        }
+      ],
+      "members": [
+        {
+          "name": "Alberto Ferreira De Souza",
+          "role": "NAO"
+        },
+        {
+          "name": "Franco Machado",
+          "role": "SIM"
+        },
+        {
+          "name": "Avelino Forechi",
+          "role": "NAO"
+        }
+      ]
+    },
+    {
+      "name": "HammerHead 2 - Projeto industrial de Equipamento Inovador para Captura de Imagens Estéreo",
+      "year_start": "2013",
+      "year_end": "2016",
+      "status": "CONCLUIDO",
+      "nature": "DESENVOLVIMENTO",
+      "description": "",
+      "description_en": "",
+      "funding": [
+        {
+          "agency": "Fundação de Amparo à Pesquisa do Espírito Santo",
+          "nature": "AUXILIO_FINANCEIRO"
+        }
+      ],
+      "members": [
+        {
+          "name": "Alberto Ferreira De Souza",
+          "role": "SIM"
+        }
+      ]
+    },
+    {
+      "name": "Consolidação das Linhas de Pesquisa em Computação de Alto Desempenho, Otimização e Inteligência Computacional do PPGI-UFES",
+      "year_start": "2011",
+      "year_end": "2016",
+      "status": "CONCLUIDO",
+      "nature": "PESQUISA",
+      "description": "",
+      "description_en": "",
+      "funding": [
+        {
+          "agency": "Conselho Nacional de Desenvolvimento Científico e Tecnológico",
+          "nature": "AUXILIO_FINANCEIRO"
+        }
+      ],
+      "members": [
+        {
+          "name": "Alberto Ferreira De Souza",
+          "role": "SIM"
+        }
+      ]
+    },
+    {
+      "name": "Arquitetura e Programação de Sistemas Computacionais com Muitos Núcleos de Processamento",
+      "year_start": "2011",
+      "year_end": "2013",
+      "status": "CONCLUIDO",
+      "nature": "PESQUISA",
+      "description": "",
+      "description_en": "",
+      "funding": [
+        {
+          "agency": "Conselho Nacional de Desenvolvimento Científico e Tecnológico",
+          "nature": "BOLSA"
+        }
+      ],
+      "members": [
+        {
+          "name": "Alberto Ferreira De Souza",
+          "role": "SIM"
+        }
+      ]
+    },
+    {
+      "name": "Modelos Matemático-Computacionais de Exploração e Busca Visual Aplicados ao Problema de Mapeamento e Localização Simultâneos de Robôs",
+      "year_start": "2010",
+      "year_end": "2012",
+      "status": "EM_ANDAMENTO",
+      "nature": "PESQUISA",
+      "description": "",
+      "description_en": "",
+      "funding": [
+        {
+          "agency": "Conselho Nacional de Desenvolvimento Científico e Tecnológico",
+          "nature": "BOLSA"
+        }
+      ],
+      "members": [
+        {
+          "name": "Alberto Ferreira De Souza",
+          "role": "NAO"
+        },
+        {
+          "name": "Claudine Badue",
+          "role": "SIM"
+        }
+      ]
+    },
+    {
+      "name": "PRONEX: Núcleo de Excelência em Computação de Alto Desempenho e sua Aplicação em Computação Científica e Inteligência Computacional",
+      "year_start": "2010",
+      "year_end": "2014",
+      "status": "CONCLUIDO",
+      "nature": "PESQUISA",
+      "description": "",
+      "description_en": "",
+      "funding": [
+        {
+          "agency": "Fundação de Amparo à Pesquisa do Espírito Santo",
+          "nature": "AUXILIO_FINANCEIRO"
+        }
+      ],
+      "members": [
+        {
+          "name": "Alberto Ferreira De Souza",
+          "role": "SIM"
+        },
+        {
+          "name": "Claudio Luiz de Amorim",
+          "role": "NAO"
+        },
+        {
+          "name": "Lucia Catabriga",
+          "role": "NAO"
+        },
+        {
+          "name": "Andrea Maria Pedrosa Valli",
+          "role": "NAO"
+        },
+        {
+          "name": "Elias Silva de Oliveira",
+          "role": "NAO"
+        },
+        {
+          "name": "Maria Cristina Rangel",
+          "role": "NAO"
+        },
+        {
+          "name": "Claudine Badue",
+          "role": "NAO"
+        },
+        {
+          "name": "Maria Claudia Silva Boeres",
+          "role": "NAO"
+        },
+        {
+          "name": "Thomas Walter Rauber",
+          "role": "NAO"
+        },
+        {
+          "name": "Isaac Pinheiro dos Santos",
+          "role": "NAO"
+        },
+        {
+          "name": "Alvaro Luiz Gayoso de Azeredo Coutinho",
+          "role": "NAO"
+        },
+        {
+          "name": "Jun Okamoto Jr.",
+          "role": "NAO"
+        }
+      ]
+    },
+    {
+      "name": "Fortalecimento das Áreas de Computação de Alto Desempenho, Otimização e Inteligência Computacional do Programa de Pós-Graduação em Informática da UFES",
+      "year_start": "2009",
+      "year_end": "2011",
+      "status": "EM_ANDAMENTO",
+      "nature": "PESQUISA",
+      "description": "",
+      "description_en": "",
+      "funding": [
+        {
+          "agency": "Conselho Nacional de Desenvolvimento Científico e Tecnológico",
+          "nature": "AUXILIO_FINANCEIRO"
+        }
+      ],
+      "members": [
+        {
+          "name": "Alberto Ferreira De Souza",
+          "role": "SIM"
+        },
+        {
+          "name": "Claudio Luiz de Amorim",
+          "role": "NAO"
+        },
+        {
+          "name": "Lucia Catabriga",
+          "role": "NAO"
+        },
+        {
+          "name": "Andrea Maria Pedrosa Valli",
+          "role": "NAO"
+        },
+        {
+          "name": "Elias Silva de Oliveira",
+          "role": "NAO"
+        },
+        {
+          "name": "Maria Cristina Rangel",
+          "role": "NAO"
+        },
+        {
+          "name": "Claudine Badue",
+          "role": "NAO"
+        },
+        {
+          "name": "Maria Claudia Silva Boeres",
+          "role": "NAO"
+        },
+        {
+          "name": "Thomas Walter Rauber",
+          "role": "NAO"
+        },
+        {
+          "name": "Isaac Pinheiro dos Santos",
+          "role": "NAO"
+        },
+        {
+          "name": "Alvaro Luiz Gayoso de Azeredo Coutinho",
+          "role": "NAO"
+        },
+        {
+          "name": "José Luís Drummond Alves",
+          "role": "NAO"
+        },
+        {
+          "name": "Renato Nascimento Elias",
+          "role": "NAO"
+        }
+      ]
+    },
+    {
+      "name": "Sistema de Medição baseado em Visão Artificial",
+      "year_start": "2009",
+      "year_end": "2011",
+      "status": "CONCLUIDO",
+      "nature": "DESENVOLVIMENTO",
+      "description": "",
+      "description_en": "",
+      "funding": [
+        {
+          "agency": "Fundação de Amparo à Pesquisa do Espírito Santo",
+          "nature": "AUXILIO_FINANCEIRO"
+        }
+      ],
+      "members": [
+        {
+          "name": "Alberto Ferreira De Souza",
+          "role": "NAO"
+        },
+        {
+          "name": "Franco Machado",
+          "role": "SIM"
+        },
+        {
+          "name": "Avelino Forechi",
+          "role": "NAO"
+        },
+        {
+          "name": "Lucas de Paula Veronese",
+          "role": "NAO"
+        }
+      ]
+    },
+    {
+      "name": "Desenvolvimento de um Sistema de Localização e Mapeamento 3D por Visão Artificial para Navegação de Robôs e Veículos Aéreos ou Submarinos Não Tripulados",
+      "year_start": "2009",
+      "year_end": "2013",
+      "status": "CONCLUIDO",
+      "nature": "DESENVOLVIMENTO",
+      "description": "",
+      "description_en": "",
+      "funding": [
+        {
+          "agency": "Financiadora de Estudos e Projetos",
+          "nature": "AUXILIO_FINANCEIRO"
+        }
+      ],
+      "members": [
+        {
+          "name": "Alberto Ferreira De Souza",
+          "role": "NAO"
+        },
+        {
+          "name": "Franco Machado",
+          "role": "SIM"
+        },
+        {
+          "name": "Lauro J. Lyrio Jr.",
+          "role": "NAO"
+        },
+        {
+          "name": "Avelino Forechi",
+          "role": "NAO"
+        },
+        {
+          "name": "Lucas de Paula Veronese",
+          "role": "NAO"
+        },
+        {
+          "name": "Filipe Wall Mutz",
+          "role": "NAO"
+        }
+      ]
+    },
+    {
+      "name": "Visita Técnico-Científica ao Department of Computing da City University London",
+      "year_start": "2008",
+      "year_end": "2008",
+      "status": "CONCLUIDO",
+      "nature": "PESQUISA",
+      "description": "",
+      "description_en": "",
+      "funding": [
+        {
+          "agency": "Conselho Nacional de Desenvolvimento Científico e Tecnológico",
+          "nature": "AUXILIO_FINANCEIRO"
+        }
+      ],
+      "members": [
+        {
+          "name": "Alberto Ferreira De Souza",
+          "role": "SIM"
+        }
+      ]
+    },
+    {
+      "name": "Arquitetura de Sistemas Computacionais com Muitos Núcleos de Processamento em um Único CI",
+      "year_start": "2008",
+      "year_end": "2011",
+      "status": "EM_ANDAMENTO",
+      "nature": "PESQUISA",
+      "description": "",
+      "description_en": "",
+      "funding": [
+        {
+          "agency": "Conselho Nacional de Desenvolvimento Científico e Tecnológico",
+          "nature": "BOLSA"
+        }
+      ],
+      "members": [
+        {
+          "name": "Alberto Ferreira De Souza",
+          "role": "SIM"
+        }
+      ]
+    },
+    {
+      "name": "Modernização da Infra-Estrutura de Pesquisa da Área de Computação de Alto Desempenho da UFES",
+      "year_start": "2006",
+      "year_end": "2007",
+      "status": "CONCLUIDO",
+      "nature": "DESENVOLVIMENTO",
+      "description": "",
+      "description_en": "",
+      "funding": [
+        {
+          "agency": "Financiadora de Estudos e Projetos",
+          "nature": "AUXILIO_FINANCEIRO"
+        }
+      ],
+      "members": [
+        {
+          "name": "Alberto Ferreira De Souza",
+          "role": "SIM"
+        }
+      ]
+    },
+    {
+      "name": "Classificação Automática em CNAE-Subclasse",
+      "year_start": "2006",
+      "year_end": "2010",
+      "status": "CONCLUIDO",
+      "nature": "PESQUISA",
+      "description": "",
+      "description_en": "",
+      "funding": [
+        {
+          "agency": "Universidade Federal do Rio de Janeiro",
+          "nature": "COOPERACAO"
+        },
+        {
+          "agency": "Secretaria da Receita Federal",
+          "nature": "AUXILIO_FINANCEIRO"
+        }
+      ],
+      "members": [
+        {
+          "name": "Alberto Ferreira De Souza",
+          "role": "SIM"
+        },
+        {
+          "name": "Felipe Maia Galvão França",
+          "role": "NAO"
+        },
+        {
+          "name": "Elias Silva de Oliveira",
+          "role": "NAO"
+        },
+        {
+          "name": "Priscila Machado Vieira Lima",
+          "role": "NAO"
+        },
+        {
+          "name": "Eliana Zandonade",
+          "role": "NAO"
+        },
+        {
+          "name": "Hannu Tapio Ahonen",
+          "role": "NAO"
+        }
+      ]
+    },
+    {
+      "name": "Fortalecimento das Áreas de Computação de Alto Desempenho e Inteligência Computacional do Programa de Pós-Graduação em Informática da UFES",
+      "year_start": "2006",
+      "year_end": "2008",
+      "status": "CONCLUIDO",
+      "nature": "PESQUISA",
+      "description": "",
+      "description_en": "",
+      "funding": [
+        {
+          "agency": "Conselho Nacional de Desenvolvimento Científico e Tecnológico",
+          "nature": "AUXILIO_FINANCEIRO"
+        }
+      ],
+      "members": [
+        {
+          "name": "Alberto Ferreira De Souza",
+          "role": "SIM"
+        }
+      ]
+    },
+    {
+      "name": "Automatizando a Medição de Dimensões, Áreas e Volumes",
+      "year_start": "2006",
+      "year_end": "2009",
+      "status": "CONCLUIDO",
+      "nature": "PESQUISA",
+      "description": "",
+      "description_en": "",
+      "funding": [
+        {
+          "agency": "Fundação de Amparo à Pesquisa do Espírito Santo",
+          "nature": "AUXILIO_FINANCEIRO"
+        }
+      ],
+      "members": [
+        {
+          "name": "Alberto Ferreira De Souza",
+          "role": "SIM"
+        }
+      ]
+    },
+    {
+      "name": "Novas Arquiteturas de Alto Desempenho Baseadas no Escalonamento Dinâmico de Instruções",
+      "year_start": "2005",
+      "year_end": "2007",
+      "status": "CONCLUIDO",
+      "nature": "PESQUISA",
+      "description": "",
+      "description_en": "",
+      "funding": [
+        {
+          "agency": "Conselho Nacional de Desenvolvimento Científico e Tecnológico",
+          "nature": "AUXILIO_FINANCEIRO"
+        }
+      ],
+      "members": [
+        {
+          "name": "Alberto Ferreira De Souza",
+          "role": "SIM"
+        },
+        {
+          "name": "Fernado Líbio Leite Almeida",
+          "role": "NAO"
+        }
+      ]
+    },
+    {
+      "name": "Arquiteturas de Computadores e Hierarquias de Memória Avançadas",
+      "year_start": "2005",
+      "year_end": "2008",
+      "status": "CONCLUIDO",
+      "nature": "PESQUISA",
+      "description": "",
+      "description_en": "",
+      "funding": [
+        {
+          "agency": "Conselho Nacional de Desenvolvimento Científico e Tecnológico",
+          "nature": "BOLSA"
+        }
+      ],
+      "members": [
+        {
+          "name": "Alberto Ferreira De Souza",
+          "role": "SIM"
+        }
+      ]
+    },
+    {
+      "name": "Rede Metropolitana de Alta Velocidade de Vitória - Metrovix",
+      "year_start": "2005",
+      "year_end": "2008",
+      "status": "CONCLUIDO",
+      "nature": "DESENVOLVIMENTO",
+      "description": "",
+      "description_en": "",
+      "funding": [
+        {
+          "agency": "Financiadora de Estudos e Projetos",
+          "nature": "AUXILIO_FINANCEIRO"
+        },
+        {
+          "agency": "Instituto Capixaba de Pesquisa, Assistência Técnica e Extensão Rural",
+          "nature": "COOPERACAO"
+        },
+        {
+          "agency": "Irmandade da Santa Casa de Misericórdia de Vitória",
+          "nature": "COOPERACAO"
+        },
+        {
+          "agency": "Museu Solar Monjardim",
+          "nature": "COOPERACAO"
+        },
+        {
+          "agency": "Prefeitura Municipal de Vitória",
+          "nature": "COOPERACAO"
+        },
+        {
+          "agency": "Rede Nacional de Ensino e Pesquisa",
+          "nature": "COOPERACAO"
+        },
+        {
+          "agency": "Secretaria de Estado de Ciência e Tecnologia",
+          "nature": "COOPERACAO"
+        },
+        {
+          "agency": "Centro Federal de Educação Tecnológica do Espírito Santo",
+          "nature": "COOPERACAO"
+        }
+      ],
+      "members": [
+        {
+          "name": "Alberto Ferreira De Souza",
+          "role": "SIM"
+        }
+      ]
+    },
+    {
+      "name": "Rede GIGA: Implantação e utilização de um GRID de 1TFLOP/s",
+      "year_start": "2004",
+      "year_end": "2006",
+      "status": "CONCLUIDO",
+      "nature": "PESQUISA",
+      "description": "",
+      "description_en": "",
+      "funding": [
+        {
+          "agency": "Conselho Nacional de Desenvolvimento Científico e Tecnológico",
+          "nature": "BOLSA"
+        }
+      ],
+      "members": [
+        {
+          "name": "Alberto Ferreira De Souza",
+          "role": "SIM"
+        }
+      ]
+    },
+    {
+      "name": "Sistema Automático de Medição de Volumes Baseado em Visão Artificial",
+      "year_start": "2004",
+      "year_end": "2005",
+      "status": "CONCLUIDO",
+      "nature": "PESQUISA",
+      "description": "",
+      "description_en": "",
+      "funding": [
+        {
+          "agency": "Fundo de Apoio à Ciência e Tecnologia do Município de Vitória",
+          "nature": "AUXILIO_FINANCEIRO"
+        }
+      ],
+      "members": [
+        {
+          "name": "Alberto Ferreira De Souza",
+          "role": "SIM"
+        },
+        {
+          "name": "Neyval Costa Reis Júnior",
+          "role": "NAO"
+        },
+        {
+          "name": "Dijalma Fardim Júnior",
+          "role": "NAO"
+        },
+        {
+          "name": "Hallysson Oliveira",
+          "role": "NAO"
+        },
+        {
+          "name": "Stiven Schwanz Dias",
+          "role": "NAO"
+        }
+      ]
+    },
+    {
+      "name": "Melhorias de Infra-Estrutura para o Funcionamento do LCAD",
+      "year_start": "2004",
+      "year_end": "2006",
+      "status": "CONCLUIDO",
+      "nature": "PESQUISA",
+      "description": "",
+      "description_en": "",
+      "funding": [
+        {
+          "agency": "Financiadora de Estudos e Projetos",
+          "nature": "AUXILIO_FINANCEIRO"
+        }
+      ],
+      "members": [
+        {
+          "name": "Alberto Ferreira De Souza",
+          "role": "SIM"
+        },
+        {
+          "name": "Neyval Costa Reis Júnior",
+          "role": "NAO"
+        },
+        {
+          "name": "Raul Henriques Cardoso Lopes",
+          "role": "NAO"
+        },
+        {
+          "name": "Lucia Catabriga",
+          "role": "NAO"
+        },
+        {
+          "name": "Andrea Maria Pedrosa Valli",
+          "role": "NAO"
+        },
+        {
+          "name": "Elias Silva de Oliveira",
+          "role": "NAO"
+        },
+        {
+          "name": "Maria Cristina Rangel",
+          "role": "NAO"
+        }
+      ]
+    },
+    {
+      "name": "Plataforma de Acesso Seguro a Vídeo Sob Demanda para Dispositivos Móveis Sem Fio com Garantia de Qualidade de Serviço - TRAVIS-QDS",
+      "year_start": "2004",
+      "year_end": "2007",
+      "status": "CONCLUIDO",
+      "nature": "PESQUISA",
+      "description": "",
+      "description_en": "",
+      "funding": [
+        {
+          "agency": "Financiadora de Estudos e Projetos",
+          "nature": "AUXILIO_FINANCEIRO"
+        }
+      ],
+      "members": [
+        {
+          "name": "Alberto Ferreira De Souza",
+          "role": "NAO"
+        },
+        {
+          "name": "Claudio Luiz de Amorim",
+          "role": "SIM"
+        }
+      ]
+    },
+    {
+      "name": "Arquiteturas Avançadas de Processador",
+      "year_start": "2003",
+      "year_end": "2005",
+      "status": "CONCLUIDO",
+      "nature": "PESQUISA",
+      "description": "",
+      "description_en": "",
+      "funding": [
+        {
+          "agency": "Conselho Nacional de Desenvolvimento Científico e Tecnológico",
+          "nature": "BOLSA"
+        }
+      ],
+      "members": [
+        {
+          "name": "Alberto Ferreira De Souza",
+          "role": "SIM"
+        },
+        {
+          "name": "Christian Daros de Freitas",
+          "role": "NAO"
+        },
+        {
+          "name": "Sandro Camata Santana",
+          "role": "NAO"
+        },
+        {
+          "name": "Fernado Líbio Leite Almeida",
+          "role": "NAO"
+        },
+        {
+          "name": "Felipe Thomaz Pedroni",
+          "role": "NAO"
+        }
+      ]
+    }
+  ]
+}

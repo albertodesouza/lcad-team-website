@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Research projects by Prof. Dr. Alberto Ferreira De Souza">
+  <title>Research Projects - Prof. Dr. Alberto Ferreira De Souza</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Custom Tailwind Config -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'ufes-blue': '#003366',
+            'ufes-gold': '#FFD700',
+          }
+        }
+      }
+    }
+  </script>
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  
+  <style>
+    .project-card {
+      transition: all 0.2s ease;
+    }
+    .project-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .status-ongoing {
+      background-color: #dcfce7;
+      color: #166534;
+    }
+    .status-completed {
+      background-color: #e0e7ff;
+      color: #3730a3;
+    }
+    .filter-btn.active {
+      background-color: #2563eb;
+      color: white;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 min-h-screen">
+  <!-- Navigation -->
+  <nav class="bg-ufes-blue text-white py-4 sticky top-0 z-50 shadow-lg">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between">
+        <a href="index.html" class="text-xl font-bold hover:text-ufes-gold transition-colors">
+          ← Back to Home
+        </a>
+        <h1 class="text-lg font-semibold">Prof. Dr. Alberto Ferreira De Souza</h1>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="bg-gradient-to-r from-ufes-blue to-blue-800 text-white py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h1 class="text-4xl font-bold mb-4">Research Projects</h1>
+      <p class="text-blue-200 text-lg">
+        38 research projects from Currículo Lattes (2003-2025)
+      </p>
+    </div>
+  </header>
+
+  <!-- Filter Buttons -->
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+    <div class="flex flex-wrap gap-3">
+      <button onclick="filterProjects('all')" class="filter-btn active px-4 py-2 rounded-lg border border-gray-300 hover:bg-blue-600 hover:text-white transition-colors">
+        All Projects (38)
+      </button>
+      <button onclick="filterProjects('ongoing')" class="filter-btn px-4 py-2 rounded-lg border border-gray-300 hover:bg-blue-600 hover:text-white transition-colors">
+        Ongoing (8)
+      </button>
+      <button onclick="filterProjects('completed')" class="filter-btn px-4 py-2 rounded-lg border border-gray-300 hover:bg-blue-600 hover:text-white transition-colors">
+        Completed (30)
+      </button>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+    
+    <div class="space-y-6">
+      
+      <!-- Ongoing Projects Section -->
+      <section>
+        <h2 class="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+          <span class="w-3 h-3 bg-green-500 rounded-full mr-3"></span>
+          Ongoing Projects
+        </h2>
+        
+        <div class="grid gap-6">
+          
+          <!-- Project 1 -->
+          <div class="project-card ongoing bg-white p-6 rounded-xl border-l-4 border-green-500 shadow-sm">
+            <div class="flex items-start justify-between mb-3">
+              <span class="status-ongoing px-3 py-1 rounded-full text-sm font-medium">Ongoing</span>
+              <span class="text-gray-500 font-medium">2025 - present</span>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900 mb-2">
+              Investigation and Experimentation of Fine-Tuning Techniques for Large Language Models in Innovation Management Processes
+            </h3>
+            <p class="text-sm text-gray-600 mb-3">
+              <span class="font-medium">Original:</span> Investigação e Experimentação de Técnicas de Ajuste Fino de Grandes Modelos de Linguagem para Processo de Gestão da Inovação
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: FEST</span>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card ongoing bg-white p-6 rounded-xl border-l-4 border-green-500 shadow-sm">
+            <div class="flex items-start justify-between mb-3">
+              <span class="status-ongoing px-3 py-1 rounded-full text-sm font-medium">Ongoing</span>
+              <span class="text-gray-500 font-medium">2025 - present</span>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900 mb-2">
+              Development of Perception Algorithms for Autonomous Vehicles in Industrial and Mining Environments
+            </h3>
+            <p class="text-sm text-gray-600 mb-3">
+              <span class="font-medium">Original:</span> Desenvolvimento de Algoritmos de Percepção para Veículos Autônomos em Ambientes Industriais e de Mineração
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: FAPES</span>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card ongoing bg-white p-6 rounded-xl border-l-4 border-green-500 shadow-sm">
+            <div class="flex items-start justify-between mb-3">
+              <span class="status-ongoing px-3 py-1 rounded-full text-sm font-medium">Ongoing</span>
+              <span class="text-gray-500 font-medium">2024 - present</span>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900 mb-2">
+              Autonomous Computational Intelligences Based on Generative Pre-trained Transformers (ICAGPT)
+            </h3>
+            <p class="text-sm text-gray-600 mb-3">
+              <span class="font-medium">Original:</span> Inteligências Computacionais Autônomas Baseadas em Generative Pre-trained Transformers (ICAGPT)
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: CNPq</span>
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="project-card ongoing bg-white p-6 rounded-xl border-l-4 border-green-500 shadow-sm">
+            <div class="flex items-start justify-between mb-3">
+              <span class="status-ongoing px-3 py-1 rounded-full text-sm font-medium">Ongoing</span>
+              <span class="text-gray-500 font-medium">2023 - present</span>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900 mb-2">
+              Movement of Unidentified Block Piles by Autonomous Robots
+            </h3>
+            <p class="text-sm text-gray-600 mb-3">
+              <span class="font-medium">Original:</span> Movimentação de Pilhas de Blocos não Identificados por meio de Robôs Autônomos
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: FAPES</span>
+            </div>
+          </div>
+
+          <!-- Project 5 -->
+          <div class="project-card ongoing bg-white p-6 rounded-xl border-l-4 border-green-500 shadow-sm">
+            <div class="flex items-start justify-between mb-3">
+              <span class="status-ongoing px-3 py-1 rounded-full text-sm font-medium">Ongoing</span>
+              <span class="text-gray-500 font-medium">2022 - present</span>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900 mb-2">
+              Autonomous Computational Intelligences
+            </h3>
+            <p class="text-sm text-gray-600 mb-3">
+              <span class="font-medium">Original:</span> Inteligências Computacionais Autônomas
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: CNPq</span>
+            </div>
+          </div>
+
+          <!-- Project 6 -->
+          <div class="project-card ongoing bg-white p-6 rounded-xl border-l-4 border-green-500 shadow-sm">
+            <div class="flex items-start justify-between mb-3">
+              <span class="status-ongoing px-3 py-1 rounded-full text-sm font-medium">Ongoing</span>
+              <span class="text-gray-500 font-medium">2021 - present</span>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900 mb-2">
+              Institute of Applied Computational Intelligence - I2CA
+            </h3>
+            <p class="text-sm text-gray-600 mb-3">
+              <span class="font-medium">Original:</span> Instituto de Inteligência Computacional Aplicada - I2CA
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: FAPES, ArcelorMittal Brasil</span>
+            </div>
+          </div>
+
+          <!-- Project 7 -->
+          <div class="project-card ongoing bg-white p-6 rounded-xl border-l-4 border-green-500 shadow-sm">
+            <div class="flex items-start justify-between mb-3">
+              <span class="status-ongoing px-3 py-1 rounded-full text-sm font-medium">Ongoing</span>
+              <span class="text-gray-500 font-medium">2014 - present</span>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900 mb-2">
+              Artificial Spatial Cognition and its Efficient Implementation through High-Performance Computing
+            </h3>
+            <p class="text-sm text-gray-600 mb-3">
+              <span class="font-medium">Original:</span> Cognição Espacial Artificial e sua Implementação Eficiente por meio de Computação de Alto Desempenho
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: CNPq</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Completed Projects Section -->
+      <section class="mt-12">
+        <h2 class="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+          <span class="w-3 h-3 bg-indigo-500 rounded-full mr-3"></span>
+          Completed Projects
+        </h2>
+        
+        <div class="grid gap-6">
+
+          <!-- Major completed projects -->
+          <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm">
+            <div class="flex items-start justify-between mb-3">
+              <span class="status-completed px-3 py-1 rounded-full text-sm font-medium">Completed</span>
+              <span class="text-gray-500 font-medium">2022 - 2025</span>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900 mb-2">
+              Development of New Artificial Intelligence Technologies for Autonomous Vehicles
+            </h3>
+            <p class="text-sm text-gray-600 mb-3">
+              <span class="font-medium">Original:</span> Desenvolvimento de novas tecnologias de Inteligência Artificial para veículos autônomos
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: CNPq</span>
+            </div>
+          </div>
+
+          <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm">
+            <div class="flex items-start justify-between mb-3">
+              <span class="status-completed px-3 py-1 rounded-full text-sm font-medium">Completed</span>
+              <span class="text-gray-500 font-medium">2022 - 2025</span>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900 mb-2">
+              Fault Diagnosis in Electric Motors Based on Artificial Intelligence - DIME
+            </h3>
+            <p class="text-sm text-gray-600 mb-3">
+              <span class="font-medium">Original:</span> Diagnóstico de Falhas em Motores Elétricos Baseado em Inteligência Artificial - DIME
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: Petrobras</span>
+            </div>
+          </div>
+
+          <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm">
+            <div class="flex items-start justify-between mb-3">
+              <span class="status-completed px-3 py-1 rounded-full text-sm font-medium">Completed</span>
+              <span class="text-gray-500 font-medium">2019 - 2021</span>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900 mb-2">
+              SAE Level 5 Autonomous Cars
+            </h3>
+            <p class="text-sm text-gray-600 mb-3">
+              <span class="font-medium">Original:</span> Carros Autônomos SAE Nível 5
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: FAPES</span>
+            </div>
+          </div>
+
+          <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm">
+            <div class="flex items-start justify-between mb-3">
+              <span class="status-completed px-3 py-1 rounded-full text-sm font-medium">Completed</span>
+              <span class="text-gray-500 font-medium">2018 - 2021</span>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900 mb-2">
+              Deep Neural Networks for Regulatory Enforcement Support
+            </h3>
+            <p class="text-sm text-gray-600 mb-3">
+              <span class="font-medium">Original:</span> Redes Neurais Profundas no Apoio à Fiscalização
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: FAPES</span>
+            </div>
+          </div>
+
+          <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm">
+            <div class="flex items-start justify-between mb-3">
+              <span class="status-completed px-3 py-1 rounded-full text-sm font-medium">Completed</span>
+              <span class="text-gray-500 font-medium">2018 - 2020</span>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900 mb-2">
+              Development and Testing of a Technology Demonstrator for Aircraft Based on Autonomous Robotics
+            </h3>
+            <p class="text-sm text-gray-600 mb-3">
+              <span class="font-medium">Original:</span> Desenvolvimento e Testes de um Demonstrador Tecnológico para Aeronaves baseado em Robótica Autônoma
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: EMBRAER</span>
+            </div>
+          </div>
+
+          <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm">
+            <div class="flex items-start justify-between mb-3">
+              <span class="status-completed px-3 py-1 rounded-full text-sm font-medium">Completed</span>
+              <span class="text-gray-500 font-medium">2016 - 2021</span>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900 mb-2">
+              Artificial Vision and Autonomous Robotics Applied to Mining
+            </h3>
+            <p class="text-sm text-gray-600 mb-3">
+              <span class="font-medium">Original:</span> Visão Artificial e Robótica Autônoma Aplicadas à Mineração
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: FAPES</span>
+            </div>
+          </div>
+
+          <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm">
+            <div class="flex items-start justify-between mb-3">
+              <span class="status-completed px-3 py-1 rounded-full text-sm font-medium">Completed</span>
+              <span class="text-gray-500 font-medium">2014 - 2017</span>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900 mb-2">
+              Intelligent System for Automatic Asset Trading
+            </h3>
+            <p class="text-sm text-gray-600 mb-3">
+              <span class="font-medium">Original:</span> Sistema Inteligente para Negociação Automática de Ativos
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: FAPES</span>
+            </div>
+          </div>
+
+          <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm">
+            <div class="flex items-start justify-between mb-3">
+              <span class="status-completed px-3 py-1 rounded-full text-sm font-medium">Completed</span>
+              <span class="text-gray-500 font-medium">2013 - 2016</span>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900 mb-2">
+              PhotoPography - Ore Pile Topography System via Internet
+            </h3>
+            <p class="text-sm text-gray-600 mb-3">
+              <span class="font-medium">Original:</span> PhotoPography - Sistema de Topografia de Pilhas de Minério via Internet
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: CNPq</span>
+            </div>
+          </div>
+
+          <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm">
+            <div class="flex items-start justify-between mb-3">
+              <span class="status-completed px-3 py-1 rounded-full text-sm font-medium">Completed</span>
+              <span class="text-gray-500 font-medium">2010 - 2014</span>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900 mb-2">
+              PRONEX: Center of Excellence in High-Performance Computing and its Application in Scientific Computing and Computational Intelligence
+            </h3>
+            <p class="text-sm text-gray-600 mb-3">
+              <span class="font-medium">Original:</span> PRONEX: Núcleo de Excelência em Computação de Alto Desempenho e sua Aplicação em Computação Científica e Inteligência Computacional
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: FAPES</span>
+            </div>
+          </div>
+
+          <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm">
+            <div class="flex items-start justify-between mb-3">
+              <span class="status-completed px-3 py-1 rounded-full text-sm font-medium">Completed</span>
+              <span class="text-gray-500 font-medium">2009 - 2013</span>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900 mb-2">
+              Development of a 3D Localization and Mapping System by Artificial Vision for Navigation of Robots and Unmanned Aerial or Submarine Vehicles
+            </h3>
+            <p class="text-sm text-gray-600 mb-3">
+              <span class="font-medium">Original:</span> Desenvolvimento de um Sistema de Localização e Mapeamento 3D por Visão Artificial para Navegação de Robôs e Veículos Aéreos ou Submarinos Não Tripulados
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: FINEP</span>
+            </div>
+          </div>
+
+          <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm">
+            <div class="flex items-start justify-between mb-3">
+              <span class="status-completed px-3 py-1 rounded-full text-sm font-medium">Completed</span>
+              <span class="text-gray-500 font-medium">2006 - 2010</span>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900 mb-2">
+              Automatic Classification in CNAE-Subclass
+            </h3>
+            <p class="text-sm text-gray-600 mb-3">
+              <span class="font-medium">Original:</span> Classificação Automática em CNAE-Subclasse
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: UFRJ, Federal Revenue Service</span>
+            </div>
+          </div>
+
+          <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm">
+            <div class="flex items-start justify-between mb-3">
+              <span class="status-completed px-3 py-1 rounded-full text-sm font-medium">Completed</span>
+              <span class="text-gray-500 font-medium">2005 - 2008</span>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900 mb-2">
+              Vitória Metropolitan High-Speed Network - Metrovix
+            </h3>
+            <p class="text-sm text-gray-600 mb-3">
+              <span class="font-medium">Original:</span> Rede Metropolitana de Alta Velocidade de Vitória - Metrovix
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: FINEP, RNP, Multiple Partners</span>
+            </div>
+          </div>
+
+          <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm">
+            <div class="flex items-start justify-between mb-3">
+              <span class="status-completed px-3 py-1 rounded-full text-sm font-medium">Completed</span>
+              <span class="text-gray-500 font-medium">2003 - 2005</span>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900 mb-2">
+              Advanced Processor Architectures
+            </h3>
+            <p class="text-sm text-gray-600 mb-3">
+              <span class="font-medium">Original:</span> Arquiteturas Avançadas de Processador
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: CNPq</span>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="text-center py-8">
+          <p class="text-gray-500 italic">
+            Full list contains 38 research projects from 2003 to 2025.<br>
+            <a href="http://lattes.cnpq.br/7573837292080522" target="_blank" rel="noopener" class="text-blue-600 hover:text-blue-800">
+              View complete list on Currículo Lattes →
+            </a>
+          </p>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Funding Agencies -->
+    <section class="mt-12 bg-white rounded-xl p-8 shadow-sm border">
+      <h2 class="text-xl font-bold text-gray-900 mb-6">Main Funding Agencies</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+        <div class="p-4">
+          <div class="text-3xl font-bold text-blue-600">CNPq</div>
+          <p class="text-sm text-gray-500 mt-1">National Council for Scientific and Technological Development</p>
+        </div>
+        <div class="p-4">
+          <div class="text-3xl font-bold text-green-600">FAPES</div>
+          <p class="text-sm text-gray-500 mt-1">Espírito Santo Research Foundation</p>
+        </div>
+        <div class="p-4">
+          <div class="text-3xl font-bold text-orange-600">FINEP</div>
+          <p class="text-sm text-gray-500 mt-1">Funding Authority for Studies and Projects</p>
+        </div>
+        <div class="p-4">
+          <div class="text-3xl font-bold text-purple-600">Industry</div>
+          <p class="text-sm text-gray-500 mt-1">Embraer, Petrobras, ArcelorMittal</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-ufes-blue text-white py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <p class="text-blue-200">
+        Data extracted from Currículo Lattes (CNPq) • Last updated: February 2025
+      </p>
+      <p class="mt-2">
+        <a href="index.html" class="text-white hover:text-ufes-gold">← Back to Home</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Filter Script -->
+  <script>
+    function filterProjects(type) {
+      // Update button states
+      document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.classList.remove('active', 'bg-blue-600', 'text-white');
+      });
+      event.target.classList.add('active', 'bg-blue-600', 'text-white');
+
+      // Show/hide projects
+      const ongoingCards = document.querySelectorAll('.project-card.ongoing');
+      const completedCards = document.querySelectorAll('.project-card.completed');
+      const sections = document.querySelectorAll('section');
+
+      if (type === 'all') {
+        ongoingCards.forEach(card => card.style.display = 'block');
+        completedCards.forEach(card => card.style.display = 'block');
+        sections.forEach(section => section.style.display = 'block');
+      } else if (type === 'ongoing') {
+        ongoingCards.forEach(card => card.style.display = 'block');
+        completedCards.forEach(card => card.style.display = 'none');
+      } else if (type === 'completed') {
+        ongoingCards.forEach(card => card.style.display = 'none');
+        completedCards.forEach(card => card.style.display = 'block');
+      }
+    }
+  </script>
+</body>
+</html>
