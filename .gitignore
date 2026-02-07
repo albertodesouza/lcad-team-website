@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Distribution / packaging
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Keep the team directory but ignore most of its contents
+# (we only need images and some assets from it)
+team/*.php
+team/*.sql
+team/*.old
+team/includes/
+team/maintenance/
+team/languages/
+team/docs/
+team/tests/
+team/math/
+team/serialized/
+team/bin/
+team/t/
+team/config/
+team/extensions/
+
+# Keep these from team
+!team/images/
+!team/skins/
+
+# Secrets (if any)
+*.pem
+*.key
+secrets/
+credentials/
