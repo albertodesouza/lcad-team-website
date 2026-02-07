@@ -2,7 +2,8 @@
 #
 # deploy.sh - Deploy website to UFES server via SFTP
 #
-# This script synchronizes the local website files to the remote server.
+# This script uploads the new website files to http://www.lcad.inf.ufes.br/alberto
+#
 # IMPORTANT: You must be connected to the departmental VPN before running this script.
 #
 # Usage:
@@ -22,7 +23,7 @@ set -e
 # Configuration
 REMOTE_HOST="sftp.inf.ufes.br"
 REMOTE_USER="lcad"
-REMOTE_PATH="/site/team"
+REMOTE_PATH="site/alberto"
 LOCAL_SRC_DIR="$(dirname "$0")/src"
 DIST_DIR="$(dirname "$0")/dist"
 
@@ -35,8 +36,15 @@ NC='\033[0m' # No Color
 
 # Parse arguments
 DRY_RUN=false
-if [ "$1" == "--dry-run" ]; then
-    DRY_RUN=true
+for arg in "$@"; do
+    case $arg in
+        --dry-run)
+            DRY_RUN=true
+            ;;
+    esac
+done
+
+if [ "$DRY_RUN" = true ]; then
     echo -e "${YELLOW}=== DRY RUN MODE ===${NC}"
     echo "No files will be transferred."
     echo
@@ -45,6 +53,8 @@ fi
 echo -e "${BLUE}========================================${NC}"
 echo -e "${BLUE}  Website Deployment Script${NC}"
 echo -e "${BLUE}========================================${NC}"
+echo
+echo "Target URL: http://www.lcad.inf.ufes.br/alberto"
 echo
 
 # Check if lftp is installed
@@ -68,32 +78,22 @@ fi
 
 # Prepare dist directory
 echo
-echo -e "${YELLOW}Preparing files for deployment...${NC}"
+echo -e "${YELLOW}Preparing website files for deployment...${NC}"
 
 # Create dist directory if it doesn't exist
 mkdir -p "$DIST_DIR"
 
-# Copy source files to dist
-echo "Copying files to dist directory..."
-rsync -av --delete \
-    --exclude '.git' \
-    --exclude '.github' \
-    --exclude '__pycache__' \
-    --exclude '*.pyc' \
-    --exclude '.DS_Store' \
-    "$LOCAL_SRC_DIR/" "$DIST_DIR/"
+# Clear dist and copy fresh files
+rm -rf "$DIST_DIR"/*
 
-# Copy existing team files if they exist (to preserve MediaWiki structure)
-if [ -d "$(dirname "$0")/team" ]; then
-    echo "Preserving existing MediaWiki files..."
-    # Only copy specific directories we want to keep
-    for dir in images skins; do
-        if [ -d "$(dirname "$0")/team/$dir" ]; then
-            mkdir -p "$DIST_DIR/$dir"
-            rsync -av "$(dirname "$0")/team/$dir/" "$DIST_DIR/$dir/"
-        fi
-    done
-fi
+# Copy the main page as index.html in the root of dist
+cp "$LOCAL_SRC_DIR/alberto/index.html" "$DIST_DIR/index.html"
+
+# Copy assets
+cp -r "$LOCAL_SRC_DIR/assets" "$DIST_DIR/"
+
+# Copy data
+cp -r "$LOCAL_SRC_DIR/data" "$DIST_DIR/"
 
 echo -e "${GREEN}✓ Files prepared${NC}"
 
@@ -101,28 +101,27 @@ echo -e "${GREEN}✓ Files prepared${NC}"
 FILE_COUNT=$(find "$DIST_DIR" -type f | wc -l)
 echo "Total files to deploy: $FILE_COUNT"
 
+# Show structure
+echo
+echo "Files to deploy:"
+find "$DIST_DIR" -type f | sed "s|$DIST_DIR/||"
+
 # Deploy
 echo
-echo -e "${YELLOW}Starting deployment to $REMOTE_HOST...${NC}"
-echo "Remote path: $REMOTE_PATH"
+echo -e "${YELLOW}Uploading website files to $REMOTE_HOST...${NC}"
+echo "Remote path: /$REMOTE_PATH"
 echo
 
 if [ "$DRY_RUN" = true ]; then
-    # Dry run - just show what would be done
-    echo "Files that would be transferred:"
-    find "$DIST_DIR" -type f | head -20
-    if [ "$FILE_COUNT" -gt 20 ]; then
-        echo "... and $((FILE_COUNT - 20)) more files"
-    fi
+    echo "DRY RUN - No files transferred."
 else
-    # Actual deployment using lftp
-    # Using mirror with --reverse to upload local to remote
+    # Upload files
     lftp -c "
         set sftp:auto-confirm yes
         set net:timeout 30
         set net:max-retries 3
         open sftp://$REMOTE_USER@$REMOTE_HOST
-        mirror --reverse --delete --verbose --parallel=4 \
+        mirror --reverse --verbose --parallel=4 \
             --exclude-glob .git* \
             --exclude-glob __pycache__ \
             --exclude-glob *.pyc \
@@ -137,7 +136,7 @@ else
         echo -e "${GREEN}========================================${NC}"
         echo
         echo "Website is now live at:"
-        echo "  http://www.lcad.inf.ufes.br/team/index.php/Prof._Dr._Alberto_Ferreira_De_Souza"
+        echo "  http://www.lcad.inf.ufes.br/alberto"
         echo
     else
         echo
