@@ -1,0 +1,74 @@
+year,semester,course_code,section,course_name,details
+2025,2,PINF-6038,4,Special Topics in Computer Science,Autonomous Mobile Robotics
+2025,2,PINF-6063,3,Directed Study II,Trajectory Planning in Unstructured Urban Environments for Multi-Articulated Autonomous Trucks
+2025,2,PINF-7038,4,Special Topics in Computer Science,Autonomous Mobile Robotics
+2025,1,PINF-6010,12,Directed Study,Using Transformers for Object Detection and Trajectory Prediction with LiDAR Data
+2025,1,PINF-6010,17,Directed Study,Lateral Control for Trucks at the Limit of Steerability
+2024,2,PINF-6010,2,Directed Study,Clinical Anamnesis with Artificial Intelligence
+2024,2,PINF-6010,3,Directed Study,LLM Optimization for Video Event Classification
+2024,2,PINF-6038,2,Special Topics in Computer Science,Generative Pre-Trained Transformers
+2024,2,PINF-6065,2,Special Topics in Computer Science II,Generative Pre-Trained Transformers
+2024,2,PINF-7038,2,Special Topics in Computer Science,Generative Pre-Trained Transformers
+2024,1,PINF-6010,1,Directed Study,Bias in Generative Pre-Trained Transformers
+2023,2,PINF-6038,2,Special Topics in Computer Science,Generative Pre-Trained Transformers
+2023,2,PINF-6065,2,Special Topics in Computer Science II,Generative Pre-Trained Transformers
+2023,2,PINF-7038,2,Special Topics in Computer Science,Generative Pre-Trained Transformers
+2023,2,PINF-7095,1,Special Topics in Computer Science II,Generative Pre-Trained Transformers
+2023,1,PINF-7062,1,Directed Study I,Longitudinal and Lateral Motion Planning for Autonomous Vehicles
+2023,1,PINF-7063,2,Directed Study II,Localization and Obstacle Detection for Locomotives
+2021,2,PINF-6010,12,Directed Study,Global Robot Localization
+2021,2,PINF-6010,29,Directed Study,Global Robot Localization
+2021,2,PINF-6010,31,Directed Study,Neural Place Recognition for Robots
+2021,2,PINF-6046,1,Visual Cognition,Visual Cognition
+2021,2,PINF-7010,4,Directed Study,Deep Learning for Disease Detection and Classification in Fruits
+2021,2,PINF-7010,10,Directed Study,Deep Learning for Disease Detection and Classification in Fruits II
+2021,2,PINF-7010,11,Directed Study,Object Detection Using Deep Learning
+2021,2,PINF-7046,1,Visual Cognition,Visual Cognition
+2021,1,PINF-6038,3,Special Topics in Computer Science,Deep Learning
+2021,1,PINF-7038,3,Special Topics in Computer Science,Deep Learning
+2020,1,PINF-7010,2,Directed Study,Detecting Cancerous Tissues in Mammograms Using Deep Neural Networks
+2020,1,PINF-7010,8,Directed Study,Deep Learning for Moving Object Manipulation in Mapping and Localization for Autonomous Cars
+2020,1,PINF-7010,9,Directed Study,Mapping Methods in Deep Neural Networks
+2020,1,PINF-7010,18,Directed Study,Deep Learning for Disease Detection and Classification in Fruits
+2019,2,PINF-6046,1,Visual Cognition,Visual Cognition
+2019,2,PINF-6073,7,Special Topics in Computer Science,Deep Learning with Applications in Autonomous Vehicles
+2019,2,PINF-7046,1,Visual Cognition,Visual Cognition
+2019,2,PINF-7073,1,Special Topics in Computer Science,Deep Learning with Applications in Autonomous Vehicles
+2019,1,PINF-6010,3,Directed Study,Failure Prediction in Autonomous Vehicles
+2019,1,PINF-6062,2,Directed Study I,Intelligent Algorithms for Route Search in Maps
+2019,1,PINF-6063,1,Directed Study II,Failure Prediction in Autonomous Vehicles
+2019,1,PINF-7062,4,Directed Study I,Mapping and Localization Techniques for Autonomous Cars Using Deep Learning
+2019,1,PINF-7063,4,Directed Study II,Traffic Sign Recognition and Relevant Object Tracking for Autonomous Cars Using Deep Learning
+2018,2,PINF-6046,1,Visual Cognition,Visual Cognition
+2018,2,PINF-6062,4,Directed Study I,Industrial Asset Failure Prediction
+2018,2,PINF-6062,8,Directed Study I,Stereoscopic Vision
+2018,2,PINF-6073,5,Special Topics in Computer Science,Deep Learning with Applications in Autonomous Vehicles
+2018,2,PINF-7046,1,Visual Cognition,Visual Cognition
+2018,2,PINF-7073,4,Special Topics in Computer Science,Deep Learning with Applications in Autonomous Vehicles
+2018,1,PINF-6062,7,Directed Study I,Path Planning for Autonomous Vehicles Using Online Mapping Platforms
+2018,1,PINF-6073,4,Special Topics in Computer Science,Probabilistic Robotics
+2018,1,PINF-7062,1,Directed Study I,Map Inference Using Deep Neural Networks
+2017,2,PINF-6073,2,Special Topics in Computer Science,Deep Learning
+2017,2,PINF-7073,1,Special Topics in Computer Science,Deep Learning
+2017,1,PINF-6063,11,Directed Study II,Visual Tracking Applied to Autonomous Vehicles
+2017,1,PINF-6063,13,Directed Study II,Motion Planning in Unstructured Environments
+2017,1,PINF-6063,14,Directed Study II,Time Series Prediction Analysis Using Neural Networks
+2017,1,PINF-6073,4,Special Topics in Computer Science,Probabilistic Robotics
+2017,1,PINF-6074,1,Special Topics in Computer Science I,Probabilistic Robotics
+2017,1,PINF-7065,1,Special Topics in Computer Science II,Probabilistic Robotics
+2016,2,PINF-6002,1,Computer Architecture,Computer Architecture
+2016,2,PINF-6062,10,Directed Study I,Time Series Analysis and Prediction Using Neural Networks
+2016,2,PINF-6062,11,Directed Study I,Motion Planning Applied to Autonomous Vehicles
+2016,2,PINF-6062,12,Directed Study I,Mapping Applied to Autonomous Vehicles
+2016,2,PINF-7002,1,Computer Architecture,Computer Architecture
+2016,2,PINF-7063,1,Directed Study II,Autonomous Vehicle Navigation Based on Reinforcement Learning
+2016,2,PINF-7063,3,Directed Study II,Stabilized Finite Element Formulations for Navier-Stokes Equations
+2016,1,PINF-6046,1,Visual Cognition,Visual Cognition
+2016,1,PINF-6074,7,Special Topics in Computer Science I,Advanced Artificial Vision
+2016,1,PINF-6075,4,Special Topics in Computer Science II,Advanced Artificial Vision
+2016,1,PINF-6079,3,Special Topics in Computer Science IV,Advanced Artificial Vision
+2016,1,PINF-7046,1,Visual Cognition,Visual Cognition
+2016,1,PINF-7062,3,Directed Study I,Probabilistic Graphical Models
+2016,1,PINF-7062,4,Directed Study I,Finite Element Formulations for Fluid-Structure Interaction
+2016,1,PINF-7064,4,Special Topics in Computer Science I,Advanced Artificial Vision
+2016,1,PINF-7065,2,Special Topics in Computer Science II,Advanced Artificial Vision

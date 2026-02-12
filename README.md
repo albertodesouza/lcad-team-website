@@ -8,8 +8,10 @@ Modern academic website for Professor Emeritus Alberto Ferreira De Souza from UF
 
 - Modern, responsive design using Tailwind CSS
 - Automatic Google Scholar metrics updates (top 10 publications with links)
+- Teaching section with courses and directed studies (from CSV)
 - Embedded YouTube videos from LCAD channel
 - Professional academic profile with publications, projects, and awards
+- Press coverage section with media articles and videos
 
 ## Project Structure
 
@@ -18,7 +20,8 @@ Modern academic website for Professor Emeritus Alberto Ferreira De Souza from UF
 │   └── alberto/
 │       ├── index.html                # Main page
 │       ├── publications.html         # Complete publications list (from Lattes)
-│       └── projects.html             # Research projects list (from Lattes)
+│       ├── projects.html             # Research projects list (from Lattes)
+│       └── teaching.html             # Teaching courses list (from CSV)
 │   ├── assets/
 │   │   ├── css/style.css             # Custom styles
 │   │   ├── js/main.js                # JavaScript functionality
@@ -32,7 +35,9 @@ Modern academic website for Professor Emeritus Alberto Ferreira De Souza from UF
 │   ├── generate_html.py              # Script to update HTML with Scholar data
 │   ├── parse_lattes.py               # Script to parse Lattes XML
 │   ├── generate_lattes_pages.py      # Script to generate publications/projects pages
+│   ├── generate_teaching.py          # Script to generate teaching.html from CSV
 │   └── requirements.txt              # Python dependencies
+├── teaching.csv                      # Teaching courses data (editable)
 ├── .github/
 │   └── workflows/
 │       └── update_metrics.yml        # GitHub Action for weekly updates
@@ -147,6 +152,62 @@ The main page is located at `src/alberto/index.html`. Edit this file to:
 
 After editing, use `./preview_alberto.sh` to verify changes locally, then `./deploy.sh` to publish.
 
+## Updating Teaching Courses
+
+The `teaching.html` page contains a list of all graduate courses and directed studies, generated from the `teaching.csv` file.
+
+### CSV File Format
+
+The `teaching.csv` file has the following columns:
+
+| Column | Description |
+|--------|-------------|
+| `year` | Year the course was offered |
+| `semester` | Semester (1 or 2) |
+| `course_code` | Official course code (e.g., PINF-6038) |
+| `section` | Section/class number |
+| `course_name` | Course name |
+| `details` | Topic or research subject |
+
+### How to Update
+
+1. **Edit the CSV file:**
+   ```bash
+   # Open teaching.csv and add/modify courses
+   # Example new row:
+   # 2026,1,PINF-6038,1,Special Topics in Computer Science,Advanced Machine Learning
+   ```
+
+2. **Regenerate the HTML:**
+   ```bash
+   python3 scripts/generate_teaching.py
+   ```
+
+3. **Preview locally:**
+   ```bash
+   ./preview_alberto.sh
+   ```
+
+4. **Deploy:**
+   ```bash
+   ./deploy.sh
+   ```
+
+### Course Categories
+
+The script automatically categorizes courses based on their details:
+
+- **Generative AI**: Courses mentioning GPT, Generative, or Transformers
+- **Deep Learning**: Courses mentioning Deep Learning, Neural Networks, or CNN
+- **Visual Cognition**: Courses with Visual Cognition in the name
+- **Autonomous Robots**: Courses mentioning Autonomous, Robotic, Vehicle, or Robot
+- **Directed Studies**: Courses with "Directed Study" in the name
+
+### Course Levels
+
+- **PINF-6xxx**: Master's level courses
+- **PINF-7xxx**: PhD level courses
+
 ## Updating Publications and Projects from Lattes
 
 The `publications.html` and `projects.html` pages contain the complete list of publications and research projects extracted from the Currículo Lattes XML file.
@@ -217,6 +278,13 @@ I have added new projects to my Lattes. Please:
 - Original Portuguese names preserved
 - Filter by status (ongoing/completed)
 - Funding agency information
+
+**teaching.html:**
+- Complete list of 73 courses and directed studies (2016-2025)
+- Filter by category (Generative AI, Deep Learning, Visual Cognition, Autonomous Robots, Directed Studies)
+- Organized by year (most recent first)
+- Course level indicators (Master's/PhD)
+- Semester and section information
 
 ## Author
 

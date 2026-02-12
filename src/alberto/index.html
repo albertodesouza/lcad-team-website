@@ -49,6 +49,7 @@
         <!-- Desktop Navigation -->
         <div class="hidden md:flex space-x-8">
           <a href="#about" class="nav-link text-gray-600 hover:text-blue-600 transition-colors py-1">About</a>
+          <a href="#teaching" class="nav-link text-gray-600 hover:text-blue-600 transition-colors py-1">Teaching</a>
           <a href="#research" class="nav-link text-gray-600 hover:text-blue-600 transition-colors py-1">Research</a>
           <a href="#publications" class="nav-link text-gray-600 hover:text-blue-600 transition-colors py-1">Publications</a>
           <a href="#projects" class="nav-link text-gray-600 hover:text-blue-600 transition-colors py-1">Projects</a>
@@ -68,6 +69,7 @@
       <!-- Mobile Navigation -->
       <div id="mobile-menu" class="hidden md:hidden pb-4">
         <a href="#about" class="block py-2 text-gray-600 hover:text-blue-600">About</a>
+        <a href="#teaching" class="block py-2 text-gray-600 hover:text-blue-600">Teaching</a>
         <a href="#research" class="block py-2 text-gray-600 hover:text-blue-600">Research</a>
         <a href="#publications" class="block py-2 text-gray-600 hover:text-blue-600">Publications</a>
         <a href="#projects" class="block py-2 text-gray-600 hover:text-blue-600">Projects</a>
@@ -265,8 +267,81 @@
     </div>
   </section>
 
+  <!-- Teaching Section -->
+  <section id="teaching" class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between mb-8">
+        <h2 class="text-3xl font-bold text-gray-900">Teaching</h2>
+        <a href="teaching.html" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium">
+          View last 10 years's courses
+          <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- 1. Generative AI -->
+        <div class="p-6 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl text-white">
+          <div class="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-2">Generative AI</h3>
+          <p class="text-purple-100 text-sm">GPT, Large Language Models, Transformers Architecture</p>
+        </div>
+        
+        <!-- 2. Deep Learning -->
+        <div class="p-6 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl text-white">
+          <div class="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-2">Deep Learning</h3>
+          <p class="text-blue-100 text-sm">Neural Networks, CNNs, Computer Vision Applications</p>
+        </div>
+        
+        <!-- 3. Visual Cognition -->
+        <div class="p-6 bg-gradient-to-br from-green-500 to-green-600 rounded-xl text-white">
+          <div class="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-2">Visual Cognition</h3>
+          <p class="text-green-100 text-sm">Computational Models of Human Visual Perception</p>
+        </div>
+        
+        <!-- 4. Autonomous Robots -->
+        <div class="p-6 bg-gradient-to-br from-orange-500 to-orange-600 rounded-xl text-white">
+          <div class="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"/>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-2">Autonomous Robots</h3>
+          <p class="text-orange-100 text-sm">Mobile Robotics, Path Planning, Autonomous Vehicles</p>
+        </div>
+      </div>
+      
+      <!-- Teaching Topics -->
+      <div class="mt-12 bg-gray-50 rounded-xl p-8 border">
+        <h3 class="text-xl font-semibold text-gray-900 mb-4">Teaching Topics</h3>
+        <p class="text-gray-700 leading-relaxed">
+          My teaching focuses on cutting-edge topics in Artificial Intelligence and Robotics at both Master's and PhD levels. Recent courses cover <strong>Generative Pre-Trained Transformers</strong> and large language models (2023-2025), while foundational courses address <strong>Deep Learning</strong> architectures and their applications to computer vision and autonomous systems.
+        </p>
+        <p class="text-gray-700 leading-relaxed mt-4">
+          I also teach <strong>Visual Cognition</strong>, exploring computational models of human visual perception, and supervise numerous <strong>Directed Studies</strong> on autonomous vehicles, path planning, and AI applications in healthcare and industry. All courses are offered at the graduate level (PINF-6xxx for Master's and PINF-7xxx for PhD programs).
+        </p>
+      </div>
+    </div>
+  </section>
+
   <!-- Research Interests Section -->
-  <section id="research" class="py-16 bg-white">
+  <section id="research" class="py-16 bg-gray-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <h2 class="text-3xl font-bold text-gray-900 mb-8">Research Interests</h2>
       

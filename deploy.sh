@@ -139,6 +139,7 @@ rm -rf "$DIST_DIR"/*
 cp "$LOCAL_SRC_DIR/alberto/index.html" "$DIST_DIR/index.html"
 cp "$LOCAL_SRC_DIR/alberto/publications.html" "$DIST_DIR/publications.html" 2>/dev/null || true
 cp "$LOCAL_SRC_DIR/alberto/projects.html" "$DIST_DIR/projects.html" 2>/dev/null || true
+cp "$LOCAL_SRC_DIR/alberto/teaching.html" "$DIST_DIR/teaching.html" 2>/dev/null || true
 
 # Copy assets
 cp -r "$LOCAL_SRC_DIR/assets" "$DIST_DIR/"

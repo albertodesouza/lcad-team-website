@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teaching - Prof. Alberto Ferreira De Souza</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'ufes-blue': '#003366',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-gray-100 min-h-screen">
+  <!-- Navigation -->
+  <nav class="bg-white shadow-sm sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <a href="index.html" class="text-xl font-bold text-ufes-blue">Alberto F. De Souza</a>
+        <a href="index.html#teaching" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium">
+          <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+          </svg>
+          Back to Home
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="bg-gradient-to-r from-ufes-blue to-blue-800 text-white py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h1 class="text-4xl font-bold mb-4">Teaching</h1>
+      <p class="text-blue-200 text-lg">Courses and Directed Studies (2016-2025)</p>
+      <div class="mt-4 flex flex-wrap gap-4 text-sm">
+        <span class="bg-white/20 px-3 py-1 rounded-full">73 courses</span>
+        <span class="bg-white/20 px-3 py-1 rounded-full">10 years</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Filter Buttons -->
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+    <div class="flex flex-wrap gap-2 mb-6">
+      <button onclick="filterCourses('all')" class="filter-btn active px-4 py-2 rounded-lg bg-ufes-blue text-white font-medium transition-colors" data-filter="all">
+        All
+      </button>
+      <button onclick="filterCourses('generative-ai')" class="filter-btn px-4 py-2 rounded-lg bg-gray-200 text-gray-700 font-medium hover:bg-purple-100 transition-colors" data-filter="generative-ai">
+        Generative AI
+      </button>
+      <button onclick="filterCourses('deep-learning')" class="filter-btn px-4 py-2 rounded-lg bg-gray-200 text-gray-700 font-medium hover:bg-blue-100 transition-colors" data-filter="deep-learning">
+        Deep Learning
+      </button>
+      <button onclick="filterCourses('visual-cognition')" class="filter-btn px-4 py-2 rounded-lg bg-gray-200 text-gray-700 font-medium hover:bg-green-100 transition-colors" data-filter="visual-cognition">
+        Visual Cognition
+      </button>
+      <button onclick="filterCourses('autonomous-robots')" class="filter-btn px-4 py-2 rounded-lg bg-gray-200 text-gray-700 font-medium hover:bg-orange-100 transition-colors" data-filter="autonomous-robots">
+        Autonomous Robots
+      </button>
+      <button onclick="filterCourses('directed-study')" class="filter-btn px-4 py-2 rounded-lg bg-gray-200 text-gray-700 font-medium hover:bg-gray-300 transition-colors" data-filter="directed-study">
+        Directed Studies
+      </button>
+    </div>
+
+    <!-- Course List -->
+    <div id="courses-container">
+      
+        <!-- Year 2025 -->
+        <div class="year-section mb-8" data-year="2025">
+          <h3 class="text-xl font-semibold text-gray-900 mb-4 border-b pb-2">2025</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="autonomous-robots" data-year="2025">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-orange-100 text-orange-800 text-xs font-medium px-2.5 py-0.5 rounded">Master's</span>
+                <span class="text-sm text-gray-500">2025/2</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Special Topics in Computer Science</h4>
+              <p class="text-sm text-gray-600 mb-2">Autonomous Mobile Robotics</p>
+              <p class="text-xs text-gray-400">Code: PINF-6038 | Section: 4</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="autonomous-robots" data-year="2025">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-orange-100 text-orange-800 text-xs font-medium px-2.5 py-0.5 rounded">Master's</span>
+                <span class="text-sm text-gray-500">2025/2</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Directed Study II</h4>
+              <p class="text-sm text-gray-600 mb-2">Trajectory Planning in Unstructured Urban Environments for Multi-Articulated Autonomous Trucks</p>
+              <p class="text-xs text-gray-400">Code: PINF-6063 | Section: 3</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="autonomous-robots" data-year="2025">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-orange-100 text-orange-800 text-xs font-medium px-2.5 py-0.5 rounded">PhD</span>
+                <span class="text-sm text-gray-500">2025/2</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Special Topics in Computer Science</h4>
+              <p class="text-sm text-gray-600 mb-2">Autonomous Mobile Robotics</p>
+              <p class="text-xs text-gray-400">Code: PINF-7038 | Section: 4</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="generative-ai" data-year="2025">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded">Master's</span>
+                <span class="text-sm text-gray-500">2025/1</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Directed Study</h4>
+              <p class="text-sm text-gray-600 mb-2">Using Transformers for Object Detection and Trajectory Prediction with LiDAR Data</p>
+              <p class="text-xs text-gray-400">Code: PINF-6010 | Section: 12</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="directed-study" data-year="2025">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">Master's</span>
+                <span class="text-sm text-gray-500">2025/1</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Directed Study</h4>
+              <p class="text-sm text-gray-600 mb-2">Lateral Control for Trucks at the Limit of Steerability</p>
+              <p class="text-xs text-gray-400">Code: PINF-6010 | Section: 17</p>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Year 2024 -->
+        <div class="year-section mb-8" data-year="2024">
+          <h3 class="text-xl font-semibold text-gray-900 mb-4 border-b pb-2">2024</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="directed-study" data-year="2024">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">Master's</span>
+                <span class="text-sm text-gray-500">2024/2</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Directed Study</h4>
+              <p class="text-sm text-gray-600 mb-2">Clinical Anamnesis with Artificial Intelligence</p>
+              <p class="text-xs text-gray-400">Code: PINF-6010 | Section: 2</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="directed-study" data-year="2024">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">Master's</span>
+                <span class="text-sm text-gray-500">2024/2</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Directed Study</h4>
+              <p class="text-sm text-gray-600 mb-2">LLM Optimization for Video Event Classification</p>
+              <p class="text-xs text-gray-400">Code: PINF-6010 | Section: 3</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="generative-ai" data-year="2024">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded">Master's</span>
+                <span class="text-sm text-gray-500">2024/2</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Special Topics in Computer Science</h4>
+              <p class="text-sm text-gray-600 mb-2">Generative Pre-Trained Transformers</p>
+              <p class="text-xs text-gray-400">Code: PINF-6038 | Section: 2</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="generative-ai" data-year="2024">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded">Master's</span>
+                <span class="text-sm text-gray-500">2024/2</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Special Topics in Computer Science II</h4>
+              <p class="text-sm text-gray-600 mb-2">Generative Pre-Trained Transformers</p>
+              <p class="text-xs text-gray-400">Code: PINF-6065 | Section: 2</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="generative-ai" data-year="2024">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded">PhD</span>
+                <span class="text-sm text-gray-500">2024/2</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Special Topics in Computer Science</h4>
+              <p class="text-sm text-gray-600 mb-2">Generative Pre-Trained Transformers</p>
+              <p class="text-xs text-gray-400">Code: PINF-7038 | Section: 2</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="generative-ai" data-year="2024">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded">Master's</span>
+                <span class="text-sm text-gray-500">2024/1</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Directed Study</h4>
+              <p class="text-sm text-gray-600 mb-2">Bias in Generative Pre-Trained Transformers</p>
+              <p class="text-xs text-gray-400">Code: PINF-6010 | Section: 1</p>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Year 2023 -->
+        <div class="year-section mb-8" data-year="2023">
+          <h3 class="text-xl font-semibold text-gray-900 mb-4 border-b pb-2">2023</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="generative-ai" data-year="2023">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded">Master's</span>
+                <span class="text-sm text-gray-500">2023/2</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Special Topics in Computer Science</h4>
+              <p class="text-sm text-gray-600 mb-2">Generative Pre-Trained Transformers</p>
+              <p class="text-xs text-gray-400">Code: PINF-6038 | Section: 2</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="generative-ai" data-year="2023">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded">Master's</span>
+                <span class="text-sm text-gray-500">2023/2</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Special Topics in Computer Science II</h4>
+              <p class="text-sm text-gray-600 mb-2">Generative Pre-Trained Transformers</p>
+              <p class="text-xs text-gray-400">Code: PINF-6065 | Section: 2</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="generative-ai" data-year="2023">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded">PhD</span>
+                <span class="text-sm text-gray-500">2023/2</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Special Topics in Computer Science</h4>
+              <p class="text-sm text-gray-600 mb-2">Generative Pre-Trained Transformers</p>
+              <p class="text-xs text-gray-400">Code: PINF-7038 | Section: 2</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="generative-ai" data-year="2023">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded">PhD</span>
+                <span class="text-sm text-gray-500">2023/2</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Special Topics in Computer Science II</h4>
+              <p class="text-sm text-gray-600 mb-2">Generative Pre-Trained Transformers</p>
+              <p class="text-xs text-gray-400">Code: PINF-7095 | Section: 1</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="autonomous-robots" data-year="2023">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-orange-100 text-orange-800 text-xs font-medium px-2.5 py-0.5 rounded">PhD</span>
+                <span class="text-sm text-gray-500">2023/1</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Directed Study I</h4>
+              <p class="text-sm text-gray-600 mb-2">Longitudinal and Lateral Motion Planning for Autonomous Vehicles</p>
+              <p class="text-xs text-gray-400">Code: PINF-7062 | Section: 1</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="directed-study" data-year="2023">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">PhD</span>
+                <span class="text-sm text-gray-500">2023/1</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Directed Study II</h4>
+              <p class="text-sm text-gray-600 mb-2">Localization and Obstacle Detection for Locomotives</p>
+              <p class="text-xs text-gray-400">Code: PINF-7063 | Section: 2</p>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Year 2021 -->
+        <div class="year-section mb-8" data-year="2021">
+          <h3 class="text-xl font-semibold text-gray-900 mb-4 border-b pb-2">2021</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="autonomous-robots" data-year="2021">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-orange-100 text-orange-800 text-xs font-medium px-2.5 py-0.5 rounded">Master's</span>
+                <span class="text-sm text-gray-500">2021/2</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Directed Study</h4>
+              <p class="text-sm text-gray-600 mb-2">Global Robot Localization</p>
+              <p class="text-xs text-gray-400">Code: PINF-6010 | Section: 12</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="autonomous-robots" data-year="2021">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-orange-100 text-orange-800 text-xs font-medium px-2.5 py-0.5 rounded">Master's</span>
+                <span class="text-sm text-gray-500">2021/2</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Directed Study</h4>
+              <p class="text-sm text-gray-600 mb-2">Global Robot Localization</p>
+              <p class="text-xs text-gray-400">Code: PINF-6010 | Section: 29</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="deep-learning" data-year="2021">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">Master's</span>
+                <span class="text-sm text-gray-500">2021/2</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Directed Study</h4>
+              <p class="text-sm text-gray-600 mb-2">Neural Place Recognition for Robots</p>
+              <p class="text-xs text-gray-400">Code: PINF-6010 | Section: 31</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="visual-cognition" data-year="2021">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded">Master's</span>
+                <span class="text-sm text-gray-500">2021/2</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Visual Cognition</h4>
+              <p class="text-sm text-gray-600 mb-2">Visual Cognition</p>
+              <p class="text-xs text-gray-400">Code: PINF-6046 | Section: 1</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="deep-learning" data-year="2021">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">PhD</span>
+                <span class="text-sm text-gray-500">2021/2</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Directed Study</h4>
+              <p class="text-sm text-gray-600 mb-2">Deep Learning for Disease Detection and Classification in Fruits</p>
+              <p class="text-xs text-gray-400">Code: PINF-7010 | Section: 4</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="deep-learning" data-year="2021">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">PhD</span>
+                <span class="text-sm text-gray-500">2021/2</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Directed Study</h4>
+              <p class="text-sm text-gray-600 mb-2">Deep Learning for Disease Detection and Classification in Fruits II</p>
+              <p class="text-xs text-gray-400">Code: PINF-7010 | Section: 10</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="deep-learning" data-year="2021">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">PhD</span>
+                <span class="text-sm text-gray-500">2021/2</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Directed Study</h4>
+              <p class="text-sm text-gray-600 mb-2">Object Detection Using Deep Learning</p>
+              <p class="text-xs text-gray-400">Code: PINF-7010 | Section: 11</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="visual-cognition" data-year="2021">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded">PhD</span>
+                <span class="text-sm text-gray-500">2021/2</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Visual Cognition</h4>
+              <p class="text-sm text-gray-600 mb-2">Visual Cognition</p>
+              <p class="text-xs text-gray-400">Code: PINF-7046 | Section: 1</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="deep-learning" data-year="2021">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">Master's</span>
+                <span class="text-sm text-gray-500">2021/1</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Special Topics in Computer Science</h4>
+              <p class="text-sm text-gray-600 mb-2">Deep Learning</p>
+              <p class="text-xs text-gray-400">Code: PINF-6038 | Section: 3</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="deep-learning" data-year="2021">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">PhD</span>
+                <span class="text-sm text-gray-500">2021/1</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Special Topics in Computer Science</h4>
+              <p class="text-sm text-gray-600 mb-2">Deep Learning</p>
+              <p class="text-xs text-gray-400">Code: PINF-7038 | Section: 3</p>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Year 2020 -->
+        <div class="year-section mb-8" data-year="2020">
+          <h3 class="text-xl font-semibold text-gray-900 mb-4 border-b pb-2">2020</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="deep-learning" data-year="2020">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">PhD</span>
+                <span class="text-sm text-gray-500">2020/1</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Directed Study</h4>
+              <p class="text-sm text-gray-600 mb-2">Detecting Cancerous Tissues in Mammograms Using Deep Neural Networks</p>
+              <p class="text-xs text-gray-400">Code: PINF-7010 | Section: 2</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="deep-learning" data-year="2020">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">PhD</span>
+                <span class="text-sm text-gray-500">2020/1</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Directed Study</h4>
+              <p class="text-sm text-gray-600 mb-2">Deep Learning for Moving Object Manipulation in Mapping and Localization for Autonomous Cars</p>
+              <p class="text-xs text-gray-400">Code: PINF-7010 | Section: 8</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="deep-learning" data-year="2020">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">PhD</span>
+                <span class="text-sm text-gray-500">2020/1</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Directed Study</h4>
+              <p class="text-sm text-gray-600 mb-2">Mapping Methods in Deep Neural Networks</p>
+              <p class="text-xs text-gray-400">Code: PINF-7010 | Section: 9</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="deep-learning" data-year="2020">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">PhD</span>
+                <span class="text-sm text-gray-500">2020/1</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Directed Study</h4>
+              <p class="text-sm text-gray-600 mb-2">Deep Learning for Disease Detection and Classification in Fruits</p>
+              <p class="text-xs text-gray-400">Code: PINF-7010 | Section: 18</p>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Year 2019 -->
+        <div class="year-section mb-8" data-year="2019">
+          <h3 class="text-xl font-semibold text-gray-900 mb-4 border-b pb-2">2019</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="visual-cognition" data-year="2019">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded">Master's</span>
+                <span class="text-sm text-gray-500">2019/2</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Visual Cognition</h4>
+              <p class="text-sm text-gray-600 mb-2">Visual Cognition</p>
+              <p class="text-xs text-gray-400">Code: PINF-6046 | Section: 1</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="deep-learning" data-year="2019">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">Master's</span>
+                <span class="text-sm text-gray-500">2019/2</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Special Topics in Computer Science</h4>
+              <p class="text-sm text-gray-600 mb-2">Deep Learning with Applications in Autonomous Vehicles</p>
+              <p class="text-xs text-gray-400">Code: PINF-6073 | Section: 7</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="visual-cognition" data-year="2019">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded">PhD</span>
+                <span class="text-sm text-gray-500">2019/2</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Visual Cognition</h4>
+              <p class="text-sm text-gray-600 mb-2">Visual Cognition</p>
+              <p class="text-xs text-gray-400">Code: PINF-7046 | Section: 1</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="deep-learning" data-year="2019">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">PhD</span>
+                <span class="text-sm text-gray-500">2019/2</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Special Topics in Computer Science</h4>
+              <p class="text-sm text-gray-600 mb-2">Deep Learning with Applications in Autonomous Vehicles</p>
+              <p class="text-xs text-gray-400">Code: PINF-7073 | Section: 1</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="autonomous-robots" data-year="2019">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-orange-100 text-orange-800 text-xs font-medium px-2.5 py-0.5 rounded">Master's</span>
+                <span class="text-sm text-gray-500">2019/1</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Directed Study</h4>
+              <p class="text-sm text-gray-600 mb-2">Failure Prediction in Autonomous Vehicles</p>
+              <p class="text-xs text-gray-400">Code: PINF-6010 | Section: 3</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="directed-study" data-year="2019">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">Master's</span>
+                <span class="text-sm text-gray-500">2019/1</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Directed Study I</h4>
+              <p class="text-sm text-gray-600 mb-2">Intelligent Algorithms for Route Search in Maps</p>
+              <p class="text-xs text-gray-400">Code: PINF-6062 | Section: 2</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="autonomous-robots" data-year="2019">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-orange-100 text-orange-800 text-xs font-medium px-2.5 py-0.5 rounded">Master's</span>
+                <span class="text-sm text-gray-500">2019/1</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Directed Study II</h4>
+              <p class="text-sm text-gray-600 mb-2">Failure Prediction in Autonomous Vehicles</p>
+              <p class="text-xs text-gray-400">Code: PINF-6063 | Section: 1</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="deep-learning" data-year="2019">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">PhD</span>
+                <span class="text-sm text-gray-500">2019/1</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Directed Study I</h4>
+              <p class="text-sm text-gray-600 mb-2">Mapping and Localization Techniques for Autonomous Cars Using Deep Learning</p>
+              <p class="text-xs text-gray-400">Code: PINF-7062 | Section: 4</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="deep-learning" data-year="2019">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">PhD</span>
+                <span class="text-sm text-gray-500">2019/1</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Directed Study II</h4>
+              <p class="text-sm text-gray-600 mb-2">Traffic Sign Recognition and Relevant Object Tracking for Autonomous Cars Using Deep Learning</p>
+              <p class="text-xs text-gray-400">Code: PINF-7063 | Section: 4</p>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Year 2018 -->
+        <div class="year-section mb-8" data-year="2018">
+          <h3 class="text-xl font-semibold text-gray-900 mb-4 border-b pb-2">2018</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="visual-cognition" data-year="2018">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded">Master's</span>
+                <span class="text-sm text-gray-500">2018/2</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Visual Cognition</h4>
+              <p class="text-sm text-gray-600 mb-2">Visual Cognition</p>
+              <p class="text-xs text-gray-400">Code: PINF-6046 | Section: 1</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="directed-study" data-year="2018">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">Master's</span>
+                <span class="text-sm text-gray-500">2018/2</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Directed Study I</h4>
+              <p class="text-sm text-gray-600 mb-2">Industrial Asset Failure Prediction</p>
+              <p class="text-xs text-gray-400">Code: PINF-6062 | Section: 4</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="directed-study" data-year="2018">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">Master's</span>
+                <span class="text-sm text-gray-500">2018/2</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Directed Study I</h4>
+              <p class="text-sm text-gray-600 mb-2">Stereoscopic Vision</p>
+              <p class="text-xs text-gray-400">Code: PINF-6062 | Section: 8</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="deep-learning" data-year="2018">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">Master's</span>
+                <span class="text-sm text-gray-500">2018/2</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Special Topics in Computer Science</h4>
+              <p class="text-sm text-gray-600 mb-2">Deep Learning with Applications in Autonomous Vehicles</p>
+              <p class="text-xs text-gray-400">Code: PINF-6073 | Section: 5</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="visual-cognition" data-year="2018">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded">PhD</span>
+                <span class="text-sm text-gray-500">2018/2</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Visual Cognition</h4>
+              <p class="text-sm text-gray-600 mb-2">Visual Cognition</p>
+              <p class="text-xs text-gray-400">Code: PINF-7046 | Section: 1</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="deep-learning" data-year="2018">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">PhD</span>
+                <span class="text-sm text-gray-500">2018/2</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Special Topics in Computer Science</h4>
+              <p class="text-sm text-gray-600 mb-2">Deep Learning with Applications in Autonomous Vehicles</p>
+              <p class="text-xs text-gray-400">Code: PINF-7073 | Section: 4</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="autonomous-robots" data-year="2018">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-orange-100 text-orange-800 text-xs font-medium px-2.5 py-0.5 rounded">Master's</span>
+                <span class="text-sm text-gray-500">2018/1</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Directed Study I</h4>
+              <p class="text-sm text-gray-600 mb-2">Path Planning for Autonomous Vehicles Using Online Mapping Platforms</p>
+              <p class="text-xs text-gray-400">Code: PINF-6062 | Section: 7</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="autonomous-robots" data-year="2018">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-orange-100 text-orange-800 text-xs font-medium px-2.5 py-0.5 rounded">Master's</span>
+                <span class="text-sm text-gray-500">2018/1</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Special Topics in Computer Science</h4>
+              <p class="text-sm text-gray-600 mb-2">Probabilistic Robotics</p>
+              <p class="text-xs text-gray-400">Code: PINF-6073 | Section: 4</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="deep-learning" data-year="2018">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">PhD</span>
+                <span class="text-sm text-gray-500">2018/1</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Directed Study I</h4>
+              <p class="text-sm text-gray-600 mb-2">Map Inference Using Deep Neural Networks</p>
+              <p class="text-xs text-gray-400">Code: PINF-7062 | Section: 1</p>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Year 2017 -->
+        <div class="year-section mb-8" data-year="2017">
+          <h3 class="text-xl font-semibold text-gray-900 mb-4 border-b pb-2">2017</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="deep-learning" data-year="2017">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">Master's</span>
+                <span class="text-sm text-gray-500">2017/2</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Special Topics in Computer Science</h4>
+              <p class="text-sm text-gray-600 mb-2">Deep Learning</p>
+              <p class="text-xs text-gray-400">Code: PINF-6073 | Section: 2</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="deep-learning" data-year="2017">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">PhD</span>
+                <span class="text-sm text-gray-500">2017/2</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Special Topics in Computer Science</h4>
+              <p class="text-sm text-gray-600 mb-2">Deep Learning</p>
+              <p class="text-xs text-gray-400">Code: PINF-7073 | Section: 1</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="autonomous-robots" data-year="2017">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-orange-100 text-orange-800 text-xs font-medium px-2.5 py-0.5 rounded">Master's</span>
+                <span class="text-sm text-gray-500">2017/1</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Directed Study II</h4>
+              <p class="text-sm text-gray-600 mb-2">Visual Tracking Applied to Autonomous Vehicles</p>
+              <p class="text-xs text-gray-400">Code: PINF-6063 | Section: 11</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="directed-study" data-year="2017">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">Master's</span>
+                <span class="text-sm text-gray-500">2017/1</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Directed Study II</h4>
+              <p class="text-sm text-gray-600 mb-2">Motion Planning in Unstructured Environments</p>
+              <p class="text-xs text-gray-400">Code: PINF-6063 | Section: 13</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="deep-learning" data-year="2017">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">Master's</span>
+                <span class="text-sm text-gray-500">2017/1</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Directed Study II</h4>
+              <p class="text-sm text-gray-600 mb-2">Time Series Prediction Analysis Using Neural Networks</p>
+              <p class="text-xs text-gray-400">Code: PINF-6063 | Section: 14</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="autonomous-robots" data-year="2017">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-orange-100 text-orange-800 text-xs font-medium px-2.5 py-0.5 rounded">Master's</span>
+                <span class="text-sm text-gray-500">2017/1</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Special Topics in Computer Science</h4>
+              <p class="text-sm text-gray-600 mb-2">Probabilistic Robotics</p>
+              <p class="text-xs text-gray-400">Code: PINF-6073 | Section: 4</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="autonomous-robots" data-year="2017">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-orange-100 text-orange-800 text-xs font-medium px-2.5 py-0.5 rounded">Master's</span>
+                <span class="text-sm text-gray-500">2017/1</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Special Topics in Computer Science I</h4>
+              <p class="text-sm text-gray-600 mb-2">Probabilistic Robotics</p>
+              <p class="text-xs text-gray-400">Code: PINF-6074 | Section: 1</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="autonomous-robots" data-year="2017">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-orange-100 text-orange-800 text-xs font-medium px-2.5 py-0.5 rounded">PhD</span>
+                <span class="text-sm text-gray-500">2017/1</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Special Topics in Computer Science II</h4>
+              <p class="text-sm text-gray-600 mb-2">Probabilistic Robotics</p>
+              <p class="text-xs text-gray-400">Code: PINF-7065 | Section: 1</p>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Year 2016 -->
+        <div class="year-section mb-8" data-year="2016">
+          <h3 class="text-xl font-semibold text-gray-900 mb-4 border-b pb-2">2016</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="other" data-year="2016">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-slate-100 text-slate-800 text-xs font-medium px-2.5 py-0.5 rounded">Master's</span>
+                <span class="text-sm text-gray-500">2016/2</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Computer Architecture</h4>
+              <p class="text-sm text-gray-600 mb-2">Computer Architecture</p>
+              <p class="text-xs text-gray-400">Code: PINF-6002 | Section: 1</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="deep-learning" data-year="2016">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">Master's</span>
+                <span class="text-sm text-gray-500">2016/2</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Directed Study I</h4>
+              <p class="text-sm text-gray-600 mb-2">Time Series Analysis and Prediction Using Neural Networks</p>
+              <p class="text-xs text-gray-400">Code: PINF-6062 | Section: 10</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="autonomous-robots" data-year="2016">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-orange-100 text-orange-800 text-xs font-medium px-2.5 py-0.5 rounded">Master's</span>
+                <span class="text-sm text-gray-500">2016/2</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Directed Study I</h4>
+              <p class="text-sm text-gray-600 mb-2">Motion Planning Applied to Autonomous Vehicles</p>
+              <p class="text-xs text-gray-400">Code: PINF-6062 | Section: 11</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="autonomous-robots" data-year="2016">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-orange-100 text-orange-800 text-xs font-medium px-2.5 py-0.5 rounded">Master's</span>
+                <span class="text-sm text-gray-500">2016/2</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Directed Study I</h4>
+              <p class="text-sm text-gray-600 mb-2">Mapping Applied to Autonomous Vehicles</p>
+              <p class="text-xs text-gray-400">Code: PINF-6062 | Section: 12</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="other" data-year="2016">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-slate-100 text-slate-800 text-xs font-medium px-2.5 py-0.5 rounded">PhD</span>
+                <span class="text-sm text-gray-500">2016/2</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Computer Architecture</h4>
+              <p class="text-sm text-gray-600 mb-2">Computer Architecture</p>
+              <p class="text-xs text-gray-400">Code: PINF-7002 | Section: 1</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="autonomous-robots" data-year="2016">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-orange-100 text-orange-800 text-xs font-medium px-2.5 py-0.5 rounded">PhD</span>
+                <span class="text-sm text-gray-500">2016/2</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Directed Study II</h4>
+              <p class="text-sm text-gray-600 mb-2">Autonomous Vehicle Navigation Based on Reinforcement Learning</p>
+              <p class="text-xs text-gray-400">Code: PINF-7063 | Section: 1</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="directed-study" data-year="2016">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">PhD</span>
+                <span class="text-sm text-gray-500">2016/2</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Directed Study II</h4>
+              <p class="text-sm text-gray-600 mb-2">Stabilized Finite Element Formulations for Navier-Stokes Equations</p>
+              <p class="text-xs text-gray-400">Code: PINF-7063 | Section: 3</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="visual-cognition" data-year="2016">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded">Master's</span>
+                <span class="text-sm text-gray-500">2016/1</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Visual Cognition</h4>
+              <p class="text-sm text-gray-600 mb-2">Visual Cognition</p>
+              <p class="text-xs text-gray-400">Code: PINF-6046 | Section: 1</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="other" data-year="2016">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-slate-100 text-slate-800 text-xs font-medium px-2.5 py-0.5 rounded">Master's</span>
+                <span class="text-sm text-gray-500">2016/1</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Special Topics in Computer Science I</h4>
+              <p class="text-sm text-gray-600 mb-2">Advanced Artificial Vision</p>
+              <p class="text-xs text-gray-400">Code: PINF-6074 | Section: 7</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="other" data-year="2016">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-slate-100 text-slate-800 text-xs font-medium px-2.5 py-0.5 rounded">Master's</span>
+                <span class="text-sm text-gray-500">2016/1</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Special Topics in Computer Science II</h4>
+              <p class="text-sm text-gray-600 mb-2">Advanced Artificial Vision</p>
+              <p class="text-xs text-gray-400">Code: PINF-6075 | Section: 4</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="other" data-year="2016">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-slate-100 text-slate-800 text-xs font-medium px-2.5 py-0.5 rounded">Master's</span>
+                <span class="text-sm text-gray-500">2016/1</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Special Topics in Computer Science IV</h4>
+              <p class="text-sm text-gray-600 mb-2">Advanced Artificial Vision</p>
+              <p class="text-xs text-gray-400">Code: PINF-6079 | Section: 3</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="visual-cognition" data-year="2016">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded">PhD</span>
+                <span class="text-sm text-gray-500">2016/1</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Visual Cognition</h4>
+              <p class="text-sm text-gray-600 mb-2">Visual Cognition</p>
+              <p class="text-xs text-gray-400">Code: PINF-7046 | Section: 1</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="directed-study" data-year="2016">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">PhD</span>
+                <span class="text-sm text-gray-500">2016/1</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Directed Study I</h4>
+              <p class="text-sm text-gray-600 mb-2">Probabilistic Graphical Models</p>
+              <p class="text-xs text-gray-400">Code: PINF-7062 | Section: 3</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="directed-study" data-year="2016">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">PhD</span>
+                <span class="text-sm text-gray-500">2016/1</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Directed Study I</h4>
+              <p class="text-sm text-gray-600 mb-2">Finite Element Formulations for Fluid-Structure Interaction</p>
+              <p class="text-xs text-gray-400">Code: PINF-7062 | Section: 4</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="other" data-year="2016">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-slate-100 text-slate-800 text-xs font-medium px-2.5 py-0.5 rounded">PhD</span>
+                <span class="text-sm text-gray-500">2016/1</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Special Topics in Computer Science I</h4>
+              <p class="text-sm text-gray-600 mb-2">Advanced Artificial Vision</p>
+              <p class="text-xs text-gray-400">Code: PINF-7064 | Section: 4</p>
+            </div>
+
+            <div class="course-card bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow" 
+                 data-category="other" data-year="2016">
+              <div class="flex items-start justify-between mb-2">
+                <span class="bg-slate-100 text-slate-800 text-xs font-medium px-2.5 py-0.5 rounded">PhD</span>
+                <span class="text-sm text-gray-500">2016/1</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 mb-1">Special Topics in Computer Science II</h4>
+              <p class="text-sm text-gray-600 mb-2">Advanced Artificial Vision</p>
+              <p class="text-xs text-gray-400">Code: PINF-7065 | Section: 2</p>
+            </div>
+
+          </div>
+        </div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="py-8 bg-gray-900 text-gray-400 mt-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row justify-between items-center">
+        <p class="text-sm">
+          &copy; 2026 Alberto Ferreira De Souza. All rights reserved.
+        </p>
+        <p class="text-sm mt-2 md:mt-0">
+          Department of Informatics, UFES - Vitória, ES, Brazil
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function filterCourses(category) {
+      const cards = document.querySelectorAll('.course-card');
+      const yearSections = document.querySelectorAll('.year-section');
+      const buttons = document.querySelectorAll('.filter-btn');
+      
+      // Update button styles
+      buttons.forEach(btn => {
+        btn.classList.remove('active', 'bg-ufes-blue', 'text-white');
+        btn.classList.add('bg-gray-200', 'text-gray-700');
+      });
+      
+      const activeBtn = document.querySelector(`[data-filter="${category}"]`);
+      if (activeBtn) {
+        activeBtn.classList.remove('bg-gray-200', 'text-gray-700');
+        activeBtn.classList.add('active', 'bg-ufes-blue', 'text-white');
+      }
+      
+      // Filter cards
+      cards.forEach(card => {
+        if (category === 'all' || card.dataset.category === category) {
+          card.style.display = 'block';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+      
+      // Hide empty year sections
+      yearSections.forEach(section => {
+        const visibleCards = section.querySelectorAll('.course-card[style="display: block"], .course-card:not([style])');
+        let hasVisible = false;
+        visibleCards.forEach(card => {
+          if (card.style.display !== 'none') hasVisible = true;
+        });
+        
+        const sectionCards = section.querySelectorAll('.course-card');
+        let anyVisible = false;
+        sectionCards.forEach(card => {
+          if (category === 'all' || card.dataset.category === category) {
+            anyVisible = true;
+          }
+        });
+        
+        section.style.display = anyVisible ? 'block' : 'none';
+      });
+    }
+  </script>
+</body>
+</html>
