@@ -3966,11 +3966,12 @@
   "projects": [
     {
       "name": "Investigação e Experimentação de Técnicas de Ajuste Fino de Grandes Modelos de Linguagem para Processo de Gestão da Inovação",
+      "name_en": "",
       "year_start": "2025",
       "year_end": "",
       "status": "EM_ANDAMENTO",
       "nature": "PESQUISA",
-      "description": "",
+      "description": "Este projeto de pesquisa tem como objetivo a investigação e experimentação de técnicas de ajuste fino de Grandes Modelos de Linguagem (Large Language Models - LLMs) voltados ao aprimoramento dos processos de gestão da inovação corporativa. Para atingir o objetivo principal, os objetivos específicos deste projeto são: (i) Investigação de técnicas de ajuste fino de LLMs para o contexto de processos de gestão da inovação empresarial; e (ii) Investigação de critérios e métricas de avaliação para medir o desempenho de LLMs no contexto de processos de gestão da inovação empresarial.",
       "description_en": "",
       "funding": [
         {
@@ -3991,11 +3992,12 @@
     },
     {
       "name": "Desenvolvimento de Algoritmos de Percepção para Veículos Autônomos em Ambientes Industriais e de Mineração",
+      "name_en": "",
       "year_start": "2025",
       "year_end": "",
       "status": "EM_ANDAMENTO",
       "nature": "PESQUISA",
-      "description": "",
+      "description": "O objetivo geral deste projeto é avançar no desenvolvimento de Inteligências Computacionais Autônomas (ICAs), inserindo-o em um conjunto estratégico de macroprojetos do I2CA. Esses macroprojetos visam o desenvolvimento de ICAs aplicadas a Veículos e Máquinas Autônomas, bem como a outras áreas de Inteligência Computacional Autônoma. O foco específico deste projeto é criar soluções tecnológicas avançadas e adaptáveis para veículos autônomos, com ênfase em ambientes industriais e de mineração, promovendo a integração de percepção, navegação e automação inteligente em cenários complexos e dinâmicos. Nesse contexto, o desenvolvimento e a teste de algoritmos avançados de percepção para veículos autônomos, com foco em ambientes industriais e de mineração, tornam-se fundamentais. Esse projeto visa criar soluções tecnológicas robustas e adaptáveis, que possibilitem a navegação segura e eficiente dos veículos em cenários complexos e dinâmicos, além de possibilitar uma automação adaptável a mudanças frequentes e condições ambientais adversas. O desenvolvimento desses algoritmos visa aprimorar a segurança, a eficiência e a produtividade das operações, reduzindo o número de intervenções e aumentando a capacidade de resposta dos sistemas autônomos às diversas variáveis presentes nesses ambientes desafiadores.",
       "description_en": "",
       "funding": [
         {
@@ -4016,11 +4018,12 @@
     },
     {
       "name": "Inteligências Computacionais Autônomas Baseadas em Generative Pre-trained Transformers (ICAGPT)",
+      "name_en": "",
       "year_start": "2024",
       "year_end": "",
       "status": "EM_ANDAMENTO",
       "nature": "PESQUISA",
-      "description": "",
+      "description": "Neste projeto propomos o desenvolvimento da ciência e da tecnologia necessárias para a implementação de poderosas Inteligências Computacionais Autônomas (ICAs). ICAs são sistemas de software e hardware que, em combinação com sensores e atuadores, formam entidades inteligentes capazes de realizar tarefas complexas autonomamente no mundo físico ou virtual. Buscaremos implementar ICAs fundamentalmente baseadas em Generative Pre-trained Transformers (GPTs) e outras modernas arquiteturas neurais profundas, mas também complementando e estendo essas arquiteturas com arquiteturas simbólicas. Sistemas de aprendizagem profunda (Deep Learning) permitiram a implementação de memórias delongo prazo de dados sensoriais e conceitos associados e de memórias procedurais super-humanas, mas os grandes desafios científicos e tecnológicos hoje estão no desenvolvimento de sistemas que permitam a implementação de memórias episódicas e de trabalho. ICAs com todos estes tipos de memória de várias modalidades (visual, auditiva, tátil, etc.) serão capazes de realizar tarefas complexas em diversos contextos  - como o industrial por exemplo - de forma autônoma. Por outro lado, arquiteturas simbólicas baseadas em ontologias bem-fundamentadas permitem que essas entidades autônomas possam raciocinar sobre o impacto de suas ações sobre o mundo (o aspecto semântico e de senso comum), sobre os objetivos e preferências humanos e sociais (o aspecto ético), e que possam também explicar e justificar suas decisões (uma aspecto tanto ético como semântico). O objetivo principal deste projeto é investigar e desenvolver poderosas ICAs, capazes de realizar de forma ética e segura interações com humanos, máquinas e sistemas, como os presentes em instalações industriais ou de logística, para realizar tarefas complexas tais como a movimentação de produtos por robôs humanoides, empilhadeiras ou caminhões autônomos controlados por ICAs.",
       "description_en": "",
       "funding": [
         {
@@ -4057,11 +4060,12 @@
     },
     {
       "name": "Movimentação de Pilhas de Blocos não Identificados por meio de Robôs Autônomos",
+      "name_en": "",
       "year_start": "2023",
       "year_end": "",
       "status": "EM_ANDAMENTO",
       "nature": "PESQUISA",
-      "description": "",
+      "description": "O Instituto de Inteligência Computacional Aplicada (I2CA - www.i2ca.ai) possui como missão Desenvolver pesquisa na área de inteligência computacional aplicada na indústria, com foco em veículos e outros sistemas autônomos inteligentes, formando pessoal especializado e fortalecendo o ecossistema de empresas que empregam e desenvolvem Inteligência Artificial. No I2CA, buscamos desenvolver e disponibilizar para a sociedade veículos e outros sistemas autônomos, como os que já desenvolvemos para a Embraer e Vale, resultado de nossa pesquisa com o carro autônomo IARA. O I2CA conta com importante contrapartida institucional da UFES na forma de pessoal, infraestrutura física e de equipamentos. O I2CA conta com a parceria do Instituto Federal do Espírito Santo (IFES), que contribui com pessoal e com a infraestrutura física e de equipamentos necessária para os membros da equipe científica sediados nesta instituição. O I2CA conta com a parceria da empresa ArcelorMittal Tubarão, tendo contribuído efetivamente para a definição dos temas a serem investigados e com o apoio técnico e financeiro para criação e manutenção o instituto em conjunto com a Fundação de Amparo à Pesquisa e Inovação do Espírito Santo (FAPES). Uma segunda grande e importante empresa que apoia o I2CA é a Portocel. O principal objetivo do I2CA é o desenvolvimento de poderosas Inteligências Computacionais Autônomas (ICAs). Neste projeto, propomos avançar nas pesquisas dessas ICAs com a investigação do problema de movimentação de pilhas de blocos não identificados por meio de robôs autônomos.",
       "description_en": "",
       "funding": [
         {
@@ -4086,11 +4090,12 @@
     },
     {
       "name": "Infraestrutura para Projetos interdisciplinares de Informática Aplicada à Saúde",
+      "name_en": "",
       "year_start": "2022",
       "year_end": "2023",
       "status": "CONCLUIDO",
       "nature": "PESQUISA",
-      "description": "",
+      "description": "A promoção de saúde é uma preocupação da população e dos governos mundiais uma vez que esta gera impactos políticos, sociais, econômicos e na qualidade de vida dos indivíduos. O desenvolvimento de novas tecnologias e, em particular, ferramentas computacionais para apoio aos profissionais da saúde, tem o potencial aumentar a eficiência e eficácia dos tratamentos e levar os pacientes à prognósticos mais favoráveis. Este proposta tem como objetivo equipar um ambiente laboratorial para agregar, consolidar e expandir pesquisas multidisciplinares na área de informática aplicada à saúde. Participarão do projeto professores e alunos dos departamentos de informática e de departamentos associados aos cursos de medicina e fonoaudiologia da Universidade Federal do Espírito Santo, além de docentes e discentes do programa de pós-graduação em computação aplicada do Instituto Federal do Espírito Santo (Campus Serra). Os materiais e equipamentos adquiridos com os investimentos do edital permitirão a coleta de dados e realização de experimentos computacionais que, futuramente, poderão levar à publicações de alto impacto e ao desenvolvimento de produtos e serviços inovadores para melhoria de processos na área da saúde. Eles contribuirão ainda para a formação de mão de obra altamente qualificada e para o posicionamento da UFES e do Espírito Santo na vanguarda do desenvolvimento científico e tecnológico na área de informática para a saúde.",
       "description_en": "",
       "funding": [
         {
@@ -4139,11 +4144,12 @@
     },
     {
       "name": "Diagnóstico de Falhas em Motores Elétricos Baseado em Inteligência Artificial - DIME",
+      "name_en": "",
       "year_start": "2022",
       "year_end": "2025",
       "status": "CONCLUIDO",
       "nature": "PESQUISA",
-      "description": "",
+      "description": "Desenvolvimento de um sistema totalmente automatizado e completamente verticalizado de diagnóstico de falhas em motores elétricos. O sistema será composto por sensores dos sinais elétricos, sensores de temperatura e vibração dos motores, além da umidade do ambiente, um subsistema de hardware de pré-processamento dos sinais, o software de diagnóstico baseado em inteligência artificial e um servidor de alto desempenho com múltiplas funções.",
       "description_en": "",
       "funding": [
         {
@@ -4188,11 +4194,12 @@
     },
     {
       "name": "Desenvolvimento de novas tecnologias de Inteligência Artificial para veículos autônomos",
+      "name_en": "",
       "year_start": "2022",
       "year_end": "2025",
       "status": "CONCLUIDO",
       "nature": "PESQUISA",
-      "description": "",
+      "description": "Veículos autônomos têm o potencial de revolucionar o paradigma técnico econômico vigente, redefinindo as operações de transporte e logística, dispensando a necessidade de motoristas e operadores, melhorando a eficiência operacional, reduzindo custos e emissões nas operações de transporte, otimizando a gestão e operação logística e aumentando a taxa de utilização dos veículos. Sendo assim, é fundamental o desenvolvimento desse tipo de tecnologia no Brasil integrada com a capacitação de pessoal.Este projeto tem por objetivo o desenvolvimento de novas tecnologias de Inteligência Artificial para veículosautônomos nas áreas de Localização, Mapeamento, Percepção e Navegação. O escopo consiste em: (i) revisar a literatura; (ii) desenvolver os novos algoritmos; (iii) validação nos diferentes tipos de veículos (iv) validação em ambiente operacional real da Indústria sem intervenção humana, comprovando a solução em todos os aspectos de sua missão operacional.O principal resultado deste projeto é a disponibilização de uma tecnologia totalmente nova e disruptiva, um Sistema Autônomo capaz de atender às solicitações de transporte sem interferência humana. O Sistema proporcionará maior eficiência operacional, redução de custos e emissões, otimização da gestão e da operação logística, implementando conceitos da indústria 4.0, proporcionando o aumento da competitividade da indústria brasileira, fortalecimento da interação entre indústria, ICTs e startups e capacitando de pessoal.",
       "description_en": "",
       "funding": [
         {
@@ -4209,11 +4216,12 @@
     },
     {
       "name": "Inteligências Computacionais Autônomas",
+      "name_en": "",
       "year_start": "2022",
       "year_end": "",
       "status": "EM_ANDAMENTO",
       "nature": "PESQUISA",
-      "description": "",
+      "description": "Resultados Alcançados no Período Anterior: No projeto de produtividade em pesquisa anterior estavam previstas: (i) a orientação de 4 doutores, (ii) 6 mestres, e (iii) 6 alunos de IC; (iv) a publicação de 6 artigos em periódicos internacionais e (v) 12 trabalhos em conferências internacionais e nacionais; (vi) o registro de 2 patentes; e (vii) o desenvolvimento do software e do hardware de um carro autônomo SAE nível 5. Todas as metas previstas foram alcançadas ou superadas. Nós supervisionamos 2 pós-doutorandos e orientamos 6 doutores, 6 mestres e 6 alunos de IC; publicamos 9 artigos em periódicos internacionais (6 Qualis A1, 1 Qualis A2 e 1 Qualis A3), e 14 trabalhos em conferências internacionais e nacionais (2 Qualis A1, 8 A2, 2 A4, 1 B1 e 1 B4); elaboramos duas patentes em parceria com a Vale; e desenvolvemos um caminhão autônomo SAE nível 5 para aplicações industriais. Nossos resultados na área de veículos autônomos levaram à criação de uma startup  a Lume Robotics S.A.  especializada em veículos autônomos industriais.  Principais Objetivos: O objetivo geral deste projeto é desenvolver ciência, tecnologia e inovações que viabilizem a implementação de uma poderosa Inteligência Computacional Autônoma (ICA) e robô associado. Uma ICA é um sistema de software+hardware que, combinado com um conjunto de sensores e atuadores, forma uma entidade inteligente capaz de interagir com humanos por meio da linguagem falada, escrita, ou mesmo gestos, e atuar no mundo de forma a realizar tarefas complexas autonomamente. Buscaremos desenvolver uma ICA que seja fundamentalmente baseada em redes neurais profundas e que seja capaz de compreender e obedecer a comandos de voz que demandem a execução de tarefas complexas em ambiente de simulação e no mundo real. Esta ICA possuirá memória de longo prazo de dados sensoriais e conceitos associados, memória procedural, memória episódica e memória de trabalho, e empregará sensores e atuadores de um robô móvel para interagir com o mundo em tempo real. Para se alcançar o objetivo geral, buscaremos atingir os seguintes objetivos específicos: investigação, implementação e avaliação de possíveis arquiteturas neurais de ICA; investigação, implementação e avaliação de formas eficientes de treinamento de ICAs; investigação, implementação e avaliação de técnicas de aprendizado contínuo (lifelong learning) no contexto de ICAs; e investigação, implementação e avaliação de técnicas eficientes de migração de uma ICA de um robô para outro.",
       "description_en": "",
       "funding": [
         {
@@ -4230,11 +4238,12 @@
     },
     {
       "name": "Instituto de Inteligência Computacional Aplicada - I2CA",
+      "name_en": "",
       "year_start": "2021",
       "year_end": "",
       "status": "EM_ANDAMENTO",
       "nature": "PESQUISA",
-      "description": "",
+      "description": "O Instituto de Inteligência Computacional Aplicada (I2CA - www.i2ca.ai) possui como missão Desenvolver pesquisa na área de inteligência computacional aplicada na indústria, com foco em veículos e outros sistemas autônomos inteligentes, formando pessoal especializado e fortalecendo o ecossistema de empresas que empregam e desenvolvem Inteligência Artificial. No I2CA, desenvolveremos pesquisas nas áreas de Cognição Visual Artificial, Mobilidade Autônoma, e Interação Autônoma Inteligente, entre outras correlatas e pertencentes à grande área de Inteligência Computacional. Buscaremos desenvolver e disponibilizar para a sociedade veículos e outros sistemas autônomos, como os que já desenvolvemos para a Embraer, resultado de nossa pesquisa com o carro autônomo IARA. O I2CA conta com importante contrapartida institucional da UFES na forma de pessoal, infraestrutura física e de equipamentos. O I2CA conta com a parceria da Universidade de São Paulo (USP), Universidade Federal de São Paulo (UNIFESP) e Instituto Federal do Espírito Santo (IFES), que contribuirão com pessoal e com a infraestrutura física e de equipamentos necessária para os membros da equipe científica sediados nestas instituições. Contará ainda com o apoio dos Institutos Federais IFAM, IFSP, IFPB e IFSUL, do Serviço Nacional de Aprendizagem Industrial (SENAI) de Vitória/ES e Londrina/PR, das Federações das Indústrias do Espírito Santo (FINDES) e do Paraná (FIEP), além dos Institutos de Eficiência Operacional (IST) do Senai/ES e Senai/PR. Vale destacar o apoio da FINDES e do Senai/ES que, por meio do FindesLab (https://findeslab.com.br), hub de inovação da indústria capixaba, aportará muito ao Instituto. O I2CA conta com a parceria de 2 empresas, ArcelorMittal e Vale, que estão fortemente motivadas para participar do projeto, tendo contribuído efetivamente para a definição dos temas a serem investigados. Uma terceira grande e importante empresa que apoia o I2CA é a Embraer. O I2CA conta ainda com fundamental suporte da Fundação de Amparo à Pesquisa e Inovação do Espírito Santo (FAPES). Por fim, o I2CA conta com o apoio da Associação Capixaba de Tecnologia (ACT!ON), que congrega as empresas de informática do Espírito Santo - mais de 60 empresas membro da ACT!ON apresentaram apoio formal ao I2CA. O I2CA será dirigido por um Comitê Executivo (CE), composto por: Diretor; dois Vice-Diretores advindos das empresas parceiras; Coordenador de Educação e Difusão de Conhecimento (EDC); e Coordenador de Transferência de Tecnologia (TT) - por meio do Plano de EDC, o I2CA formará recursos humanos em IA e difundirá os resultados alcançados pelo Instituto e, por meio do Plano de TT, criará novas tecnologias para gerar riquezas para o Brasil, empregos de qualidade para a população, e melhorar a qualidade de vida dos brasileiros. O Instituto contará também com um Conselho Consultivo Internacional (CCI), composto por destacados cientistas reconhecidos internacionalmente nos campos de pesquisa do I2CA. O principal objetivo do I2CA será o desenvolvimento de poderosas Inteligências Computacionais Autônomas (ICAs). Para isso, realizaremos um conjunto de macroprojetos que consistirão no desenvolvimento de ICAs para: Manufatura Inteligente e Gêmeos Digitais, Monitoramento Inteligente de Ambientes Industriais, Veículos e Máquinas Autônomas, e Inteligência Computacional Autônoma. Dada a amplitude e o escopo ambicioso destes macroprojetos, a criação de um instituto para conduzi-los se justifica, é relevante e necessária.",
       "description_en": "",
       "funding": [
         {
@@ -4267,11 +4276,12 @@
     },
     {
       "name": "Carros Autônomos SAE Nível 5",
+      "name_en": "",
       "year_start": "2019",
       "year_end": "2021",
       "status": "CONCLUIDO",
       "nature": "PESQUISA",
-      "description": "",
+      "description": "A Sociedade Internacional de Engenheiros Automotivos (Society of Automotive Engineers SAE International) categoriza os Sistemas de Condução Autônoma para Veículos Motorizados em seis níveis, do nível 0 (zero), o mais básico, sem autonomia, até o nível 5, totalmente autônomo. O Laboratório de Computação de Alto Desempenho (LCAD) da Universidade Federal do Espírito Santo (UFES) desenvolve desde 2009 o carro autônomo IARA Intelligent Autonomous Robotic Automobile , que é uma plataforma de hardware e software para investigação de todos os aspectos relevantes à implementação e uso de carros autônomos. O projeto IARA do LCAD/UFES resultou no desenvolvimento de um carro autônomo capaz de realizar uma viagem de Vitória a Meaípe, em Guarapari (74 Km), de forma autônoma em maio de 2017. Contudo, foram necessárias intervenções humanas em alguns momentos da viagem porque certas demandas do percurso ainda não eram tratadas pelo sistema que confere autonomia à IARA (sistema autônomo). Neste projeto, investigaremos aspectos relevantes do sistema autônomo da IARA para torná-la capaz de realizar uma viagem equivalente sem nenhuma intervenção humana. Em particular, investigaremos como soluções de software e hardware podem ser usadas para tratar as interações carro autônomo-passageiros (comandos para escolha de destino ou ajustes de comportamento autônomo, entre outras interações), carro autônomo-pedestres (detecção de pedestres e tratamento deles em faixas de pedestres e fora delas) e carro autônomo-carro dirigido por humanos (ultrapassagens, cessão de espaço para ultrapassagem, mudanças de faixa, comportamento em cruzamentos com e sem semáforos, comportamento diante de semáforos piscando amarelo, etc.).",
       "description_en": "",
       "funding": [
         {
@@ -4296,11 +4306,12 @@
     },
     {
       "name": "Redes Neurais Profundas no Apoio à Fiscalização",
+      "name_en": "",
       "year_start": "2018",
       "year_end": "2021",
       "status": "CONCLUIDO",
       "nature": "PESQUISA",
-      "description": "",
+      "description": "Neste projeto de pesquisa investigaremos o uso de arquiteturas de redes neurais profundas (deep learning) em tarefas de fiscalização da arrecadação de impostos estaduais e de combate à evasão fiscal. Examinaremos métodos de extração de características de dados associados a receitas tributárias e arquiteturas de redes neurais profundas capazes de aprender a relação entre estes dados e fraudes tributárias. Empregaremos dados fornecidos pela Secretaria de Estado da Fazenda do Espírito Santo (Sefaz), dentro do contexto de parceria já estabelecida para a realização deste projeto, para treinar as redes neurais profundas sob investigação. Esperamos, com nossos resultados experimentais, revelar que os mecanismos propostos para detectar fraudes superam os usados na fiscalização tradicional, e constituem ferramenta vantajosa para detecção de fraudes fiscais. Por consequência, esperamos contribuir para o aumento da receita estadual com impostos e a redução da evasão fiscal.",
       "description_en": "",
       "funding": [
         {
@@ -4329,11 +4340,12 @@
     },
     {
       "name": "Desenvolvimento e Testes de um Demonstrador Tecnológico para Aeronaves baseado em Robótica Autônoma",
+      "name_en": "",
       "year_start": "2018",
       "year_end": "2020",
       "status": "CONCLUIDO",
       "nature": "PESQUISA",
-      "description": "",
+      "description": "Esse projeto de parceria tem como objetivo desenvolver e demonstrar um conjunto de tecnologias para aeronaves como meio para capacitar a equipe do projeto Cockpit do Futuro (CdF) da Embraer no uso de tecnologias de inteligência artificial.",
       "description_en": "",
       "funding": [
         {
@@ -4358,11 +4370,12 @@
     },
     {
       "name": "Visão Artificial e Robótica Autônoma Aplicadas à Mineração",
+      "name_en": "",
       "year_start": "2016",
       "year_end": "2021",
       "status": "CONCLUIDO",
       "nature": "PESQUISA",
-      "description": "",
+      "description": "Nos últimos anos, houve um grande avanço nas áreas de robótica e visão computacional, graças ao aumento de desempenho dos computares, avanços teóricos nestas áreas e desafios propostos por empresas (como a Amazon Picking Challenge, por exemplo) ou órgãos governamentais (como a DARPA Urban Challenge, por exemplo). Robôs e sistemas de visão computacional estão alcançando e superando capacidades humanas em vários contextos. Neste projeto, propomos investigar robótica e visão computacional aplicadas à mineração. Buscaremos encontrar soluções inovadoras para problemas da indústria de pelotização associados à eficiência e produtividade, tais como a medição de variáveis (indicadores) de interesse (o volume preciso de minério ou pelotas em pilhas ou transportados por correias transportadoras, por exemplo) e a movimentação de materiais empregando veículos autônomos.A medição precisa, automática ou semi-automática e a baixo custo de indicadores é fundamental para o controle e otimização de processos de produção e movimentação nos diversos níveis de decisão (estratégico, tático e operacional) e ao longo de todo o ciclo dos empreendimentos minerais. Contudo, para vários indicadores, os processos de medição atuais são arcaicos, imprecisos, de alto custo ou ineficientes. O emprego de visão computacional e outras técnicas de inteligência computacional e/ou robótica para a medição tem se mostrado eficaz no processo de monitoramento de variáveis de interesse nas mais diversas áreas da indústria. Neste projeto, tiraremos proveito de nossa experiência com veículos autônomos (que precisam representar e entender precisamente o ambiente em que trafegam para operar com eficiência e segurança) para atacar problemas relevantes de medição de indicadores da indústria de pelotização.Nossa experiência com robótica autônoma pode ser também empregada no estudo de sistemas autônomos de movimentação de materiais para otimização de processos de produção, redução do seu custo e aumento de sua segurança.",
       "description_en": "",
       "funding": [
         {
@@ -4391,11 +4404,12 @@
     },
     {
       "name": "Cognição Espacial Artificial e sua Implementação Eficiente por meio de Computação de Alto Desempenho",
+      "name_en": "",
       "year_start": "2014",
       "year_end": "",
       "status": "EM_ANDAMENTO",
       "nature": "PESQUISA",
-      "description": "",
+      "description": "Principais Objetivos: Investigar modelos matemático-computacionais de cognição espacial em robôs autônomos e sua implementação eficiente em tempo real por meio do uso de computação de alto desempenho.&#10;Resultados Alcançados no Período Anterior: No período anterior, publicamos 5 artigos em revistas internacionais (mais 5 estão em fase de preparação), 7 artigos em conferências internacionais e organizamos 4 livros. Na área de formação de pessoal, formamos 5 mestres, e 5 alunos de IC; correntemente orientamos 3 alunos de doutorado. Participamos ainda de importantes competições científicas internacionais e desenvolvemos tecnologia de ponta na área de robótica autônoma. Fortalecemos antigas parcerias e realizamos novas parceiras científicas com grupos de pesquisa no Brasil e no exterior. Na área de extensão, fortalecemos parceria com a indústria por meio de vários projetos de subvenção. &#10;Ações Previstas: Neste projeto investigaremos os processos de localização e mapeamento biológicos (cognição espacial), buscaremos modelá-los matemática e computacionalmente, e implementá-los empregando processamento de alto desempenho. Continuaremos nossos estudos sobre novos paradigmas de programação paralela e novos sistemas de apoio à programação paralela, particularmente aquela voltada para a codificação de redes neurais em larga escala e para a solução de problemas numericamente intensivos em sistemas many-core.&#10;Resultados Esperados: Durante este projeto esperamos desenvolver novos modelos matemático-computacionais que ampliem a compreensão dos processos que geram os padrões de ativação do hipocampo e córtex entorrinal, e dos processos que geram os padrões de ativação de outras áreas do cérebro a partir dos padrões de ativação do hipocampo e córtex entorrinal, e a partir dos sentidos. Tais modelos representariam avanço na área de inteligência computacional, mas também propiciariam uma melhor compreensão do funcionamento do cérebro, com impacto na atenção à saúde de pessoas com doenças neurológicas e mentais. Esperamos ainda: orientar 3 doutores, 5 mestres, e 6 alunos de IC; publicar 5 artigos em periódicos internacionais, 10 trabalhos conferências internacionais e nacionais, e 1 livro; e registrar 1 patente.",
       "description_en": "",
       "funding": [
         {
@@ -4412,11 +4426,12 @@
     },
     {
       "name": "Sistema Inteligente para Negociação Automática de Ativos",
+      "name_en": "",
       "year_start": "2014",
       "year_end": "2017",
       "status": "CONCLUIDO",
       "nature": "DESENVOLVIMENTO",
-      "description": "",
+      "description": "O objetivo deste projeto é o desenvolvimento de um sistema baseado em tecnologias de inteligência artificial para a negociação automática de ativos no mercado de valores mobiliários, denominado Sistema Inteligente para Negociação Automática de Ativos ? SNA. O sistema será capaz de analisar um grande volume de dados dos mercados e  tomar decisões de compra e venda de ativos segundo estratégias de investimento especificadas, além de executar de forma autônoma as respectivas ordens eletrônicas de compra e venda destes ativos. O sistema, ainda, irá registrar e acompanhar todo o fluxo de informações para fins de controle operacional, de risco e liquidez.&#10;&#10;O software desenvolvido será empregado pela própria empresa na oferta de dois principais produtos baseados na nova tecnologia: carteiras administradas e a comercialização de informações de estratégias de investimento. Além disso, partes do software desenvolvido poderão ser integradas a outros produtos desenvolvidos por terceiros, por meio da comercialização de licenças e prestação de serviços de consultoria e manutenção.",
       "description_en": "",
       "funding": [
         {
@@ -4445,11 +4460,12 @@
     },
     {
       "name": "PhotoPography - Sistema de Topografia de Pilhas de Minério via Internet",
+      "name_en": "PhotoPography - Sistema de Topografia de Pilhas de Minério via Internet",
       "year_start": "2013",
       "year_end": "2016",
       "status": "CONCLUIDO",
       "nature": "DESENVOLVIMENTO",
-      "description": "",
+      "description": "A inovação proposta neste projeto trata de um equipamento composto de hardware e software computacional que será uma alternativa ao processo tradicional de topografia, usada para dimensionar a produção e estoque de pilhas de minerais nas minas, em pátios e áreas portuárias, como ocorre na produção de minério de ferro, manganês, carvão e outros. O produto poderá também ser utilizado no controle de estoque das empresas que consomem estes minerais, como siderúrgicas, químicas e petroquímicas e quaisquer outras atividades que demandem estocagem em grades pilhas, como em áreas portuárias e também nas próprias ferrovias que transportam estes produtos. &#10;&#10;O princípio de funcionamento do produto é simples, sendo baseado na característica básica de Sistemas Visão Artificial desenvolvidos previamente pela Mogai, que é a localização de um ponto no espaço tridimensional, sendo que este mesmo ponto consta em duas imagens digitais capturadas por um par de câmeras previamente calibradas. Mogai desenvolverá um software que permitirá o usuário selecionar o ponto de interesse com um mouse, clicando diretamente sobre uma das imagens. O próprio software identificará o mesmo na outra imagem, e localizará o mesmo no espaço (altura, distância e deslocamento lateral) em relação às câmeras.",
       "description_en": "",
       "funding": [
         {
@@ -4474,11 +4490,12 @@
     },
     {
       "name": "HammerHead 2 - Projeto industrial de Equipamento Inovador para Captura de Imagens Estéreo",
+      "name_en": "HammerHead 2 - Projeto industrial de Equipamento Inovador para Captura de Imagens Estéreo",
       "year_start": "2013",
       "year_end": "2016",
       "status": "CONCLUIDO",
       "nature": "DESENVOLVIMENTO",
-      "description": "",
+      "description": "Neste projeto vamos desenvolver uma câmera estéreo para reconstrução 3D a partir de imagens. O equipamento será empregado no inventário de pilhas de granulados em pátios ou armazéns. O produto permitirá medir o volume de pilhas de grãos tais como minério, cereais, areia ou brita de qualquer tamanho e empilhados em qualquer local, dentre outros.",
       "description_en": "",
       "funding": [
         {
@@ -4495,11 +4512,12 @@
     },
     {
       "name": "Consolidação das Linhas de Pesquisa em Computação de Alto Desempenho, Otimização e Inteligência Computacional do PPGI-UFES",
+      "name_en": "Consolidação das Linhas de Pesquisa em Computação de Alto Desempenho, Otimização e Inteligência Computacional do PPGI-UFES",
       "year_start": "2011",
       "year_end": "2016",
       "status": "CONCLUIDO",
       "nature": "PESQUISA",
-      "description": "",
+      "description": "Este Projeto tem como objetivo central consolidar as linhas de pesquisa em Computação de Alto Desempenho, Otimização e Inteligência Computacional do Programa de Pós-Graduação em Informática (PPGI) da Universidade Federal do Espírito Santo (UFES), contando para isso com o apoio dos Programas de Pós-Graduação em Engenharia Civil e Engenharia de Sistemas e Computação da COPPE/UFRJ, área interdisciplinar de Computação de Alto Desempenho. Visa dar continuidade aos avanços alcançados com os projetos ?Fortalecimento das Áreas de Computação de Alto Desempenho, Inteligência Computacional e Otimização do Programa de Pós-Graduação em Informática da UFES - FACADOIC? e ?Fortalecimento das Áreas de Computação de Alto Desempenho e Inteligência Computacional do Programa de Pós-Graduação em Informática da UFES - FACADIC?, apoiados pelo CNPq em editais Casadinho anteriores.&#10;&#10;Serão realizados trabalhos conjuntos entre as equipes da UFES e da COPPE envolvendo a pesquisa sobre modelagem e simulação em sistemas computacionais de alto desempenho nos seguintes temas: (i) estratégias de implementação do método dos elementos finitos utilizando processamento de alto desempenho; (ii) modelos matemático-computacionais de cognição visual aplicados aos problemas de mapeamento e localização simultâneos (Simultaneous Localization and Mapping - SLAM) e navegação de veículos autônomos. Além disso, técnicas de Otimização Combinatória aplicáveis aos temas (i) e (ii) serão investigadas. Com este Projeto espera-se consolidar laços de cooperação para a investigação de questões científicas relevantes na área de Computação de Alto Desempenho, tanto entre os pesquisadores das duas universidades parceiras envolvidos no Projeto como no PPGI.",
       "description_en": "",
       "funding": [
         {
@@ -4516,11 +4534,12 @@
     },
     {
       "name": "Arquitetura e Programação de Sistemas Computacionais com Muitos Núcleos de Processamento",
+      "name_en": "Arquitetura e Programação de Sistemas Computacionais com Muitos Núcleos de Processamento",
       "year_start": "2011",
       "year_end": "2013",
       "status": "CONCLUIDO",
       "nature": "PESQUISA",
-      "description": "",
+      "description": "Objetivos: Investigar novas arquiteturas de sistemas computacionais com muitos núcleos de processamento em um único circuito integrado (sistemas many-core) e o uso delas na solução de problemas nas áreas de mecânica dos fluidos computacional e inteligência computacional.&#10;Resultados Alcançados no Período Anterior: No período anterior, investigamos arquiteturas de processador e de hierarquia de memória de sistemas paralelos, estratégias para a programação de sistemas many-core, e inteligência computacional aplicada aos problemas de categorização automática de texto, formação de carteiras de investimento e visão artificial. Obtivemos resultados relevantes em todas as frentes de pesquisa propostas, publicando 5 artigos em periódicos internacionais (correntemente temos mais dois em fase final de preparação), 1 livro, 1 capítulo de livro, e 17 trabalhos em conferência. Além disso, formamos um doutor, 5 mestres, 2 alunos de IC, e supervisionamos um pós-doutor. &#10;Ações Previstas: Neste projeto atuaremos em três frentes de pesquisa: arquitetura de computadores, processamento de alto desempenho e inteligência computacional. Na área de arquitetura de computadores, aprofundaremos nossos estudos sobre uma nova arquitetura de memória cache que propusemos que tira proveito de conceitos de sistemas de memória virtual para reduzir o consumo de energia e o impacto da latência da hierarquia de memória no desempenho de sistemas computacionais (a Dynamic Block Remapping Cache ? DBRC). Na área de processamento de alto desempenho, estudaremos novos paradigmas de programação paralela e novos sistemas de apoio à programação paralela voltada para a codificação da solução de problemas numericamente intensivos em sistemas many-core. Na área de inteligência computacional, investigaremos o uso de redes neurais sem peso VG-RAM na predição do valor futuro de ações, e a modelagem da biologia do sistema visual humano e sua aplicação ao problema de localização e mapeamento simultâneos e navegação de",
       "description_en": "",
       "funding": [
         {
@@ -4537,11 +4556,12 @@
     },
     {
       "name": "Modelos Matemático-Computacionais de Exploração e Busca Visual Aplicados ao Problema de Mapeamento e Localização Simultâneos de Robôs",
+      "name_en": "",
       "year_start": "2010",
       "year_end": "2012",
       "status": "EM_ANDAMENTO",
       "nature": "PESQUISA",
-      "description": "",
+      "description": "As imagens projetadas dentro de nossos olhos mudam todo o tempo por conta do movimento dos olhos ou do nosso corpo como um todo. Contudo, em um aparente paradoxo, percebemos o mundo retratado nas imagens capturadas pelos olhos como estável. Além disso, as imagens projetadas nas retinas humanas são bidimensionais; entretanto, o cérebro é capaz de sintetizar uma representação tridimensional estável a partir delas (o que vemos), com informações sobre cor, forma e profundidade a respeito os objetos no ambiente ao nosso redor, eliminando os efeitos dos movimentos dos olhos e do corpo. O sistema visual biológico viabiliza a nossa movimentação através do ambiente 3D de forma precisa. Assim, a modelagem das funcionalidades do sistema visual biológico pode contribuir para o desenvolvimento de sistemas de localização e mapeamento simultâneos (Simultaneous Localization And Mapping SLAM) de robôs. SLAM é talvez o problema mais fundamental da robótica autônoma. Veículos robóticos autônomos necessitam saber onde estão em sua área de atuação para realizar as atividades de interesse. Correntemente, as abordagens probabilísticas têm se mostrado as mais apropriadas para resolver o problema de SLAM. Neste projeto, investigaremos modelos matemáticos-computacionais de exploração e busca visual aplicados ao problema de mapeamento e localização simultâneos de robôs. Para isso, estudaremos a biologia da exploração e busca visual, i.e., os mecanismos a partir dos quais nós e outros animais conseguimos localizar visualmente pontos de interesse no espaço 3D. No Laboratório de Computação de Alto Desempenho (LCAD) do Departamento de Informática (DI) da Universidade Federal do Espírito Santo (UFES) são estudados modelos matemático-computacionais de áreas do cérebro envolvidas com a cognição visual. Neste Projeto, avançaremos no estudo destes modelos com o objetivo de encontrar soluções para o problema de SLAM baseadas em exploração e busca visual.",
       "description_en": "",
       "funding": [
         {
@@ -4562,11 +4582,12 @@
     },
     {
       "name": "PRONEX: Núcleo de Excelência em Computação de Alto Desempenho e sua Aplicação em Computação Científica e Inteligência Computacional",
+      "name_en": "PRONEX: Núcleo de Excelência em Computação de Alto Desempenho e sua Aplicação em Computação Científica e Inteligência Computacional",
       "year_start": "2010",
       "year_end": "2014",
       "status": "CONCLUIDO",
       "nature": "PESQUISA",
-      "description": "",
+      "description": "Com este projeto esperamos criar e consolidar o ?Núcleo de Excelência em Computação de Alto Desempenho e sua Aplicação em Computação Científica e Inteligência Computacional? (NECAD) da UFES por meio da aquisição de infra-estrutura adicional e da realização de pesquisa, em conjunto com pesquisadores da COPPE/UFRJ, em computação de alto desempenho e sua aplicação em computação científica e inteligência computacional. &#10;Hoje, observa-se uma necessidade crescente de novas técnicas dentro da área de computação científica para viabilizar simulações de problemas envolvendo múltiplas escalas espaciais e temporais e múltiplas físicas acopladas. Para contribuirmos nesta área, avançaremos em nossas investigações sobre novas formulações e técnicas de implementação do método dos elementos finitos, e novas estratégias de solução dos sistemas lineares resultantes não só de formulações de elementos finitos, mas também de diferenças finitas ou volumes finitos. Com o apoio a este projeto, avançaremos também em nossas investigações sobre modelos matemático-computacionais de cognição visual aplicados ao problema de mapeamento e localização simultâneos de veículos autônomos. Para isso, aprofundaremos nossos estudos sobre a biologia da cognição visual e sobre novos modelos matemático-computacionais de áreas do cérebro envolvidas com a cognição visual. Estes modelos, dada sua complexidade, demandam grande esforço computacional e, portanto, requerem computação de alto desempenho.&#10;Com a criação do NECAD, esforços serão canalizados para o desenvolvimento de novas bibliotecas numéricas de apoio ao desenvolvimento de código para a solução de problemas multi-física, simulação multi-escala, solucionadores rápidos, além de protótipos de sistemas computacionais para simulações em larga escala. Buscaremos também estender o estado da arte em Cognição Visual Artificial por meio da implementação de um veículo autônomo baseado em um automóvel comercial e do seu uso em pesquisas científicas que subsidi",
       "description_en": "",
       "funding": [
         {
@@ -4627,11 +4648,12 @@
     },
     {
       "name": "Fortalecimento das Áreas de Computação de Alto Desempenho, Otimização e Inteligência Computacional do Programa de Pós-Graduação em Informática da UFES",
+      "name_en": "",
       "year_start": "2009",
       "year_end": "2011",
       "status": "EM_ANDAMENTO",
       "nature": "PESQUISA",
-      "description": "",
+      "description": "Este Projeto tem como objetivo central fortalecer e incrementar as interações entre as linhas de pesquisa em Computação de Alto Desempenho, Otimização e Inteligência Computacional do Programa de Pós-Graduação em Informática (PPGI) da Universidade Federal do Espírito Santo (UFES), contando para isso com o apoio dos Programas de Pós-Graduação em Engenharia Civil e Engenharia de Sistemas e Computação da COPPE/UFRJ, área interdisciplinar de Computação de Alto Desempenho. Este projeto visa dar continuidade aos avanços alcançados com o projeto ?Fortalecimento das Áreas de Computação de Alto Desempenho e Inteligência Computacional do Programa de Pós-Graduação em Informática da UFES - FACADIC?, apoiado pelo CNPq no edital Casadinho anterior.&#10;Serão realizados trabalhos conjuntos entre as equipes da UFES e da COPPE envolvendo a pesquisa sobre modelagem e simulação em sistemas computacionais de alto desempenho nos seguintes temas: (i) estratégias de implementação do método dos elementos finitos utilizando processamento de alto desempenho; (ii) programação de sistemas many-core; e (iii) computação científica combinatória. Com este Projeto espera-se estabelecer laços de cooperação para a investigação de questões científicas relevantes na área de Computação de Alto Desempenho, tanto entre os pesquisadores das duas universidades parceiras envolvidos no Projeto como no PPGI. &#10;Os elementos integradores dos trabalhos de pesquisa a serem realizados nesse Projeto serão o estudo e o desenvolvimento de técnicas, algoritmos, metodologias, hardware e software para aplicações da computação paralela em mecânica dos fluidos, otimização combinatória e aprendizado de máquina. Aplicações práticas envolvem, dentre outras, problemas com múltiplas físicas acopladas (multi-físicas) em dinâmica dos fluidos, predição do risco ou do valor futuro de ativos financeiros, a classificação de operações com cartão de crédito como fraudulentas ou não, seleção de características em problemas de reconhecimento",
       "description_en": "",
       "funding": [
         {
@@ -4696,11 +4718,12 @@
     },
     {
       "name": "Sistema de Medição baseado em Visão Artificial",
+      "name_en": "",
       "year_start": "2009",
       "year_end": "2011",
       "status": "CONCLUIDO",
       "nature": "DESENVOLVIMENTO",
-      "description": "",
+      "description": "Este projeto contempla a transformação da pesquisa Visão Artificial, desenvolvida pelo Grupo de Pesquisa em Ciência da Cognição do DI-UFES, em um produto de mercado, com aplicação em algumas áreas onde a Mogai já atua (siderurgia, mineração e florestal). A visão artificial é uma tecnologia de processamento de imagens, e se diferencia das demais tecnologias de processamento de imagens existentes no mercado por usar um par de câmeras digitais ao invés de uma só câmera para entrada de imagens no computador. O sistema se inspira no modelo natural de visão humana, em que nossos olhos captam informações para que o cérebro identifique as diferenças nas duas imagens, e desta forma consiga criar a noção de profundidade e localização no espaço tridimensional, fundamentais para nossa interação com o ambiente ao nosso redor.",
       "description_en": "",
       "funding": [
         {
@@ -4729,11 +4752,12 @@
     },
     {
       "name": "Desenvolvimento de um Sistema de Localização e Mapeamento 3D por Visão Artificial para Navegação de Robôs e Veículos Aéreos ou Submarinos Não Tripulados",
+      "name_en": "",
       "year_start": "2009",
       "year_end": "2013",
       "status": "CONCLUIDO",
       "nature": "DESENVOLVIMENTO",
-      "description": "",
+      "description": "Este projeto propõe o desenvolvimento de uma nova tecnologia de Localização e Mapeamento Simultâneos (SLAM) com desenvolvimento de aplicações de navegação autônoma de robôs e veículos aéreos ou submarinos não tripulados-VANT. O desenvolvimento da tecnologia será feito a partir da tecnologia de Visão Artificial, que utiliza pares de câmeras para Medição de Dimensões, Áreas e Volumes através de imagens digitais estéreo com excelentes resultados.",
       "description_en": "",
       "funding": [
         {
@@ -4770,11 +4794,12 @@
     },
     {
       "name": "Visita Técnico-Científica ao Department of Computing da City University London",
+      "name_en": "",
       "year_start": "2008",
       "year_end": "2008",
       "status": "CONCLUIDO",
       "nature": "PESQUISA",
-      "description": "",
+      "description": "Visita técnico-científica de 30 dias do pesquisador Alberto Ferreira De Souza, membro do Departamento de Informática da Universidade Federal do Espírito Santo, ao Department of Computing da City University London, em particular, aos membros do Autonomous Intelligent Systems Group. Nesta visita discutimos a formulação de projetos de pesquisa em conjunto com o Prof. Artur d'Avila Garcez, membro do Autonomous Intelligent Systems Group. Esta visita está dentro do contexto do Projeto ?Fortalecimento das Áreas de Computação de Alto Desempenho e Inteligência Computacional do Programa de Pós-Graduação em Informática da UFES - FACADIC?. O Projeto FACADIC tem como objetivo fortalecer e incrementar as interações entre as linhas de pesquisa de Inteligência Computacional (IC) e Computação de Alto Desempenho (CAD) do Programa de Pós-graduação em Informática (PPGI) da UFES.",
       "description_en": "",
       "funding": [
         {
@@ -4791,11 +4816,12 @@
     },
     {
       "name": "Arquitetura de Sistemas Computacionais com Muitos Núcleos de Processamento em um Único CI",
+      "name_en": "",
       "year_start": "2008",
       "year_end": "2011",
       "status": "EM_ANDAMENTO",
       "nature": "PESQUISA",
-      "description": "",
+      "description": "Muito embora todas as evidências apontem para a continuidade da validade da Lei de Moore, pelo menos pelos próximos 13 anos, sem avanços visíveis na superação dos obstáculos ?Power Wall? + ?Memory Wall? + ?ILP Wall? = ?the Brick Wall for serial performance? só restou à indústria a alternativa de implementar um número crescente de processadores em um único CI para continuar provendo a melhoria exponencial no desempenho dos sistemas computacionais a que todos nos acostumamos. &#10;&#10;A mudança de curso da indústria de microprocessadores trará impactos profundos nas indústrias mundiais de hardware e software, e oferece extraordinárias oportunidades de pesquisa. Neste projeto, estudaremos novas arquiteturas de processador e de hierarquia de memória, além de estratégias para a programação de sistemas computacionais com muitos núcleos de processamento em um único circuito integrado (sistemas manycore).",
       "description_en": "",
       "funding": [
         {
@@ -4812,11 +4838,12 @@
     },
     {
       "name": "Modernização da Infra-Estrutura de Pesquisa da Área de Computação de Alto Desempenho da UFES",
+      "name_en": "",
       "year_start": "2006",
       "year_end": "2007",
       "status": "CONCLUIDO",
       "nature": "DESENVOLVIMENTO",
-      "description": "",
+      "description": "Este projeto visa à melhoria da infra-estrutura do Cluster Enterprise do LCAD - DI/UFES (www.lcad.inf.ufes.br). Por meio dele estão sendo adquiridas, via importação, 70 máquinas (35 quad-core e 35 dual-core) e dois switches gigabit que, em conjunto, constituirão o novo Cluster Enterprise.",
       "description_en": "",
       "funding": [
         {
@@ -4833,11 +4860,12 @@
     },
     {
       "name": "Classificação Automática em CNAE-Subclasse",
+      "name_en": "",
       "year_start": "2006",
       "year_end": "2010",
       "status": "CONCLUIDO",
       "nature": "PESQUISA",
-      "description": "",
+      "description": "A Classificação Nacional de Atividades Econômicas (CNAE) é uma tabela hierárquica de atividades e códigos associados, e o nível mais detalhado dela, CNAE-Subclasses, é usado como instrumento de padronização nacional dos códigos de atividade econômica utilizados pelos diversos órgãos públicos da administração direta na gerência e controle de ações de cada esfera de governo (federal, estadual ou municipal). Nos cadastros da administração pública, os códigos CNAE-Subclasse são atribuídos a todos os agentes econômicos que estão engajados na produção de bens e serviços sendo que, na Secretaria da Receita Federal, um ou mais códigos CNAE-Subclasse devem ser informados quando do cadastro de uma nova pessoa jurídica (quando do registro de um CNPJ) ou quando da alteração dos seus atos constitutivos. Atualmente, a escolha e atribuição dos códigos CNAE-Subclasse é feita manualmente pelo próprio informante ou por codificadores humanos treinados apoiados por ferramentas computacionais de busca na tabela CNAE-Subclasse, disponibilizadas pelo Instituto Brasileiro de Geografia e Estatística (IBGE). O principal objetivo deste projeto é desenvolver um protótipo de um Sistema Computacional para a Codificação Automática de Atividades Econômicas ? SCAE. O SCAE receberá como entrada descrições textuais de atividades econômicas e produzirá como saída os descritores das atividades do agente econômico e seus respectivos códigos CNAE-Subclasse. Para tal, o SCAE gerará representações, internas ao sistema, da tabela CNAE e das atividades do agente econômico para o qual se deseja atribuir códigos CNAE-Subclasse para uso administrativo. Estas representações deverão ser tais que permitam identificar a correta correspondência semântica entre a descrição textual livre das atividades do agente econômico e um ou mais itens dos descritores da tabela CNAE-Subclasse. Três técnicas serão utilizadas para esta representação interna: Redes Neurais Artificiais, Redes Bayesianas e Latent Semantic Indexing. O",
       "description_en": "",
       "funding": [
         {
@@ -4878,11 +4906,12 @@
     },
     {
       "name": "Fortalecimento das Áreas de Computação de Alto Desempenho e Inteligência Computacional do Programa de Pós-Graduação em Informática da UFES",
+      "name_en": "",
       "year_start": "2006",
       "year_end": "2008",
       "status": "CONCLUIDO",
       "nature": "PESQUISA",
-      "description": "",
+      "description": "Este projeto tem como objetivo central fortalecer e incrementar as interações entre as linhas de pesquisa de Inteligência Computacional e Computação de Alto Desempenho do Programa de Pós-graduação em Informática da UFES, contando para isso com o apoio de grupos de pesquisa de programas de pós-graduação já consolidados da COPPE/UFRJ e da USP/São Carlos. O grupo de pesquisadores da COPPE/UFRJ irá apoiar e interagir fundamentalmente com os pesquisadores da linha de Computação de Alto Desempenho do programa não consolidado, enquanto que o grupo de pesquisa da USP/São Carlos irá interagir e apoiar os pesquisadores da linha de Inteligência Computacional. Na linha de Computação de Alto Desempenho serão realizados trabalhos conjuntos entre a equipe da UFES e da COPPE nos seguintes temas: (i) novos paradigmas de programação adequados para futuros sistemas paralelos com dezenas ou centenas de processadores implementados através de circuitos integrados multi-core; (ii) estudo e implementação paralela de novas técnicas adaptativas, no tempo e no espaço, de representação de configurações de malha de elementos finitos aplicados a problemas de escoamentos em meios porosos. Na linha de Inteligência Computacional serão realizados trabalhos na área de descoberta de conhecimento em bases de dados, envolvendo técnicas de mineração de dados, reconhecimento de padrões e aprendizado automático. Especificamente, serão realizados estudos nos seguintes temas: (i) seleção de atributos; (ii) adaptações das técnicas clássicas de classificação ao caso de dados com variáveis temporais; (iii) integração de classificadores simbólicos utilizando sistemas multi-agentes. O elemento integrador dos trabalhos de pesquisa a serem realizados nesse projeto será o estudo e o desenvolvimento de técnicas, algoritmos, metodologias, hardware e software para aplicação da computação paralela na etapa de aprendizado dos processos de mineração de dados, visando, com isso, tornar esses processos mais eficazes.",
       "description_en": "",
       "funding": [
         {
@@ -4899,11 +4928,12 @@
     },
     {
       "name": "Automatizando a Medição de Dimensões, Áreas e Volumes",
+      "name_en": "",
       "year_start": "2006",
       "year_end": "2009",
       "status": "CONCLUIDO",
       "nature": "PESQUISA",
-      "description": "",
+      "description": "Neste trabalho de pesquisa e desenvolvimento de tecnologia será estudado o sistema de percepção visual que permite ao homem formar mentalmente uma imagem 3D do mundo externo.  A proposta é a implementação de um sistema de visão binocular artificial capaz de emular uma parte restrita do sistema visual biológico ligada aos atributos de percepção envolvidos com a visão 3D. Na implementação pretendida, informações provenientes de imagens capturadas por câmeras serão empregadas no controle do processo de localização de pontos de interesse nestas imagens. Este controle se dará por meio de sinais gerados por uma rede neural artificial que recebe como entrada as imagens pré-processadas por filtros. De posse de um foco de atenção de interesse, outras partes do sistema atuarão na construção do modelo 3D e no reconhecimento da imagem, o que permitirá a avaliação de características dos objetos no campo de visão, tais como: dimensões, áreas de superfícies e volumes.",
       "description_en": "",
       "funding": [
         {
@@ -4920,11 +4950,12 @@
     },
     {
       "name": "Novas Arquiteturas de Alto Desempenho Baseadas no Escalonamento Dinâmico de Instruções",
+      "name_en": "",
       "year_start": "2005",
       "year_end": "2007",
       "status": "CONCLUIDO",
       "nature": "PESQUISA",
-      "description": "",
+      "description": "Neste trabalho de pesquisa investigaremos novos mecanismos de detecção dinâmica (durante a execução do código) de oportunidades para o escalonamento de instruções para execução em paralelo que não sejam fortemente afetados pela latência da hierarquia de memória. Este trabalho de pesquisa é motivado por resultados recentes que obtivemos com nossos simuladores da arquitetura Dynamically Trace Scheduling VLIW (DTSVLIW). Esta arquitetura explora a localidade dinâmica de execução do código para extrair paralelismo no nível de instrução (Instruction Level-Parallelism - ILP). Em nossos estudos experimentais, verificamos que a DTSVLIW sofre mais fortemente os efeitos da latência da hierarquia de memória que as arquiteturas Super Escalar e Trace Cache. Contudo, sem estes efeitos, a DTSVLIW teria um desempenho significativamente melhor que o das arquiteturas Super Escalar e Trace Cache, tanto em termos de sua capacidade de exploração do ILP, quanto da sua eficiência energética (consumo de energia por instrução). O objetivo deste projeto de pesquisa é investigar mecanismos que permitam a tradução dinâmica, via hardware, de código escalar de arquiteturas do conjunto de instruções existentes para código EDGE (Explicit Data Graph Execution), para posterior execução em uma máquina EDGE também dinamicamente. Para isso, usaremos nossa experiência com a arquitetura DTSVLIW que, de modo equivalente ao que propomos investigar, traduz código escalar para código VLIW e posteriormente executa este código em modo VLIW, dinamicamente. Nós acreditamos que uma máquina EDGE será menos afetada pela latência da hierarquia de memória e, se traduzirmos código escalar existente para esta arquitetura, permitiremos compatibilidade de código para traz. Nós usaremos uma abordagem experimental nesta investigação. Para isso, faremos uso de ambientes de simulação de arquiteturas do conjunto de instruções disponíveis publicamente e com código aberto (da ISA IA-32, por exemplo), além de nossos simuladores",
       "description_en": "",
       "funding": [
         {
@@ -4945,11 +4976,12 @@
     },
     {
       "name": "Arquiteturas de Computadores e Hierarquias de Memória Avançadas",
+      "name_en": "",
       "year_start": "2005",
       "year_end": "2008",
       "status": "CONCLUIDO",
       "nature": "PESQUISA",
-      "description": "",
+      "description": "Arquiteturas modernas de processador têm seu desempenho fortemente afetado pelas latências da hierarquia de memória. Este problema, conhecido como &quot;Memory Gap Problem&quot;, tende a se agravar por causa da diferença observada nas últimas décadas entre a evolução do desempenho de processadores e memória. A evolução do desempenho dos processadores tem sido significativamente mais acentuada que a da hierarquia de memória, o que impõe um continuado esforço de pesquisa no sentido de diminuir o efeito da latência de memória no desempenho dos sistemas computacionais. Neste trabalho de pesquisa investigaremos novos mecanismos de detecção dinâmica (durante a execução do código) de oportunidades de redução do efeito da latência no desempenho de sistemas computacionais. Nós usaremos uma abordagem experimental nesta investigação. Para isso, faremos uso de ambientes de simulação de arquiteturas do conjunto de instruções disponíveis publicamente e com código aberto (da ISA IA-32, por exemplo), além de nossos simuladores baseados no simplescalar. Este trabalho de pesquisa é motivado por resultados recentes que obtivemos com nossos simuladores da arquitetura Dynamically Trace Scheduling VLIW (DTSVLIW). Esta arquitetura explora a localidade dinâmica de execução do código para extrair paralelismo no nível de instrução (Instruction Level-Parallelism - ILP). Em nossos estudos experimentais, verificamos que a DTSVLIW sofre mais fortemente os efeitos da latência da hierarquia de memória que a arquitetura Super Escalar. Contudo, sem estes efeitos, a DTSVLIW teria um desempenho significativamente melhor que a Super Escalar, tanto em termos de sua capacidade de exploração do ILP quanto da sua eficiência energética (consumo de energia por instrução) - nossos experimentos mostraram que o consumo de energia por instrução também é fortemente afetado pela hierarquia de memória. Por essa razão, estaremos também estudando mecanismos para o aumento da eficiência energética da hierarquia de memória.",
       "description_en": "",
       "funding": [
         {
@@ -4966,11 +4998,12 @@
     },
     {
       "name": "Rede Metropolitana de Alta Velocidade de Vitória - Metrovix",
+      "name_en": "Rede Metropolitana de Alta Velocidade de Vitória ? Metrovix",
       "year_start": "2005",
       "year_end": "2008",
       "status": "CONCLUIDO",
       "nature": "DESENVOLVIMENTO",
-      "description": "",
+      "description": "A iniciativa Rede Metropolitana para Educação e Pesquisa (REDECOMEP) é parte de uma ação mais ampla do Ministério da Ciência e Tecnologia (MCT), e tem como objetivo implantar redes de alta velocidade nas regiões metropolitanas do país atendidas por Pontos de Presença da Rede Nacional de Ensino e Pesquisa (RNP). A iniciativa, coordenada pela RNP, possui como premissa a implantação de uma infra-estrutura óptica própria, interligando instituições de pesquisa e ensino superior. O modelo de implantação das redes prevê a construção de infra-estrutura inteiramente nova e/ou a utilização de dutos, cabos e fibras ópticas existentes, por meio de cessão de direitos de uso e parcerias. A Rede Metrovix, que possui 52,543 Km de fibra lançada de extensão, é o resultado de parceria envolvendo: o Centro Federal de Educação Tecnológica do Espírito Santo; a Escola Superior em Ciências da Santa Casa de Misericórdia de Vitória; o Hospital da Santa Casa de Misericordia de Vitória; o Instituto Capixaba de Pesquisa, Assistência Técnica e Extensão Rural; o Museu Solar Monjardim; a Prefeitura do Município de Vitória; a Rede Nacional de Ensino e Pesquisa; a Secretaria de Estado de Ciência e Tecnologia do Espírito Santo; e a Universidade Federal do Espírito Santo. Ela foi lançada pelo Ministro da Ciência e Tecnologia, Sergio Rezende, no dia 23/08/2005, e será inaugurada em 27/08/2007.",
       "description_en": "",
       "funding": [
         {
@@ -5015,11 +5048,12 @@
     },
     {
       "name": "Rede GIGA: Implantação e utilização de um GRID de 1TFLOP/s",
+      "name_en": "",
       "year_start": "2004",
       "year_end": "2006",
       "status": "CONCLUIDO",
       "nature": "PESQUISA",
-      "description": "",
+      "description": "A maioria dos sucessos alcançados ultimamente em computação em grade (grid computing) está relacionada com problemas que requerem muito pouca comunicação entre processos, por exemplo, aplicações onde um mesmo programa precisa analisar, de forma independente de outras instancias do mesmo, uma grande quantidade de dados, como Genoma, SETI@Home, etc. Essa classe de aplicações, contudo, é pequena em comparação com classes mais gerais em que aplicações requerem um grau bem maior de comunicação. Incluem-se aí aplicações de uma variedade de áreas multidisciplinares, como simulação científica, engenharia, economia, bio-informática, petróleo, física de alta energia, dinâmica de fluidos computacional, etc. O tempo de execução e a robustez das aplicações com comunicação entre processos pode ser influenciado por demais pelo escalonamento definido e pelos mecanismos de tolerância à falhas adotados. Devido à complexidade da modelagem e previsão do comportamento de uma grade, a classe de aplicações com comunicação intensiva não tem sido abordada em estudos recentes em grades computacionais, não sendo considerada viável para ser executada em tais ambientes. Neste projeto (Projeto GIGA) estaremos trabalhando na solução de uma classe maior de problemas (incluindo aplicações que até então eram consideradas impraticáveis) que podem tirar benefícios de computação em grades, mas também podem fazer isso numa infra-estrutura de recursos computacionais já implantados, conectados por uma rede de alta velocidade, necessária para prover a demanda requisitada por tais aplicações. Para isso, formamos um grupo de trabalho para a implantação da Grade Sinergia, que unirá máquinas de 7 instituições brasileiras e uma americana: UF, PUC-RJ, CBPF, UNICAMP, LNCC, UFES e University Of Illinois At Urbana-Champaign. Utilizando os recursos computacionais disponíveis nas instituições participantes deste projeto, uma grade de desenvolvimento de aproximadamente 1TFLOP/s de pico será estabelecida.",
       "description_en": "",
       "funding": [
         {
@@ -5036,11 +5070,12 @@
     },
     {
       "name": "Sistema Automático de Medição de Volumes Baseado em Visão Artificial",
+      "name_en": "",
       "year_start": "2004",
       "year_end": "2005",
       "status": "CONCLUIDO",
       "nature": "PESQUISA",
-      "description": "",
+      "description": "Neste trabalho de pesquisa estudaremos as características do sistema de percepção visual e do sistema óculo-motor biológicos. A proposta é a implementação de um sistema de visão binocular artificial capaz de emular propriedades importantes de uma parte restrita do sistema visual e óculo-motor. Em trabalho anterior estudamos o sistema óculo-motor relacionado ao controle da vergência dos olhos em um ponto no espaço (em três dimensões, ou 3D) e do movimento de perseguição suave de alvos móveis em 3D. Neste trabalho estenderemos este estudo para o subsistema óculo-motor ligado ao controle do movimento de sacada (movimentos rápidos dos olhos para um ponto específico de interesse). Para isso, implementaremos um sistema baseado em redes neurais sem peso simulado em computador que, usando informações provenientes de imagens capturadas por câmeras, controlará o foco de atenção nestas imagens. De posse de um foco de atenção de interesse, outras partes do sistema atuarão no reconhecimento da imagem, o que permitirá a avaliação das características dos objetos no campo de visão.&#10;&#10;Nossa meta será implementar um sistema capaz de identificar automaticamente, em pilhas de toras de eucalipto, pontos que, em conjunto, permitam computar o volume total de madeira presente na pilha. Um sistema como este permitirá que o trabalho de medição do estoque de madeira de empresas como a Aracruz Celulose, hoje feito de forma lenta, imprecisa e com alto risco de vida por parte de operários, uma vez que estes têm que fazer contato direto comas pilhas de madeira para fazer as medições, possa ser feito com precisão, automaticamente e com disponibilização de resultados &quot;on-line&quot;. É importante notar, contudo, que, uma vez desenvolvida a tecnologia para este objeto de estudo específico, esta poderá ser usada em outros contextos, uma vez que as redes neurais sem peso permitem que novas situações de operação sejam facilmente incorporadas através de aprendizado.",
       "description_en": "",
       "funding": [
         {
@@ -5073,11 +5108,12 @@
     },
     {
       "name": "Melhorias de Infra-Estrutura para o Funcionamento do LCAD",
+      "name_en": "",
       "year_start": "2004",
       "year_end": "2006",
       "status": "CONCLUIDO",
       "nature": "PESQUISA",
-      "description": "",
+      "description": "O objetivo geral desta proposta é a melhoria das condições de operação do Cluster de Estações de Trabalho do Laboratório de Computação de Alto Desempenho (LCAD) do Centro Tecnológico da UFES, de modo a, com esta e outras ações, consolidar o LCAD como uma referência regional em computação em larga escala. No contexto atual do Estado do Espírito Santo, as indústrias petrolífera, siderúrgica, de celulose e de extração mineral (mármore e granito), constituem demanda qualificada para o uso da infra-estrutura do LCAD. Para o efetivo uso deste importante recurso computacional é necessária a aquisição de equipamento para continuidade de funcionamento na eventualidade de falhas na alimentação elétrica, melhoria do espaço físico, além de equipamentos adicionais de acesso.&#10;Em diversas áreas existe a necessidade de se obter alto poder computacional na resolução de problemas cada vez maiores em períodos de tempo cada vez mais curtos. Processamento Paralelo em cluters é uma das alternativas para se obter alto desempenho computacional com baixo custo. Dentre alguns problemas que podem se beneficiar de Processamento Paralelo, destacamos aqueles que tem sido alvo de pesquisa no LCAD: análise de dispersão de poluentes, prospecção de petróleo, dinâmica dos fluidos, visão computacional, mapeamento do genoma humano e otimização combinatória. Estas linhas de pesquisa são relevantes para melhoria da qualidade de vida da população do estado do Espírito Santo no que diz respeito às condições ambientais locais, afetadas pelas indústrias instaladas na região. Mas a pesquisa desenvolvida no LCAD tem o potencial, também, para dar suporte à melhoria dos processos produtivos destas insdústrias, através do estudo de suas atividades e resolução computacional de seus problemas.",
       "description_en": "",
       "funding": [
         {
@@ -5118,11 +5154,12 @@
     },
     {
       "name": "Plataforma de Acesso Seguro a Vídeo Sob Demanda para Dispositivos Móveis Sem Fio com Garantia de Qualidade de Serviço - TRAVIS-QDS",
+      "name_en": "",
       "year_start": "2004",
       "year_end": "2007",
       "status": "CONCLUIDO",
       "nature": "PESQUISA",
-      "description": "",
+      "description": "O objetivo deste projeto é o desenvolvimento e integração de softwares para um sistema de distribuição escalável de Vídeo Sob Demanda, com acesso através de dispositivos sem fio com tecnologia WiFi, atendendo a requisitos definidos de segurança e de qualidade de serviço. O produto final deverá possibilitar o acesso a vídeo digital sob demanda por dispositivos móveis portáteis (PDAs e botebooks) através de plataformas de comunicação sem fio. O potencial das aplicações possíveis através da tecnologia a ser disponibilizada é enorme. Por exemplo, através de produtos obtidos neste projeto, será possível viabilizar a produção de vídeos a serem distribuídos para diversos fins, em ambientes localizados (por exemplo, em comunidades definidas) e/ou geograficamente dispersos, usando acessos de alta velocidade.",
       "description_en": "",
       "funding": [
         {
@@ -5143,11 +5180,12 @@
     },
     {
       "name": "Arquiteturas Avançadas de Processador",
+      "name_en": "",
       "year_start": "2003",
       "year_end": "2005",
       "status": "CONCLUIDO",
       "nature": "PESQUISA",
-      "description": "",
+      "description": "O resultado de nossas pesquisas envolvendo a arquitetura Dynamically Trace Scheduled VLIW (DTSVLIW) demonstrou que existe grande localidade de execução nos programas - longas seqüências de instruções (traces) são executadas repetidamente freqüentemente. Na verdade, experimentos recentes realizados com a arquitetura DTSVLIW mostraram que, em mais de 95% dos ciclos de máquina, são percorridos caminhos de execução já visitados. Por causa disso, máquinas DTSVLIW conseguem tirar proveito de grande quantidade de paralelismo no nível de instrução existente nos programas, mesmo escalonando apenas uma instrução por ciclo de máquina. Nossos experimentos também mostraram que máquinas que seguem a arquitetura Trace Cache também conseguem tirar proveito da localidade de execução, mesmo fazendo o fetch de apenas uma instrução por ciclo de máquina do cache de instruções (mas fazendo o fetch de várias instruções por ciclo do trace cache). No entanto, muito embora as evidências mostrem que a implementação de máquinas DTSVLIW é significativamente mais simples, análises envolvendo máquinas com arquitetura DTSVLIW e Trace Cache com unidades funcionais equivalentes e em número igual, mostraram que máquinas DTSVLIW têm desempenho superior. Esta possibilidade de implementação facilitada e desempenho superior, se comparado ao de máquinas Trace Cache ou mesmo Super Escalares, demonstra que a arquitetura DTSVLIW se apresenta como uma alternativa às arquiteturas Trace Cache e Super Escalar. Além do desempenho, atualmente outro fator tem se tornado importante na escolha da arquitetura para a implantação de processadores: o consumo de potência. O continuo aumento do número máximo de transistores que se pode colocar em um único circuito intergrado tem permitido a implementação de processadores cada vez mais poderosos; contudo, o chaveamento destes transistores em freqüências cada vez mais elevadas resulta em um aumento, em proporção ainda maior, do consumo de potência destes processadores. Nes",
       "description_en": "",
       "funding": [
         {

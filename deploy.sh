@@ -135,8 +135,10 @@ mkdir -p "$DIST_DIR"
 # Clear dist and copy fresh files
 rm -rf "$DIST_DIR"/*
 
-# Copy the main page as index.html in the root of dist
+# Copy all HTML pages from alberto/
 cp "$LOCAL_SRC_DIR/alberto/index.html" "$DIST_DIR/index.html"
+cp "$LOCAL_SRC_DIR/alberto/publications.html" "$DIST_DIR/publications.html" 2>/dev/null || true
+cp "$LOCAL_SRC_DIR/alberto/projects.html" "$DIST_DIR/projects.html" 2>/dev/null || true
 
 # Copy assets
 cp -r "$LOCAL_SRC_DIR/assets" "$DIST_DIR/"

@@ -32,7 +32,6 @@
     }
     .project-card:hover {
       transform: translateY(-2px);
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     }
     .status-ongoing {
       background-color: #dcfce7;
@@ -56,7 +55,7 @@
         <a href="index.html" class="text-xl font-bold hover:text-ufes-gold transition-colors">
           ← Back to Home
         </a>
-        <h1 class="text-lg font-semibold">Prof. Dr. Alberto Ferreira De Souza</h1>
+        <h1 class="text-lg font-semibold hidden sm:block">Prof. Dr. Alberto Ferreira De Souza</h1>
       </div>
     </div>
   </nav>
@@ -66,7 +65,10 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <h1 class="text-4xl font-bold mb-4">Research Projects</h1>
       <p class="text-blue-200 text-lg">
-        38 research projects from Currículo Lattes (2003-2025)
+        38 research projects (10 ongoing, 28 completed) from 2003 to 2025
+      </p>
+      <p class="text-blue-300 text-sm mt-2">
+        Click on project titles to expand descriptions
       </p>
     </div>
   </header>
@@ -78,10 +80,10 @@
         All Projects (38)
       </button>
       <button onclick="filterProjects('ongoing')" class="filter-btn px-4 py-2 rounded-lg border border-gray-300 hover:bg-blue-600 hover:text-white transition-colors">
-        Ongoing (8)
+        Ongoing (10)
       </button>
       <button onclick="filterProjects('completed')" class="filter-btn px-4 py-2 rounded-lg border border-gray-300 hover:bg-blue-600 hover:text-white transition-colors">
-        Completed (30)
+        Completed (28)
       </button>
     </div>
   </div>
@@ -89,370 +91,927 @@
   <!-- Main Content -->
   <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
     
-    <div class="space-y-6">
+    <!-- Ongoing Projects Section -->
+    <section id="ongoing-section" class="mb-12">
+      <h2 class="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+        <span class="w-3 h-3 bg-green-500 rounded-full mr-3"></span>
+        Ongoing Projects (10)
+      </h2>
       
-      <!-- Ongoing Projects Section -->
-      <section>
-        <h2 class="text-2xl font-bold text-gray-900 mb-6 flex items-center">
-          <span class="w-3 h-3 bg-green-500 rounded-full mr-3"></span>
-          Ongoing Projects
-        </h2>
-        
-        <div class="grid gap-6">
-          
-          <!-- Project 1 -->
-          <div class="project-card ongoing bg-white p-6 rounded-xl border-l-4 border-green-500 shadow-sm">
+      <div class="space-y-4">
+        <div class="project-card ongoing bg-white p-6 rounded-xl border-l-4 border-green-500 shadow-sm hover:shadow-md transition-shadow">
             <div class="flex items-start justify-between mb-3">
               <span class="status-ongoing px-3 py-1 rounded-full text-sm font-medium">Ongoing</span>
               <span class="text-gray-500 font-medium">2025 - present</span>
             </div>
             <h3 class="text-lg font-semibold text-gray-900 mb-2">
-              Investigation and Experimentation of Fine-Tuning Techniques for Large Language Models in Innovation Management Processes
+              <button onclick="toggleDescription(0)" class="text-left hover:text-blue-600 flex items-center gap-2">
+                <span>Investigation and Experimentation of Fine-Tuning Techniques for Large Language Models in Innovation Management Processes</span>
+                <svg id="icon-0" class="w-4 h-4 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </button>
             </h3>
-            <p class="text-sm text-gray-600 mb-3">
+            <p class="text-sm text-gray-500 mb-2">
               <span class="font-medium">Original:</span> Investigação e Experimentação de Técnicas de Ajuste Fino de Grandes Modelos de Linguagem para Processo de Gestão da Inovação
             </p>
             <div class="flex flex-wrap gap-2">
-              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: FEST</span>
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: FUNDAÃ?Ã?O ESPÃ?RITO-SANTENSE DE TECNOLOGIA</span>
+            </div>
+            <div id="desc-0" class="mt-3 text-sm text-gray-600 hidden">
+              <p class="bg-gray-50 p-4 rounded-lg">This research project aims to investigate and experiment with fine-tuning techniques for Large Language Models (LLMs) focused on improving innovation management processes. The goal is to develop and validate methodologies that enable the customization of LLMs to specific organizational contexts, enhancing decision-making and knowledge management in innovation ecosystems.</p>
             </div>
           </div>
 
-          <!-- Project 2 -->
-          <div class="project-card ongoing bg-white p-6 rounded-xl border-l-4 border-green-500 shadow-sm">
+        <div class="project-card ongoing bg-white p-6 rounded-xl border-l-4 border-green-500 shadow-sm hover:shadow-md transition-shadow">
             <div class="flex items-start justify-between mb-3">
               <span class="status-ongoing px-3 py-1 rounded-full text-sm font-medium">Ongoing</span>
               <span class="text-gray-500 font-medium">2025 - present</span>
             </div>
             <h3 class="text-lg font-semibold text-gray-900 mb-2">
-              Development of Perception Algorithms for Autonomous Vehicles in Industrial and Mining Environments
+              <button onclick="toggleDescription(1)" class="text-left hover:text-blue-600 flex items-center gap-2">
+                <span>Development of Perception Algorithms for Autonomous Vehicles in Industrial and Mining Environments</span>
+                <svg id="icon-1" class="w-4 h-4 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </button>
             </h3>
-            <p class="text-sm text-gray-600 mb-3">
+            <p class="text-sm text-gray-500 mb-2">
               <span class="font-medium">Original:</span> Desenvolvimento de Algoritmos de Percepção para Veículos Autônomos em Ambientes Industriais e de Mineração
             </p>
             <div class="flex flex-wrap gap-2">
               <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: FAPES</span>
             </div>
+            <div id="desc-1" class="mt-3 text-sm text-gray-600 hidden">
+              <p class="bg-gray-50 p-4 rounded-lg">The general objective of this project is to advance the development of Autonomous Computational Intelligences (ACIs), integrating it into a strategic set of I2CA macro-projects. These macro-projects aim to consolidate applied research in computational intelligence for industry, with emphasis on autonomous vehicles and intelligent robotic systems for industrial and mining environments.</p>
+            </div>
           </div>
 
-          <!-- Project 3 -->
-          <div class="project-card ongoing bg-white p-6 rounded-xl border-l-4 border-green-500 shadow-sm">
+        <div class="project-card ongoing bg-white p-6 rounded-xl border-l-4 border-green-500 shadow-sm hover:shadow-md transition-shadow">
             <div class="flex items-start justify-between mb-3">
               <span class="status-ongoing px-3 py-1 rounded-full text-sm font-medium">Ongoing</span>
               <span class="text-gray-500 font-medium">2024 - present</span>
             </div>
             <h3 class="text-lg font-semibold text-gray-900 mb-2">
-              Autonomous Computational Intelligences Based on Generative Pre-trained Transformers (ICAGPT)
+              <button onclick="toggleDescription(2)" class="text-left hover:text-blue-600 flex items-center gap-2">
+                <span>Autonomous Computational Intelligences Based on Generative Pre-trained Transformers (ICAGPT)</span>
+                <svg id="icon-2" class="w-4 h-4 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </button>
             </h3>
-            <p class="text-sm text-gray-600 mb-3">
+            <p class="text-sm text-gray-500 mb-2">
               <span class="font-medium">Original:</span> Inteligências Computacionais Autônomas Baseadas em Generative Pre-trained Transformers (ICAGPT)
             </p>
             <div class="flex flex-wrap gap-2">
               <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: CNPq</span>
             </div>
+            <div id="desc-2" class="mt-3 text-sm text-gray-600 hidden">
+              <p class="bg-gray-50 p-4 rounded-lg">In this project, we propose the development of science and technology necessary for implementing powerful Autonomous Computational Intelligences (ACIs). ACIs are software and hardware systems that can autonomously perform complex tasks that currently require high-level human skills, such as driving vehicles, operating industrial equipment, and making complex decisions based on multimodal data.</p>
+            </div>
           </div>
 
-          <!-- Project 4 -->
-          <div class="project-card ongoing bg-white p-6 rounded-xl border-l-4 border-green-500 shadow-sm">
+        <div class="project-card ongoing bg-white p-6 rounded-xl border-l-4 border-green-500 shadow-sm hover:shadow-md transition-shadow">
             <div class="flex items-start justify-between mb-3">
               <span class="status-ongoing px-3 py-1 rounded-full text-sm font-medium">Ongoing</span>
               <span class="text-gray-500 font-medium">2023 - present</span>
             </div>
             <h3 class="text-lg font-semibold text-gray-900 mb-2">
-              Movement of Unidentified Block Piles by Autonomous Robots
+              <button onclick="toggleDescription(3)" class="text-left hover:text-blue-600 flex items-center gap-2">
+                <span>Movement of Unidentified Block Piles by Autonomous Robots</span>
+                <svg id="icon-3" class="w-4 h-4 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </button>
             </h3>
-            <p class="text-sm text-gray-600 mb-3">
+            <p class="text-sm text-gray-500 mb-2">
               <span class="font-medium">Original:</span> Movimentação de Pilhas de Blocos não Identificados por meio de Robôs Autônomos
             </p>
             <div class="flex flex-wrap gap-2">
               <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: FAPES</span>
             </div>
+            <div id="desc-3" class="mt-3 text-sm text-gray-600 hidden">
+              <p class="bg-gray-50 p-4 rounded-lg">This project focuses on developing autonomous robotic systems capable of manipulating and organizing unidentified block piles in industrial environments. The research combines computer vision, deep learning, and robotic manipulation techniques to enable robots to work efficiently with objects that have not been previously catalogued or identified.</p>
+            </div>
           </div>
 
-          <!-- Project 5 -->
-          <div class="project-card ongoing bg-white p-6 rounded-xl border-l-4 border-green-500 shadow-sm">
+        <div class="project-card ongoing bg-white p-6 rounded-xl border-l-4 border-green-500 shadow-sm hover:shadow-md transition-shadow">
             <div class="flex items-start justify-between mb-3">
               <span class="status-ongoing px-3 py-1 rounded-full text-sm font-medium">Ongoing</span>
               <span class="text-gray-500 font-medium">2022 - present</span>
             </div>
             <h3 class="text-lg font-semibold text-gray-900 mb-2">
-              Autonomous Computational Intelligences
+              <button onclick="toggleDescription(4)" class="text-left hover:text-blue-600 flex items-center gap-2">
+                <span>Autonomous Computational Intelligences</span>
+                <svg id="icon-4" class="w-4 h-4 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </button>
             </h3>
-            <p class="text-sm text-gray-600 mb-3">
+            <p class="text-sm text-gray-500 mb-2">
               <span class="font-medium">Original:</span> Inteligências Computacionais Autônomas
             </p>
             <div class="flex flex-wrap gap-2">
               <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: CNPq</span>
             </div>
+            <div id="desc-4" class="mt-3 text-sm text-gray-600 hidden">
+              <p class="bg-gray-50 p-4 rounded-lg">This project focuses on fundamental research in autonomous computational intelligences, systems that can perceive their environment, reason about it, and take actions to achieve goals without continuous human supervision. The research encompasses perception, learning, planning, and control.</p>
+            </div>
           </div>
 
-          <!-- Project 6 -->
-          <div class="project-card ongoing bg-white p-6 rounded-xl border-l-4 border-green-500 shadow-sm">
+        <div class="project-card ongoing bg-white p-6 rounded-xl border-l-4 border-green-500 shadow-sm hover:shadow-md transition-shadow">
             <div class="flex items-start justify-between mb-3">
               <span class="status-ongoing px-3 py-1 rounded-full text-sm font-medium">Ongoing</span>
               <span class="text-gray-500 font-medium">2021 - present</span>
             </div>
             <h3 class="text-lg font-semibold text-gray-900 mb-2">
-              Institute of Applied Computational Intelligence - I2CA
+              <button onclick="toggleDescription(5)" class="text-left hover:text-blue-600 flex items-center gap-2">
+                <span>Institute of Applied Computational Intelligence - I2CA</span>
+                <svg id="icon-5" class="w-4 h-4 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </button>
             </h3>
-            <p class="text-sm text-gray-600 mb-3">
+            <p class="text-sm text-gray-500 mb-2">
               <span class="font-medium">Original:</span> Instituto de Inteligência Computacional Aplicada - I2CA
             </p>
             <div class="flex flex-wrap gap-2">
-              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: FAPES, ArcelorMittal Brasil</span>
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: FAPES, ArcelorMittal</span>
+            </div>
+            <div id="desc-5" class="mt-3 text-sm text-gray-600 hidden">
+              <p class="bg-gray-50 p-4 rounded-lg">The Institute of Applied Computational Intelligence (I2CA) was established to conduct cutting-edge research in applied computational intelligence for industry, focusing on autonomous vehicles and other intelligent autonomous systems, training specialized personnel and strengthening the ecosystem of companies that employ and develop Artificial Intelligence.</p>
             </div>
           </div>
 
-          <!-- Project 7 -->
-          <div class="project-card ongoing bg-white p-6 rounded-xl border-l-4 border-green-500 shadow-sm">
+        <div class="project-card ongoing bg-white p-6 rounded-xl border-l-4 border-green-500 shadow-sm hover:shadow-md transition-shadow">
             <div class="flex items-start justify-between mb-3">
               <span class="status-ongoing px-3 py-1 rounded-full text-sm font-medium">Ongoing</span>
               <span class="text-gray-500 font-medium">2014 - present</span>
             </div>
             <h3 class="text-lg font-semibold text-gray-900 mb-2">
-              Artificial Spatial Cognition and its Efficient Implementation through High-Performance Computing
+              <button onclick="toggleDescription(6)" class="text-left hover:text-blue-600 flex items-center gap-2">
+                <span>Artificial Spatial Cognition and its Efficient Implementation through High-Performance Computing</span>
+                <svg id="icon-6" class="w-4 h-4 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </button>
             </h3>
-            <p class="text-sm text-gray-600 mb-3">
+            <p class="text-sm text-gray-500 mb-2">
               <span class="font-medium">Original:</span> Cognição Espacial Artificial e sua Implementação Eficiente por meio de Computação de Alto Desempenho
             </p>
             <div class="flex flex-wrap gap-2">
               <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: CNPq</span>
             </div>
+            <div id="desc-6" class="mt-3 text-sm text-gray-600 hidden">
+              <p class="bg-gray-50 p-4 rounded-lg">This long-term research project investigates artificial spatial cognition, developing computational models that enable machines to understand and navigate complex spatial environments, with efficient implementations using high-performance computing techniques including GPU acceleration.</p>
+            </div>
           </div>
 
-        </div>
-      </section>
-
-      <!-- Completed Projects Section -->
-      <section class="mt-12">
-        <h2 class="text-2xl font-bold text-gray-900 mb-6 flex items-center">
-          <span class="w-3 h-3 bg-indigo-500 rounded-full mr-3"></span>
-          Completed Projects
-        </h2>
-        
-        <div class="grid gap-6">
-
-          <!-- Major completed projects -->
-          <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm">
+        <div class="project-card ongoing bg-white p-6 rounded-xl border-l-4 border-green-500 shadow-sm hover:shadow-md transition-shadow">
             <div class="flex items-start justify-between mb-3">
-              <span class="status-completed px-3 py-1 rounded-full text-sm font-medium">Completed</span>
-              <span class="text-gray-500 font-medium">2022 - 2025</span>
+              <span class="status-ongoing px-3 py-1 rounded-full text-sm font-medium">Ongoing</span>
+              <span class="text-gray-500 font-medium">2010 - 2012</span>
             </div>
             <h3 class="text-lg font-semibold text-gray-900 mb-2">
-              Development of New Artificial Intelligence Technologies for Autonomous Vehicles
+              <button onclick="toggleDescription(7)" class="text-left hover:text-blue-600 flex items-center gap-2">
+                <span>Mathematical-Computational Models of Visual Exploration and Search Applied to Simultaneous Localization and Mapping for Robots</span>
+                <svg id="icon-7" class="w-4 h-4 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </button>
             </h3>
-            <p class="text-sm text-gray-600 mb-3">
-              <span class="font-medium">Original:</span> Desenvolvimento de novas tecnologias de Inteligência Artificial para veículos autônomos
+            <p class="text-sm text-gray-500 mb-2">
+              <span class="font-medium">Original:</span> Modelos Matemático-Computacionais de Exploração e Busca Visual Aplicados ao Problema de Mapeamento e Localização Simultâneos de Robôs
             </p>
             <div class="flex flex-wrap gap-2">
               <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: CNPq</span>
             </div>
+            <div id="desc-7" class="mt-3 text-sm text-gray-600 hidden">
+              <p class="bg-gray-50 p-4 rounded-lg">This project developed mathematical and computational models for visual exploration and search, applying them to the Simultaneous Localization and Mapping (SLAM) problem in mobile robotics.</p>
+            </div>
           </div>
 
-          <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm">
+        <div class="project-card ongoing bg-white p-6 rounded-xl border-l-4 border-green-500 shadow-sm hover:shadow-md transition-shadow">
+            <div class="flex items-start justify-between mb-3">
+              <span class="status-ongoing px-3 py-1 rounded-full text-sm font-medium">Ongoing</span>
+              <span class="text-gray-500 font-medium">2009 - 2011</span>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900 mb-2">
+              <button onclick="toggleDescription(8)" class="text-left hover:text-blue-600 flex items-center gap-2">
+                <span>Strengthening High-Performance Computing, Optimization and Computational Intelligence Areas of the Graduate Program in Informatics at UFES</span>
+                <svg id="icon-8" class="w-4 h-4 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </button>
+            </h3>
+            <p class="text-sm text-gray-500 mb-2">
+              <span class="font-medium">Original:</span> Fortalecimento das Áreas de Computação de Alto Desempenho, Otimização e Inteligência Computacional do Programa de Pós-Graduação em Informática da UFES
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: CNPq</span>
+            </div>
+            <div id="desc-8" class="mt-3 text-sm text-gray-600 hidden">
+              <p class="bg-gray-50 p-4 rounded-lg">This project provided infrastructure and resources to strengthen the research areas of high-performance computing, optimization, and computational intelligence within UFES&#x27;s Graduate Program in Informatics.</p>
+            </div>
+          </div>
+
+        <div class="project-card ongoing bg-white p-6 rounded-xl border-l-4 border-green-500 shadow-sm hover:shadow-md transition-shadow">
+            <div class="flex items-start justify-between mb-3">
+              <span class="status-ongoing px-3 py-1 rounded-full text-sm font-medium">Ongoing</span>
+              <span class="text-gray-500 font-medium">2008 - 2011</span>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900 mb-2">
+              <button onclick="toggleDescription(9)" class="text-left hover:text-blue-600 flex items-center gap-2">
+                <span>Architecture of Computing Systems with Many Processing Cores on a Single Chip</span>
+                <svg id="icon-9" class="w-4 h-4 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </button>
+            </h3>
+            <p class="text-sm text-gray-500 mb-2">
+              <span class="font-medium">Original:</span> Arquitetura de Sistemas Computacionais com Muitos Núcleos de Processamento em um Único CI
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: CNPq</span>
+            </div>
+            <div id="desc-9" class="mt-3 text-sm text-gray-600 hidden">
+              <p class="bg-gray-50 p-4 rounded-lg">This project researched many-core processor architectures on a single chip, investigating design principles and programming models for efficient utilization of massively parallel computing resources.</p>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- Completed Projects Section -->
+    <section id="completed-section" class="mb-12">
+      <h2 class="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+        <span class="w-3 h-3 bg-indigo-500 rounded-full mr-3"></span>
+        Completed Projects (28)
+      </h2>
+      
+      <div class="space-y-4">
+        <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm hover:shadow-md transition-shadow">
+            <div class="flex items-start justify-between mb-3">
+              <span class="status-completed px-3 py-1 rounded-full text-sm font-medium">Completed</span>
+              <span class="text-gray-500 font-medium">2022 - 2023</span>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900 mb-2">
+              <button onclick="toggleDescription(10)" class="text-left hover:text-blue-600 flex items-center gap-2">
+                <span>Infrastructure for Interdisciplinary Projects in Health Informatics</span>
+                <svg id="icon-10" class="w-4 h-4 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </button>
+            </h3>
+            <p class="text-sm text-gray-500 mb-2">
+              <span class="font-medium">Original:</span> Infraestrutura para Projetos interdisciplinares de Informática Aplicada à Saúde
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: FAPES</span>
+            </div>
+            <div id="desc-10" class="mt-3 text-sm text-gray-600 hidden">
+              <p class="bg-gray-50 p-4 rounded-lg">This project aims to establish computational infrastructure to support interdisciplinary research projects in health informatics, enabling the development and application of artificial intelligence techniques for medical diagnosis, health data analysis, and clinical decision support systems.</p>
+            </div>
+          </div>
+
+        <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm hover:shadow-md transition-shadow">
             <div class="flex items-start justify-between mb-3">
               <span class="status-completed px-3 py-1 rounded-full text-sm font-medium">Completed</span>
               <span class="text-gray-500 font-medium">2022 - 2025</span>
             </div>
             <h3 class="text-lg font-semibold text-gray-900 mb-2">
-              Fault Diagnosis in Electric Motors Based on Artificial Intelligence - DIME
+              <button onclick="toggleDescription(11)" class="text-left hover:text-blue-600 flex items-center gap-2">
+                <span>Fault Diagnosis in Electric Motors Based on Artificial Intelligence - DIME</span>
+                <svg id="icon-11" class="w-4 h-4 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </button>
             </h3>
-            <p class="text-sm text-gray-600 mb-3">
+            <p class="text-sm text-gray-500 mb-2">
               <span class="font-medium">Original:</span> Diagnóstico de Falhas em Motores Elétricos Baseado em Inteligência Artificial - DIME
             </p>
             <div class="flex flex-wrap gap-2">
               <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: Petrobras</span>
             </div>
+            <div id="desc-11" class="mt-3 text-sm text-gray-600 hidden">
+              <p class="bg-gray-50 p-4 rounded-lg">The DIME project develops artificial intelligence-based systems for predictive maintenance and fault diagnosis in electric motors used in the oil and gas industry. Using machine learning and signal processing techniques, the system can identify incipient failures before they cause equipment breakdown.</p>
+            </div>
           </div>
 
-          <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm">
+        <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm hover:shadow-md transition-shadow">
+            <div class="flex items-start justify-between mb-3">
+              <span class="status-completed px-3 py-1 rounded-full text-sm font-medium">Completed</span>
+              <span class="text-gray-500 font-medium">2022 - 2025</span>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900 mb-2">
+              <button onclick="toggleDescription(12)" class="text-left hover:text-blue-600 flex items-center gap-2">
+                <span>Development of New Artificial Intelligence Technologies for Autonomous Vehicles</span>
+                <svg id="icon-12" class="w-4 h-4 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </button>
+            </h3>
+            <p class="text-sm text-gray-500 mb-2">
+              <span class="font-medium">Original:</span> Desenvolvimento de novas tecnologias de Inteligência Artificial para veículos autônomos
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: CNPq</span>
+            </div>
+            <div id="desc-12" class="mt-3 text-sm text-gray-600 hidden">
+              <p class="bg-gray-50 p-4 rounded-lg">This project aims to advance the state-of-the-art in artificial intelligence for autonomous vehicles, developing new deep learning architectures, perception algorithms, and decision-making systems that enable fully autonomous navigation in complex real-world environments.</p>
+            </div>
+          </div>
+
+        <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm hover:shadow-md transition-shadow">
             <div class="flex items-start justify-between mb-3">
               <span class="status-completed px-3 py-1 rounded-full text-sm font-medium">Completed</span>
               <span class="text-gray-500 font-medium">2019 - 2021</span>
             </div>
             <h3 class="text-lg font-semibold text-gray-900 mb-2">
-              SAE Level 5 Autonomous Cars
+              <button onclick="toggleDescription(13)" class="text-left hover:text-blue-600 flex items-center gap-2">
+                <span>SAE Level 5 Autonomous Cars</span>
+                <svg id="icon-13" class="w-4 h-4 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </button>
             </h3>
-            <p class="text-sm text-gray-600 mb-3">
+            <p class="text-sm text-gray-500 mb-2">
               <span class="font-medium">Original:</span> Carros Autônomos SAE Nível 5
             </p>
             <div class="flex flex-wrap gap-2">
               <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: FAPES</span>
             </div>
+            <div id="desc-13" class="mt-3 text-sm text-gray-600 hidden">
+              <p class="bg-gray-50 p-4 rounded-lg">This project aimed to develop fully autonomous vehicles (SAE Level 5) capable of operating without any human intervention in any driving condition. The research included perception systems, path planning, vehicle control, and integration with the IARA autonomous vehicle platform.</p>
+            </div>
           </div>
 
-          <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm">
+        <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm hover:shadow-md transition-shadow">
             <div class="flex items-start justify-between mb-3">
               <span class="status-completed px-3 py-1 rounded-full text-sm font-medium">Completed</span>
               <span class="text-gray-500 font-medium">2018 - 2021</span>
             </div>
             <h3 class="text-lg font-semibold text-gray-900 mb-2">
-              Deep Neural Networks for Regulatory Enforcement Support
+              <button onclick="toggleDescription(14)" class="text-left hover:text-blue-600 flex items-center gap-2">
+                <span>Deep Neural Networks for Regulatory Enforcement Support</span>
+                <svg id="icon-14" class="w-4 h-4 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </button>
             </h3>
-            <p class="text-sm text-gray-600 mb-3">
+            <p class="text-sm text-gray-500 mb-2">
               <span class="font-medium">Original:</span> Redes Neurais Profundas no Apoio à Fiscalização
             </p>
             <div class="flex flex-wrap gap-2">
               <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: FAPES</span>
             </div>
+            <div id="desc-14" class="mt-3 text-sm text-gray-600 hidden">
+              <p class="bg-gray-50 p-4 rounded-lg">This project developed deep neural network systems to support regulatory and enforcement activities, using computer vision and natural language processing to automate document analysis and pattern detection in large datasets.</p>
+            </div>
           </div>
 
-          <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm">
+        <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm hover:shadow-md transition-shadow">
             <div class="flex items-start justify-between mb-3">
               <span class="status-completed px-3 py-1 rounded-full text-sm font-medium">Completed</span>
               <span class="text-gray-500 font-medium">2018 - 2020</span>
             </div>
             <h3 class="text-lg font-semibold text-gray-900 mb-2">
-              Development and Testing of a Technology Demonstrator for Aircraft Based on Autonomous Robotics
+              <button onclick="toggleDescription(15)" class="text-left hover:text-blue-600 flex items-center gap-2">
+                <span>Development and Testing of a Technology Demonstrator for Aircraft Based on Autonomous Robotics</span>
+                <svg id="icon-15" class="w-4 h-4 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </button>
             </h3>
-            <p class="text-sm text-gray-600 mb-3">
+            <p class="text-sm text-gray-500 mb-2">
               <span class="font-medium">Original:</span> Desenvolvimento e Testes de um Demonstrador Tecnológico para Aeronaves baseado em Robótica Autônoma
             </p>
             <div class="flex flex-wrap gap-2">
               <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: EMBRAER</span>
             </div>
+            <div id="desc-15" class="mt-3 text-sm text-gray-600 hidden">
+              <p class="bg-gray-50 p-4 rounded-lg">In partnership with Embraer, this project developed the world&#x27;s first autonomous taxiing system for commercial aircraft. The system uses computer vision, sensor fusion, and artificial intelligence to enable aircraft to taxi autonomously on airport surfaces.</p>
+            </div>
           </div>
 
-          <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm">
+        <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm hover:shadow-md transition-shadow">
             <div class="flex items-start justify-between mb-3">
               <span class="status-completed px-3 py-1 rounded-full text-sm font-medium">Completed</span>
               <span class="text-gray-500 font-medium">2016 - 2021</span>
             </div>
             <h3 class="text-lg font-semibold text-gray-900 mb-2">
-              Artificial Vision and Autonomous Robotics Applied to Mining
+              <button onclick="toggleDescription(16)" class="text-left hover:text-blue-600 flex items-center gap-2">
+                <span>Artificial Vision and Autonomous Robotics Applied to Mining</span>
+                <svg id="icon-16" class="w-4 h-4 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </button>
             </h3>
-            <p class="text-sm text-gray-600 mb-3">
+            <p class="text-sm text-gray-500 mb-2">
               <span class="font-medium">Original:</span> Visão Artificial e Robótica Autônoma Aplicadas à Mineração
             </p>
             <div class="flex flex-wrap gap-2">
               <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: FAPES</span>
             </div>
+            <div id="desc-16" class="mt-3 text-sm text-gray-600 hidden">
+              <p class="bg-gray-50 p-4 rounded-lg">This project applied computer vision and autonomous robotics technologies to the mining industry, developing systems for autonomous vehicle operation, ore pile measurement, and environmental monitoring in mining operations.</p>
+            </div>
           </div>
 
-          <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm">
+        <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm hover:shadow-md transition-shadow">
             <div class="flex items-start justify-between mb-3">
               <span class="status-completed px-3 py-1 rounded-full text-sm font-medium">Completed</span>
               <span class="text-gray-500 font-medium">2014 - 2017</span>
             </div>
             <h3 class="text-lg font-semibold text-gray-900 mb-2">
-              Intelligent System for Automatic Asset Trading
+              <button onclick="toggleDescription(17)" class="text-left hover:text-blue-600 flex items-center gap-2">
+                <span>Intelligent System for Automatic Asset Trading</span>
+                <svg id="icon-17" class="w-4 h-4 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </button>
             </h3>
-            <p class="text-sm text-gray-600 mb-3">
+            <p class="text-sm text-gray-500 mb-2">
               <span class="font-medium">Original:</span> Sistema Inteligente para Negociação Automática de Ativos
             </p>
             <div class="flex flex-wrap gap-2">
               <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: FAPES</span>
             </div>
+            <div id="desc-17" class="mt-3 text-sm text-gray-600 hidden">
+              <p class="bg-gray-50 p-4 rounded-lg">This project developed intelligent systems for automatic trading in financial markets, using machine learning and technical analysis to identify trading opportunities and execute transactions automatically.</p>
+            </div>
           </div>
 
-          <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm">
+        <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm hover:shadow-md transition-shadow">
             <div class="flex items-start justify-between mb-3">
               <span class="status-completed px-3 py-1 rounded-full text-sm font-medium">Completed</span>
               <span class="text-gray-500 font-medium">2013 - 2016</span>
             </div>
             <h3 class="text-lg font-semibold text-gray-900 mb-2">
-              PhotoPography - Ore Pile Topography System via Internet
+              <button onclick="toggleDescription(18)" class="text-left hover:text-blue-600 flex items-center gap-2">
+                <span>PhotoPography - Sistema de Topografia de Pilhas de Minério via Internet</span>
+                <svg id="icon-18" class="w-4 h-4 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </button>
             </h3>
-            <p class="text-sm text-gray-600 mb-3">
-              <span class="font-medium">Original:</span> PhotoPography - Sistema de Topografia de Pilhas de Minério via Internet
-            </p>
+            
             <div class="flex flex-wrap gap-2">
               <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: CNPq</span>
             </div>
+            <div id="desc-18" class="mt-3 text-sm text-gray-600 hidden">
+              <p class="bg-gray-50 p-4 rounded-lg">PhotoPography was an innovative system that used photogrammetry and stereo vision to measure the volume of ore piles remotely via the Internet, providing real-time inventory management for mining operations.</p>
+            </div>
           </div>
 
-          <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm">
+        <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm hover:shadow-md transition-shadow">
+            <div class="flex items-start justify-between mb-3">
+              <span class="status-completed px-3 py-1 rounded-full text-sm font-medium">Completed</span>
+              <span class="text-gray-500 font-medium">2013 - 2016</span>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900 mb-2">
+              <button onclick="toggleDescription(19)" class="text-left hover:text-blue-600 flex items-center gap-2">
+                <span>HammerHead 2 - Projeto industrial de Equipamento Inovador para Captura de Imagens Estéreo</span>
+                <svg id="icon-19" class="w-4 h-4 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </button>
+            </h3>
+            
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: FAPES</span>
+            </div>
+            <div id="desc-19" class="mt-3 text-sm text-gray-600 hidden">
+              <p class="bg-gray-50 p-4 rounded-lg">This project developed specialized industrial equipment for stereo image capture, designed for harsh industrial environments and optimized for computer vision applications in mining and manufacturing.</p>
+            </div>
+          </div>
+
+        <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm hover:shadow-md transition-shadow">
+            <div class="flex items-start justify-between mb-3">
+              <span class="status-completed px-3 py-1 rounded-full text-sm font-medium">Completed</span>
+              <span class="text-gray-500 font-medium">2011 - 2016</span>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900 mb-2">
+              <button onclick="toggleDescription(20)" class="text-left hover:text-blue-600 flex items-center gap-2">
+                <span>Consolidação das Linhas de Pesquisa em Computação de Alto Desempenho, Otimização e Inteligência Computacional do PPGI-UFES</span>
+                <svg id="icon-20" class="w-4 h-4 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </button>
+            </h3>
+            
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: CNPq</span>
+            </div>
+            <div id="desc-20" class="mt-3 text-sm text-gray-600 hidden">
+              <p class="bg-gray-50 p-4 rounded-lg">This project aimed to consolidate and strengthen the research groups in high-performance computing, optimization, and computational intelligence at the Graduate Program in Informatics (PPGI) at UFES.</p>
+            </div>
+          </div>
+
+        <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm hover:shadow-md transition-shadow">
+            <div class="flex items-start justify-between mb-3">
+              <span class="status-completed px-3 py-1 rounded-full text-sm font-medium">Completed</span>
+              <span class="text-gray-500 font-medium">2011 - 2013</span>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900 mb-2">
+              <button onclick="toggleDescription(21)" class="text-left hover:text-blue-600 flex items-center gap-2">
+                <span>Arquitetura e Programação de Sistemas Computacionais com Muitos Núcleos de Processamento</span>
+                <svg id="icon-21" class="w-4 h-4 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </button>
+            </h3>
+            
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: CNPq</span>
+            </div>
+            <div id="desc-21" class="mt-3 text-sm text-gray-600 hidden">
+              <p class="bg-gray-50 p-4 rounded-lg">This project researched architectures and programming paradigms for computing systems with many processing cores, investigating parallel programming models and optimization techniques for multi-core and GPU systems.</p>
+            </div>
+          </div>
+
+        <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm hover:shadow-md transition-shadow">
             <div class="flex items-start justify-between mb-3">
               <span class="status-completed px-3 py-1 rounded-full text-sm font-medium">Completed</span>
               <span class="text-gray-500 font-medium">2010 - 2014</span>
             </div>
             <h3 class="text-lg font-semibold text-gray-900 mb-2">
-              PRONEX: Center of Excellence in High-Performance Computing and its Application in Scientific Computing and Computational Intelligence
+              <button onclick="toggleDescription(22)" class="text-left hover:text-blue-600 flex items-center gap-2">
+                <span>PRONEX: Núcleo de Excelência em Computação de Alto Desempenho e sua Aplicação em Computação Científica e Inteligência Computacional</span>
+                <svg id="icon-22" class="w-4 h-4 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </button>
             </h3>
-            <p class="text-sm text-gray-600 mb-3">
-              <span class="font-medium">Original:</span> PRONEX: Núcleo de Excelência em Computação de Alto Desempenho e sua Aplicação em Computação Científica e Inteligência Computacional
+            
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: FAPES</span>
+            </div>
+            <div id="desc-22" class="mt-3 text-sm text-gray-600 hidden">
+              <p class="bg-gray-50 p-4 rounded-lg">This PRONEX project established a center of excellence in high-performance computing at UFES, fostering research in scientific computing and computational intelligence applications.</p>
+            </div>
+          </div>
+
+        <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm hover:shadow-md transition-shadow">
+            <div class="flex items-start justify-between mb-3">
+              <span class="status-completed px-3 py-1 rounded-full text-sm font-medium">Completed</span>
+              <span class="text-gray-500 font-medium">2009 - 2011</span>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900 mb-2">
+              <button onclick="toggleDescription(23)" class="text-left hover:text-blue-600 flex items-center gap-2">
+                <span>Measurement System Based on Artificial Vision</span>
+                <svg id="icon-23" class="w-4 h-4 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </button>
+            </h3>
+            <p class="text-sm text-gray-500 mb-2">
+              <span class="font-medium">Original:</span> Sistema de Medição baseado em Visão Artificial
             </p>
             <div class="flex flex-wrap gap-2">
               <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: FAPES</span>
             </div>
+            <div id="desc-23" class="mt-3 text-sm text-gray-600 hidden">
+              <p class="bg-gray-50 p-4 rounded-lg">This project developed computer vision-based measurement systems for industrial applications, enabling accurate non-contact measurement of dimensions, areas, and volumes.</p>
+            </div>
           </div>
 
-          <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm">
+        <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm hover:shadow-md transition-shadow">
             <div class="flex items-start justify-between mb-3">
               <span class="status-completed px-3 py-1 rounded-full text-sm font-medium">Completed</span>
               <span class="text-gray-500 font-medium">2009 - 2013</span>
             </div>
             <h3 class="text-lg font-semibold text-gray-900 mb-2">
-              Development of a 3D Localization and Mapping System by Artificial Vision for Navigation of Robots and Unmanned Aerial or Submarine Vehicles
+              <button onclick="toggleDescription(24)" class="text-left hover:text-blue-600 flex items-center gap-2">
+                <span>Development of a 3D Localization and Mapping System by Artificial Vision for Navigation of Robots and Unmanned Aerial or Submarine Vehicles</span>
+                <svg id="icon-24" class="w-4 h-4 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </button>
             </h3>
-            <p class="text-sm text-gray-600 mb-3">
+            <p class="text-sm text-gray-500 mb-2">
               <span class="font-medium">Original:</span> Desenvolvimento de um Sistema de Localização e Mapeamento 3D por Visão Artificial para Navegação de Robôs e Veículos Aéreos ou Submarinos Não Tripulados
             </p>
             <div class="flex flex-wrap gap-2">
               <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: FINEP</span>
             </div>
+            <div id="desc-24" class="mt-3 text-sm text-gray-600 hidden">
+              <p class="bg-gray-50 p-4 rounded-lg">This project developed 3D localization and mapping systems using computer vision for navigation of mobile robots, UAVs, and underwater vehicles, advancing the state-of-the-art in visual SLAM.</p>
+            </div>
           </div>
 
-          <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm">
+        <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm hover:shadow-md transition-shadow">
+            <div class="flex items-start justify-between mb-3">
+              <span class="status-completed px-3 py-1 rounded-full text-sm font-medium">Completed</span>
+              <span class="text-gray-500 font-medium">2008 - 2008</span>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900 mb-2">
+              <button onclick="toggleDescription(25)" class="text-left hover:text-blue-600 flex items-center gap-2">
+                <span>Technical-Scientific Visit to the Department of Computing at City University London</span>
+                <svg id="icon-25" class="w-4 h-4 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </button>
+            </h3>
+            <p class="text-sm text-gray-500 mb-2">
+              <span class="font-medium">Original:</span> Visita Técnico-Científica ao Department of Computing da City University London
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: CNPq</span>
+            </div>
+            <div id="desc-25" class="mt-3 text-sm text-gray-600 hidden">
+              <p class="bg-gray-50 p-4 rounded-lg">This project supported a technical-scientific visit to City University London&#x27;s Department of Computing to strengthen international collaboration and exchange research experiences.</p>
+            </div>
+          </div>
+
+        <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm hover:shadow-md transition-shadow">
+            <div class="flex items-start justify-between mb-3">
+              <span class="status-completed px-3 py-1 rounded-full text-sm font-medium">Completed</span>
+              <span class="text-gray-500 font-medium">2006 - 2007</span>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900 mb-2">
+              <button onclick="toggleDescription(26)" class="text-left hover:text-blue-600 flex items-center gap-2">
+                <span>Modernization of Research Infrastructure in High-Performance Computing at UFES</span>
+                <svg id="icon-26" class="w-4 h-4 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </button>
+            </h3>
+            <p class="text-sm text-gray-500 mb-2">
+              <span class="font-medium">Original:</span> Modernização da Infra-Estrutura de Pesquisa da Área de Computação de Alto Desempenho da UFES
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: FINEP</span>
+            </div>
+            <div id="desc-26" class="mt-3 text-sm text-gray-600 hidden">
+              <p class="bg-gray-50 p-4 rounded-lg">This project modernized the high-performance computing research infrastructure at UFES, acquiring computational equipment and establishing facilities for advanced research.</p>
+            </div>
+          </div>
+
+        <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm hover:shadow-md transition-shadow">
             <div class="flex items-start justify-between mb-3">
               <span class="status-completed px-3 py-1 rounded-full text-sm font-medium">Completed</span>
               <span class="text-gray-500 font-medium">2006 - 2010</span>
             </div>
             <h3 class="text-lg font-semibold text-gray-900 mb-2">
-              Automatic Classification in CNAE-Subclass
+              <button onclick="toggleDescription(27)" class="text-left hover:text-blue-600 flex items-center gap-2">
+                <span>Automatic Classification in CNAE-Subclass</span>
+                <svg id="icon-27" class="w-4 h-4 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </button>
             </h3>
-            <p class="text-sm text-gray-600 mb-3">
+            <p class="text-sm text-gray-500 mb-2">
               <span class="font-medium">Original:</span> Classificação Automática em CNAE-Subclasse
             </p>
             <div class="flex flex-wrap gap-2">
-              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: UFRJ, Federal Revenue Service</span>
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: Universidade Federal do Rio de Janeiro, Secretaria da Receita Federal</span>
+            </div>
+            <div id="desc-27" class="mt-3 text-sm text-gray-600 hidden">
+              <p class="bg-gray-50 p-4 rounded-lg">This project, in partnership with the Federal Revenue Service, developed automatic text classification systems to categorize economic activities according to the Brazilian National Classification of Economic Activities (CNAE) subclasses.</p>
             </div>
           </div>
 
-          <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm">
+        <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm hover:shadow-md transition-shadow">
+            <div class="flex items-start justify-between mb-3">
+              <span class="status-completed px-3 py-1 rounded-full text-sm font-medium">Completed</span>
+              <span class="text-gray-500 font-medium">2006 - 2008</span>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900 mb-2">
+              <button onclick="toggleDescription(28)" class="text-left hover:text-blue-600 flex items-center gap-2">
+                <span>Strengthening High-Performance Computing and Computational Intelligence Areas of the Graduate Program in Informatics at UFES</span>
+                <svg id="icon-28" class="w-4 h-4 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </button>
+            </h3>
+            <p class="text-sm text-gray-500 mb-2">
+              <span class="font-medium">Original:</span> Fortalecimento das Áreas de Computação de Alto Desempenho e Inteligência Computacional do Programa de Pós-Graduação em Informática da UFES
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: CNPq</span>
+            </div>
+            <div id="desc-28" class="mt-3 text-sm text-gray-600 hidden">
+              <p class="bg-gray-50 p-4 rounded-lg">This project strengthened the research infrastructure and human resources in high-performance computing and computational intelligence at UFES&#x27;s Graduate Program in Informatics.</p>
+            </div>
+          </div>
+
+        <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm hover:shadow-md transition-shadow">
+            <div class="flex items-start justify-between mb-3">
+              <span class="status-completed px-3 py-1 rounded-full text-sm font-medium">Completed</span>
+              <span class="text-gray-500 font-medium">2006 - 2009</span>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900 mb-2">
+              <button onclick="toggleDescription(29)" class="text-left hover:text-blue-600 flex items-center gap-2">
+                <span>Automating the Measurement of Dimensions, Areas, and Volumes</span>
+                <svg id="icon-29" class="w-4 h-4 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </button>
+            </h3>
+            <p class="text-sm text-gray-500 mb-2">
+              <span class="font-medium">Original:</span> Automatizando a Medição de Dimensões, Áreas e Volumes
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: FAPES</span>
+            </div>
+            <div id="desc-29" class="mt-3 text-sm text-gray-600 hidden">
+              <p class="bg-gray-50 p-4 rounded-lg">This project developed automated measurement systems using computer vision and image processing to accurately measure dimensions, areas, and volumes in industrial applications.</p>
+            </div>
+          </div>
+
+        <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm hover:shadow-md transition-shadow">
+            <div class="flex items-start justify-between mb-3">
+              <span class="status-completed px-3 py-1 rounded-full text-sm font-medium">Completed</span>
+              <span class="text-gray-500 font-medium">2005 - 2007</span>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900 mb-2">
+              <button onclick="toggleDescription(30)" class="text-left hover:text-blue-600 flex items-center gap-2">
+                <span>New High-Performance Architectures Based on Dynamic Instruction Scheduling</span>
+                <svg id="icon-30" class="w-4 h-4 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </button>
+            </h3>
+            <p class="text-sm text-gray-500 mb-2">
+              <span class="font-medium">Original:</span> Novas Arquiteturas de Alto Desempenho Baseadas no Escalonamento Dinâmico de Instruções
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: CNPq</span>
+            </div>
+            <div id="desc-30" class="mt-3 text-sm text-gray-600 hidden">
+              <p class="bg-gray-50 p-4 rounded-lg">This project researched new high-performance processor architectures based on dynamic instruction scheduling, continuing the work initiated during the DTSVLIW research.</p>
+            </div>
+          </div>
+
+        <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm hover:shadow-md transition-shadow">
             <div class="flex items-start justify-between mb-3">
               <span class="status-completed px-3 py-1 rounded-full text-sm font-medium">Completed</span>
               <span class="text-gray-500 font-medium">2005 - 2008</span>
             </div>
             <h3 class="text-lg font-semibold text-gray-900 mb-2">
-              Vitória Metropolitan High-Speed Network - Metrovix
+              <button onclick="toggleDescription(31)" class="text-left hover:text-blue-600 flex items-center gap-2">
+                <span>Advanced Computer Architectures and Memory Hierarchies</span>
+                <svg id="icon-31" class="w-4 h-4 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </button>
             </h3>
-            <p class="text-sm text-gray-600 mb-3">
-              <span class="font-medium">Original:</span> Rede Metropolitana de Alta Velocidade de Vitória - Metrovix
+            <p class="text-sm text-gray-500 mb-2">
+              <span class="font-medium">Original:</span> Arquiteturas de Computadores e Hierarquias de Memória Avançadas
             </p>
             <div class="flex flex-wrap gap-2">
-              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: FINEP, RNP, Multiple Partners</span>
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: CNPq</span>
+            </div>
+            <div id="desc-31" class="mt-3 text-sm text-gray-600 hidden">
+              <p class="bg-gray-50 p-4 rounded-lg">This project investigated advanced computer architectures and memory hierarchy designs to improve processor performance and energy efficiency.</p>
             </div>
           </div>
 
-          <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm">
+        <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm hover:shadow-md transition-shadow">
+            <div class="flex items-start justify-between mb-3">
+              <span class="status-completed px-3 py-1 rounded-full text-sm font-medium">Completed</span>
+              <span class="text-gray-500 font-medium">2005 - 2008</span>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900 mb-2">
+              <button onclick="toggleDescription(32)" class="text-left hover:text-blue-600 flex items-center gap-2">
+                <span>Rede Metropolitana de Alta Velocidade de Vitória ? Metrovix</span>
+                <svg id="icon-32" class="w-4 h-4 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </button>
+            </h3>
+            <p class="text-sm text-gray-500 mb-2">
+              <span class="font-medium">Original:</span> Rede Metropolitana de Alta Velocidade de Vitória - Metrovix
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: FINEP, Instituto Capixaba de Pesquisa, Assistência Técnica e Extensão Rural, Irmandade da Santa Casa de Misericórdia de Vitória, Museu Solar Monjardim, Prefeitura Municipal de Vitória, Rede Nacional de Ensino e Pesquisa, Secretaria de Estado de Ciência e Tecnologia, Centro Federal de Educação Tecnológica do Espírito Santo</span>
+            </div>
+            <div id="desc-32" class="mt-3 text-sm text-gray-600 hidden">
+              <p class="bg-gray-50 p-4 rounded-lg">The Metrovix project established a metropolitan high-speed optical network connecting research and education institutions in the Vitória metropolitan area, enabling advanced network applications and research.</p>
+            </div>
+          </div>
+
+        <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm hover:shadow-md transition-shadow">
+            <div class="flex items-start justify-between mb-3">
+              <span class="status-completed px-3 py-1 rounded-full text-sm font-medium">Completed</span>
+              <span class="text-gray-500 font-medium">2004 - 2006</span>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900 mb-2">
+              <button onclick="toggleDescription(33)" class="text-left hover:text-blue-600 flex items-center gap-2">
+                <span>GIGA Network: Implementation and Utilization of a 1TFLOP/s GRID</span>
+                <svg id="icon-33" class="w-4 h-4 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </button>
+            </h3>
+            <p class="text-sm text-gray-500 mb-2">
+              <span class="font-medium">Original:</span> Rede GIGA: Implantação e utilização de um GRID de 1TFLOP/s
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: CNPq</span>
+            </div>
+            <div id="desc-33" class="mt-3 text-sm text-gray-600 hidden">
+              <p class="bg-gray-50 p-4 rounded-lg">This project implemented and utilized a computational grid with 1 TFLOP/s capacity as part of the GIGA network infrastructure, enabling distributed high-performance computing research.</p>
+            </div>
+          </div>
+
+        <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm hover:shadow-md transition-shadow">
+            <div class="flex items-start justify-between mb-3">
+              <span class="status-completed px-3 py-1 rounded-full text-sm font-medium">Completed</span>
+              <span class="text-gray-500 font-medium">2004 - 2005</span>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900 mb-2">
+              <button onclick="toggleDescription(34)" class="text-left hover:text-blue-600 flex items-center gap-2">
+                <span>Automatic Volume Measurement System Based on Artificial Vision</span>
+                <svg id="icon-34" class="w-4 h-4 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </button>
+            </h3>
+            <p class="text-sm text-gray-500 mb-2">
+              <span class="font-medium">Original:</span> Sistema Automático de Medição de Volumes Baseado em Visão Artificial
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: Fundo de Apoio à Ciência e Tecnologia do Município de Vitória</span>
+            </div>
+            <div id="desc-34" class="mt-3 text-sm text-gray-600 hidden">
+              <p class="bg-gray-50 p-4 rounded-lg">This project developed an automatic volume measurement system using stereo vision and photogrammetry for industrial applications, particularly in inventory management.</p>
+            </div>
+          </div>
+
+        <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm hover:shadow-md transition-shadow">
+            <div class="flex items-start justify-between mb-3">
+              <span class="status-completed px-3 py-1 rounded-full text-sm font-medium">Completed</span>
+              <span class="text-gray-500 font-medium">2004 - 2006</span>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900 mb-2">
+              <button onclick="toggleDescription(35)" class="text-left hover:text-blue-600 flex items-center gap-2">
+                <span>Infrastructure Improvements for LCAD Operations</span>
+                <svg id="icon-35" class="w-4 h-4 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </button>
+            </h3>
+            <p class="text-sm text-gray-500 mb-2">
+              <span class="font-medium">Original:</span> Melhorias de Infra-Estrutura para o Funcionamento do LCAD
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: FINEP</span>
+            </div>
+            <div id="desc-35" class="mt-3 text-sm text-gray-600 hidden">
+              <p class="bg-gray-50 p-4 rounded-lg">This project provided infrastructure improvements for the High-Performance Computing Laboratory (LCAD) at UFES, enhancing research capabilities and facilities.</p>
+            </div>
+          </div>
+
+        <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm hover:shadow-md transition-shadow">
+            <div class="flex items-start justify-between mb-3">
+              <span class="status-completed px-3 py-1 rounded-full text-sm font-medium">Completed</span>
+              <span class="text-gray-500 font-medium">2004 - 2007</span>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900 mb-2">
+              <button onclick="toggleDescription(36)" class="text-left hover:text-blue-600 flex items-center gap-2">
+                <span>Secure Video-on-Demand Access Platform for Wireless Mobile Devices with Quality of Service Guarantee - TRAVIS-QDS</span>
+                <svg id="icon-36" class="w-4 h-4 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </button>
+            </h3>
+            <p class="text-sm text-gray-500 mb-2">
+              <span class="font-medium">Original:</span> Plataforma de Acesso Seguro a Vídeo Sob Demanda para Dispositivos Móveis Sem Fio com Garantia de Qualidade de Serviço - TRAVIS-QDS
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: FINEP</span>
+            </div>
+            <div id="desc-36" class="mt-3 text-sm text-gray-600 hidden">
+              <p class="bg-gray-50 p-4 rounded-lg">The TRAVIS-QDS project developed a platform for secure video-on-demand access on wireless mobile devices, with quality of service guarantees for multimedia streaming.</p>
+            </div>
+          </div>
+
+        <div class="project-card completed bg-white p-6 rounded-xl border-l-4 border-indigo-500 shadow-sm hover:shadow-md transition-shadow">
             <div class="flex items-start justify-between mb-3">
               <span class="status-completed px-3 py-1 rounded-full text-sm font-medium">Completed</span>
               <span class="text-gray-500 font-medium">2003 - 2005</span>
             </div>
             <h3 class="text-lg font-semibold text-gray-900 mb-2">
-              Advanced Processor Architectures
+              <button onclick="toggleDescription(37)" class="text-left hover:text-blue-600 flex items-center gap-2">
+                <span>Advanced Processor Architectures</span>
+                <svg id="icon-37" class="w-4 h-4 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </button>
             </h3>
-            <p class="text-sm text-gray-600 mb-3">
+            <p class="text-sm text-gray-500 mb-2">
               <span class="font-medium">Original:</span> Arquiteturas Avançadas de Processador
             </p>
             <div class="flex flex-wrap gap-2">
               <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">Funding: CNPq</span>
             </div>
+            <div id="desc-37" class="mt-3 text-sm text-gray-600 hidden">
+              <p class="bg-gray-50 p-4 rounded-lg">This foundational project researched advanced processor architectures, continuing the investigation of dynamic instruction scheduling and high-performance computing techniques.</p>
+            </div>
           </div>
-
-        </div>
-
-        <div class="text-center py-8">
-          <p class="text-gray-500 italic">
-            Full list contains 38 research projects from 2003 to 2025.<br>
-            <a href="http://lattes.cnpq.br/7573837292080522" target="_blank" rel="noopener" class="text-blue-600 hover:text-blue-800">
-              View complete list on Currículo Lattes →
-            </a>
-          </p>
-        </div>
-      </section>
-
-    </div>
+      </div>
+    </section>
 
     <!-- Funding Agencies -->
     <section class="mt-12 bg-white rounded-xl p-8 shadow-sm border">
@@ -483,7 +1042,7 @@
   <footer class="bg-ufes-blue text-white py-8">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
       <p class="text-blue-200">
-        Data extracted from Currículo Lattes (CNPq) • Last updated: February 2025
+        Data extracted from Currículo Lattes (CNPq) • Last updated: February 2026
       </p>
       <p class="mt-2">
         <a href="index.html" class="text-white hover:text-ufes-gold">← Back to Home</a>
@@ -491,8 +1050,21 @@
     </div>
   </footer>
 
-  <!-- Filter Script -->
+  <!-- Scripts -->
   <script>
+    function toggleDescription(index) {
+      const desc = document.getElementById('desc-' + index);
+      const icon = document.getElementById('icon-' + index);
+      
+      if (desc.classList.contains('hidden')) {
+        desc.classList.remove('hidden');
+        icon.classList.add('rotate-180');
+      } else {
+        desc.classList.add('hidden');
+        icon.classList.remove('rotate-180');
+      }
+    }
+
     function filterProjects(type) {
       // Update button states
       document.querySelectorAll('.filter-btn').forEach(btn => {
@@ -500,21 +1072,18 @@
       });
       event.target.classList.add('active', 'bg-blue-600', 'text-white');
 
-      // Show/hide projects
-      const ongoingCards = document.querySelectorAll('.project-card.ongoing');
-      const completedCards = document.querySelectorAll('.project-card.completed');
-      const sections = document.querySelectorAll('section');
+      const ongoingSection = document.getElementById('ongoing-section');
+      const completedSection = document.getElementById('completed-section');
 
       if (type === 'all') {
-        ongoingCards.forEach(card => card.style.display = 'block');
-        completedCards.forEach(card => card.style.display = 'block');
-        sections.forEach(section => section.style.display = 'block');
+        ongoingSection.style.display = 'block';
+        completedSection.style.display = 'block';
       } else if (type === 'ongoing') {
-        ongoingCards.forEach(card => card.style.display = 'block');
-        completedCards.forEach(card => card.style.display = 'none');
+        ongoingSection.style.display = 'block';
+        completedSection.style.display = 'none';
       } else if (type === 'completed') {
-        ongoingCards.forEach(card => card.style.display = 'none');
-        completedCards.forEach(card => card.style.display = 'block');
+        ongoingSection.style.display = 'none';
+        completedSection.style.display = 'block';
       }
     }
   </script>

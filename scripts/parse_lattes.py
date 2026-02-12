@@ -149,17 +149,18 @@ def parse_lattes_xml(xml_path: str) -> dict:
     for projeto in root.iter('PROJETO-DE-PESQUISA'):
         proj_data = {
             'name': projeto.get('NOME-DO-PROJETO', ''),
+            'name_en': projeto.get('NOME-DO-PROJETO-INGLES', ''),
             'year_start': projeto.get('ANO-INICIO', ''),
             'year_end': projeto.get('ANO-FIM', ''),
             'status': projeto.get('SITUACAO', ''),
             'nature': projeto.get('NATUREZA', ''),
-            'description': '',
-            'description_en': '',
+            'description': projeto.get('DESCRICAO-DO-PROJETO', ''),
+            'description_en': projeto.get('DESCRICAO-DO-PROJETO-INGLES', ''),
             'funding': [],
             'members': []
         }
         
-        # Get project description
+        # Get team members
         for equipe in projeto.iter('EQUIPE-DO-PROJETO'):
             for integrante in equipe.iter('INTEGRANTES-DO-PROJETO'):
                 member = {
