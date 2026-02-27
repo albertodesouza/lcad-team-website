@@ -1,95 +1,95 @@
 {
-  "last_updated": "2026-02-08T06:18:31.879397+00:00",
+  "last_updated": "2026-02-26T20:43:37.832557+00:00",
   "author": {
     "name": "Alberto Ferreira De Souza",
     "affiliation": "Professor Emeritus of Computer Science, Universidade Federal do Espírito Santo, Brazil",
     "scholar_id": "gvb7W0IAAAAJ"
   },
   "metrics": {
-    "citations": 6837,
-    "h_index": 27,
+    "citations": 6814,
+    "h_index": 26,
     "i10_index": 77
   },
   "top_publications": [
     {
       "title": "Self-driving cars: A survey",
-      "authors": "Claudine Badue and Rânik Guidolini and Raphael Vivacqua Carneiro and Pedro Azevedo and Vinicius B Cardoso and Avelino Forechi and Luan Jesus and Rodrigo Berriel and Thiago M Paixao and Filipe Mutz and Lucas de Paula Veronese and Thiago Oliveira-Santos and Alberto F De Souza",
-      "venue": "Unknown Venue",
+      "authors": "C Badue, R Guidolini, RV Carneiro, P Azevedo, VB Cardoso, A Forechi, ...",
+      "venue": "Expert systems with applications 165, 113816, 2021",
       "year": 2021,
-      "citations": 1725,
-      "url": "https://www.sciencedirect.com/science/article/pii/S095741742030628X"
+      "citations": 1735,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gvb7W0IAAAAJ&pagesize=100&citation_for_view=gvb7W0IAAAAJ:UHK10RUVsp4C"
     },
     {
       "title": "Facial expression recognition with convolutional neural networks: coping with few data and the training sample order",
-      "authors": "André Teixeira Lopes and Edilson De Aguiar and Alberto F De Souza and Thiago Oliveira-Santos",
-      "venue": "Pattern recognition",
+      "authors": "AT Lopes, E De Aguiar, AF De Souza, T Oliveira-Santos",
+      "venue": "Pattern recognition 61, 610-628, 2017",
       "year": 2017,
-      "citations": 1006,
-      "url": "https://www.sciencedirect.com/science/article/pii/S0031320316301753"
+      "citations": 1012,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gvb7W0IAAAAJ&pagesize=100&citation_for_view=gvb7W0IAAAAJ:sSrBHYA8nusC"
     },
     {
       "title": "Keep your eyes on the lane: Real-time attention-guided lane detection",
-      "authors": "Lucas Tabelini and Rodrigo Berriel and Thiago M Paixao and Claudine Badue and Alberto F De Souza and Thiago Oliveira-Santos",
-      "venue": "Unknown Venue",
+      "authors": "L Tabelini, R Berriel, TM Paixao, C Badue, AF De Souza, ...",
+      "venue": "Proceedings of the IEEE/CVF conference on computer vision and pattern …, 2021",
       "year": 2021,
-      "citations": 613,
-      "url": "https://openaccess.thecvf.com/content/CVPR2021/html/Tabelini_Keep_Your_Eyes_on_the_Lane_Real-Time_Attention-Guided_Lane_Detection_CVPR_2021_paper.html?ref=https://giter.vip"
+      "citations": 617,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gvb7W0IAAAAJ&pagesize=100&citation_for_view=gvb7W0IAAAAJ:umqufdRvDiIC"
     },
     {
       "title": "Polylanenet: Lane estimation via deep polynomial regression",
-      "authors": "Lucas Tabelini and Rodrigo Berriel and Thiago M Paixao and Claudine Badue and Alberto F De Souza and Thiago Oliveira-Santos",
-      "venue": "Unknown Venue",
+      "authors": "L Tabelini, R Berriel, TM Paixao, C Badue, AF De Souza, ...",
+      "venue": "2020 25th international conference on pattern recognition (ICPR), 6150-6156, 2021",
       "year": 2021,
-      "citations": 479,
-      "url": "https://ieeexplore.ieee.org/abstract/document/9412265/"
+      "citations": 478,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gvb7W0IAAAAJ&pagesize=100&citation_for_view=gvb7W0IAAAAJ:vbGhcppDl1QC"
     },
     {
       "title": "Prediction-based portfolio optimization model using neural networks",
-      "authors": "Fabio D Freitas and Alberto F De Souza and Ailson R De Almeida",
-      "venue": "Neurocomputing",
+      "authors": "FD Freitas, AF De Souza, AR De Almeida",
+      "venue": "Neurocomputing 72 (10-12), 2155-2170, 2009",
       "year": 2009,
-      "citations": 268,
-      "url": "https://www.sciencedirect.com/science/article/pii/S092523120900040X"
+      "citations": 262,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gvb7W0IAAAAJ&pagesize=100&citation_for_view=gvb7W0IAAAAJ:u-x6o8ySG0sC"
     },
     {
       "title": "Copycat cnn: Stealing knowledge by persuading confession with random non-labeled data",
-      "authors": "Jacson Rodrigues Correia-Silva and Rodrigo F Berriel and Claudine Badue and Alberto F De Souza and Thiago Oliveira-Santos",
-      "venue": "Unknown Venue",
+      "authors": "JR Correia-Silva, RF Berriel, C Badue, AF De Souza, T Oliveira-Santos",
+      "venue": "2018 International joint conference on neural networks (IJCNN), 1-8, 2018",
       "year": 2018,
       "citations": 257,
-      "url": "https://ieeexplore.ieee.org/abstract/document/8489592/"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gvb7W0IAAAAJ&pagesize=100&citation_for_view=gvb7W0IAAAAJ:dTyEYWd-f8wC"
     },
     {
       "title": "A dataset for improved rgbd-based object detection and pose estimation for warehouse pick-and-place",
-      "authors": "Colin Rennie and Rahul Shome and Kostas E Bekris and Alberto F De Souza",
-      "venue": "IEEE Robotics and Automation Letters",
+      "authors": "C Rennie, R Shome, KE Bekris, AF De Souza",
+      "venue": "IEEE Robotics and Automation Letters 1 (2), 1179-1185, 2016",
       "year": 2016,
-      "citations": 240,
-      "url": "https://ieeexplore.ieee.org/abstract/document/7416002/"
+      "citations": 238,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gvb7W0IAAAAJ&pagesize=100&citation_for_view=gvb7W0IAAAAJ:UxriW0iASnsC"
     },
     {
       "title": "Cross-domain car detection using unsupervised image-to-image translation: From day to night",
-      "authors": "Vinicius F Arruda and Thiago M Paixao and Rodrigo F Berriel and Alberto F De Souza and Claudine Badue and Nicu Sebe and Thiago Oliveira-Santos",
-      "venue": "Unknown Venue",
+      "authors": "VF Arruda, TM Paixao, RF Berriel, AF De Souza, C Badue, N Sebe, ...",
+      "venue": "2019 International joint conference on neural networks (IJCNN), 1-8, 2019",
       "year": 2019,
-      "citations": 154,
-      "url": "https://ieeexplore.ieee.org/abstract/document/8852008/"
+      "citations": 155,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gvb7W0IAAAAJ&pagesize=100&citation_for_view=gvb7W0IAAAAJ:tzM49s52ZIMC"
     },
     {
       "title": "Large-scale mapping in complex field scenarios using an autonomous car",
-      "authors": "Filipe Mutz and Lucas P Veronese and Thiago Oliveira-Santos and Edilson De Aguiar and Fernando A Auat Cheein and Alberto Ferreira De Souza",
-      "venue": "Expert Systems with Applications",
+      "authors": "F Mutz, LP Veronese, T Oliveira-Santos, E De Aguiar, FAA Cheein, ...",
+      "venue": "Expert Systems with Applications 46, 439-462, 2016",
       "year": 2016,
-      "citations": 124,
-      "url": "https://www.sciencedirect.com/science/article/pii/S0957417415007496"
+      "citations": 121,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gvb7W0IAAAAJ&pagesize=100&citation_for_view=gvb7W0IAAAAJ:u9iWguZQMMsC"
     },
     {
       "title": "Traffic light recognition using deep learning and prior maps for autonomous cars",
-      "authors": "Lucas C Possatti and Rânik Guidolini and Vinicius B Cardoso and Rodrigo F Berriel and Thiago M Paixão and Claudine Badue and Alberto F De Souza and Thiago Oliveira-Santos",
-      "venue": "Unknown Venue",
+      "authors": "LC Possatti, R Guidolini, VB Cardoso, RF Berriel, TM Paixão, C Badue, ...",
+      "venue": "2019 international joint conference on neural networks (IJCNN), 1-8, 2019",
       "year": 2019,
-      "citations": 107,
-      "url": "https://ieeexplore.ieee.org/abstract/document/8851927/"
+      "citations": 108,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gvb7W0IAAAAJ&pagesize=100&citation_for_view=gvb7W0IAAAAJ:ZfRJV9d4-WMC"
     }
   ]
 }
