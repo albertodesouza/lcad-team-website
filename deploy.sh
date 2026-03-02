@@ -35,11 +35,37 @@ YELLOW='\033[1;33m'
 BLUE='\033[0;34m'
 NC='\033[0m' # No Color
 
+show_help() {
+    echo "Usage: ./deploy.sh [OPTIONS]"
+    echo ""
+    echo "Deploy website to http://www.lcad.inf.ufes.br/alberto via SFTP."
+    echo ""
+    echo "Options:"
+    echo "  -h, --help            Show this help message and exit"
+    echo "  --dry-run             Show what would be transferred without actually uploading"
+    echo "  --update-metrics      Fetch latest Google Scholar metrics and update HTML before deploy"
+    echo ""
+    echo "Examples:"
+    echo "  ./deploy.sh                          Basic deploy"
+    echo "  ./deploy.sh --update-metrics         Update Scholar data, then deploy"
+    echo "  ./deploy.sh --dry-run                Preview files without uploading"
+    echo "  ./deploy.sh --update-metrics --dry-run  Update data and preview without uploading"
+    echo ""
+    echo "Prerequisites:"
+    echo "  - Connected to UFES departmental VPN"
+    echo "  - lftp installed (sudo apt install lftp)"
+    echo "  - SFTP credentials for lcad@sftp.inf.ufes.br"
+}
+
 # Parse arguments
 DRY_RUN=false
 UPDATE_METRICS=false
 for arg in "$@"; do
     case $arg in
+        -h|--help)
+            show_help
+            exit 0
+            ;;
         --dry-run)
             DRY_RUN=true
             ;;

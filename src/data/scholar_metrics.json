@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-26T20:43:37.832557+00:00",
+  "last_updated": "2026-03-02T19:31:05.026073+00:00",
   "author": {
     "name": "Alberto Ferreira De Souza",
     "affiliation": "Professor Emeritus of Computer Science, Universidade Federal do Espírito Santo, Brazil",
     "scholar_id": "gvb7W0IAAAAJ"
   },
   "metrics": {
-    "citations": 6814,
+    "citations": 6823,
     "h_index": 26,
     "i10_index": 77
   },
@@ -16,7 +16,7 @@
       "authors": "C Badue, R Guidolini, RV Carneiro, P Azevedo, VB Cardoso, A Forechi, ...",
       "venue": "Expert systems with applications 165, 113816, 2021",
       "year": 2021,
-      "citations": 1735,
+      "citations": 1736,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gvb7W0IAAAAJ&pagesize=100&citation_for_view=gvb7W0IAAAAJ:UHK10RUVsp4C"
     },
     {
@@ -32,7 +32,7 @@
       "authors": "L Tabelini, R Berriel, TM Paixao, C Badue, AF De Souza, ...",
       "venue": "Proceedings of the IEEE/CVF conference on computer vision and pattern …, 2021",
       "year": 2021,
-      "citations": 617,
+      "citations": 620,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gvb7W0IAAAAJ&pagesize=100&citation_for_view=gvb7W0IAAAAJ:umqufdRvDiIC"
     },
     {
@@ -56,7 +56,7 @@
       "authors": "JR Correia-Silva, RF Berriel, C Badue, AF De Souza, T Oliveira-Santos",
       "venue": "2018 International joint conference on neural networks (IJCNN), 1-8, 2018",
       "year": 2018,
-      "citations": 257,
+      "citations": 259,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gvb7W0IAAAAJ&pagesize=100&citation_for_view=gvb7W0IAAAAJ:dTyEYWd-f8wC"
     },
     {
@@ -64,7 +64,7 @@
       "authors": "C Rennie, R Shome, KE Bekris, AF De Souza",
       "venue": "IEEE Robotics and Automation Letters 1 (2), 1179-1185, 2016",
       "year": 2016,
-      "citations": 238,
+      "citations": 239,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gvb7W0IAAAAJ&pagesize=100&citation_for_view=gvb7W0IAAAAJ:UxriW0iASnsC"
     },
     {
