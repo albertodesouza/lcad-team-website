@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-05-10T06:55:06.529330+00:00",
+  "last_updated": "2026-05-17T06:58:12.851916+00:00",
   "author": {
     "name": "Alberto Ferreira De Souza",
     "affiliation": "Professor Emeritus of Computer Science, Universidade Federal do Espírito Santo, Brazil",
     "scholar_id": "gvb7W0IAAAAJ"
   },
   "metrics": {
-    "citations": 7027,
+    "citations": 7066,
     "h_index": 27,
     "i10_index": 77
   },
@@ -16,7 +16,7 @@
       "authors": "Claudine Badue and Rânik Guidolini and Raphael Vivacqua Carneiro and Pedro Azevedo and Vinicius B Cardoso and Avelino Forechi and Luan Jesus and Rodrigo Berriel and Thiago M Paixao and Filipe Mutz and Lucas de Paula Veronese and Thiago Oliveira-Santos and Alberto F De Souza",
       "venue": "Unknown Venue",
       "year": 2021,
-      "citations": 1810,
+      "citations": 1827,
       "url": "https://www.sciencedirect.com/science/article/pii/S095741742030628X"
     },
     {
@@ -32,7 +32,7 @@
       "authors": "Lucas Tabelini and Rodrigo Berriel and Thiago M Paixao and Claudine Badue and Alberto F De Souza and Thiago Oliveira-Santos",
       "venue": "Unknown Venue",
       "year": 2021,
-      "citations": 643,
+      "citations": 650,
       "url": "https://openaccess.thecvf.com/content/CVPR2021/html/Tabelini_Keep_Your_Eyes_on_the_Lane_Real-Time_Attention-Guided_Lane_Detection_CVPR_2021_paper.html?ref=https://giter.vip"
     },
     {
@@ -40,7 +40,7 @@
       "authors": "Lucas Tabelini and Rodrigo Berriel and Thiago M Paixao and Claudine Badue and Alberto F De Souza and Thiago Oliveira-Santos",
       "venue": "Unknown Venue",
       "year": 2021,
-      "citations": 499,
+      "citations": 504,
       "url": "https://ieeexplore.ieee.org/abstract/document/9412265/"
     },
     {
@@ -48,7 +48,7 @@
       "authors": "Fabio D Freitas and Alberto F De Souza and Ailson R De Almeida",
       "venue": "Neurocomputing",
       "year": 2009,
-      "citations": 269,
+      "citations": 270,
       "url": "https://www.sciencedirect.com/science/article/pii/S092523120900040X"
     },
     {
@@ -64,7 +64,7 @@
       "authors": "Colin Rennie and Rahul Shome and Kostas E Bekris and Alberto F De Souza",
       "venue": "IEEE Robotics and Automation Letters",
       "year": 2016,
-      "citations": 243,
+      "citations": 244,
       "url": "https://ieeexplore.ieee.org/abstract/document/7416002/"
     },
     {
@@ -88,7 +88,7 @@
       "authors": "Lucas C Possatti and Rânik Guidolini and Vinicius B Cardoso and Rodrigo F Berriel and Thiago M Paixão and Claudine Badue and Alberto F De Souza and Thiago Oliveira-Santos",
       "venue": "Unknown Venue",
       "year": 2019,
-      "citations": 112,
+      "citations": 111,
       "url": "https://ieeexplore.ieee.org/abstract/document/8851927/"
     }
   ]
